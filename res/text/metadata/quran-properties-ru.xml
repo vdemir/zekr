@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="Открывающая Книгу" tname="Аль-Фатиха" />
+		<sura index="2" name="Корова" tname="Аль-Бакара" />
+		<sura index="3" name="Семейство Имрана" tname="Али Имран" />
+		<sura index="4" name="Женщины" tname="Ан-Ниса" />
+		<sura index="5" name="Трапеза" tname="Аль-Майда" />
+		<sura index="6" name="Скот" tname="Аль-Анам" />
+		<sura index="7" name="Преграды" tname="Аль-Араф" />
+		<sura index="8" name="Добыча" tname="Аль-Анфаль" />
+		<sura index="9" name="Покаяние" tname="Ат-Тауба" />
+		<sura index="10" name="Йунус" tname="Йунус" />
+		<sura index="11" name="Худ" tname="Худ" />
+		<sura index="12" name="Йуcуф" tname="Йусуф" />
+		<sura index="13" name="Гром" tname="Ар-Раад" />
+		<sura index="14" name="Ибpaxим" tname="Ибpaxим" />
+		<sura index="15" name="Aль-Xиджp" tname="Аль-Хиджр" />
+		<sura index="16" name="Пчелы" tname="Ан-Нахль" />
+		<sura index="17" name="Перенес ночью" tname="Аль-Исра" />
+		<sura index="18" name="Пещера" tname="Аль-Кахф" />
+		<sura index="19" name="Мapйaм" tname="Мapйaм" />
+		<sura index="20" name="Тa Xa" tname="Тa Xa" />
+		<sura index="21" name="Пророки" tname="Аль-Анбийа" />
+		<sura index="22" name="Xaдж" tname="Аль-Хаджж" />
+		<sura index="23" name="Верующие" tname="Аль-Муминун" />
+		<sura index="24" name="Свет" tname="Ан-Нур" />
+		<sura index="25" name="Различение" tname="Аль-Фуркан" />
+		<sura index="26" name="Поэты" tname="Аш-Шуара" />
+		<sura index="27" name="Муравьи" tname="Ан-Намль" />
+		<sura index="28" name="Рассказ" tname="Аль-Касас" />
+		<sura index="29" name="Паук" tname="Аль-Анкабут" />
+		<sura index="30" name="Pумы" tname="Ар-Рум" />
+		<sura index="31" name="Лукмaн" tname="Лукман" />
+		<sura index="32" name="Поклон" tname="Ас-Саджда" />
+		<sura index="33" name="Сонмы" tname="Аль-Ахзаб" />
+		<sura index="34" name="Caбa" tname="Caбa" />
+		<sura index="35" name="Творец" tname="Фатыр" />
+		<sura index="36" name="Йa Cин" tname="Йa Cин" />
+		<sura index="37" name="Стоящие в ряд" tname="Ас-Саффат" />
+		<sura index="38" name="Сад" tname="Сад" />
+		<sura index="39" name="Толпы" tname="Аз-Зумар" />
+		<sura index="40" name="Прощающий" tname="Гафир" />
+		<sura index="41" name="Разъяснены" tname="Фуссылат" />
+		<sura index="42" name="Совет" tname="Аш-Шура" />
+		<sura index="43" name="Украшения" tname="Аз-Зухруф" />
+		<sura index="44" name="Дым" tname="Ад-Духан" />
+		<sura index="45" name="Коленопреклоненная" tname="Аль-Джасийа" />
+		<sura index="46" name="Пески" tname="Аль-Ахкаф" />
+		<sura index="47" name="Муxaммaд" tname="Муxaммaд" />
+		<sura index="48" name="Победа" tname="Аль-Фатх" />
+		<sura index="49" name="Комнаты" tname="Аль-Худжурат" />
+		<sura index="50" name="Кaф" tname="Кaф" />
+		<sura index="51" name="Рассеивающие" tname="Аз-Зарийат" />
+		<sura index="52" name="Гора" tname="Ат-Тур" />
+		<sura index="53" name="Звезда" tname="Ан-Наджм" />
+		<sura index="54" name="Месяц" tname="Аль-Камар" />
+		<sura index="55" name="Милосердный" tname="Ар-Рахман" />
+		<sura index="56" name="Падающее" tname="Аль-Вакиа" />
+		<sura index="57" name="Железо" tname="Аль-Хадид" />
+		<sura index="58" name="Препирательство" tname="Аль-Муджадила" />
+		<sura index="59" name="Сбор" tname="Аль-Хашр" />
+		<sura index="60" name="Испытуемая" tname="Аль-Мумтахана" />
+		<sura index="61" name="Ряды" tname="Ас-Сааф" />
+		<sura index="62" name="Собрание" tname="Аль-Джумуа" />
+		<sura index="63" name="Лицемеры" tname="Аль-Мунафикун" />
+		<sura index="64" name="Взаимное обманывание" tname="Ат-Тагабун" />
+		<sura index="65" name="Развод" tname="Ат-Талак" />
+		<sura index="66" name="Запрещение" tname="Ат-Тахрим" />
+		<sura index="67" name="Власть" tname="Аль-Мульк" />
+		<sura index="68" name="Письменная трость" tname="Аль-Калам" />
+		<sura index="69" name="Неизбежное" tname="Аль-Хакка" />
+		<sura index="70" name="Ступени" tname="Аль-Мааридж" />
+		<sura index="71" name="Нуx" tname="Нуx" />
+		<sura index="72" name="Джинны" tname="Аль-Джинн" />
+		<sura index="73" name="Закутавшийся" tname="Аль-Муззамиль" />
+		<sura index="74" name="Завернувшийся" tname="Аль-Муддассир" />
+		<sura index="75" name="Воскресение" tname="Аль-Кийама" />
+		<sura index="76" name="Человек" tname="Аль-Инсан" />
+		<sura index="77" name="Посылаемые" tname="Аль-Мурсалат" />
+		<sura index="78" name="Весть" tname="Ан-Наба" />
+		<sura index="79" name="Вырывающие" tname="Ан-Назиат" />
+		<sura index="80" name="Нахмурился" tname="Абаса" />
+		<sura index="81" name="Скручивание" tname="Ат-Таквир" />
+		<sura index="82" name="Раскалывание" tname="Аль-Инфитар" />
+		<sura index="83" name="Обвешивающие" tname="Аль-Мутаффифин" />
+		<sura index="84" name="Раскалывание" tname="Аль-Иншикак" />
+		<sura index="85" name="Башни" tname="Аль-Бурудж" />
+		<sura index="86" name="Идущий Ночью" tname="Ат-Тарик" />
+		<sura index="87" name="Высочайший" tname="Аль-Аля" />
+		<sura index="88" name="Покрывающее" tname="Аль-Гашийа" />
+		<sura index="89" name="Заря" tname="Аль-Фаджр" />
+		<sura index="90" name="Город" tname="Аль-Балад" />
+		<sura index="91" name="Солнце" tname="Аш-Шамс" />
+		<sura index="92" name="Ночь" tname="Аль-Лейль" />
+		<sura index="93" name="Утро" tname="Ад-Духа" />
+		<sura index="94" name="Раскрытие" tname="Аль-Инширах" />
+		<sura index="95" name="Смоковница" tname="Ат-Тин" />
+		<sura index="96" name="Сгусток" tname="Аль-Алак" />
+		<sura index="97" name="Предопределение" tname="Аль-Кадр" />
+		<sura index="98" name="Ясное знамение" tname="Аль-Беййина" />
+		<sura index="99" name="Землетрясение" tname="Аз-Залзала" />
+		<sura index="100" name="Мчащиеся" tname="Аль-Адийат" />
+		<sura index="101" name="Поражающее" tname="Аль-Кариа" />
+		<sura index="102" name="Охота к умножению" tname="Ат-Такасур" />
+		<sura index="103" name="Предвечернее время" tname="Аль-Аср" />
+		<sura index="104" name="Хулитель" tname="Аль-Хумаза" />
+		<sura index="105" name="Слон" tname="Аль-Филь" />
+		<sura index="106" name="Куpaйш" tname="Курейш" />
+		<sura index="107" name="Подаяние" tname="Аль-Маун" />
+		<sura index="108" name="Обильный" tname="Аль-Каусар" />
+		<sura index="109" name="Неверные" tname="Аль-Кафирун" />
+		<sura index="110" name="Помощь" tname="Ан-Наср" />
+		<sura index="111" name="Пальмовые волокна" tname="Аль-Масад" />
+		<sura index="112" name="Очищение" tname="Аль-Ихлас" />
+		<sura index="113" name="Рассвет" tname="Аль-Фаляк" />
+		<sura index="114" name="Люди" tname="Ан-Нас" />
+	</sura-detail>
+</quran>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="Pembukaan" tname="Al-Fatihah" />
+		<sura index="2" name="Sapi Betina" tname="Al-Baqarah" />
+		<sura index="3" name="Keluarga 'Imran" tname="Ali-Imran" />
+		<sura index="4" name="Wanita" tname="An-Nisaa'" />
+		<sura index="5" name="Hidangan" tname="Al-Maaidah" />
+		<sura index="6" name="Binatang Ternak" tname="Al-An'aam" />
+		<sura index="7" name="Tempat Tertinggi" tname="Al-A'raaf" />
+		<sura index="8" name="Rampasan Perang" tname="Al-Anfaal" />
+		<sura index="9" name="Pengampunan" tname="At-Taubah" />
+		<sura index="10" name="Nabi Yunus" tname="Yunus" />
+		<sura index="11" name="Nabi Hud" tname="Huud" />
+		<sura index="12" name="Nabi Yusuf" tname="Yusuf" />
+		<sura index="13" name="Guruh" tname="Ar-Ra'd" />
+		<sura index="14" name="Nabi Ibrahim" tname="Ibrahim" />
+		<sura index="15" name="Pegunungan Hijr" tname="Al-Hijr" />
+		<sura index="16" name="Lebah" tname="An-Nahl" />
+		<sura index="17" name="Memperjalankan Di Malam Hari" tname="Al-Israa'" />
+		<sura index="18" name="Gua" tname="Al-Kahfi" />
+		<sura index="19" name="Ibu Maryam" tname="Maryam" />
+		<sura index="20" name="Thaahaa" tname="Thaahaa" />
+		<sura index="21" name="Nabi-Nabi" tname="Al-Anbiyaa'" />
+		<sura index="22" name="Hajji" tname="Al-Hajj" />
+		<sura index="23" name="Orang-Orang Beriman" tname="Al-Mukminuun" />
+		<sura index="24" name="Cahaya" tname="An-Nuur" />
+		<sura index="25" name="Pembeda" tname="Al-Furqaan" />
+		<sura index="26" name="Para Penyair" tname="Ash-Syu'araa'" />
+		<sura index="27" name="Semut" tname="An-Naml" />
+		<sura index="28" name="Kisah-Kisah" tname="Al-Qashash" />
+		<sura index="29" name="Laba-Laba" tname="Al 'Ankabuut" />
+		<sura index="30" name="Bangsa Romawi" tname="Ar-Ruum" />
+		<sura index="31" name="Nasihat Luqman" tname="Luqman" />
+		<sura index="32" name="Sujud" tname="As-Sajdah" />
+		<sura index="33" name="Golongan Yang Bersekutu" tname="Al-Ahzaab" />
+		<sura index="34" name="Kaum Saba'" tname="Saba'" />
+		<sura index="35" name="Pencipta" tname="Faathir" />
+		<sura index="36" name="Yaasiin" tname="Yaasiin" />
+		<sura index="37" name="Yang Berbaris-Baris" tname="As-Shaaffaat" />
+		<sura index="38" name="Shaad" tname="Shaad" />
+		<sura index="39" name="Rombongan-Rombongan" tname="Az-Zumar" />
+		<sura index="40" name="Yang Mengampuni" tname="Al-Ghaafir" />
+		<sura index="41" name="Yang Dijelaskan" tname="Fushshilat" />
+		<sura index="42" name="Musyawarah" tname="Asy-Syuura" />
+		<sura index="43" name="Perhiasan" tname="Az-Zukhruf" />
+		<sura index="44" name="Kabut" tname="Ad-Dukhaan" />
+		<sura index="45" name="Yang Berlutut" tname="Al-Jaatsiyah" />
+		<sura index="46" name="Bukit-Bukit Pasir" tname="Al-Ahqaaf" />
+		<sura index="47" name="Nabi Muhammad" tname="Muhammad" />
+		<sura index="48" name="Kemenangan" tname="Al-Fath" />
+		<sura index="49" name="Kamar-Kamar" tname="Al-Hujuraat" />
+		<sura index="50" name="Qaaf" tname="Qaaf" />
+		<sura index="51" name="Angin Yang Menerbangkan" tname="Adz-Dzaariyat" />
+		<sura index="52" name="Bukit" tname="Ath-Thur" />
+		<sura index="53" name="Bintang" tname="An-Najm" />
+		<sura index="54" name="Bulan" tname="Al-Qamar" />
+		<sura index="55" name="Yang Maha Pemurah" tname="Ar-Rahmaan" />
+		<sura index="56" name="Al-Waaqi'ah" tname="Al-Waaqi'ah" />
+		<sura index="57" name="Besi" tname="Al-Hadiid" />
+		<sura index="58" name="Wanita Yang Menggugat" tname="Al-Mujaadilah" />
+		<sura index="59" name="Pengusiran" tname="Al-Hasyr" />
+		<sura index="60" name="Wanita Yang Diuji" tname="Al-Mumtahanah" />
+		<sura index="61" name="Barisan" tname="Ash-Shaff" />
+		<sura index="62" name="Hari Jum'at" tname="Al-Jumu'ah" />
+		<sura index="63" name="Orang-Orang Munafiq" tname="Al-Munaafiquun" />
+		<sura index="64" name="Hari Ditampakkan Kesalahan" tname="At-Taghaabuun" />
+		<sura index="65" name="Talak" tname="Ath-Thalaaq" />
+		<sura index="66" name="Mengharamkan" tname="At-Tahrim" />
+		<sura index="67" name="Kerajaan" tname="Al-Mulk" />
+		<sura index="68" name="Pena" tname="Al-Qalam" />
+		<sura index="69" name="Al-Haaqqah" tname="Al-Haaqqah" />
+		<sura index="70" name="Tempat-Tempat Naik" tname="Al-Ma'aarij" />
+		<sura index="71" name="Nabi Nuh" tname="Nuuh" />
+		<sura index="72" name="Jin" tname="Al-Jin" />
+		<sura index="73" name="Orang Yang Berselimut" tname="Al-Muzzammil" />
+		<sura index="74" name="Orang Yang Berkemul" tname="Al-Muddatstsir" />
+		<sura index="75" name="Al-Qiyaamah" tname="Al-Qiyaamah" />
+		<sura index="76" name="Manusia" tname="Al-Insaan" />
+		<sura index="77" name="Malaikat Yang Diutus" tname="Al-Mursalaat" />
+		<sura index="78" name="Berita Besar" tname="An-Naba'" />
+		<sura index="79" name="Malaikat-Malaikat Yang Mencabut" tname="An-Naazi'aat" />
+		<sura index="80" name="Ia Bermuka Masam" tname="'Abasa" />
+		<sura index="81" name="Menggulung" tname="At-Takwir" />
+		<sura index="82" name="Terbelah" tname="Al-Infithaar" />
+		<sura index="83" name="Orang-Orang Yang Curang" tname="Al-Mutaffifin" />
+		<sura index="84" name="Terbelah" tname="Al-Insyiqaaq" />
+		<sura index="85" name="Gugusan Bintang" tname="Al-Buruuj" />
+		<sura index="86" name="Yang Datang Di Malam Hari" tname="Ath-Thaariq" />
+		<sura index="87" name="Yang Paling Tinggi" tname="Al-A'laa" />
+		<sura index="88" name="Hari Pembalasan" tname="Al-Ghaashiyah" />
+		<sura index="89" name="Fajar" tname="Al-Fajr" />
+		<sura index="90" name="Negeri" tname="Al-Balad" />
+		<sura index="91" name="Matahari" tname="Asy-Syams" />
+		<sura index="92" name="Malam" tname="Al-Lail" />
+		<sura index="93" name="Waktu Matahari Sepenggalahan" tname="Ad-Dhuhaa" />
+		<sura index="94" name="Melapangkan" tname="Alam Nasyrah" />
+		<sura index="95" name="Buah Tin" tname="At-Tiin" />
+		<sura index="96" name="Segumpal Darah" tname="Al-'Alaq" />
+		<sura index="97" name="Kemuliaan" tname="Al-Qadr" />
+		<sura index="98" name="Bukti Yang Nyata" tname="Al-Bayyinah" />
+		<sura index="99" name="Kegoncangan" tname="Az-Zalzalah" />
+		<sura index="100" name="Kuda Perang Yang Berlari Kencang" tname="Al-'Aadiyaat " />
+		<sura index="101" name="Al-Qaari'ah" tname="Al-Qaari'ah" />
+		<sura index="102" name="Bermegah-Megahan" tname="At-Takaatsur" />
+		<sura index="103" name="Masa" tname="Al-'Ashr" />
+		<sura index="104" name="Pengumpat" tname="Al-Humazah" />
+		<sura index="105" name="Gajah" tname="Al-Fiil" />
+		<sura index="106" name="Suku Quraisy" tname="Quraisy" />
+		<sura index="107" name="Barang Yang Berguna" tname="Al-Maa'uun" />
+		<sura index="108" name="Ni'mat Yang Banyak" tname="Al-Kautsar" />
+		<sura index="109" name="Orang-Orang Kafir" tname="Al-Kaafiruun" />
+		<sura index="110" name="Pertolongan" tname="An-Nashr" />
+		<sura index="111" name="Gejolak Api" tname="Al-Lahab" />
+		<sura index="112" name="Memurnikan Ke-Esa-an Alloh" tname="Al-Ikhlaash" />
+		<sura index="113" name="Waktu Shubuh" tname="Al-Falaq" />
+		<sura index="114" name="Manusia" tname="An-Naas" />
+	</sura-detail>
+</quran>

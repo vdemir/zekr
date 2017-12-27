@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Naail A.Rahman" version="1.1.0">
+	<locale localizedName="ދިވެހި" name="Dhivehi" id="dv_MV" direction="rtl" />
+	<word>
+		<common>
+			<text id="OK" value="އޯކޭ" />
+			<text id="CANCEL" value="ކެންސަލް" />
+			<text id="YES" value="ެއާނއެކެވ"/>
+			<text id="NO" value="ނޫނެކެވެ" />
+			<text id="APPLY" value="އެޕްލައި" />
+			<text id="START" value="ފަށާ" />
+			<text id="RESET" value="ރީސެޓް" />
+			<text id="NEW" value="އައު" />
+			<text id="SAVE_AS" value="ސޭވް އެސް" />
+			<text id="HELP" value="އެހީ" />
+			<text id="EDIT" value="އެޑިޓް" />
+			<text id="SEARCH" value="ހޯދާ" />
+			<text id="GOTO" value="ދާންވީ ތަން" />
+			<text id="VIEW" value="ފެންނަގޮތް" />
+			<text id="CLOSE" value="ލައްޕާ" />
+			<text id="INSERT" value="އިންސާޓް" />
+			<text id="DETAILS" value="މައުލޫމާތު" />
+			<text id="MORE" value="އިތުރު" />
+			<text id="NEXT" value="ފަސް" />
+			<text id="PREVIOUS" value="ކުރި" />
+			<text id="REFRESH" value="ރިފްރެޝް" />
+			<text id="UPDATE" value="އަޕްޑޭޓް" />
+			<text id="SHOW" value="ދައްކާ" />
+			<text id="NAME" value="ނަން" />
+			<text id="VALUE" value="ވެލިއު" />
+			<text id="NUMBER" value="ނަންބަރު" />
+			<text id="OPTION" value="އޮޕްޝަން" />
+			<text id="FILE" value="ފައިލް" />
+			<text id="RELOAD" value="އަލުން ލޯޑުކުރޭ" />
+			<text id="TYPE" value="ބާވަތް" />
+			<text id="MESSAGE" value="މެސެޖް" />
+			<text id="BLOCK" value="މަނާކުރޭ" />
+			<text id="LINE_BY_LINE" value="ފަހަރަކު ފޮޅުވަތެއް" />
+			<text id="AND" value="އަދި" />
+			<text id="COMMA" value="،" />
+			<text id="SYNCHRONOUS" value="ސިންކްރޮނަސް" />
+			<text id="ERROR" value="މައްސަލަ" />
+			<text id="LANGUAGE" value="ބަސް" />
+			<text id="ABOUT" value="ބެހޭ ގޮތުން" />
+			<text id="PRINT" value="ޕްރިންޓް" />
+			<text id="HOMEPAGE" value="މައި ސަފްޙާ" />
+			<text id="WHOLE_QURAN" value="މުޅި قرآن‎" />
+			<text id="MATCH_DIACRITIC" value="ފިލި ގުޅުވާ" />
+			<text id="MATCH_CASE" value="ކޭސް ގުޅުވާފަ" />
+			<text id="NEXT_AYA" value="ދެންއޮތް އާޔަތް" />
+			<text id="NEXT_SURA" value="ދެންއޮތް ސޫރަތް" />
+			<text id="PREV_AYA" value="ކުރީ އާޔަތް" />
+			<text id="PREV_SURA" value="ކުރީ ސޫރަތް" />
+			<text id="THEME" value="ތީ&amp;މް" />
+			<text id="LAYOUT" value="ލޭއައުޓް" />
+			<text id="TOOLS" value="ޓޫލްސް" />
+			<text id="ADD" value="އިތުރުކުރޭ" />
+			<text id="DELETE" value="ޑިލީޓް" />
+			<text id="REMOVE" value="ރިމޫވް" />
+			<text id="TRANSLATION" value="ތަރުޖަމާ" />
+			<text id="TRANSLATION_VIEWTYPE" value="ތަރުޖަމާގެ ލޭއައުޓް" />
+			<text id="OPEN" value="ހުޅުވާ" />
+			<text id="IMPORT" value="އެތެރެކުރޭ" />
+			<text id="COPY" value="ކޮޕީ" />
+			<text id="SEPARATE" value="ވަކިން" />
+			<text id="MIXED" value="އެއްކޮށް" />
+			<text id="OPTIONS" value="އޮޕްޝަން" />
+			<text id="QUESTION" value="ސުވާލު" />
+			<text id="FONT" value="ފޮންޓް" />
+			<text id="GENERAL" value="އާންމު" />
+			<text id="EXIT" value="ނުކުމެ" />
+			<text id="EXCLUDE" value="ބާކީކުރޭ" />
+			<text id="TRUE" value="ތެދު" />
+			<text id="FALSE" value="ދޮގު" />
+			<text id="SELECT" value="ހޮވާލާ" />
+			<text id="EXPORT" value="ބޭރުކުރޭ" />
+			<text id="IMPORT" value="އެތެރެކުރޭ" />
+			<text id="DESCRIPTION" value="ތަފްސީލް" />
+			<text id="BOOKMARKS" value="ފާހަގަ" />
+			<text id="CONFIGURE" value="ކޮންފިގަ" />
+			<text id="EDIT_BOOKMARK_SET" value="ފާހަގަތައް ބަދަލުކުރޭ" />
+			<text id="MANAGE_BOOKMARK_SETS" value="ފާހަގަ ސެޓް މެނޭޖްކުރޭ" />
+			<text id="DIRECTION" value="ކޮޅު" />
+			<text id="LANG_DIRECTION" value="ބަސް ލިޔާކޮޅު" />
+			<text id="RTL" value="ކަނާތުން ވާތަށް" />
+			<text id="LTR" value="ވާތުން ކަނާތައް" />
+			<text id="AUTHOR" value="ޝައިރު" />
+			<text id="VERSION" value="ވާޝަން" />
+			<text id="RANDOM_AYA" value="ކޮންމެވެސް އާޔަތެއް" />
+			<text id="UNTITLED" value="Untitled" />
+			<text id="SET_DEFAULT" value="ޑިފޯލޯޓް ގޮތުގަ ހަދާ" />
+			<text id="NOT_LOADED" value="ލޯޑް ނުވެ" />
+			<text id="ID" value="ID" />
+			<text id="OVERWRITE" value="މައްޗަށް ސޭވްކުރޭ" />
+			<text id="SAVE" value="ސޭވް" />
+			<text id="PATH" value="ޕާތް" />
+			<text id="SHOW_REFS" value="ރެފެރެންސް ދައްކާ" />
+			<text id="MOVE_UP" value="މައްޗަށް ދޭ" />
+			<text id="MOVE_DOWN" value="ތިރިއަށް ދޭ" />
+			<text id="MULTI_TRANS" value="އެކަކަށްވުރެ ގިނަ ތަރުޖަމާ" />
+			<text id="CONFIG_CUSTOM_TRANS" value="ކަސްޓަމް ތަރުޖަމާ ކޮނފިގާ ކުރޭ" />
+			<text id="GO" value="ދޭ" />
+			<text id="CAUTION" value="ސަމާލުވޭ" />
+			<text id="ADVANCED" value="އެޑްވާންސްޑް" />
+			<text id="QUERY_DETAIL" value="ހޯދާ ތަފްސީލް" />
+			<text id="PAGE" value="ސަފްޙާ" />
+			<text id="MULTILINE" value="ގިނަ ފޮޅުވަތް" />
+			<text id="TOGGLE" value="ޓޮގްލް" />
+			<text id="AUDIO" value="އޯޑިއޯ" />
+			<text id="CONTINUOUS" value="އްއްކޮށް" />
+			<text id="DISCRETE" value="ވަކިވަކިން" />
+			<text id="PLAY" value="ކުޅޭ" />
+			<text id="PAUSE" value="ޕޯސް ކުރޭ" />
+			<text id="STOP" value="ހުއްޓާ" />
+			<text id="RECITATION" value="ކިޔެވުން" />
+			<text id="ADDON_MANAGER" value="އެޑްއޮން މެނޭޖަރ" />
+			<text id="MENU_NEXT_AYA" value="ޖެހުނު އާޔަތް" />
+			<text id="MENU_NEXT_SURA" value="ޖެހުނު ސޫރަތް" />
+			<text id="MENU_PREV_AYA" value="އިސްވި އާޔަތް " />
+			<text id="MENU_PREV_SURA" value="އިސްވި ސޫރަތް" />
+			<text id="MENU_NEXT_JUZ" value="ޖެހުނު ފޮތް" />
+			<text id="MENU_PREV_JUZ" value="އިސްވި ފޮތް" />
+			<text id="MENU_NEXT_HIZBQ" value="ޖެހުނު ­ربع الحزب" />
+			<text id="MENU_PREV_HIZBQ" value="އިސްވި ­ربع الحزب" />
+			<text id="MENU_NEXT_SAJDA" value="ޖެހުނު ސަޖިދަވަޅު" />
+			<text id="MENU_PREV_SAJDA" value="އިސވެދިޔަ ސަޖިދަވަޅު" />
+			<text id="MENU_NEXT_PAGE" value="ޖެހުނު ސަފްޙާ"   />
+			<text id="MENU_PREV_PAGE" value="އިސްވި ސަފްޙާ"   />
+			<text id="CHECK4UPDATE" value="އަޕްޑޭޓް ހުރިތޯބަލާ"   />
+			<text id="ASCENDING" value="ތިރިން މައްޗަށް"   />
+			<text id="DESCENDING" value="މަތިން ތިރިއަށް"   />
+			<text id="REVEL_ORDER" value="ބާވާލެއްވުނު ތަރުތީބު"   />
+			<text id="FULL_SCREEN" value="ފުލް ސްކްރީން"   />
+			<text id="WARNING" value="އިންޒާރު"   />
+			<text id="ONLINE_HELP" value="އޮންލައިންކޮށް އެހީހޯދާ"   />
+			<text id="PAGING_MODE" value="ސަފްޙާ ކުރަންވިގޮތް"   />
+			<text id="PANEL" value="ޕެނަލް"   />
+			<text id="DETAIL_PANEL" value="ތަފްސީލް ޕެނަލް"   />
+			<text id="REPEAT" value="ތަކުރާރުކުރޭ"   />
+			<text id="ROOT" value="މަސްދަރު"   /> <!-- word root -->
+			<text id="ADDRESS" value="އެޑްރެސް"   />
+			<text id="BOOKMARK_THIS_AYA" value="މި އާޔަތް ފާހަގަޖަހާ"   />
+			<text id="AUDIO_PLAYER" value="އޯޑިއޯ ޕްލެޔަރ"   />
+			<text id="PLAYING" value="ޕްލޭކުރަނީ"   />
+			<text id="PAUSED" value="ޕޯސްކޮއްފަ"   />
+			<text id="STOPPED" value="ހުއްޓާފަ"   />
+			<text id="RECITER" value="ޤާރީ"   />
+            <text id="ONLINE" value="އޮންލައިން"   />
+            <text id="OFFLINE" value="އޮފްލައިން"   />
+            <text id="SMALLER" value="ކުޑަކޮށް"   />
+            <text id="LARGER" value="ބޮޑުކޮށް"   />
+            <text id="SCOPED_SEARCH" value="ސްކޯޕް ހޯދާ"   />
+            <text id="DOCK_MODE" value="ޑޮކް ކުރަންވީގޮތް"   />
+            <text id="FLOAT" value="ފްލޯޓް"   />
+            <text id="TASKPANE" value="ޓަސްކް ޕޭން"   />
+            <text id="TOP" value="ޓޮޕް"   />
+            <text id="BOTTOM" value="ބޮޓޮމް"   />
+            <text id="HIDE_WHEN_MINIMIZED" value="ކުޑަކުރީމަ ފޮރުވާ"   />
+		</common>
+		<special>
+			<text id="QURAN" value="قرآن‎" />
+			<text id="QURAN_VIEWTYPE" value="قرآن ލޭއައުޓް" />
+			<text id="SURA" value="ސޫރަތް" />
+			<text id="AYA" value="އާޔަތް" />
+			<text id="SAJDA" value="ސަޖިދަ" />
+			<text id="JUZ" value="ފޮތް" />
+			<text id="HIZB" value="ހިޒްބް" />
+			<text id="QUARTER" value="ربع" />
+			<text id="HIZB_QUARTER" value="Hizb Quarter"   />
+			<text id="MAKKI" value="މައްކީ" />
+			<text id="MADANI" value="މަދަނީ" />
+			<text id="DESCENT" value="ބާވަތް" />
+			<text id="AYA_COUNT" value="އާޔަތުގެ އަދަދު" />
+			<text id="MINOR_SAJDA" value="މުސތަޚައްބު ސަޖިދަ" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="ވވާޖިބް ސަޖިދަ" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="ސަރަހައްދު" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+			<text id="AUDHUBILLAH" value="އައޫޒު"   />
+            <text id="BISMILLAH" value="ބިސްމި"   />
+            <text id="SADAGHALLAH" value="ސަދަގަﷲ"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="&quot;{1}&quot;ހޯދާބެލުމުން ލިބުނު ނަތީޖާ" />
+			<text id="SEARCH_RESULT_COUNT" value="{1} results found in {2} ayas." />
+			<text id="SEARCH_PAGE" value="Page {1} of {2}" />
+			<text id="TOO_MANY_RESULT" value="Search result is more than {1} ayas" />
+			<text id="FILE_ALREADY_EXISTS" value="ތިނަން ކިޔާ ފައިލެއް މިހާރުވެސް އެބައިން. ބަދަލުގައި ސޭވްކުރަން ވީތަ؟ &quot;{1}&quot;" />
+			<text id="RESTART_APP" value="ބަދަލުތައް ބެލުމައް ޕްރޮގްރާމް އަލުން ހުޅުވަންޖެހޭ" />
+			<text id="ACTION_PERFORMED" value="ކާމިޔާބާއެކު ފުރިހަމަ ކުރެވިއްޖެ"   />
+			<text id="TRANSLATION_ADDED" value="{1}ގެ ދަށުން މި ތަރުޖަމާތައް އެކުލަވާލެވިއްޖެ "   />
+			<text id="RECITATION_ADDED" value="{1} މެނޫ ގެ ދަށުން ތަރުޖަމާތައް އިތުރުކުރެވިއްޖެ"   />
+			<text id="RESOURCE_ADDED" value="ތިރީގަ މިވާ ތަކެތި އިތުރުކުރެވިއްޖެ"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="ޔަގީންތަ؟" />
+			<text id="DEL_YES_NO" value="މި  {1} އައިޓަމް މުޅިން ޑިލީޓް ކުރަންވިތަ؟" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="އަންދާޒާ ނުކުރާ މައްސަލައެއް ޖެހިއްޖެ" />
+			<text id="FNF" value="ފައިލް ނުފެނުނު" />
+			<text id="ACTION_FAILED" value="ހަރަކާތް ފޭލުވެއްޖެ!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="{1}ތަރުޖަމާ ފޯމެޓް ކަމަކުނުދޭ: "   />
+			<text id="INVALID_RECITATION_FORMAT" value="{1}ކިޔެވުން ފޯމެޓް ކަމަކުނުދޭ: "   />
+			<text id="NEWER_VERSION_INSTALLED" value="Resource '{1}' is out of date (updated on: {2}). A newer version ({3}) is already installed." />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="{1}ސިގްނޭޗަރ ކަމަކުނުދޭ: "   />
+			<text id="TRANSLATION_LOAD_FAILED" value="{2}މި ސަބަބުތަކާހުރެ ތަރުޖަމާ ލޯޑެއް ނުކުރެވުނު: "   />
+			<text id="RECITATION_LOAD_FAILED" value="Loading recitation '{1}' failed because of the following error: {2}"   />
+			<text id="ENTER_VALID_NUMBER" value="ރަނގަޅު އަދަދެއް ލިޔޭ"   />
+			<text id="NUMBER_LIMIT" value="{1} އަކާ {2} އާއި ދެމެދުގެ އަދަދެއް ޖަހާ"   />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="ذکر" />
+			<text id="APP_FULL_NAME" value="ذکر ޤުރުއާން މަޝްރޫޢު" />
+			<text id="FORM_TITLE" value="ذکر" />
+			<text id="COPYRIGHT_DISCLAIMER" value="މި ޕްރޮގްރާމް ބަހަމުން މި ގެންދަނީ މީ ބޭނުންތެރި އެއްޗަކަށްވާނެކަމުގެ އުމްމީދުގަ އެވެ. އެއްވެސް ވަރަނޓީ އަކާ ނުލައެވެ." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="ذکر" />
+			<text id="NEW_SCOPE" value="އާ މިންގަނޑެއް" />
+			<text id="EDIT_SCOPES" value="މިންގަނޑު ކަނޑައަޅާ" />
+			<text id="NO_SCOPE" value="ވަކި މިނެއް ނެތް" />
+			<text id="CURRENT_PAGE" value="މި ސަފްޙާގައި" />
+			<text id="QURAN_SCOPE" value="قرآن‎" />
+			<text id="TRANSLATION_SCOPE" value="ާތަރުޖަމ" />
+			<text id="NATURAL_ORDER" value="ގުނާ ތަރުތީބުން" />
+			<text id="RELEVANCE" value="ގުޅުންހުރި މިންވަރުން" />
+			<text id="AYA_LENGTH" value="އާޔަތުގެ ދިގުމިނުން"   />
+			<text id="SORT_BY" value="ތަރުތީބު"   />
+			<text id="TOGGLE_FULL_SCREEN" value="ފުލް ސްްކްރީން އާ ދޭތެރޭ ބަދަލުކުރޭ"   />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="ތީމް" />
+			<text id="GENERAL_OPTIONS" value="އާންމު" />
+			<text id="VIEW_OPTIONS" value="ފެންނަ ގޮތް" />
+			<text id="AUDIO_OPTIONS" value="Audio" />
+			<text id="TITLE" value="ޕްރޮގްރާމް އޮޕްޝަންސް" />
+			<text id="SHOW_SPLASH" value="ފަށާއިރު ލޯގޯ ދައްކާ" />
+			<text id="NEW_KEY" value="އާ ކީ ޖަހާ" />
+			<text id="THEME_SETTING" value="ތީމް ސެޓިންގްސް" />
+			<text id="PRESS_OK_TO_APPLY" value="ބަދަލުތައް ގެނައުމަށް އޯކޭ އަށް ފިތާ" />
+			<text id="MAX_SEARCH_RESULT" value="ހޯދާ ތަކެތިން ދައްކަންވީ އެންމެ ގިނަ  މިންވަރު" />
+			<text id="RESIZEABLE_TASK_PANE" value="ޓަސްކް ޕޭންގެ ސައިޒެ ބަދަލުކުރެވޭ" />
+			<text id="SURA_NAMES" value="ސޫރަތުގެ ނަން ދައްކަންވީ"   />
+			<text id="ARABIC" value="ޢަރަބި"   />
+			<text id="EN_T9N" value="އިނގިރޭސި ތަރުޖަމާ"   />
+			<text id="EN_T13N" value="އިނގިރޭސި"   />
+			<text id="T9N" value="(ތަރުޖަމާ (ލިބެން ުހުރިނަމަ"   />
+			<text id="T13N" value="ޓްރާންސްލިޓަރޭޝަން (ލިބެން ހުރިނަމަ) "   />
+			<text id="ENABLE_AUDIO" value="އަޑު ޖައްސާ"   />
+			<text id="SURA_NAME_TREE" value="ާސޫރަތްތަކުގެ ނަންތައް 'ޓްރީ' އެއް ގޮތުގަ ދައްކ"   />
+			<text id="SMART" value="ސްމާޓް" />
+      <text id="ALWAYS" value="އަބަދުވެސް" />
+      <text id="NEVER" value="އެއްވެސް އިރަކުނޫން" />
+      <text id="PLAY_MODE" value="ޕްލޭ ކުރާގޮޔް" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="ހޯދަންވީ ސަރަހައްދު ކޮނފިގަކުރޭ" />
+			<text id="SEARCH_SCOPE" value="ހޯދަންވީ ސަރަހައްދު" />
+			<text id="FROM_SURA" value="މި ސޫރަތުން" />
+			<text id="FROM_AYA" value="މި އާޔަދުން" />
+			<text id="TO_SURA" value="މިސޫރަތަށް" />
+			<text id="TO_AYA" value="މި އާޔަތަށް" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="ހޯދަންވީ ސަރަހައްދު ކަމަކުނުދޭ" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="ހޯދަންވީ ސަރަހައްދު އެޑިޓްކުރޭ" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="{1}ފާހަގަ ސެޓު ބަދަލުކުރޭ: " />
+			<text id="NEW_BOOKMARK_FOLDER" value="އާ ފާހަގަ ފޯލަޑަރެއް" />
+			<text id="NEW_BOOKMARK_ITEM" value="އާ ފާހަގަ އެއް" />
+			<text id="UNIQUE_NAME" value="ނަން" />
+			<text id="COMMA_SEPARATED" value="އެކަކައްވުރެއް ގިނަ ޝާއިރުން ނަމަ ކޮމާ ޖަހައިގެން ވަކިކުރޭ" />
+			<text id="ONLY_ENGLISH" value="ހަމައެކަނި އިނގިރޭސި ނަން ބޭނުންކުރޭ (e.g. English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Conventions, quotes, references, and other bookmark-related topics go here" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="ފާހަގަ ސެޓް މެނޭޖް ކުރޭ" />
+			<text id="DBL_CLICK" value="ލޯޑް ނުވަތަ ބަދަލުކުރަން ބޭނުންވާ އައިޓަމްތަކަށް ދެފަހަރު ފިތާލާ" />
+			<text id="SET_AS_DEFAULT" value="ހަމަޖައްސަން ބޭނުންތަ؟ &quot;{1}&quot;ޑިފޯލްޓް ފާހަގަ ސެޓް ގެ ގޮތުގަ" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="ޑިފޯލްޓް ފާހަގައެއް ރިމޫވް ނުކުރެވޭނެ" />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="ޑިފޯލްޓް ފާހަގަ ސެޓް ގެ މައްޗަކަށްއިމްޕޯޓެއް ނުކުރެވޭނެ. އެހެން ސެޓެއް ޑިފޯލްޓް ގޮތުގަ ހަމަޖައްސުމަށްފަހު އަލުން އިމްޕޯޓް ކުރޭ!" />
+			<text id="ENTER_ID" value="ފާހަގަ އައިޑީ ޖަހާ" />
+			<text id="NEW_BOOKMARK_SET" value="އާ ފާހަގަ ޖެހިއްޖެ" />
+			<text id="EXPORT4WEB" value="އިންޓަނެޓަށްޓަކައި އެކްސްޕޯޓްކުރޭ" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="ފާހަގަ ބަދަލުކުރޭ" />
+			<text id="QURAN_LOCATIONS" value="قرآنގެ ސަރަހައްދު ތަށް" />
+			<text id="NEW_BOOKMARK" value="އާ ފާހަގައެއް" />
+			<text id="NEW_FOLDER" value="އާ ފޯލްޑަރެއް" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="{1}މިތަނަށް ފާހަގަ ޖަހާ: " />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="މި މީހުންނަށް އިމްޕޯޓް ކުރޭ!" />
+			<text id="ME_ONLY" value="އަހރެންނަށް  އެކަނި" />
+			<text id="ALL_USERS" value="ހުރިހާ އެންމެނަށް (ޕްރޮގްރާން އިންސްޓޯލް ކުރި ފޯލްޑަރަށް ލިޔުމުގެ ހުއްދަ ބޭނުންވޭ)" />
+			<text id="FOLLOWING_USERS" value="މި މިހުންނަށް ިއިންޑެކްސް ކޮށްދީ" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="ބޭނުން ނުކުރޭ" />
+			<text id="ADD_CUSTOM" value="ބޭނުނުކުރޭ" />
+			<text id="TITLE" value="ކަސްޓަމް ތަރުޖަމާ ކޮންފިގަ ކުރޭ" />
+			<text id="AVAILABLE" value="ލިބެންހުރި ތަރުޖަމާތައް" />
+			<text id="CURRENT" value="ބޭނުންކުރަމުންދާ ތަރުޖަމާތައް" />
+		</form>
+		<form id="ADDON_MANAGER">
+			<text id="REMOVE_CUSTOM" value="ރިސޯސް އުނިކުރޭ" />
+			<text id="ADD_CUSTOM" value="ރިސޯސް އިތުރުކުރޭ" />
+			<text id="TITLE" value="އެޑްއޮން މެނޭޖަރ" />
+			<text id="CURRENT" value="އިނސްޓޯލް ކޮއްފަހުރި ރިސޯސްތައް" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="މަޑުކޮށްލާ" />
+			<text id="INDEXING" value="އިންޑެކްސް ކުރަނީ" /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="އިނޑެކްސް ކުރާ ލިޔުމުގެ ދިގުމިނުގެ ގޮތުން މިކަމަށް ދެތިން މިނެޓެއް ނަގާފާނެ" />
+			<text id="CHECKING" value="އަޕްޑޭޓް ހުރިތޯ ބަލަނީ" />
+			<text id="ZEKR_IS_CHECKING" value="އަޕްޑޭޓް ހުރިތޯ މިހާރު ބަލަމުން ދަނީ ..." />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="ذکر އާއި ބެހޭގޮތުން" />
+			<text id="VIEW_LOG" value="ލޮގް ފައިލް ބަލާ" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="އަޕްޑޭޓް މައުލޫމާތު" />
+			<text id="VERSION_INFO" value="ވާޝަން މައުލޫމާތު" />
+			<text id="BUILD_NUM" value="ބިލްޑް ނަންބަރު" />
+			<text id="VERSION" value="ވާޝަން" />
+			<text id="RELEASE_NAME" value="ރިލީސްގެ ނަން" />
+			<text id="RELEASE_STATE" value="ބިލްޑް ސްޓޭޓް" />
+			<text id="RELEASE_DATE" value="ރިލީސްކުރެވުނު ތާރީޚް" />
+			<text id="RELEASE_NOTES" value="ރިލީސް މައުލޫމާތު" />
+			<text id="DOWNLOAD" value="ޑައުންލޯޑް" />
+			<text id="MORE_INFO" value="އިތުރު މައުލޫމާތު" />
+			<text id="NO_UPDATE" value="ބޭނުންކުރަމުން ތިގެންދަނީ އެންމެ ފަހުގެ ވާޝަންއެވެ." />
+			<text id="NEW_DEV_AVAILABLE" value="އާ 'ޑިވެލޮޕްމަންޓް' ( އަންސްޓޭބަލް) ވާޝަނެއް ޑައުންލޯޑް ކުރެވެން އެބަހުރި" />
+			<text id="NEW_BETA_AVAILABLE" value="އާ 'ބީޓާ' (އަންސްޓޭބަލް) ވާޝަނެއް ޑައުންލޯޑް ކުރެވެން އެބަހުރި" />
+			<text id="NEW_FINAL_AVAILABLE" value="ފަހުގެ ވާޝަނެއް ޑައުންލޯޑް ކުރެވެން އެބަހުރި." />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="ސަފްޙާ ކުރާގޮތް"   />
+			<text id="SURA" value="ސޫރަތް"   />
+			<text id="HIZB_QUARTER" value="۞ ­ربع الحزب"   />
+			<text id="JUZ" value="ފޮތް"   />
+			<text id="CONST_AYA" value="ކޮންސްޓަންޓް އާޔަތް އަދަދު"   />
+			<text id="CUSTOM" value="އަމިއްލަ"   />
+			<text id="AYA_PER_SURA" value="ކޮންމެ ސަފްޙާއެއްގައި ކިތައް އާޔަތް ހިމަނަންވީ؟"   />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="އޯޑިއޯ ޕލެޔަރ"   />
+			<text id="SECOND_ABBR" value="ސ"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="ސިކުންތު"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="ދަނޑިވަޅު"   />
+			<text id="REPEAT" value="ރިޕީޓް"   />
+			<text id="NO_INTERVAL" value="ނުހުއްޓާ"   />
+			<text id="NO_REPEAT" value="ރިޕީޓް ނުކުރޭ"   />
+            <text id="VOLUME" value="އަޑުބާރުމިން"   />
+            <text id="TIMES" value="{1} ފަހަރު"   />
+            <text id="PLAY_SCOPE" value="ކުޅެންވީ ތަން"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="ދާންވީތަން"   />
+            <text id="GOTO" value="ދާންވީތަން"   />
+            <text id="REVIEW" value="ރިވިއު"   />
+            <text id="JUZ" value="Juz"   />
+            <text id="SURA_ORDER" value="ސޫރަތް ތަރުތީބު"   />
+            <text id="HIZB_QUARTER" value="۞ ­ربع الحزب"   />
+            <text id="SURA_AYA" value="Sura:Aya (e.g. 33:70)"   />
+            <text id="NORMAL" value="ނޯމަލް"   />
+            <text id="REVELATION" value="Revelation ({1})"   />
+        </form>
+	</forms>
+</language>

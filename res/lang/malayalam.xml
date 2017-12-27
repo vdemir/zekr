@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="ഇര്‍ഫാന്‍ നസീഫ് പി" version="0.7">
+	<locale localizedName="മലയാളം" name="Malayalam" id="ml_IN" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK" value="ശരി" />
+			<text id="CANCEL" value="റദ്ധാക്കുക" />
+			<text id="YES" value="അതെ" />
+			<text id="NO" value="അല്ല" />
+			<text id="APPLY" value="പ്രയോഗിക്കുക" />
+			<text id="START" value="തുടങ്ങുക" />
+			<text id="RESET" value="പുനസ്ഥാപിക്കുക" />
+			<text id="NEW" value="പുതിയത് " />
+			<text id="SAVE_AS" value="പേര് മാറ്റി സൂക്ഷിക്കുക" />
+			<text id="HELP" value="സഹായം" />
+			<text id="EDIT" value="ചിട്ട" />
+			<text id="SEARCH" value="തെരയുക" />
+			<text id="GOTO" value="പോകുക" />
+			<text id="VIEW" value="ദൃശ്യം" />
+			<text id="CLOSE" value="അടക്കുക" />
+			<text id="INSERT" value="ഉള്‍പെടുത്തുക" />
+			<text id="DETAILS" value="വിവരങ്ങള്‍" />
+			<text id="MORE" value="കൂടുതല്‍ " />
+			<text id="NEXT" value="അടുത്തത്" />
+			<text id="PREVIOUS" value="മുമ്പിലത്തെ" />
+			<text id="REFRESH" value="പുതുക്കിപ്പണിയല്‍" />
+			<text id="UPDATE" value="പരിഷ്കരിക്കുക" />
+			<text id="SHOW" value="പ്രദര്‍ശിപ്പിക്കുക" />
+			<text id="NAME" value="പേര് " />
+			<text id="VALUE" value="വില" />
+			<text id="NUMBER" value="ക്രമ നമ്പര്‍ " />
+			<text id="OPTION" value="ഓപ്ഷന്‍ " />
+			<text id="FILE" value="ഫയല്‍" />
+			<text id="RELOAD" value="ഈ താള്‍ വീണ്ടും തുറക്കുക" />
+			<text id="TYPE" value="തരം" />
+			<text id="MESSAGE" value="സന്ദേശം" />
+			<text id="BLOCK" value="ഖന്ണ്ടികകളായി" />
+			<text id="LINE_BY_LINE" value="വരികളായി" />
+			<text id="AND" value="കൂടാതെ " />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="സമീകരണം " />
+			<text id="ERROR" value="തെറ്റ് " />
+			<text id="LANGUAGE" value="ഭാഷ" />
+			<text id="ABOUT" value="കുറിച്ച് " />
+			<text id="PRINT" value="പ്രിന്റ്‌ " />
+			<text id="HOMEPAGE" value="ആസ്ഥാന താള്‍ "/>
+			<text id="WHOLE_QURAN" value="ഖുര്‍ആന്‍ മുഴുവന്‍ " />
+			<text id="MATCH_DIACRITIC" value="Match diacritic" />
+			<text id="MATCH_CASE" value="വലിയ-ചെറിയ അക്ഷരവിത്യാസം കണക്കിലെടുക്കുക " />
+			<text id="NEXT_AYA" value="അടുത്ത ആയത്ത് " />
+			<text id="NEXT_SURA" value="അടുത്ത സൂറത്ത് " />
+			<text id="PREV_AYA" value="മുമ്പിലത്തെ ആയത്ത് " />
+			<text id="PREV_SURA" value="മുമ്പിലത്തെ സൂറത്ത് " />
+			<text id="THEME" value="പ്രമേയം" />
+			<text id="LAYOUT" value="ലേഔട്ട്‌" />
+			<text id="TOOLS" value="ഉപകരണങ്ങള്‍" />
+			<text id="ADD" value="ചേര്‍ക്കുക" />
+			<text id="DELETE" value="ഒഴിവാക്കുക" />
+			<text id="REMOVE" value="നീക്കം ചെയ്യുക" />
+			<text id="TRANSLATION" value="പരിഭാഷ" />
+			<text id="TRANSLATION_VIEWTYPE" value="പരിഭാഷ കാണുന്ന വിധം" />
+			<text id="OPEN" value="തുറക്കുക" />
+			<text id="IMPORT" value="ഇറക്കുമതി" />
+			<text id="COPY" value="പകര്‍ത്തുക" />
+			<text id="SEPARATE" value="വെവ്വേറെ" />
+			<text id="MIXED" value="ഇടകലര്‍ന്ന" />
+			<text id="OPTIONS" value="ഓപ്ഷനുകള്‍ " />
+			<text id="QUESTION" value="ചോദ്യങ്ങള്‍ " />
+			<text id="FONT" value="അക്ഷര സഞ്ചയം " />
+			<text id="GENERAL" value="പൊതു" />
+			<text id="EXIT" value="പുറത്തുകടക്കുക" />
+			<text id="EXCLUDE" value="ഒഴിവാക്കുക" />
+			<text id="TRUE" value="ശരി" />
+			<text id="FALSE" value="തെറ്റ് " />
+			<text id="SELECT" value="തെരെഞ്ഞെടുക്കുക" />
+			<text id="EXPORT" value="കയറ്റുമതി" />
+			<text id="IMPORT" value="ഇറക്കുമതി" />
+			<text id="DESCRIPTION" value="വിവരണം" />
+			<text id="BOOKMARKS" value="അടയാളക്കുറിപ്പുകള്‍ " />
+			<text id="CONFIGURE" value="സജ്ജീകരിക്കുക " />
+			<text id="EDIT_BOOKMARK_SET" value="അടയാളകുറിപ്പുകള്‍ &amp;ചിട്ടപെടുത്തുക " />
+			<text id="MANAGE_BOOKMARK_SETS" value="അടയാളക്കുറിപ്പുകള്‍ &amp;ക്രമീകരിക്കുക " />
+			<text id="DIRECTION" value="ദിശ" />
+			<text id="LANG_DIRECTION" value="ഭാഷയുടെ ദിശ" />
+			<text id="RTL" value="വലത്തുനിന്നു ഇടത്തോട്ട് " />
+			<text id="LTR" value="ഇടത്തുനിന്നു വലത്തോട്ട് " />
+			<text id="AUTHOR" value="രചയിതാവ്" />
+			<text id="VERSION" value="പതിപ്പ് " />
+			<text id="RANDOM_AYA" value="ഏതെങ്കിലും ആയത്ത് " />
+			<text id="UNTITLED" value="ശീര്‍ഷകമില്ലാത്ത" />
+			<text id="SET_DEFAULT" value="ഡീഫോള്‍ട്ട്  ആക്കി സ്ഥാപിക്കുക " />
+			<text id="NOT_LOADED" value="ലഭ്യമല്ല" />
+			<text id="ID" value="ഐഡി" />
+			<text id="OVERWRITE" value="മായ്‌‌ച്ചെഴുതുക" />
+			<text id="SAVE" value="സൂക്ഷിക്കുക " />
+			<text id="PATH" value="വഴി" />
+			<text id="SHOW_REFS" value="സൂചകം കാണിക്കുക "/>
+			<text id="MOVE_UP" value="മുകളില്ലേക്ക് നീക്കുക" />
+			<text id="MOVE_DOWN" value="താഴേക്ക്‌  നീക്കുക" />
+			<text id="MULTI_TRANS" value="അനേകം പരിഭാഷകള്‍ " /> 
+			<text id="CONFIG_CUSTOM_TRANS" value="സ്വതവേയുള്ള പരിഭാഷ സജ്ജീകരിക്കുക" />
+			<text id="GO" value="പോകുക" />
+			<text id="CAUTION" value="താക്കീതു" />
+			<text id="ADVANCED" value="സങ്കീര്‍ണമായവ" />
+			<text id="QUERY_DETAIL" value="തിരച്ചില്‍ വാചകം " />
+			<text id="PAGE" value="പേജ് " />
+			<text id="MULTILINE" value="ഒന്നില്‍ കൂടുതല്‍ വരികള്‍ " />
+			<text id="TOGGLE" value="ടൊഗ്ഗിള്‍" />
+			<text id="AUDIO" value="പാരായണം" />
+			<text id="CONTINUOUS" value="തുടര്‍ച്ചയായ" />
+			<text id="DISCRETE" value="ഇടവിട്ട" />
+			<text id="PLAY" value="പ്രവര്‍ത്തിപ്പിക്കുക" />
+			<text id="PAUSE" value="താല്‍കാലത്തേക്ക് നിര്‍ത്തുക" />
+			<text id="STOP" value="നിര്‍ത്തുക" />
+			<text id="RECITATION" value="പാരായണം" />
+			<text id="MENU_NEXT_AYA" value="അടുത്ത &amp;ആയത്ത്" />
+			<text id="MENU_NEXT_SURA" value="അടുത്ത &amp;സൂറത്ത്" />
+			<text id="MENU_PREV_AYA" value="മുന്‍പത്തെ ആ&amp;യത്ത് " />
+			<text id="MENU_PREV_SURA" value="മുന്‍പത്തെ സൂ&amp;റത്ത് " />
+			<text id="MENU_NEXT_JUZ" value="അടുത്ത &amp;ജൂസ് അ" />
+			<text id="MENU_PREV_JUZ" value="മുന്‍പത്തെ ജൂ&amp;സ് അ" />
+			<text id="MENU_NEXT_HIZBQ" value="അടുത്ത &amp;ഹിസ്ബ് " />
+			<text id="MENU_PREV_HIZBQ" value="മുന്‍പത്തെ ഹിസ്&amp;ബ് " />
+			<text id="MENU_NEXT_SAJDA" value="അടുത്ത &amp;സുജൂദിന്റെ ആയത്ത് " />
+			<text id="MENU_PREV_SAJDA" value="മുന്‍പത്തെ സുജൂ&amp;ദിന്റെ ആയത്ത് " />
+			<text id="MENU_NEXT_PAGE" value="&amp;അടുത്ത പേജ് " />
+			<text id="MENU_PREV_PAGE" value="&amp;മുന്‍പത്തെ പേജ് " />
+			<text id="CHECK4UPDATE" value="പുതുക്കലിന് വേണ്ടി പരിശോധിക്കുക" />
+			<text id="ASCENDING" value="ആരോഹണ ക്രമം " />
+			<text id="DESCENDING" value="അവരോഹണ ക്രമം " />
+			<text id="REVEL_ORDER" value="അവതീര്‍ണമായ ക്രമത്തില്‍ " />
+			<text id="FULL_SCREEN" value="സ്ക്രീന്‍ പൂര്‍ണ വലിപ്പത്തില്‍" />
+			<text id="WARNING" value="മുന്നറിയിപ്പ് " />
+			<text id="ONLINE_HELP" value="ഓണ്‍ലൈന്‍ സഹായം തേടൂ" />
+			<text id="PAGING_MODE" value="പേജിംഗ് മോഡ് " />
+			<text id="PANEL" value="പാനല്‍" />
+			<text id="DETAIL_PANEL" value="വിവരണ പാനല്‍" />
+			<text id="REPEAT" value="ആവര്‍ത്തിക്കുക" />
+			<text id="ROOT" value="മൂലരൂപം" /> <!-- word root -->
+			<text id="ADDRESS" value="വിലാസം" />
+			<text id="BOOKMARK_THIS_AYA" value="ഈ ആയത്തിനെ അടയാളപെടുത്തിവെക്കുക" />
+			<text id="AUDIO_PLAYER" value="ഓഡിയോ പ്ലയെര്‍ " />
+			<text id="PLAYING" value="പ്രവര്‍ത്തിച്ചുകൊണ്ടിരിക്കുന്നു"   />
+			<text id="PAUSED" value="താത്കാലികമായി നിര്‍ത്തി വെച്ചിരിക്കുന്നു"   />
+			<text id="STOPPED" value="നിര്‍ത്തിയിരിക്കുന്നു"   />
+			<text id="RECITER" value="ഖാരിഅ`"   />
+            <text id="ONLINE" value="Online"   />
+            <text id="OFFLINE" value="Offline"   />
+		</common>
+		<special>
+			<text id="QURAN" value="ഖുര്‍ആന്‍ " />
+			<text id="QURAN_VIEWTYPE" value="ഖുര്‍ആന്‍ " />
+			<text id="SURA" value="സൂറ" />
+			<text id="AYA" value="ആയത്ത്" />
+			<text id="SAJDA" value="സുജൂദ് " />
+			<text id="JUZ" value="ജൂസ് അ" />
+			<text id="HIZB" value="ഹിസ്ബ് " />
+			<text id="QUARTER" value="ഭാഗം" />
+			<text id="MAKKI" value="മക്കി" />
+			<text id="MADANI" value="മദനി" />
+			<text id="DESCENT" value="അവതരണം " />
+			<text id="AYA_COUNT" value="ആയത്ത് എണ്ണം " />
+			<text id="MINOR_SAJDA" value="മുസ്തഹബ്ബായ സജദ" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="വാജിബായ സജദ" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="സ്ഥാനം" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="&quot;{1}&quot; എന്ന അന്വേഷണത്തിനു ലഭിച്ച ഫലങ്ങള്‍" />
+			<text id="SEARCH_RESULT_COUNT" value="{2} ആയതുകളിലായി  {1} ഫലങ്ങള്‍  ." />
+			<text id="SEARCH_PAGE" value="പേജ്  {1}  / {2}" />
+			<text id="TOO_MANY_RESULT" value=" {1} ആയതുകളേക്കാള്‍ കൂടുതല്‍ അന്വേഷണ ഫലങ്ങള്‍ " />
+			<text id="FILE_ALREADY_EXISTS" value="&quot;{1}&quot;എന്ന പേരില്‍ ഒരു ഫയല്‍ നിലവിലുണ്ട്.ഈ ഫയല്‍ മാറ്റി എഴുതണമെന്നുണ്ടോ ?" />
+			<text id="RESTART_APP" value="മാറ്റം പ്രാവര്‍ത്തികമാക്കണമെങ്കില്‍ കംപ്യൂട്ടര്‍ വീണ്ടും ആരംഭിക്കേണ്ടതാണ്." />
+			<text id="ACTION_PERFORMED" value="പ്രവര്‍ത്തി വിജയകരമായി പ്രാവര്‍ത്തികമാക്കി ." />
+			<text id="TRANSLATION_ADDED" value="താഴെ കൊടുത്തിരിക്കുന്ന പരിഭാഷകള്‍ {1}  മെനുവിലേക്ക് കൂട്ടിച്ചേര്‍ത്തു" />
+			<text id="RECITATION_ADDED" value="താഴെ കൊടുത്തിരിക്കുന്ന പാരായണങ്ങള്‍ {1} മെനുവിലേക്ക് കൂട്ടിച്ചേര്‍ത്തു"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="താങ്കള്‍ക്ക് ഉറപ്പാണോ ?" />
+			<text id="DEL_YES_NO" value="{1} ഇവ എന്നേക്കുമായി നീക്കം ചെയ്യണമോ?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="അപ്രതീക്ഷിതമായ പിശക് പറ്റി." />
+			<text id="FNF" value="ഫയല്‍ കാണുന്നില്ല." />
+			<text id="ACTION_FAILED" value="പ്രവര്‍ത്തി പരാജയപ്പെട്ടു.!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="തെറ്റായ പരിഭാഷ ശൈലി: {1}" />
+			<text id="INVALID_RECITATION_FORMAT" value="തെറ്റായ പാരായണ ശൈലി: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="&quot;{1}&quot; പഴയതാണ് (പുതുക്കിയ തിയതി: {2}). ഒരു പുതിയ പതിപ്പ്  ({3}) ഇന്‍സ്റ്റോള്‍ ചെയ്തിട്ടുണ്ട്." />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="തെറ്റായ പരിഭാഷ ഒപ്പ്: {1}" />
+			<text id="TRANSLATION_LOAD_FAILED" value="{2} എന്ന കാരണത്താല്‍ പരിഭാഷ &quot;{1}&quot; ലഭ്യമല്ല." />
+			<text id="RECITATION_LOAD_FAILED" value="{2} എന്ന കാരണത്താല്‍  പരിഭാഷ &quot;{1}&quot; ലഭ്യമല്ല."   />
+			<text id="ENTER_VALID_NUMBER" value="ദയവായി ഉപയോഗിക്കാവുന്ന വിലകള്‍ ടൈപ്പ് ചെയ്യുക.." />
+			<text id="NUMBER_LIMIT" value="ദയവായി &quot;{1}&quot; നും  &quot;{2}&quot;നും ഇടക്കുള്ള അക്കങ്ങള്‍ ടൈപ്പ് ചെയ്യക." />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="ദിക്ര്‍ " />
+			<text id="APP_FULL_NAME" value="ദിക്ര്‍ ഖുര്‍ആന്‍ പ്രൊജക്റ്റ്‌ " />
+			<text id="FORM_TITLE" value="ദിക്ര്‍" />
+			<text id="COPYRIGHT_DISCLAIMER" value="ദിക്ര്‍ നിങ്ങള്‍ക്കു് പ്രയോജനപ്പെടും എന്ന പ്രതീക്ഷയില്‍ വിതരണം ചെയ്യുന്നതാണു്,പക്ഷേ, ഇതിനു് ഒരു വാറണ്ടിയും ലഭ്യമല്ല." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="ദിക്ര്‍ " />
+			<text id="NEW_SCOPE" value="പുതിയ തിരച്ചില്‍ വ്യാപ്തി" />
+			<text id="EDIT_SCOPES" value="തിരച്ചില്‍ വ്യാപ്തി ചിട്ടപ്പെടുത്തുക " />
+			<text id="NO_SCOPE" value="തിരച്ചില്‍ വ്യപ്തിയില്ല" />
+			<text id="CURRENT_PAGE" value="നിലവിലുള്ള പേജ് " />
+			<text id="QURAN_SCOPE" value="ഖുര്‍ആന്‍ " />
+			<text id="TRANSLATION_SCOPE" value="പരിഭാഷ" />
+			<text id="NATURAL_ORDER" value="ക്രമത്തില്‍ " />
+			<text id="RELEVANCE" value="പ്രാധാന്യം" />
+			<text id="AYA_LENGTH" value="ആയത്തിന്റെ നീളം" />
+			<text id="SORT_BY" value="തരം തിരിക്കുക" />
+			<text id="TOGGLE_FULL_SCREEN" value="സ്ക്രീന്‍ പൂര്‍വാവസ്തയിലാക്കുക" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="പ്രമേയം " />
+			<text id="GENERAL_OPTIONS" value="പൊതുവായവ" />
+			<text id="VIEW_OPTIONS" value="ദൃശ്യം " />
+			<text id="TITLE" value="അപ്ലിക്കേഷന്‍ ഓപ്ഷനുകള്‍ " />
+			<text id="SHOW_SPLASH" value="ആരംഭത്തില്‍ ലോഗോ പ്രദർഷിപ്പിക്കുക" />
+			<text id="NEW_KEY" value="പുതിയ കീ അമര്‍ത്തുക" />
+			<text id="THEME_SETTING" value="പ്രമേയ ക്രമീകരണങ്ങള്‍ " />
+			<text id="PRESS_OK_TO_APPLY" value="മാറ്റങ്ങള്‍ പ്രാവര്‍ത്തികമാക്കാന്‍ &quot;OK&quot; ബട്ടണ്‍ അമര്‍ത്തുക." />
+			<text id="MAX_SEARCH_RESULT" value="തിരച്ചില്‍ ഫലങ്ങളുടെ കൂടിയ എണ്ണം " />
+			<text id="RESIZEABLE_TASK_PANE" value="മാറ്റം വരുത്താവുന്ന കര്‍മ പാളികള്‍ " />
+			<text id="SURA_NAMES" value="സൂറകളുടെ പേരുകള്‍ കാണിക്കേണ്ട വിധം" />
+			<text id="ARABIC" value="അറബി" />
+			<text id="EN_T9N" value="ഇംഗ്ലീഷ് പരിഭാഷ " />
+			<text id="EN_T13N" value="ഇംഗ്ലീഷ് ലിപിമാറ്റം" />
+			<text id="T9N" value="തര്‍ജമ (ഉണ്ടെങ്കില്‍)" />
+			<text id="T13N" value="ലിപിമാറ്റം (ഉണ്ടെങ്കില്‍)" />
+			<text id="ENABLE_AUDIO" value="ഓഡിയോ പിന്തുണ പ്രബലപ്പെടുത്തുക " />
+			<text id="SURA_NAME_TREE" value="സൂറകളുടെ പേരുകള്‍ ലിസ്റ്റ് രൂപത്തില്‍ കാണിക്കുക " />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="തിരച്ചില്‍ വ്യാപ്തി ക്രമീകരിക്കുക " />
+			<text id="SEARCH_SCOPE" value="തിരച്ചില്‍ വ്യാപ്തി " />
+			<text id="FROM_SURA" value="സൂറ മുതല്‍" />
+			<text id="FROM_AYA" value="ആയത്ത്  മുതല്‍" />
+			<text id="TO_SURA" value="സൂറ വരെ" />
+			<text id="TO_AYA" value="ആയത്ത് വരെ" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="തെറ്റായ തിരച്ചില്‍ വ്യാപ്തി " />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="തിരച്ചില്‍ വ്യാപ്തി ചിട്ടപ്പെടുത്തുക" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="അടയാളകുറിപ്പുകള്‍ ചിട്ടപെടുത്തുക: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="പുതിയ അടയാള കുറിപ്പ് അറ" />
+			<text id="NEW_BOOKMARK_ITEM" value="പുതിയ അടയാള കുറിപ്പ് " />
+			<text id="UNIQUE_NAME" value="ഒരു വ്യതിരിക്തമായ പേര് " />
+			<text id="COMMA_SEPARATED" value="വിവിധ രചയിതാക്കളെ കോമ്മയിട്ടു വേര്‍തിരിക്കുക " />
+			<text id="ONLY_ENGLISH" value="ഇംഗ്ലീഷ് പേരുകള്‍ മാത്രം ഉപയോഗിക്കുക (ഉദാ: English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="അടയാള കുറിപ്പുമായി ബന്ധപെട്ട എല്ലാ വിവരങ്ങളും ഇവിടെ" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="അടയാളകുറിപ്പ് കൂട്ടം ക്രമീകരിക്കുക " />
+			<text id="DBL_CLICK" value="ഇനങ്ങള്‍ ലഭ്യമാവാന്‍ / ചിട്ടപെടുത്താന്‍ മൗസ് രണ്ടു പ്രാവശ്യം അമര്‍ത്തുക ." />
+			<text id="SET_AS_DEFAULT" value="താങ്കള്‍ക്ക്  &quot;{1}&quot; നെ ഡിഫാള്‍ട്ട് അടയാള കുറിപ്പ് കൂട്ടമാക്കി മാറ്റണമെന്നുണ്ടോ?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="ഡിഫാള്‍ട്ട് അടയാളകുറിപ്പ്  നീക്കം ചെയ്യാന്‍ സാധ്യമല്ല ." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="ഡിഫാള്‍ട്ട് അടയാളകുറിപ്പ്  കൂട്ടത്തെ മാറ്റിയെഴുതാന്‍ സാധ്യമല്ല . വേറൊരു അടയാളകുറിപ്പ് കൂട്ടത്തെ ഡിഫാൾട്ടാക്കി  തെരഞ്ഞെടുക്കൂ .എന്നിട്ട് വീണ്ടും ഇറക്കുമതി ചെയ്യാന്‍ ശ്രമിക്കൂ ." />
+			<text id="ENTER_ID" value="അടയാളകുറിപ്പ്  ഐഡി ടൈപ്പ് ചെയ്യൂ " />
+			<text id="NEW_BOOKMARK_SET" value="പുതിയ അടയാളകുറിപ്പ് കൂട്ടം " />
+			<text id="EXPORT4WEB" value="വെബ്ബിന് വേണ്ടി കയറ്റുമതി ചെയ്യുക (HTML ശൈലി)" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="അടയാളകുറിപ്പ് ചിട്ടപ്പെടുത്തുക " />
+			<text id="QURAN_LOCATIONS" value="ഖുര്‍ആന്‍ സ്ഥാനങ്ങള്‍" />
+			<text id="NEW_BOOKMARK" value="പുതിയ അടയാള കുറിപ്പ് " />
+			<text id="NEW_FOLDER" value="പുതിയ അറ" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="അടയാളകുറിപ്പ് സൂചിപ്പിക്കുന്നത് : {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="താഴെ പറയുന്ന ഉപയോക്താക്കള്‍ക്ക് വേണ്ടി ഇറക്കുമതി ചെയ്യുക :" />
+			<text id="ME_ONLY" value="ഞാന്‍ മാത്രം " />
+			<text id="ALL_USERS" value="എല്ലാ ഉപയോക്താക്കളും (ഇന്‍സ്റ്റോള്‍ ഡയറക്ടറിയിലേക്ക് എഴുതുവാനുള്ള അവകാശം ആവശ്യമാണ് )" />
+			<text id="FOLLOWING_USERS" value="താഴെ പറയുന്ന ഉപയോക്താക്കള്‍ക്ക് വേണ്ടിയുള്ള സൂചിക " />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="ഉപയോഗിക്കാതിരിക്കുക" />
+			<text id="ADD_CUSTOM" value="ഉപയോഗിക്കുക" />
+			<text id="TITLE" value="സ്വതവേയുള്ള പരിഭാഷ സജ്ജീകരിക്കുക" />
+			<text id="AVAILABLE" value="ലഭ്യമായ പരിഭാഷകള്‍ " />
+			<text id="CURRENT" value="നിലവില്‍ ഉപയോഗിക്കുന്ന പരിഭാഷകള്‍ " />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="ദയവായി കാത്തിരിക്കുക " />
+			<text id="INDEXING" value="സൂചിക തയാറാക്കുന്നു ..." /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="സൂചിക തയാരാക്കപ്പെടുന്ന രേഖയുടെ വലിപ്പമനുസരിച്ച് ഇത് ഏതാനും മിനുട്ടുകള്‍ എടുത്തേക്കാം ." />
+			<text id="CHECKING" value="പുതുക്കലിന് വേണ്ടി പരിശോധിക്കുക" />
+			<text id="ZEKR_IS_CHECKING" value="ദിക്ര്‍ ഇപ്പോള്‍ പുതുക്കലിന് വേണ്ടി പരിശോധിച്ചുകൊണ്ടിരിക്കുന്നു " />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="ദിക്ര്‍ നെ പറ്റി" />
+			<text id="VIEW_LOG" value="ലോഗ് ഫയല്‍ കാണുക" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="പരിഷ്കാര വിവരം " />
+			<text id="VERSION_INFO" value="പതിപ്പ് വിവരം " />
+			<text id="BUILD_NUM" value="ബിള്‍ഡ്  നമ്പര്‍" />
+			<text id="VERSION" value="പതിപ്പ് " />
+			<text id="RELEASE_NAME" value="ലക്കം പേര് " />
+			<text id="RELEASE_STATE" value="ബിള്‍ഡ്  അവസ്ഥ" />
+			<text id="RELEASE_DATE" value="ലക്കം തിയതി" />
+			<text id="RELEASE_NOTES" value="ലക്കം കുറിപ്പുകള്‍ " />
+			<text id="DOWNLOAD" value="ഡൌണ്‍ലോഡ് " />
+			<text id="MORE_INFO" value="കൂടുതല്‍ വിവരങ്ങള്‍" />
+			<text id="NO_UPDATE" value="താങ്കള്‍ നേരത്തെ തന്നെ ഏറ്റവും പുതിയ പതിപ്പാണ്‌ ഉപയോഗിച്ച് കൊണ്ടിരിക്കുന്നത് ." />
+			<text id="NEW_DEV_AVAILABLE" value="ഒരു പുതിയ വികസന പതിപ്പ് (അസ്ഥിരമായ ) ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ ലഭ്യമാണ് " />
+			<text id="NEW_BETA_AVAILABLE" value="ഒരു പുതിയ ബീറ്റാ പതിപ്പ് (അസ്ഥിരമായ ) ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ ലഭ്യമാണ് " />
+			<text id="NEW_FINAL_AVAILABLE" value="ഒരു പുതിയ ലക്കം  ( ഫൈനല്‍ ) ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ ലഭ്യമാണ് " />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="പേജിംഗ് മോഡ് " />
+			<text id="SURA" value="സൂറ" />
+			<text id="HIZB_QUARTER" value="ഹിസ്ബ്  ഭാഗം" />
+			<text id="JUZ" value="ജൂസ് അ" />
+			<text id="CONST_AYA" value="സ്ഥിരമായ ആയത്ത് എണ്ണം " />
+			<text id="CUSTOM" value="ഇഷ്ടമുള്ള രീതി" />
+			<text id="AYA_PER_SURA" value="ഓരോ പേജിലും എത്ര ആയത്ത് വീതം വേണം ?" />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="ഓഡിയോ പ്ലയെര്‍ "   />
+			<text id="SECOND_ABBR" value="s"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="സെക്കന്റ്‌ "   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="ഇടനേരം"   />
+			<text id="REPEAT" value="ആവര്‍ത്തിക്കുക"   />
+			<text id="NO_INTERVAL" value="ഇടനേരം വേണ്ട"   />
+			<text id="NO_REPEAT" value="ആവര്‍ത്തിക്കേണ്ട"   />
+		</form>
+		<form id="GOTO_FORM">
+			<text id="TITLE" value="പോകുക"   />
+			<text id="GOTO" value="പോകുക"   />
+			<text id="REVIEW" value="റിവ്യൂ "   />
+			<text id="JUZ" value="ജൂസ് അ"   />
+			<text id="SURA_ORDER" value="സൂറത്ത് ക്രമം "   />
+			<text id="HIZB_QUARTER" value="ഹിസ്ബ്  ഭാഗം"   />
+			<text id="SURA_AYA" value="സൂറ : ആയ  (ഉദാ: 33:70)"   />
+			<text id="NORMAL" value="സാധാരണ"   />
+			<text id="REVELATION" value="അവതരണം ({1})"   />
+        </form>
+	</forms>
+</language>

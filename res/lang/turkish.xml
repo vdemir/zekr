@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language author="TarikZengin, Muhammet Abay" version="1.1.0">
+	<locale localizedName="Türkçe" name="Turkish" id="tr_TR" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK" value="Tamam" />
+			<text id="CANCEL" value="İptal" />
+			<text id="YES" value="Evet" />
+			<text id="NO" value="Hayır" />
+			<text id="APPLY" value="Uygula" />
+			<text id="START" value="Başlat" />
+			<text id="RESET" value="Sıfırla" />
+			<text id="NEW" value="Yeni" />
+			<text id="SAVE_AS" value="Farklı Kaydet" />
+			<text id="HELP" value="Yardım" />
+			<text id="EDIT" value="Düzenle" />
+			<text id="SEARCH" value="Ara" />
+			<text id="GOTO" value="Git" />
+			<text id="VIEW" value="Görünüm" />
+			<text id="CLOSE" value="Kapat" />
+			<text id="INSERT" value="Ekle" />
+			<text id="DETAILS" value="Ayrıntılar" />
+			<text id="MORE" value="Diğerleri" />
+			<text id="NEXT" value="İleri" />
+			<text id="PREVIOUS" value="Geri" />
+			<text id="REFRESH" value="Yinele" />
+			<text id="UPDATE" value="Güncelle" />
+			<text id="SHOW" value="Göster" />
+			<text id="NAME" value="Ad" />
+			<text id="VALUE" value="Değer" />
+			<text id="NUMBER" value="Sûre" />
+			<text id="OPTION" value="Seçenek" />
+			<text id="FILE" value="Dosya" />
+			<text id="RELOAD" value="Tekrar Yükle" />
+			<text id="TYPE" value="Tür" />
+			<text id="MESSAGE" value="İleti" />
+			<text id="BLOCK" value="Peş Peşe" />
+			<text id="LINE_BY_LINE" value="Satır Satır" />
+			<text id="AND" value="ve" />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="Çabucak" />
+			<text id="ERROR" value="Hata" />
+			<text id="LANGUAGE" value="Dil" />
+			<text id="ABOUT" value="Program Hakkında" />
+			<text id="PRINT" value="Yazdır" />
+			<text id="HOMEPAGE" value="Ana Sayfa" />
+			<text id="WHOLE_QURAN" value="Kur'an'ın Tamamı" />
+			<text id="MATCH_DIACRITIC" value="Hareke Eşleştir" />
+			<text id="MATCH_CASE" value="BÜYÜK/küçük Harf Eşleştir" />
+			<text id="NEXT_AYA" value="Sonraki Âyet" />
+			<text id="NEXT_SURA" value="Sonraki Sûre" />
+			<text id="PREV_AYA" value="Önceki Âyet" />
+			<text id="PREV_SURA" value="Önceki Sûre" />
+			<text id="THEME" value="Tema" />
+			<text id="LAYOUT" value="Yerleşim Düzeni" />
+			<text id="TOOLS" value="Araçlar" />
+			<text id="ADD" value="Ekle" />
+			<text id="DELETE" value="Sil" />
+			<text id="REMOVE" value="Kaldır" />
+			<text id="TRANSLATION" value="Meal" />
+			<text id="TRANSLATION_VIEWTYPE" value="Meal" />
+			<text id="OPEN" value="Aç" />
+			<text id="IMPORT" value="Getir" />
+			<text id="COPY" value="Kopyala" />
+			<text id="SEPARATE" value="Ayrı Ayrı" />
+			<text id="MIXED" value="Yan Yana" />
+			<text id="OPTIONS" value="Seçenekler" />
+			<text id="QUESTION" value="Soru" />
+			<text id="FONT" value="Yazı Tipi" />
+			<text id="GENERAL" value="Genel" />
+			<text id="EXIT" value="Çıkış" />
+			<text id="EXCLUDE" value="Hariç" />
+			<text id="TRUE" value="Doğru" />
+			<text id="FALSE" value="Yanlış" />
+			<text id="SELECT" value="Seç" />
+			<text id="EXPORT" value="Ver" />
+			<text id="IMPORT" value="Al" />
+			<text id="DESCRIPTION" value="Açıklama" />
+			<text id="BOOKMARKS" value="Yer İmleri" />
+			<text id="CONFIGURE" value="Yapılandır" />
+			<text id="EDIT_BOOKMARK_SET" value="Yer İmlerini Düzenle" />
+			<text id="MANAGE_BOOKMARK_SETS" value="Yer İmlerini Yönet" />
+			<text id="DIRECTION" value="Yön" />
+			<text id="LANG_DIRECTION" value="Dil Yönü" />
+			<text id="RTL" value="Sağdan Sola" />
+			<text id="LTR" value="Soldan Sağa" />
+			<text id="AUTHOR" value="Yazar" />
+			<text id="VERSION" value="Sürüm" />
+			<text id="RANDOM_AYA" value="Herhangi Bir Âyet" />
+			<text id="UNTITLED" value="İsimsiz" />
+			<text id="SET_DEFAULT" value="Varsayılan Olarak Ata" />
+			<text id="NOT_LOADED" value="Yüklenmemiş" />
+			<text id="ID" value="Kimlik No" />
+			<text id="OVERWRITE" value="Üzerine Yaz" />
+			<text id="SAVE" value="Kaydet" />
+			<text id="PATH" value="Dizin" />
+			<text id="SHOW_REFS" value="Referansı Göster" />
+			<text id="MOVE_UP" value="Yukarı" />
+			<text id="MOVE_DOWN" value="Aşağı" />
+			<text id="MULTI_TRANS" value="Birden Fazla Meal" />
+			<text id="CONFIG_CUSTOM_TRANS" value="Özel Mealler Listesini Düzenle" />
+			<text id="GO" value="Git" />
+			<text id="CAUTION" value="Uyarı" />
+			<text id="ADVANCED" value="Gelişmiş" />
+			<text id="QUERY_DETAIL" value="Sorgu Ayrıntısı" />
+			<text id="PAGE" value="Sayfa" />
+			<text id="MULTILINE" value="Birden Fazla Satır" />
+			<text id="TOGGLE" value="Değiştir" />
+			<text id="AUDIO" value="Okuma" />
+			<text id="CONTINUOUS" value="Sürekli" />
+			<text id="DISCRETE" value="Ayrı Ayrı" />
+			<text id="PLAY" value="Oku" />
+			<text id="PAUSE" value="Ara Ver" />
+			<text id="STOP" value="Bitir" />
+			<text id="RECITATION" value="Tilavet" />
+			<text id="ADDON_MANAGER" value="Eklenti Yöneticisi" />
+			<text id="MENU_NEXT_AYA" value="Sonraki Âyet" />
+			<text id="MENU_NEXT_SURA" value="Sonraki Sûre" />
+			<text id="MENU_PREV_AYA" value="Önceki Âyet" />
+			<text id="MENU_PREV_SURA" value="Önceki Sûre" />
+			<text id="MENU_NEXT_JUZ" value="Sonraki Cüz" />
+			<text id="MENU_PREV_JUZ" value="Önceki Cüz" />
+			<text id="MENU_NEXT_HIZBQ" value="Sonraki Hizip" />
+			<text id="MENU_PREV_HIZBQ" value="Önceki Hizip" />
+			<text id="MENU_NEXT_SAJDA" value="Sonraki Secde Âyeti" />
+			<text id="MENU_PREV_SAJDA" value="Önceki Secde Âyeti" />
+			<text id="MENU_NEXT_PAGE" value="Sonraki Sayfa" />
+			<text id="MENU_PREV_PAGE" value="Önceki Sayfa" />
+			<text id="CHECK4UPDATE" value="Güncelleştirmeleri Denetle" />
+			<text id="ASCENDING" value="Artan" />
+			<text id="DESCENDING" value="Azalan" />
+			<text id="REVEL_ORDER" value="Nüzûl Sırası" />
+			<text id="FULL_SCREEN" value="Tam Ekran" />
+			<text id="WARNING" value="Dikkat" />
+			<text id="ONLINE_HELP" value="Online Yardım" />
+			<text id="PAGING_MODE" value="Sayfalandırma Tarzı" />
+			<text id="PANEL" value="Panel" />
+			<text id="DETAIL_PANEL" value="Ayrıntı Paneli" />
+			<text id="REPEAT" value="Tekrarla" />
+			<text id="ROOT" value="Kök" /> <!-- word root -->
+			<text id="ADDRESS" value="Adres" />
+			<text id="BOOKMARK_THIS_AYA" value="Bu Âyete Yer İmi Koy" />
+			<text id="AUDIO_PLAYER" value="Okuyucu" />
+			<text id="PLAYING" value="Okunuyor" />
+			<text id="PAUSED" value="Ara Verildi" />
+			<text id="STOPPED" value="Durduruldu" />
+			<text id="RECITER" value="Okuyan" />
+			<text id="ONLINE" value="İnternet" />
+			<text id="OFFLINE" value="Yerel" />
+			<text id="SMALLER" value="Daha Küçük"   />
+			<text id="LARGER" value="Daha Büyük"   />
+			<text id="SCOPED_SEARCH" value="Kapsam Araması"   />
+			<text id="DOCK_MODE" value="Yerleşim Tarzı"   />
+			<text id="FLOAT" value="Yüzer Halde"   />
+			<text id="TASKPANE" value="Görev Panelinde"   />
+			<text id="TOP" value="Yukarıda"   />
+			<text id="BOTTOM" value="Aşağıda"   />
+			<text id="HIDE_WHEN_MINIMIZED" value="Simde Durumundayken Gizle"   />
+		</common>
+		<special>
+			<text id="QURAN" value="Kur'an" />
+			<text id="QURAN_VIEWTYPE" value="Kur'ân-ı Kerîm" />
+			<text id="SURA" value="Sûre" />
+			<text id="AYA" value="Âyet" />
+			<text id="SAJDA" value="Secde Âyeti" />
+			<text id="JUZ" value="Cüz" />
+			<text id="HIZB" value="Hizip" />
+			<text id="QUARTER" value="Rubu'" />
+			<text id="HIZB_QUARTER" value="Hizip Rubu'"   />
+			<text id="MAKKI" value="Mekkî" />
+			<text id="MADANI" value="Medenî" />
+			<text id="DESCENT" value="Nüzûlü" />
+			<text id="AYA_COUNT" value="Âyet Sayısı" />
+			<text id="MINOR_SAJDA" value="Müstehap Secde" />
+			<text id="MAJOR_SAJDA" value="Vacip Secde" />
+			<text id="LOCATION" value="Konum" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+			<text id="AUDHUBILLAH" value="Eûzü"   />
+			<text id="BISMILLAH" value="Besmele"   />
+			<text id="SADAGHALLAH" value="Sadaka'llâhü'l-azîm"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="'{1}' için arama sonuçları:" />
+			<text id="SEARCH_RESULT_COUNT" value="{2} âyette {1} sonuç sulundu." />
+			<text id="SEARCH_PAGE" value="Toplam {2} sayfanın {1}. sayfası" />
+			<text id="TOO_MANY_RESULT" value="Arama sonucu {1} âyetten fazla" />
+			<text id="FILE_ALREADY_EXISTS" value="'{1}' adında bir dosya zaten var. Değiştirmek ister misiniz?" />
+			<text id="RESTART_APP" value="Değişiklilerin geçerli olması için programı yeniden başlatmanız gerekiyor." />
+			<text id="ACTION_PERFORMED" value="İşlem başarıyla tamamlandı." />
+			<text id="TRANSLATION_ADDED" value="Aşağıdaki meal, {1} menüsüne eklendi." />
+			<text id="RECITATION_ADDED" value="Aşağıdaki tilâvet, {1} menüsüne eklendi." />
+			<text id="RESOURCE_ADDED" value="Aşağıdaki yeni kaynak eklendi"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Emin misiniz?" />
+			<text id="DEL_YES_NO" value="{1} ögesini kalıcı olarak silmek ister misiniz?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Beklenmedik bir hata oluştu!" />
+			<text id="FNF" value="Dosya bulunamadı" />
+			<text id="ACTION_FAILED" value="İşlem başarısız!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="Geçersiz meal formatı: {1}" />
+			<text id="INVALID_RECITATION_FORMAT" value="Geçersiz tilâvet formatı: {1}" />
+			<text id="NEWER_VERSION_INSTALLED" value="'{1}' kaynağı güncel değil (son güncelleme: {2}). Şu an yeni sürüm ({3}) yüklendi." />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="Geçersiz meal imzası: {1}" />
+			<text id="TRANSLATION_LOAD_FAILED" value="'{1}' meali, {2} hatasından ötürü yüklenemedi." />
+			<text id="RECITATION_LOAD_FAILED" value="'{1}' tilâveti, {2} hatasından ötürü yüklenemedi." />
+			<text id="ENTER_VALID_NUMBER" value="Lütfen geçerli bir sayı girin." />
+			<text id="NUMBER_LIMIT" value="Lütfen '{1}' ile '{2}' arasında bir sayı girin." />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Zekr" />
+			<text id="APP_FULL_NAME" value="Zekr Kur'an Projesi" />
+			<text id="FORM_TITLE" value="Zekr" />
+			<text id="COPYRIGHT_DISCLAIMER" value="Bu program faydalı olacağı ümidiyle ücretsiz dağıtılmaktadır; garantisi yoktur." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Zekr" />
+			<text id="NEW_SCOPE" value="Yeni yapsam" />
+			<text id="EDIT_SCOPES" value="Kapsamları düzenle" />
+			<text id="NO_SCOPE" value="Kapsam yok" />
+			<text id="CURRENT_PAGE" value="Bu sayfa" />
+			<text id="QURAN_SCOPE" value="Kur'ân-ı Kerîm" />
+			<text id="TRANSLATION_SCOPE" value="Meal" />
+			<text id="NATURAL_ORDER" value="Mushaf Sırası" />
+			<text id="RELEVANCE" value="İlişkisel Sıra" />
+			<text id="AYA_LENGTH" value="Âyet Uzunluğu" />
+			<text id="SORT_BY" value="Sonuç sıralaması" />
+			<text id="TOGGLE_FULL_SCREEN" value="Tam ekranı aç/kapat" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="Tema" />
+			<text id="GENERAL_OPTIONS" value="Genel" />
+			<text id="VIEW_OPTIONS" value="Görünüm" />
+			<text id="AUDIO_OPTIONS" value="Ses" />
+			<text id="TITLE" value="Program Seçenekleri" />
+			<text id="SHOW_SPLASH" value="Açılışta logoyu göster" />
+			<text id="NEW_KEY" value="Yeni bir sözcük giriniz" />
+			<text id="THEME_SETTING" value="Tema ayarları" />
+			<text id="PRESS_OK_TO_APPLY" value="Değişikliklerin geçerli olabilmesi için &quot;Tamam&quot; düğmesine tıklayınız." />
+			<text id="MAX_SEARCH_RESULT" value="En fazla arama sonucu sayısı" />
+			<text id="RESIZEABLE_TASK_PANE" value="Boyutlandırılabilir görev bölmesi" />
+			<text id="SURA_NAMES" value="Sûre isimlerini gösterme biçimi" />
+			<text id="ARABIC" value="Arapça" />
+			<text id="EN_T9N" value="İngilizce Anlam" />
+			<text id="EN_T13N" value="İngilizce Yazım" />
+			<text id="T9N" value="Anlam (Var ise)" />
+			<text id="T13N" value="Yazım (Var ise)" />
+			<text id="ENABLE_AUDIO" value="Ses desteğini aç" />
+			<text id="SURA_NAME_TREE" value="Sûre adlarını liste olarak göster" />
+			<text id="SMART" value="Otomatik" />
+			<text id="ALWAYS" value="Dâima" />
+			<text id="NEVER" value="Asla" />
+			<text id="PLAY_MODE" value="Okuma Tarzı" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Arama Kapsamı Belirle" />
+			<text id="SEARCH_SCOPE" value="Arama Kapsamı" />
+			<text id="FROM_SURA" value="Sûreden" />
+			<text id="FROM_AYA" value="Âyetten" />
+			<text id="TO_SURA" value="Sûreye" />
+			<text id="TO_AYA" value="Âyete" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Geçersiz Arama Kapsamı Ögeleri" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Arama Kapsamlarını Düzenle" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Yer imlerini düzenle: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="Yeni yer imi klasörü" />
+			<text id="NEW_BOOKMARK_ITEM" value="Yeni yer imi" />
+			<text id="UNIQUE_NAME" value="Benzersiz bir isim" />
+			<text id="COMMA_SEPARATED" value="Yazar adı birden fazla ise her birininin arasına 'virgül' koyunuz." />
+			<text id="ONLY_ENGLISH" value="İsimlerin sadece İngilizcelerini kullanın (yani English, Turkish, Arabic,...)" />
+			<text id="DESC_TOOLTIP" value="Açıklama, alıntı, başvuru ve yer imiyle ilgili diğer bilgileri buraya giriniz." />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Yer İmlerini Yönet" />
+			<text id="DBL_CLICK" value="Yüklemek ve/veya düzenlemek için öğelere çift tıkla." />
+			<text id="SET_AS_DEFAULT" value="'{1}'i varsayılan yer imi olarak atamak istiyor musunuz?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Varsayılan yer imi kaldırılamıyor." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Varsayılan yer iminin üzerine yazılamıyor. Başka bir yer imini varsayılan olarak seçin ve içe aktarmayı deneyin." />
+			<text id="ENTER_ID" value="Yer imi için kimlik numarası girin" />
+			<text id="NEW_BOOKMARK_SET" value="Yeni Yer İmleri" />
+			<text id="EXPORT4WEB" value="Web sayfası olarak kaydet" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Yer İmini Düzenle" />
+			<text id="QURAN_LOCATIONS" value="Kur'an'daki yerleri" />
+			<text id="NEW_BOOKMARK" value="Yeni Yer İmi" />
+			<text id="NEW_FOLDER" value="Yeni Klasör" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Yer İmi Başvurusu: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Aşağıdaki kullanıcılar için ekle:" />
+			<text id="ME_ONLY" value="Yalnızca benim için ekle" />
+			<text id="ALL_USERS" value="Bütün kullanıcılar için ekle (Yüklenecek klasöre yazma izninizin olması gerekir)" />
+			<text id="FOLLOWING_USERS" value="Fihrist aşağıdaki kullanıcılar içindir" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="Kaldır" />
+			<text id="ADD_CUSTOM" value="Ekle" />
+			<text id="TITLE" value="Özel Mealler Listesini Düzenle" />
+			<text id="AVAILABLE" value="Kullanılabilecek mealler" />
+			<text id="CURRENT" value="Kullanılmakta olan mealler" />
+		</form>
+		<form id="ADDON_MANAGER">
+			<text id="REMOVE_CUSTOM" value="Kaynağı Kaldır" />
+			<text id="ADD_CUSTOM" value="Kaynak Ekle" />
+			<text id="TITLE" value="Eklenti Yöneticisi" />
+			<text id="CURRENT" value="Şu an kaynaklar yüklendi" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Lütfen bekleyin..." />
+			<text id="INDEXING" value="Fihrist hazırlanıyor." /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="Bu işlem, fihristi çıkarılacak belgenin boyutuna bağlı olarak birkaç dakika sürebilir." />
+			<text id="CHECKING" value="Güncelleştirme Kontrolü" />
+			<text id="ZEKR_IS_CHECKING" value="Zekr şu an güncelleştirmeleri kontrol ediyor." />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="Zekr Hakkında" />
+			<text id="VIEW_LOG" value="Günlük Dosyasını Göster" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="Güncelleme Bilgisi" />
+			<text id="VERSION_INFO" value="Sürüm bilgisi" />
+			<text id="BUILD_NUM" value="Derleme numarası" />
+			<text id="VERSION" value="Sürüm" />
+			<text id="RELEASE_NAME" value="Sürüm ismi" />
+			<text id="RELEASE_STATE" value="Derleme durumu" />
+			<text id="RELEASE_DATE" value="Sürüm tarihi" />
+			<text id="RELEASE_NOTES" value="Sürüm notları" />
+			<text id="DOWNLOAD" value="İndir" />
+			<text id="MORE_INFO" value="Ayrıntılı bilgi" />
+			<text id="NO_UPDATE" value="Şu an en son sürümü kullanıyorsunuz." />
+			<text id="NEW_DEV_AVAILABLE" value="Daha yeni bir geliştirme sürümü indirilebilir durumda." />
+			<text id="NEW_BETA_AVAILABLE" value="Yeni bir beta sürümü indirilebilir durumda." />
+			<text id="NEW_FINAL_AVAILABLE" value="Yeni bir tam sürüm indirilebilir durumda." />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="Sayfalandırma Tarzı" />
+			<text id="SURA" value="Sûre" />
+			<text id="HIZB_QUARTER" value="Hizip" />
+			<text id="JUZ" value="Cüz" />
+			<text id="CONST_AYA" value="Sabit Âyet Sayısı" />
+			<text id="CUSTOM" value="Özel" />
+			<text id="AYA_PER_SURA" value="Bir sayfada kaç âyet görünsün?" />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="Okuyucu" />
+			<text id="SECOND_ABBR" value="s." /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="Saniye" /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="Fasıla" />
+			<text id="REPEAT" value="Tekrar" />
+			<text id="NO_INTERVAL" value="Fasılasız" />
+			<text id="NO_REPEAT" value="Tekrar Yok" />
+			<text id="VOLUME" value="Ses Düzeyi"   />
+			<text id="TIMES" value="{1} kez"   />
+			<text id="PLAY_SCOPE" value="Okuma Kapsamı"   />
+		</form>
+		<form id="GOTO_FORM">
+			<text id="TITLE" value="Git" />
+			<text id="GOTO" value="Git" />
+			<text id="REVIEW" value="Gözat" />
+			<text id="JUZ" value="Cüz" />
+			<text id="SURA_ORDER" value="Sûre Sırası" />
+			<text id="HIZB_QUARTER" value="Hizip Rubu'" />
+			<text id="SURA_AYA" value="Sûre:Âyet (örn. 33:70)" />
+			<text id="NORMAL" value="Normal" />
+			<text id="REVELATION" value="Nüzûl ({1})" />
+		</form>
+	</forms>
+</language>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="הפתיחה" tname="Al-Faatiha" />
+		<sura index="2" name="הפרה" tname="Al-Baqara" />
+		<sura index="3" name="בית עמרם" tname="Aal-i-Imraan" />
+		<sura index="4" name="הנשים" tname="An-Nisaa" />
+		<sura index="5" name="השולחן הערוך" tname="Al-Maaida" />
+		<sura index="6" name="המקנה" tname="Al-An'aam" />
+		<sura index="7" name="ממרום החומה" tname="Al-A'raaf" />
+
+		<sura index="8" name="המלקוח" tname="Al-Anfaal" />
+		<sura index="9" name="ההצהרה" tname="At-Tawba" />
+		<sura index="10" name="יונה" tname="Yunus" />
+		<sura index="11" name="הוד" tname="Hud" />
+		<sura index="12" name="יוסף" tname="Yusuf" />
+		<sura index="13" name="הרעם" tname="Ar-Ra'd" />
+		<sura index="14" name="אברהם" tname="Ibrahim" />
+		<sura index="15" name="אל-חג'ר" tname="Al-Hijr" />
+		<sura index="16" name="הדבורה" tname="An-Nahl" />
+
+		<sura index="17" name="המסע הלילי" tname="Al-Israa" />
+		<sura index="18" name="המערה" tname="Al-Kahf" />
+		<sura index="19" name="מרים" tname="Maryam" />
+		<sura index="20" name="ט.ה." tname="Taa-Haa" />
+		<sura index="21" name="הנביאים" tname="Al-Anbiyaa" />
+		<sura index="22" name="העליה לרגל" tname="Al-Hajj" />
+		<sura index="23" name="המאמינים" tname="Al-Muminoon" />
+		<sura index="24" name="האור" tname="An-Noor" />
+		<sura index="25" name="הפורקאן" tname="Al-Furqaan" />
+
+		<sura index="26" name="המשוררים" tname="Ash-Shu'araa" />
+		<sura index="27" name="הנמלים" tname="An-Naml" />
+		<sura index="28" name="סיפור המעשה" tname="Al-Qasas" />
+		<sura index="29" name="העכביש" tname="Al-Ankaboot" />
+		<sura index="30" name="בני ביזנטיון" tname="Ar-Room" />
+		<sura index="31" name="לוקמאן" tname="Luqman" />
+		<sura index="32" name="ההשתחויה" tname="As-Sajda" />
+		<sura index="33" name="המחנות" tname="Al-Ahzaab" />
+		<sura index="34" name="שבא" tname="Saba" />
+
+		<sura index="35" name="היוצר" tname="Faatir" />
+		<sura index="36" name="י.ס." tname="Yaseen" />
+		<sura index="37" name="הערוכים" tname="As-Saaffaat" />
+		<sura index="38" name="צ." tname="Saad" />
+		<sura index="39" name="החבורות" tname="Az-Zumar" />
+		<sura index="40" name="הסולח" tname="Ghaafir" />
+		<sura index="41" name="המוצגים אחד אחד" tname="Fussilat" />
+		<sura index="42" name="המועצה" tname="Ash-Shura" />
+		<sura index="43" name="עטורי הזהב" tname="Az-Zukhruf" />
+
+		<sura index="44" name="העשן" tname="Ad-Dukhaan" />
+		<sura index="45" name="כורעת הברך" tname="Al-Jaathiya" />
+		<sura index="46" name="גבעות החול" tname="Al-Ahqaf" />
+		<sura index="47" name="מוחמד" tname="Muhammad" />
+		<sura index="48" name="ההכרעה" tname="Al-Fath" />
+		<sura index="49" name="החדרים" tname="Al-Hujuraat" />
+		<sura index="50" name="ק." tname="Qaaf" />
+		<sura index="51" name="הזורות" tname="Adh-Dhaariyat" />
+		<sura index="52" name="ההר" tname="At-Tur" />
+
+		<sura index="53" name="הכוכב" tname="An-Najm" />
+		<sura index="54" name="הירח " tname="Al-Qamar" />
+		<sura index="55" name="הרחמן" tname="Ar-Rahmaan" />
+		<sura index="56" name="המאורע" tname="Al-Waaqia" />
+		<sura index="57" name="הברזל" tname="Al-Hadid" />
+		<sura index="58" name="המתנצחת" tname="Al-Mujaadila" />
+		<sura index="59" name="ההגליה" tname="Al-Hashr" />
+		<sura index="60" name="העומדות למבחן" tname="Al-Mumtahana" />
+		<sura index="61" name="שורות שורות" tname="As-Saff" />
+
+		<sura index="62" name="יום השישי" tname="Al-Jumu'a" />
+		<sura index="63" name="המתחסדים" tname="Al-Munaafiqoon" />
+		<sura index="64" name="הנופלים בפח" tname="At-Taghaabun" />
+		<sura index="65" name="הגיטין" tname="At-Talaaq" />
+		<sura index="66" name="האיסור" tname="At-Tahrim" />
+		<sura index="67" name="המלכות" tname="Al-Mulk" />
+		<sura index="68" name="הקולמוס" tname="Al-Qalam" />
+		<sura index="69" name="שעת האמת" tname="Al-Haaqqa" />
+		<sura index="70" name="הרקיעים" tname="Al-Ma'aarij" />
+
+		<sura index="71" name="נוח" tname="Nooh" />
+		<sura index="72" name="השדים" tname="Al-Jinn" />
+		<sura index="73" name="המתעטף" tname="Al-Muzzammil" />
+		<sura index="74" name="המתכסה" tname="Al-Muddaththir" />
+		<sura index="75" name="תחיית המתים" tname="Al-Qiyaama" />
+		<sura index="76" name="האדם" tname="Al-Insaan" />
+		<sura index="77" name="המשולחות" tname="Al-Mursalaat" />
+		<sura index="78" name="החדשה" tname="An-Naba" />
+		<sura index="79" name="המושכים" tname="An-Naazi'aat" />
+
+		<sura index="80" name="זה שהזעיף פניו" tname="Abasa" />
+		<sura index="81" name="האפלה" tname="At-Takwir" />
+		<sura index="82" name="ההבקעות" tname="Al-Infitaar" />
+		<sura index="83" name="המחסרים במשקל" tname="Al-Mutaffifin" />
+		<sura index="84" name="הנחצים" tname="Al-Inshiqaaq" />
+		<sura index="85" name="כוכבי המזלות" tname="Al-Burooj" />
+		<sura index="86" name="המופיע בלילה" tname="At-Taariq" />
+		<sura index="87" name="העליון" tname="Al-A'laa" />
+		<sura index="88" name="הכובשת" tname="Al-Ghaashiya" />
+
+		<sura index="89" name="השחר" tname="Al-Fajr" />
+		<sura index="90" name="חבל הארץ" tname="Al-Balad" />
+		<sura index="91" name="השמש" tname="Ash-Shams" />
+		<sura index="92" name="הלילה" tname="Al-Lail" />
+		<sura index="93" name="אור היום" tname="Ad-Dhuhaa" />
+		<sura index="94" name="הרווחה" tname="Ash-Sharh" />
+		<sura index="95" name="התאנים" tname="At-Tin" />
+		<sura index="96" name="טיפת הדם" tname="Al-Alaq" />
+		<sura index="97" name="ליל אלקדר" tname="Al-Qadr" />
+
+		<sura index="98" name="הראיה" tname="Al-Bayyina" />
+		<sura index="99" name="רעש האדמה" tname="Az-Zalzala" />
+		<sura index="100" name="השועטים" tname="Al-Aadiyaat " />
+		<sura index="101" name="ההולמת" tname="Al-Qaari'a" />
+		<sura index="102" name="רדיפת הבצע" tname="At-Takaathur" />
+		<sura index="103" name="בין השמשות" tname="Al-Asr" />
+		<sura index="104" name="המלעיז" tname="Al-Humaza" />
+		<sura index="105" name="הפיל" tname="Al-Fil" />
+		<sura index="106" name="קרייש" tname="Quraish" />
+
+		<sura index="107" name="הסעד" tname="Al-Maa'un" />
+		<sura index="108" name="השפע" tname="Al-Kawthar" />
+		<sura index="109" name="הכופרים" tname="Al-Kaafiroon" />
+		<sura index="110" name="הניצחון" tname="An-Nasr" />
+		<sura index="111" name="הסיבים" tname="Al-Masad" />
+		<sura index="112" name="טוהר האמונה" tname="Al-Ikhlaas" />
+		<sura index="113" name="השחר הבוקע" tname="Al-Falaq" />
+		<sura index="114" name="בני האנוש" tname="An-Naas" />
+	</sura-detail>
+
+</quran>
+

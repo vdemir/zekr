@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<bookmarks>
+	<info>
+		<name>Sample Zekr Bookmark</name>
+		<author>Mohsen Saboorian</author>
+		<language>English</language>
+		<dir>ltr</dir>
+		<desc>This is the default bookmark set with the Zekr standard installation.&#13; &#13; In this bookmark set, you can find a basic categorization of some well-known Quran ayas. The possibility of having multiple bookmark sets at one time, sharing, and exporting/importing bookmark sets is now available through the menu item "Manage bookmark sets".</desc>
+		<modifyDate>22-12-2006</modifyDate>
+		<createDate>22-12-2006</createDate>
+	</info>
+	<folder desc="Ayas related to the Mercifulness of Allah"
+		name="The Compassionate">
+		<item data="6-12"
+			desc="كَتَبَ عَلَى نَفْسِهِ الرَّحْمَةَ&#13;&#10;He has ordained mercy on Himself"
+			name="He has ordained mercy on Himself" />
+		<item data="39-53"
+			desc="لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ&#13;&#10;Do not despair of the mercy of Allah"
+			name="Do not despair" />
+		<item data="42-25,9-104"
+			desc="He it is Who accepts repentance from His servants...&#13;&#10;يَقْبَلُ التَّوْبَةَ عَنْ عِبَادِهِ"
+			name="He accepts repentance from His servants " />
+		<item data="16-119"
+			desc="Lord after that is Forgiving, Merciful"
+			name="Lord after that is Forgiving, Merciful" />
+		<item data="59-22" desc="هُوَ الرَّحْمَنُ الرَّحِيمُ"
+			name="He is the Beneficent, the Merciful" />
+		<item data="15-49"
+			desc="نَبِّىءْ عِبَادِي أَنِّي أَنَا الْغَفُورُ الرَّحِيمُ"
+			name="I am indeed the Oft-forgiving, Most Merciful" />
+	</folder>
+	<folder desc="التوكل" name="To trust in Allah">
+		<item data="65-3"
+			desc="وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ "
+			name="And whoever trusts in Allah..." />
+		<item data="14-12"
+			desc="وَمَا لَنَا أَلاَّ نَتَوَكَّلَ عَلَى اللّهِ "
+			name="And what reason have we that we should not rely on Allah?" />
+		<item data="3-159"
+			desc="فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللّهِ"
+			name="So when you have decided, then place your trust in Allah" />
+		<item data="9-129"
+			desc="فَقُلْ حَسْبِيَ اللّهُ لا إِلَهَ إِلاَّ هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ "
+			name="Allah is sufficient for me" />
+	</folder>
+	<folder desc="Miscellaneous ayas" name="Misc ayas">
+		<item data="3-61" desc="مباهلة" name="Earnestly pray" />
+		<item data="2-255" desc="آية الكرسي" name="Throne" />
+		<item data="14-4"
+			desc="وَمَا أَرْسَلْنَا مِن رَّسُولٍ إِلاَّ بِلِسَانِ قَوْمِهِ"
+			name="Language of his (own) people" />
+		<item data="3-190"
+			desc="إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالأَرْضِ وَاخْتِلاَفِ اللَّيْلِ وَالنَّهَارِ لآيَاتٍ لِّأُوْلِي الألْبَابِ"
+			name="Signs for men who understand" />
+	</folder>
+</bookmarks>

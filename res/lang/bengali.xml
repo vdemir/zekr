@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--My mother passed away March 22 2012! Inna lillahi wa inna ilayhi raji'un. 
+Please make dua for her so that, Almighty Allah Subhanahu wa-ta'ala bless & forgive her and 
+may He best ow upon her everlasting peace in Heaven (Jannatul Firdaus). -->
+
+<language author="Muhammad Fayzul Alam Munir" version="1.0.0">
+	<locale localizedName="Bengali" name="বাংলা" id="bn_BD" direction="ltr" />
+		<word>
+		<common>
+			<text id="OK" value="ঠিক আছে" />
+			<text id="CANCEL" value="বাতিল" />
+			<text id="YES" value="হ্যাঁ" />
+			<text id="NO" value="না" />
+			<text id="APPLY" value="প্রয়োগ করুন" />
+			<text id="START" value="শুরু করুন" />
+			<text id="RESET" value="পুনঃস্থাপন করুন" />
+			<text id="NEW" value="নতুন" />
+			<text id="SAVE_AS" value="এভাবে সংরক্ষণ করুন..." />
+			<text id="HELP" value="সাহায্য" />
+			<text id="EDIT" value="সম্পাদনা" />
+			<text id="SEARCH" value="অনুসন্ধাণ" />
+			<text id="GOTO" value="নিয়ে চলুন" />
+			<text id="VIEW" value="দর্শণ" />
+			<text id="CLOSE" value="বন্ধ" />
+			<text id="INSERT" value="প্রবেশ করুন" />
+			<text id="DETAILS" value="বিস্তারিত" />
+			<text id="MORE" value="আরো" />
+			<text id="NEXT" value="পরবর্তী" />
+			<text id="PREVIOUS" value="পূর্ববর্তী" />
+			<text id="REFRESH" value="রিফ্রেশ করুন" />
+			<text id="UPDATE" value="হালনাগাদ" />
+			<text id="SHOW" value="প্রদর্শন করুন" />
+			<text id="NAME" value="নাম" />
+			<text id="VALUE" value="মান" />
+			<text id="NUMBER" value="সূরা নম্বর" />
+			<text id="OPTION" value="অপশন" />
+			<text id="FILE" value="ফাইল" />
+			<text id="RELOAD" value="পুনরায় লোড করুন" />
+			<text id="TYPE" value="ধরণ" />
+			<text id="MESSAGE" value="বার্তা" />
+			<text id="BLOCK" value="ব্লক" />
+			<text id="LINE_BY_LINE" value="লাইন বাই লাইন" />
+			<text id="AND" value="এবং" />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="Synchronous" /> 
+			<text id="ERROR" value="ত্রুটি" />
+			<text id="LANGUAGE" value="ভাষা" />
+			<text id="ABOUT" value="জেকর সম্পর্কে" />
+			<text id="PRINT" value="প্রিন্ট করুন" />
+			<text id="HOMEPAGE" value="মূলপাতা" />
+			<text id="WHOLE_QURAN" value="সম্পূর্ণ ক্বোরআন" />
+			<text id="MATCH_DIACRITIC" value="আরবী মিলিয়ে নিন" /> <!-- ভাল শব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="MATCH_CASE" value="অক্ষর মিলিয়ে নিন" /> <!-- ভাল শব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="NEXT_AYA" value="পরবর্তী আয়াত" />
+			<text id="NEXT_SURA" value="পরবর্তী সূরা" />
+			<text id="PREV_AYA" value="পূর্ববর্তী আয়াত" />
+			<text id="PREV_SURA" value="পরবর্তী সূরা" />
+			<text id="THEME" value="থিম" />
+			<text id="LAYOUT" value="বিন্যাস" />
+			<text id="TOOLS" value="সরঞ্জামাদি" />
+			<text id="ADD" value="যুক্ত করুন" />
+			<text id="DELETE" value="মুছে ফেলুন" />
+			<text id="REMOVE" value="সরিয়ে দিন" />
+			<text id="TRANSLATION" value="অনুবাদ" />
+			<text id="TRANSLATION_VIEWTYPE" value="অনুবাদ বিন্যাস" />
+			<text id="OPEN" value="খুলুন" />
+			<text id="IMPORT" value="ইমপোর্ট করুন" />
+			<text id="COPY" value="কপি" />
+			<text id="SEPARATE" value="পৃথকভাবে" /> <!-- প্রচলিত ভাল কোন বাংলা প্রতিশব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="MIXED" value="মিশ্র" />
+			<text id="OPTIONS" value="অপশন" />
+			<text id="QUESTION" value="প্রশ্ন" />
+			<text id="FONT" value="ফন্ট" />
+			<text id="GENERAL" value="সাধারণ" />
+			<text id="EXIT" value="প্রস্থান" />
+			<text id="EXCLUDE" value="বাদ দিন" />
+			<text id="TRUE" value="সত্য" />
+			<text id="FALSE" value="মিথ্যা" />
+			<text id="SELECT" value="নির্বাচন করুন" />
+			<text id="EXPORT" value="এক্সপোর্ট করুন" />
+			<text id="IMPORT" value="ইমপোর্ট করুন" />
+			<text id="DESCRIPTION" value="বর্ণনা" />
+			<text id="BOOKMARKS" value="বুকমার্ক" />
+			<text id="CONFIGURE" value="কনফিগার" /> <!-- প্রচলিত ভাল কোন বাংলা প্রতিশব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="EDIT_BOOKMARK_SET" value="বুকমার্ক সম্পাদনা করুন" />
+			<text id="MANAGE_BOOKMARK_SETS" value="বুকমার্ক ম্যানেজ করুন" /> <!-- পরিচালনা থেকে ম্যানেজ শব্দটির সাথেই আমরা বেশি পরিচিত - তাই এখানে সরাসরি ইংরেজির উচ্চারনটি দেয়া হলো -->
+			<text id="DIRECTION" value="অভিমুখ" /> <!-- ভাল কোন বাংলা প্রতিশব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="LANG_DIRECTION" value="ভাষার অভিমুখ" /> <!-- ভাল কোন বাংলা প্রতিশব্দ পেলে তা দ্বারা প্রতিস্থাপন করা যেতে পারে -->
+			<text id="RTL" value="ডান থেকে বাম" />
+			<text id="LTR" value="বাম থেকে ডান" />
+			<text id="AUTHOR" value="লেখক" />
+			<text id="VERSION" value="সংস্করণ" />
+			<text id="RANDOM_AYA" value="দৈবভাবে যেকোন আয়াত" />
+			<text id="UNTITLED" value="নামবিহীন" />
+			<text id="SET_DEFAULT" value="ডিফল্ট হিসেবে নির্ধারণ করুন" />
+			<text id="NOT_LOADED" value="লোড হয়নি" />
+			<text id="ID" value="আইডি" />
+			<text id="OVERWRITE" value="Overwrite" />
+			<text id="SAVE" value="সংরক্ষণ করুন" />
+			<text id="PATH" value="Path" />
+			<text id="SHOW_REFS" value="তথ্যসূত্র প্রদর্শন করুন" />
+			<text id="MOVE_UP" value="উপরে তুলুন" />
+			<text id="MOVE_DOWN" value="নিচে নামান" />
+			<text id="MULTI_TRANS" value="একাধিক অনুবাদ" />
+			<text id="CONFIG_CUSTOM_TRANS" value="কাস্টম অনুবাদের কনফিগারেশন" />
+			<text id="GO" value="যান" />
+			<text id="CAUTION" value="সতর্কতা" />
+			<text id="ADVANCED" value="উন্নততর" />
+			<text id="QUERY_DETAIL" value="অনুসন্ধাণের বিস্তারিত" />
+			<text id="PAGE" value="পারা" /> <!-- ইংরেজি ভার্সনে এটিতে ভুল করা হয়েছে। Page-এর স্থলে Juz হবে  -->
+			<text id="MULTILINE" value="একাধিক লাইন" />
+			<text id="TOGGLE" value="অদলবদল করুন" />
+			<text id="AUDIO" value="অডিও" />
+			<text id="CONTINUOUS" value="ক্রমাগত" />
+			<text id="DISCRETE" value="বিচ্ছিন্ন" />
+			<text id="PLAY" value="বাজান" />
+			<text id="PAUSE" value="বিরতি নিন" />
+			<text id="STOP" value="বন্ধ করুন" />
+			<text id="RECITATION" value="তেলাওয়াত" />
+			<text id="MENU_NEXT_AYA" value="পরবর্তী আয়াত" />
+			<text id="MENU_NEXT_SURA" value="পরবর্তী সূরা" />
+			<text id="MENU_PREV_AYA" value="পূর্ববর্তী আয়াত" />
+			<text id="MENU_PREV_SURA" value="পূর্ববর্তী সূরা" />
+			<text id="MENU_NEXT_JUZ" value="পরবর্তী পারা" />
+			<text id="MENU_PREV_JUZ" value="পূর্ববর্তী পারা" />
+			<text id="MENU_NEXT_HIZBQ" value="এ পারার পরবর্তী চতুর্থাংশ" />
+			<text id="MENU_PREV_HIZBQ" value="এ পারার পূর্ববর্তী চতুর্থাংশ" />
+			<text id="MENU_NEXT_SAJDA" value="পরবর্তী সিজদা" />
+			<text id="MENU_PREV_SAJDA" value="পূর্ববর্তী সিজদা" />
+			<text id="MENU_NEXT_PAGE" value="পরবর্তী পাতা"   />
+			<text id="MENU_PREV_PAGE" value="পূর্ববর্তী পাতা"   />
+			<text id="CHECK4UPDATE" value="আপডেট চেক করুন"   />
+			<text id="ASCENDING" value="Ascending"   />
+			<text id="DESCENDING" value="Descending"   />
+			<text id="REVEL_ORDER" value="নাযিল হওয়ার ক্রম অনুযায়ী"   />
+			<text id="FULL_SCREEN" value="পূরো পর্দা"   />
+			<text id="WARNING" value="সতর্কতা"   />
+			<text id="ONLINE_HELP" value="অনলাইন সাহায্য"   />
+			<text id="PAGING_MODE" value="পৃষ্ঠা বিন্যাস"   />
+			<text id="PANEL" value="প্যানেল"   />
+			<text id="DETAIL_PANEL" value="বিস্তারিত প্যানেল"   />
+			<text id="REPEAT" value="পুনরাবৃত্তি"   />
+			<text id="ROOT" value="শব্দমূল"   /> <!-- word root -->
+			<text id="ADDRESS" value="ঠিকানা"   />
+			<text id="BOOKMARK_THIS_AYA" value="আয়াতটিকে বুকমার্ক হিসেবে যোগ করুন"   />
+			<text id="AUDIO_PLAYER" value="অডিও প্লেয়ার"   />
+			<text id="PLAYING" value="তেলাওয়াত হচ্ছে"   /> <!-- শাব্দিক অর্থ মানানসই না হওয়ায় বিস্তারিত দেয়া হলো। কেননা এ সফটওয়্যারটিতে প্লেয়িং বলতে তেলাওয়াত হওয়াকেই বুঝানো হয় -->
+			<text id="PAUSED" value="বিরত আছে"   />
+			<text id="STOPPED" value="বন্ধ আছে"   />
+			<text id="RECITER" value="ক্বারী"   />
+            <text id="ONLINE" value="অনলাইন"   />
+            <text id="OFFLINE" value="অফলাইন"   />
+            <text id="SMALLER" value="আরো ছোট"   />
+            <text id="LARGER" value="আরো বড়"   />
+		</common>
+		<special>
+			<text id="QURAN" value="ক্বোরআন" />
+			<text id="QURAN_VIEWTYPE" value="ক্বোরআনের বিন্যাস" />
+			<text id="SURA" value="সূরা" />
+			<text id="AYA" value="আয়াত" />
+			<text id="SAJDA" value="সিজদা" />
+			<text id="JUZ" value="পারা" />
+			<text id="HIZB" value="হিজব" />
+			<text id="QUARTER" value="চতুর্থাংশ" />
+            <text id="HIZB_QUARTER" value="হিজব চতুর্থাংশ"   />
+			<text id="MAKKI" value="মক্কী" />
+			<text id="MADANI" value="মাদানী" />
+			<text id="DESCENT" value="নাজিলের দিক থেকে সূরাটি" />
+			<text id="AYA_COUNT" value="আয়াত সংখ্যা" />
+			<text id="MINOR_SAJDA" value="মোস্তাহাব সিজদা" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="ওয়াজিব সিজদা" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="অবস্থান" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+            <text id="AUDHUBILLAH" value="আ'উযুবিল্লাহ"   />
+            <text id="BISMILLAH" value="বিছমিল্লাহ"   />
+            <text id="SADAGHALLAH" value="সাদাকাল্লাহ"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="'{1}'-এর জন্য অনুসন্ধাণ তথ্য " />
+			<text id="SEARCH_RESULT_COUNT" value="{2}টি আয়াতে {1}টি ফলাফল পাওয়া গেছে।" />
+			<text id="SEARCH_PAGE" value="{2}টি পৃষ্ঠার মধ্যে {1}নং পৃষ্ঠা " />
+			<text id="TOO_MANY_RESULT" value="Search result is more than {1} ayas" />
+			<text id="FILE_ALREADY_EXISTS" value="'{1}' নামে আরো একটি ফাইল আগে থেকেই আছে। আপনি কি নতুনটি দিয়ে পুরাতনটিকে প্রতিস্থাপন করতে চান?" />
+			<text id="RESTART_APP" value="এখন যেসব পরিবর্তন করলে সেগুলোর কার্যকারিতা দেখার জন্য সফটওয়্যারটি বন্ধ করে পুনরায় চালু করুন। " />
+			<text id="ACTION_PERFORMED" value="কাজটি সফলভাবে সম্পন্ন হয়েছে। "   />
+			<text id="TRANSLATION_ADDED" value="{1} মেনুর অধীনে নিম্নস্থ অনুবাদটি যোগ করা হয়েছে"   />
+			<text id="RECITATION_ADDED" value="{1} মেনুর অধীনে নিম্নস্থ তেলাওয়াতটি যোগ করা হয়েছে"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="আপনি কি নিশ্চিত?" />
+			<text id="DEL_YES_NO" value="{1}টি স্থায়ীভাবে মুছে ফেলতে চাচ্ছেন?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="অনাকাঙ্খিত একটি ত্রুটি সংঘটিত হয়েছে" />
+			<text id="FNF" value="ফাইলটি পাওয়া যায়নি" />
+			<text id="ACTION_FAILED" value="কার্যক্রম নিষ্ফল!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="অকার্যকর অনুবাদ ফরম্যাট: {1}"   />
+			<text id="INVALID_RECITATION_FORMAT" value="অকার্যকর তেলাওয়াত ফরম্যাট: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="'{1}'  রিসোর্সটি পুরানো ({2} তারিখে হালনাগাদকৃত)। নতুন ভার্সন ({3}) ইতোমধ্যে ইন্সটল করা হয়েছে।" />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="অকার্যকর অনুবাদ স্বাক্ষর: {1}"   />
+			<text id="TRANSLATION_LOAD_FAILED" value="নিম্নস্থ সমস্যার কারণে '{1}' অনুবাদটি লোড করা সম্ভব হয়নি: {2}"   />
+			<text id="RECITATION_LOAD_FAILED" value="নিম্নবর্ণিত সমস্যার কারণে '{1}' তেলাওয়াতটি লোড করা সম্ভব হয়নি: {2}"   />
+			<text id="ENTER_VALID_NUMBER" value="অনুগ্রহপূর্বক সঠিক নম্বর টাইপ করুন।"   />
+			<text id="NUMBER_LIMIT" value="অনুগ্রহপূর্বক '{1}' এবং '{2}'-এর মধ্যে নম্বর টাইপ করুন।"   />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="জেকর" />
+			<text id="APP_FULL_NAME" value="দি জেকর ক্বোরআনিক প্রজেক্ট" />
+			<text id="FORM_TITLE" value="জেকর" />
+			<text id="COPYRIGHT_DISCLAIMER" value="ব্যবহারকারীগণ উপকৃত হবেন এ প্রত্যাশায় সফটওয়্যারটি বিনামূল্যে বিতরন করা হয়েছে। তবে এর দ্বারা কম্পিউটার ক্ষতিগ্রস্ত হবে কিনা সে বিষয়ে আমরা নিশ্চয়তা দিতে পারছি না।" />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="জেকর" />
+			<text id="NEW_SCOPE" value="New Scope" />
+			<text id="EDIT_SCOPES" value="Edit Scopes" />
+			<text id="NO_SCOPE" value="No Scope" />
+			<text id="CURRENT_PAGE" value="বর্তমান পাতা" />
+			<text id="QURAN_SCOPE" value="ক্বোরআন" />
+			<text id="TRANSLATION_SCOPE" value="অনুবাদ" />
+			<text id="NATURAL_ORDER" value="স্বাভাবিক নিয়মে" />
+			<text id="RELEVANCE" value="Relevance" />
+			<text id="AYA_LENGTH" value="আয়াতের দৈর্ঘ্য"   />
+			<text id="SORT_BY" value="Sort by"   />
+			<text id="TOGGLE_FULL_SCREEN" value="Toggle full screen"   />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="থীম" />
+			<text id="GENERAL_OPTIONS" value="সাধারণ" />
+			<text id="VIEW_OPTIONS" value="দর্শন" />
+            <text id="AUDIO_OPTIONS" value="অডিও" />
+			<text id="TITLE" value="Application Options" />
+			<text id="SHOW_SPLASH" value="সফটওয়্যার চালু করার সময় লোগো দেখাবেন" />
+			<text id="NEW_KEY" value="Enter a new key" />
+			<text id="THEME_SETTING" value="থীম সেটিং" />
+			<text id="PRESS_OK_TO_APPLY" value="পরিবর্তন প্রয়োগ করার জন্য 'OK' বাটনে ক্লিক করুন।" />
+			<text id="MAX_SEARCH_RESULT" value="সর্বোচ্চ অনুসন্ধাণ সংখ্যা" />
+			<text id="RESIZEABLE_TASK_PANE" value="সাইজ পরিবর্তনযোগ্য টাস্ক পেন" />
+			<text id="SURA_NAMES" value="সূরার নাম যেভাবে দেখাবেন:"   />
+			<text id="ARABIC" value="আরবী"   />
+			<text id="EN_T9N" value="ইংরেজি অনুবাদ"   />
+			<text id="EN_T13N" value="ইংরেজি অক্ষরে উচ্চারণ"   />
+			<text id="T9N" value="অনুবাদ (যদি থাকে)"   />
+			<text id="T13N" value="উচ্চারণ(যদি থাকে)"   />
+			<text id="ENABLE_AUDIO" value="অডিও সাপোর্ট সক্রিয় করুন"   />
+			<text id="SURA_NAME_TREE" value="Display sura names in a tree"   />
+            <text id="SMART" value="যথোপযোগী" />
+            <text id="ALWAYS" value="সবসময়" />
+            <text id="NEVER" value="কখনও না" />
+            <text id="PLAY_MODE" value="তেলাওয়াত পদ্ধতি" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Configure Search Scope" />
+			<text id="SEARCH_SCOPE" value="Search scope" />
+			<text id="FROM_SURA" value="সূরা থেকে" />
+			<text id="FROM_AYA" value="আয়াত থেকে" />
+			<text id="TO_SURA" value="সূরাতে" />
+			<text id="TO_AYA" value="আয়াতে" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Illegal search scope items" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Edit Search Scopes" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Edit Bookmark Set: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="New bookmark folder" />
+			<text id="NEW_BOOKMARK_ITEM" value="New bookmark item" />
+			<text id="UNIQUE_NAME" value="একটি মৌলিক নাম" />
+			<text id="COMMA_SEPARATED" value="কমা ব্যবহার করে একাধিক লেখককে আলাদা করুন" />
+			<text id="ONLY_ENGLISH" value="শুধুমাত্র ইংরেজি নাম ব্যবহার করুন (যেমন- English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Conventions, quotes, references, and other bookmark-related topics go here" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Manage Bookmark Sets" />
+			<text id="DBL_CLICK" value="Double click on items to load and/or edit them." />
+			<text id="SET_AS_DEFAULT" value="Do you want to set '{1}' as your default bookmark set?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Cannot remove default bookmark." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Cannot overwrite on the default bookmark set. Select another bookmark set as default, and try to import." />
+			<text id="ENTER_ID" value="Enter the bookmark ID" />
+			<text id="NEW_BOOKMARK_SET" value="New Bookmark Set" />
+			<text id="EXPORT4WEB" value="ওয়েবের জন্য এক্সপোর্ট করুন" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="বুকমার্ক সম্পাদনা করুন" />
+			<text id="QURAN_LOCATIONS" value="Quran locations" />
+			<text id="NEW_BOOKMARK" value="নতুন বুকমার্ক" />
+			<text id="NEW_FOLDER" value="নতুন ফোল্ডার" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Bookmark References To: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="নিম্নবর্ণিত ব্যবহারকারীর জন্য ইম্পোর্ট করুন:" />
+			<text id="ME_ONLY" value="শুধুমাত্র আমার জন্য" />
+			<text id="ALL_USERS" value="সকল ব্যবহারকারীর জন্য (ইন্সটলেশন ডিরেক্টরিতে প্রবেশাধিকার থাকতে হবে)" />
+			<text id="FOLLOWING_USERS" value="নিম্নবর্ণিত ব্যবহারকারীর জন্য সূচিপত্র তৈরি করুন" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="ব্যবহার করবেন না" />
+			<text id="ADD_CUSTOM" value="ব্যবহার করুন" />
+			<text id="TITLE" value="Configure Custom Translations" />
+			<text id="AVAILABLE" value="আপনার কম্পিউটারে যেসব অনুবাদ রয়েছে:" />
+			<text id="CURRENT" value="যেসব অনুবাদ বর্তমানে ব্যবহৃত হচ্ছে:" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="অনুগ্রহপূর্বক অপেক্ষা করুন" />
+			<text id="INDEXING" value="Indexing" /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="This action may take several minutes, based on the size of the document being indexed." />
+			<text id="CHECKING" value="আপডেটের জন্য চেক করা হচ্ছে" />
+			<text id="ZEKR_IS_CHECKING" value="হালনাগাদ কিছু আছে কিনা জেকর তা চেক করছে" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="জেকর সম্পর্কে" />
+			<text id="VIEW_LOG" value="লগ ফাইল দেখুন" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="আপডেট সংক্রান্ত তথ্য" />
+			<text id="VERSION_INFO" value="সংস্করণ সংক্রান্ত তথ্য" />
+			<text id="BUILD_NUM" value="Build number" />
+			<text id="VERSION" value="সংস্করণ" />
+			<text id="RELEASE_NAME" value="Release name" />
+			<text id="RELEASE_STATE" value="Build state" />
+			<text id="RELEASE_DATE" value="Release date" />
+			<text id="RELEASE_NOTES" value="Release notes" />
+			<text id="DOWNLOAD" value="ডাউনলোড" />
+			<text id="MORE_INFO" value="আরো তথ্য" />
+			<text id="NO_UPDATE" value="আপনি নতুন সংস্করনটি ব্যবহার করছেন।" />
+			<text id="NEW_DEV_AVAILABLE" value="A newer development version (unstable) is available for download" />
+			<text id="NEW_BETA_AVAILABLE" value="A newer beta version (unstable) is available for download" />
+			<text id="NEW_FINAL_AVAILABLE" value="A newer release (final) is available for download" />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="Paging Mode"   />
+			<text id="SURA" value="সূরা"   />
+			<text id="HIZB_QUARTER" value="হিযব চতুর্থাংশ"   />
+			<text id="JUZ" value="পারা"   />
+			<text id="CONST_AYA" value="Constant Aya Count"   />
+			<text id="CUSTOM" value="Custom"   />
+			<text id="AYA_PER_SURA" value="প্রত্যেক পাতায় কতটি আয়াত দেখানো হবে?"   />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="অডিও প্লেয়ার"   />
+			<text id="SECOND_ABBR" value="সেকেন্ড"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="সেকেন্ড"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="বিরতিকাল"   />
+			<text id="REPEAT" value="পুনরাবৃত্তি"   />
+			<text id="NO_INTERVAL" value="বিরতি নিবে না"   />
+			<text id="NO_REPEAT" value="পুনরাবৃত্তি হবে না"   />
+            <text id="VOLUME" value="ভলিউম"   />
+            <text id="TIMES" value="{1} বার"   />
+            <text id="PLAY_SCOPE" value="Play Scope"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="নিয়ে যান"   />
+            <text id="GOTO" value="নিয়ে যান"   />
+            <text id="REVIEW" value="পর্যালোচনা"   />
+            <text id="JUZ" value="পারা"   />
+            <text id="SURA_ORDER" value="সূরা অনুযায়ী"   />
+            <text id="HIZB_QUARTER" value="হিযব চতুর্থাংশ"   />
+            <text id="SURA_AYA" value="সূরা:আয়াত (যেমন ৩৩:৭০)"   />
+            <text id="NORMAL" value="সাধারণ"   />
+            <text id="REVELATION" value="Revelation ({1})"   />
+        </form>
+	</forms>
+</language>

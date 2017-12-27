@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Ahamed Saifudeen" version="0.1">
+    <locale localizedName="தமிழ்" name="Tamil" id="ta_IN" direction="ltr" />
+    <word>
+        <common>
+            <text id="OK" value="சரி" />
+            <text id="CANCEL" value="இரத்து செய்" />
+            <text id="YES" value="ஆமாம்" />
+            <text id="NO" value="இல்லை" />
+            <text id="APPLY" value="செயற்படுத்துக" />
+            <text id="START" value="Start" />
+            <text id="RESET" value="Reset" />
+            <text id="NEW" value="New" />
+            <text id="SAVE_AS" value="சேமி" />
+            <text id="HELP" value="Help" />
+            <text id="EDIT" value="Edit" />
+            <text id="SEARCH" value="தேடல்" />
+            <text id="GOTO" value="Go To" />
+            <text id="VIEW" value="View" />
+            <text id="CLOSE" value="மூடு" />
+            <text id="INSERT" value="Insert" />
+            <text id="DETAILS" value="விபரம்" />
+            <text id="MORE" value="மேலும்" />
+            <text id="NEXT" value="அடுத்து" />
+            <text id="PREVIOUS" value="Previous" />
+            <text id="REFRESH" value="Refresh" />
+            <text id="UPDATE" value="Update" />
+            <text id="SHOW" value="Show" />
+            <text id="NAME" value="பெயர்" />
+            <text id="VALUE" value="Value" />
+            <text id="NUMBER" value="வசன எண்" />
+            <text id="OPTION" value="Option" />
+            <text id="FILE" value="File" />
+            <text id="RELOAD" value="Reload" />
+            <text id="TYPE" value="Type" />
+            <text id="MESSAGE" value="Message" />
+            <text id="BLOCK" value="மொத்தமாக" />
+            <text id="LINE_BY_LINE" value="வரி வரியாக" />
+            <text id="AND" value="and" />
+            <text id="COMMA" value="," />
+            <text id="SYNCHRONOUS" value="Synchronous" />
+            <text id="ERROR" value="Error" />
+            <text id="LANGUAGE" value="மொழி" />
+            <text id="ABOUT" value="என்னை பற்றி" />
+            <text id="PRINT" value="அச்சிடு" />
+            <text id="HOMEPAGE" value="முகப்பு" />
+            <text id="WHOLE_QURAN" value="முழு குர்ஆன்" />
+            <text id="MATCH_DIACRITIC" value="Match diacritic" />
+            <text id="MATCH_CASE" value="Match case" />
+            <text id="NEXT_AYA" value="அடுத்த வசனம்" />
+            <text id="NEXT_SURA" value="அடுத்த சூரா" />
+            <text id="PREV_AYA" value="முந்தய வசனம்" />
+            <text id="PREV_SURA" value="முந்தய சூரா" />
+            <text id="THEME" value="தீம் (Theme)" />
+            <text id="LAYOUT" value="அமைப்பு" />
+            <text id="TOOLS" value="Tools" />
+            <text id="ADD" value="சேர் (Add)" />
+            <text id="DELETE" value="நீக்கு (Delete)" />
+            <text id="REMOVE" value="எடு (Remove)" />
+            <text id="TRANSLATION" value="மொழிபெயர்ப்பு" />
+            <text id="TRANSLATION_VIEWTYPE" value="மொழிபெயர்ப்பு அமைப்பு" />
+            <text id="OPEN" value="திற (Open)" />
+            <text id="IMPORT" value="இறக்கு (Import)" />
+            <text id="COPY" value="காப்பி (Copy)" />
+            <text id="SEPARATE" value="தனித்தனி" />
+            <text id="MIXED" value="கலவை (குர்ஆன் மற்றும் மொழிபெயர்ப்பு)" />
+            <text id="OPTIONS" value="தேர்வுகள் (Options)" />
+            <text id="QUESTION" value="கேள்வி" />
+            <text id="FONT" value="Font" />
+            <text id="GENERAL" value="General" />
+            <text id="EXIT" value="வெளியேறு" />
+            <text id="EXCLUDE" value="Exclude" />
+            <text id="TRUE" value="True" />
+            <text id="FALSE" value="False" />
+            <text id="SELECT" value="தேர்வு" />
+            <text id="EXPORT" value="ஏற்று (Export)" />
+            <text id="IMPORT" value="இறக்கு (Import)" />
+            <text id="DESCRIPTION" value="விபரம்" />
+            <text id="BOOKMARKS" value="Bookmarks" />
+            <text id="CONFIGURE" value="Configure" />
+            <text id="EDIT_BOOKMARK_SET" value="புக்மார்க்களை மாற்று" />
+            <text id="MANAGE_BOOKMARK_SETS" value="புக்மார்க்களை நிர்வகி" />
+            <text id="DIRECTION" value="எழுத்து திசை" />
+            <text id="LANG_DIRECTION" value="Language direction" />
+            <text id="RTL" value="வலது" />
+            <text id="LTR" value="இடது" />
+            <text id="AUTHOR" value="உருவாக்கியவர்" />
+            <text id="VERSION" value="Version" />
+            <text id="RANDOM_AYA" value="Random வசனம்" />
+            <text id="UNTITLED" value="Untitled" />
+            <text id="SET_DEFAULT" value="Set as default" />
+            <text id="NOT_LOADED" value="Not loaded" />
+            <text id="ID" value="ID" />
+            <text id="OVERWRITE" value="Overwrite" />
+            <text id="SAVE" value="சேமி" />
+            <text id="PATH" value="திற" />
+            <text id="SHOW_REFS" value="Show References" />
+            <text id="MOVE_UP" value="மேலே செல்" />
+            <text id="MOVE_DOWN" value="கீழே செல்" />
+            <text id="MULTI_TRANS" value="பல மொழிபெயர்ப்பு" />
+            <text id="CONFIG_CUSTOM_TRANS" value="Configure Custom Translations" />
+            <text id="GO" value="செல்" />
+            <text id="CAUTION" value="எச்சரிக்கை" />
+            <text id="ADVANCED" value="Advanced தேடல்" />
+            <text id="QUERY_DETAIL" value="தேடல் விபரம்" />
+            <text id="PAGE" value="பக்கம்" />
+            <text id="MULTILINE" value="பல வரிகள்" />
+            <text id="TOGGLE" value="Toggle" />
+            <text id="AUDIO" value="Audio" />
+            <text id="CONTINUOUS" value="தொடர்ச்சியாக" />
+            <text id="DISCRETE" value="Discrete" />
+            <text id="PLAY" value="ஒது" />
+            <text id="PAUSE" value="ஃபாஸ் செய்" />
+            <text id="STOP" value="நிறுத்து" />
+            <text id="RECITATION" value="கிராஆத்" />
+            <text id="MENU_NEXT_AYA" value="அடுத்த வசனம்" />
+            <text id="MENU_NEXT_SURA" value="அடுத்த சூரா" />
+            <text id="MENU_PREV_AYA" value="முந்தய வசனம்" />
+            <text id="MENU_PREV_SURA" value="முந்தய சூரா" />
+            <text id="MENU_NEXT_JUZ" value="அடுத்த ஜூஸ்வு" />
+            <text id="MENU_PREV_JUZ" value="முந்தய ஜூஸ்வு" />
+            <text id="MENU_NEXT_HIZBQ" value="Next Hiz&amp;b Quarter" />
+            <text id="MENU_PREV_HIZBQ" value="Previous Hi&amp;zb Quarter" />
+            <text id="MENU_NEXT_SAJDA" value="அடுத்த ஸஜ்தா" />
+            <text id="MENU_PREV_SAJDA" value="முந்தய ஸஜ்தா" />
+            <text id="MENU_NEXT_PAGE" value="அடுத்த பக்கம்" />
+            <text id="MENU_PREV_PAGE" value="முந்தய பக்கம்" />
+            <text id="CHECK4UPDATE" value="Check for update" />
+            <text id="ASCENDING" value="ஏறுவரிசை" />
+            <text id="DESCENDING" value="இறங்குவரிசை" />
+            <text id="REVEL_ORDER" value="வஹீ இறங்கிய வரிசை" />
+            <text id="FULL_SCREEN" value="முழு திரை" />
+            <text id="WARNING" value="எச்சரிக்கை" />
+            <text id="ONLINE_HELP" value="ஆன்லைன் உதவி" />
+            <text id="PAGING_MODE" value="பக்கத்தின் அமைப்பு" />
+            <text id="PANEL" value="Panel" />
+            <text id="DETAIL_PANEL" value="சூரா விபரம்" />
+            <text id="REPEAT" value="Repeat" />
+            <text id="ROOT" value="மூலச்சொல் தேடல்" /> <!-- word root -->
+            <text id="ADDRESS" value="Address" />
+            <text id="BOOKMARK_THIS_AYA" value="இந்த வசனத்தை புக்மார்க் செய்" />
+            <text id="AUDIO_PLAYER" value="ஆடியோ Player" />
+            <text id="PLAYING" value="கிராஆத் ஒதப்படுகிறது" />
+            <text id="PAUSED" value="கிராஆத் ஃபாஸ் செய்யப்பட்டுள்ளது" />
+            <text id="STOPPED" value="கிராஆத் நிறுத்தப்பட்டுள்ளது" />
+            <text id="RECITER" value="காரி" />
+            <text id="ONLINE" value="ஆன்லைன்" />
+            <text id="OFFLINE" value="ஆஃப்லைன்" />
+        </common>
+        <special>
+            <text id="QURAN" value="குர்ஆன்" />
+            <text id="QURAN_VIEWTYPE" value="குர்ஆன் அமைப்பு" />
+            <text id="SURA" value="சூரா" />
+            <text id="AYA" value="வசனம்" />
+            <text id="SAJDA" value="ஸஜ்தா" />
+            <text id="JUZ" value="ஜூஸ்வு" />
+            <text id="HIZB" value="Hizb" />
+            <text id="QUARTER" value="Quarter" />
+            <text id="MAKKI" value="மக்கி" />
+            <text id="MADANI" value="மதனி" />
+            <text id="DESCENT" value="Descent" />
+            <text id="AYA_COUNT" value="வசன எண்ணிக்கை" />
+            <text id="MINOR_SAJDA" value="பரிந்துரைக்கப்பட்ட ஸஜ்தா" /><!-- Mustahab Sajda -->
+            <text id="MAJOR_SAJDA" value="கட்டாய ஸஜ்தா" /><!-- Wajib Sajda -->
+            <text id="LOCATION" value="இடம்" />
+            <!--
+                means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12
+            -->
+        </special>
+    </word>
+
+    <message>
+        <inform>
+            <text id="SEARCH_RESULT_TITLE" value="Search result for: '{1}'" />
+            <text id="SEARCH_RESULT_COUNT" value="{1} results found in {2} ayas." />
+            <text id="SEARCH_PAGE" value="Page {1} of {2}" />
+            <text id="TOO_MANY_RESULT" value="Search result is more than {1} ayas" />
+            <text id="FILE_ALREADY_EXISTS" value="A file with the name '{1}' already exists. Do you want to replace it?" />
+            <text id="RESTART_APP" value="You need to restart the application for the changes to take effect." />
+            <text id="ACTION_PERFORMED" value="Action performed successfully." />
+            <text id="TRANSLATION_ADDED" value="The following translations added under {1} menu" />
+            <text id="RECITATION_ADDED" value="The following recitations added under {1} menu" />
+        </inform>
+        <confirm>
+            <text id="YES_NO" value="Are you sure?" />
+            <text id="DEL_YES_NO" value="Permanently delete {1} item(s)?" />
+        </confirm>
+        <error>
+            <text id="GENERAL_ERROR" value="An unexpected error occurred" />
+            <text id="FNF" value="File not found" />
+            <text id="ACTION_FAILED" value="Action failed!" />
+            <text id="INVALID_TRANSLATION_FORMAT" value="Invalid tranalation format: {1}" />
+            <text id="INVALID_RECITATION_FORMAT" value="Invalid recitation format: {1}" />
+            <text id="NEWER_VERSION_INSTALLED" value="Resource '{1}' is out of date (updated on: {2}). A newer version ({3}) is already installed." />
+            <text id="INVALID_TRANSLATION_SIGNATURE" value="Invalid translation signature: {1}" />
+            <text id="TRANSLATION_LOAD_FAILED" value="Loading translation '{1}' failed because of the following error: {2}" />
+            <text id="RECITATION_LOAD_FAILED" value="Loading recitation '{1}' failed because of the following error: {2}" />
+            <text id="ENTER_VALID_NUMBER" value="Please enter a valid number." />
+            <text id="NUMBER_LIMIT" value="Please enter a number between '{1}' and '{2}'." />
+        </error>
+        <hint></hint>
+    </message>
+
+    <forms>
+        <global>
+            <text id="APP_NAME" value="Zekr" />
+            <text id="APP_FULL_NAME" value="The Zekr Quranic Project" />
+            <text id="FORM_TITLE" value="Zekr" />
+            <text id="COPYRIGHT_DISCLAIMER"
+                value="This program is distributed freely in the hope that it will be helpful, but without any warranty." />
+        </global>
+        <form id="QURAN_FORM">
+            <text id="TITLE" value="Zekr" />
+            <text id="NEW_SCOPE" value="New Scope" />
+            <text id="EDIT_SCOPES" value="Edit Scopes" />
+            <text id="NO_SCOPE" value="No Scope" />
+            <text id="CURRENT_PAGE" value="Current page" />
+            <text id="QURAN_SCOPE" value="குர்ஆன்" />
+            <text id="TRANSLATION_SCOPE" value="மொழிபெயர்ப்பு" />
+            <text id="NATURAL_ORDER" value="Natural Order" />
+            <text id="RELEVANCE" value="Relevance" />
+            <text id="AYA_LENGTH" value="Aya Length" />
+            <text id="SORT_BY" value="வரிசை முறை" />
+            <text id="TOGGLE_FULL_SCREEN" value="முழு திரையை மூடு" />
+        </form>
+        <form id="OPTIONS_FORM">
+            <text id="THEME_OPTIONS" value="Theme" />
+            <text id="GENERAL_OPTIONS" value="General" />
+            <text id="VIEW_OPTIONS" value="View" />
+            <text id="TITLE" value="Application Options" />
+            <text id="SHOW_SPLASH" value="Display logo at startup" />
+            <text id="NEW_KEY" value="Enter a new key" />
+            <text id="THEME_SETTING" value="Theme settings" />
+            <text id="PRESS_OK_TO_APPLY" value="நீங்கள் மாற்றிய தேர்வுகளை அமல் செய்ய ''சரி'' பட்டனை அழுத்தவும்." />
+            <text id="MAX_SEARCH_RESULT" value="அதிகபட்ச தேடுதல் முடிவு எண்ணிக்கை" />
+            <text id="RESIZEABLE_TASK_PANE" value="Resizeable task pane" />
+            <text id="SURA_NAMES" value="சூராவின் பெயர்களை இப்படி காண்பி" />
+            <text id="ARABIC" value="அரபி" />
+            <text id="EN_T9N" value="ஆங்கில மொழிபெயர்ப்பு" />
+            <text id="EN_T13N" value="English Transliteration" />
+            <text id="T9N" value="Translation (if available)" />
+            <text id="T13N" value="Transliteration (if available)" />
+            <text id="ENABLE_AUDIO" value="Enable audio support" />
+            <text id="SURA_NAME_TREE" value="Display sura names in a tree" />
+        </form>
+        <form id="SEARCH_SCOPE_FORM">
+            <text id="TITLE" value="Configure Search Scope" />
+            <text id="SEARCH_SCOPE" value="Search scope" />
+            <text id="FROM_SURA" value="From sura" />
+            <text id="FROM_AYA" value="From aya" />
+            <text id="TO_SURA" value="To sura" />
+            <text id="TO_AYA" value="To aya" />
+            <text id="ILLEGAL_SEARCH_SCOPE" value="Illegal search scope items" />
+        </form>
+        <form id="MANAGE_SCOPES_FORM">
+            <text id="TITLE" value="Edit Search Scopes" />
+        </form>
+        <form id="BOOKMARK_SET_FORM">
+            <text id="TITLE" value="Edit Bookmark Set: {1}" />
+            <text id="NEW_BOOKMARK_FOLDER" value="New bookmark folder" />
+            <text id="NEW_BOOKMARK_ITEM" value="New bookmark item" />
+            <text id="UNIQUE_NAME" value="A unique name" />
+            <text id="COMMA_SEPARATED" value="Separate multiple authors by commas" />
+            <text id="ONLY_ENGLISH" value="Use only English names (e.g. English, Persian, Arabic, ...)" />
+            <text id="DESC_TOOLTIP" value="Conventions, quotes, references, and other bookmark-related topics go here" />
+        </form>
+        <form id="BOOKMARK_SET_MANAGE_FORM">
+            <text id="TITLE" value="Manage Bookmark Sets" />
+            <text id="DBL_CLICK" value="Double click on items to load and/or edit them." />
+            <text id="SET_AS_DEFAULT" value="Do you want to set '{1}' as your default bookmark set?" />
+            <text id="CANNOT_REMOVE_DEFAULT" value="Cannot remove default bookmark." />
+            <text id="CANNOT_OVERWRITE_DEFAULT"
+                value="Cannot overwrite on the default bookmark set. Select another bookmark set as default, and try to import." />
+            <text id="ENTER_ID" value="Enter the bookmark ID" />
+            <text id="NEW_BOOKMARK_SET" value="New Bookmark Set" />
+            <text id="EXPORT4WEB" value="Export for Web" />
+        </form>
+        <form id="BOOKMARK_ITEM_FORM">
+            <text id="TITLE" value="Edit Bookmark" />
+            <text id="QURAN_LOCATIONS" value="Quran locations" />
+            <text id="NEW_BOOKMARK" value="New Bookmark" />
+            <text id="NEW_FOLDER" value="New Folder" />
+        </form>
+        <form id="BOOKMARK_REF">
+            <text id="TITLE" value="Bookmark References To: {1}" />
+        </form>
+        <form id="IMPORT_QUESTION">
+            <text id="IMPORT_FOR" value="Import For The Following Users:" />
+            <text id="ME_ONLY" value="எனக்கு மட்டும்" />
+            <text id="ALL_USERS" value="எல்லா பயன்பாட்டாளர்களுக்கும் (requires write access to installation directory)" />
+            <text id="FOLLOWING_USERS" value="Index for the following users" />
+        </form>
+        <form id="CONFIG_CUSTOM_TRANS">
+            <text id="REMOVE_CUSTOM" value="பயன்படுத்தாதே" />
+            <text id="ADD_CUSTOM" value="பயன்படுத்து" />
+            <text id="TITLE" value="Configure Custom Translations" />
+            <text id="AVAILABLE" value="இருக்கும் மொழிபெயர்ப்புகள்" />
+            <text id="CURRENT" value="பயன்பாட்டில் உள்ள மொழிபெயர்ப்புகள்" />
+        </form>
+        <form id="PROGRESS">
+            <text id="PLEASE_WAIT" value="தயவுசெய்து காத்திருங்கள்..." />
+            <text id="INDEXING" value="Indexing" /><!-- The process of indexing a document for faster search -->
+            <text id="TAKE_TIME" value="இது இன்டக்ஸ் செய்யப்படும் ஃபைலின் அளவை பொறுத்து நேரம் எடுக்கும்." />
+            <text id="CHECKING" value="Cheking For Updates" />
+            <text id="ZEKR_IS_CHECKING" value="திக்ர் சாஃபட்டுவேரின் புதிய பாதிப்பு எதுவும் வெளியிடப்பட்டுள்ளதா என்று பார்க்கப்படுகிறது." />
+        </form>
+        <form id="ABOUT">
+            <text id="TITLE" value="About Zekr" />
+            <text id="VIEW_LOG" value="View Log File" />
+        </form>
+        <form id="UPDATE">
+            <text id="TITLE" value="Update Info" />
+            <text id="VERSION_INFO" value="Version info" />
+            <text id="BUILD_NUM" value="Build number" />
+            <text id="VERSION" value="Version" />
+            <text id="RELEASE_NAME" value="Release name" />
+            <text id="RELEASE_STATE" value="Build state" />
+            <text id="RELEASE_DATE" value="வெளியிடப்பட்ட தேதி" />
+            <text id="RELEASE_NOTES" value="Release notes" />
+            <text id="DOWNLOAD" value="தரவிறக்கு" />
+            <text id="MORE_INFO" value="அதிக விபரம்" />
+            <text id="NO_UPDATE" value="நீங்கள் பயன்படுத்தும் இந்த சஃப்ட்டுவோர் தான் புதியது." />
+            <text id="NEW_DEV_AVAILABLE" value="A newer development version (unstable) is available for download" />
+            <text id="NEW_BETA_AVAILABLE" value="A newer beta version (unstable) is available for download" />
+            <text id="NEW_FINAL_AVAILABLE" value="A newer release (final) is available for download" />
+        </form>
+        <form id="PAGING_MODE">
+            <text id="TITLE" value="Paging Mode" />
+            <text id="SURA" value="சூரா" />
+            <text id="HIZB_QUARTER" value="Hizb Quarter" />
+            <text id="JUZ" value="Juz" />
+            <text id="CONST_AYA" value="குறிப்பிட்ட வசனங்கள்" />
+            <text id="CUSTOM" value="Custom" />
+            <text id="AYA_PER_SURA" value="ஒவ்வோரு பக்கத்திலும் எத்தனை வசனங்கள் இடம் பெற வேண்டும்?" />
+        </form>
+        <form id="AUDIO_PLAYER_FORM">
+            <text id="TITLE" value="ஆடியோ Player" />
+            <text id="SECOND_ABBR" value="s" /> <!-- s stands for 'seconds', for example 1s -->
+            <text id="SECONDS" value="வினாடிகள்" /> <!--  tooltip for 's' (SECOND_ABBR) -->
+            <text id="INTERVAL" value="இடைவெளி" />
+            <text id="REPEAT" value="திரும்ப ஓது" />
+            <text id="NO_INTERVAL" value="இடைவெளி இல்லை" />
+            <text id="NO_REPEAT" value="திரும்ப ஓதாதே" />
+        </form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="Goto" />
+            <text id="GOTO" value="Goto" />
+            <text id="REVIEW" value="Review" />
+            <text id="JUZ" value="Juz" />
+            <text id="SURA_ORDER" value="சூரா வரிசை" />
+            <text id="HIZB_QUARTER" value="Hizb Quarter" />
+            <text id="SURA_AYA" value="சூரா:வசனம் (உதாரணம் 33:70)" />
+            <text id="NORMAL" value="Normal" />
+            <text id="REVELATION" value="Revelation ({1})" />
+        </form>
+    </forms>
+</language>

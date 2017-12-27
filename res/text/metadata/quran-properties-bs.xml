@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="Pristup" tname="El-Fātiha" />
+		<sura index="2" name="Krava" tname="El-Bekare" />
+		<sura index="3" name="Imranova porodica" tname="Ālu 'Imrān" />
+		<sura index="4" name="Žene" tname="En-Nisā'" />
+		<sura index="5" name="Trpeza" tname="El-Mā'ide" />
+		<sura index="6" name="Stoka" tname="El-En'ām" />
+		<sura index="7" name="Bedemi" tname="El-A'rāf" />
+		<sura index="8" name="Plijen" tname="El-Enfāl" />
+		<sura index="9" name="Pokajanje" tname="Et-Tevbe" />
+		<sura index="10" name="Junus" tname="Jūnus" />
+		<sura index="11" name="Hud" tname="Hūd" />
+		<sura index="12" name="Jusuf" tname="Jūsuf" />
+		<sura index="13" name="Grom" tname="Er-Ra'd" />
+		<sura index="14" name="Ibrahim" tname="Ibrāhīm" />
+		<sura index="15" name="Hidžr" tname="El-Hidžr" />
+		<sura index="16" name="Pčele" tname="En-Nahl" />
+		<sura index="17" name="Noćno putovanje" tname="El-Isrā'" />
+		<sura index="18" name="Pećina" tname="El-Kehf" />
+		<sura index="19" name="Merjema" tname="Merjem" />
+		<sura index="20" name="Taha" tname="Tā Hā" />
+		<sura index="21" name="Vjerovjesnici" tname="El-Enbijā'" />
+		<sura index="22" name="Hadždž" tname="El-Hadždž" />
+		<sura index="23" name="Vjernici" tname="El-Mu'minūn" />
+		<sura index="24" name="Svjetlost" tname="En-Nūr" />
+		<sura index="25" name="Furkan" tname="El-Furkān" />
+		<sura index="26" name="Pjesnici" tname="Eš-Šu'arā'" />
+		<sura index="27" name="Mravi" tname="En-Neml" />
+		<sura index="28" name="Kazivanje" tname="El-Kasas" />
+		<sura index="29" name="Pauk" tname="El-'Ankebūt" />
+		<sura index="30" name="Bizantinci" tname="Er-Rūm" />
+		<sura index="31" name="Lukman" tname="Lukmān" />
+		<sura index="32" name="Padanje ničice" tname="Es-Sedžde" />
+		<sura index="33" name="Saveznici" tname="El-Ahzāb" />
+		<sura index="34" name="Saba" tname="Sebe'" />
+		<sura index="35" name="Stvoritelj" tname="Fātir" />
+		<sura index="36" name="Jasin" tname="Jā Sīn" />
+		<sura index="37" name="Redovi" tname="Es-Sāffāt" />
+		<sura index="38" name="Sad" tname="Sād" />
+		<sura index="39" name="Skupovi" tname="Ez-Zumer" />
+		<sura index="40" name="Vjernik" tname="El-Mu'min" />
+		<sura index="41" name="Objašnjenje" tname="Fussilet" />
+		<sura index="42" name="Dogovaranje" tname="Eš-Šūrā" />
+		<sura index="43" name="Ukras" tname="Ez-Zuhruf" />
+		<sura index="44" name="Dim" tname="Ed-Duhān" />
+		<sura index="45" name="Oni koji kleče" tname="El-Džāsije" />
+		<sura index="46" name="Ahkaf" tname="El-Ahkāf" />
+		<sura index="47" name="Muhammed" tname="Muhammed" />
+		<sura index="48" name="Pobjeda" tname="El-Feth" />
+		<sura index="49" name="Sobe" tname="El-Hudžurāt" />
+		<sura index="50" name="Kaf" tname="Kāf" />
+		<sura index="51" name="Oni koji pûšū" tname="Ez-Zārijāt" />
+		<sura index="52" name="Gora" tname="Et-Tūr" />
+		<sura index="53" name="Zvijezda" tname="En-Nedžm" />
+		<sura index="54" name="Mjesec" tname="El-Kamer" />
+		<sura index="55" name="Milostivi" tname="Er-Rahmān" />
+		<sura index="56" name="Događaj" tname="El-Vāki'a" />
+		<sura index="57" name="Gvožđe" tname="El-Hadīd" />
+		<sura index="58" name="Rasprava" tname="El-Mudžādele" />
+		<sura index="59" name="Progonstvo" tname="El-Hašr" />
+		<sura index="60" name="Provjerena" tname="El-Mumtehine" />
+		<sura index="61" name="Bojni red" tname="Es-Saff" />
+		<sura index="62" name="Petak" tname="El-Džumu'a" />
+		<sura index="63" name="Licemjeri" tname="El-Munāfikūn" />
+		<sura index="64" name="Samoobmana" tname="Et-Tegābun" />
+		<sura index="65" name="Razvod braka" tname="Et-Talāk" />
+		<sura index="66" name="Zabrana" tname="Et-Tahrīm" />
+		<sura index="67" name="Vlast" tname="El-Mulk" />
+		<sura index="68" name="Kalem" tname="El-Kalem" />
+		<sura index="69" name="Čas neizbježni" tname="El-Hākka" />
+		<sura index="70" name="Stepeni" tname="El-Me'āridž" />
+		<sura index="71" name="Nuh" tname="Nūh" />
+		<sura index="72" name="Džinni" tname="El-Džinn" />
+		<sura index="73" name="Umotani" tname="El-Muzzemmil" />
+		<sura index="74" name="Pokriveni" tname="El-Muddessir" />
+		<sura index="75" name="Smak svijeta" tname="El-Kijāme" />
+		<sura index="76" name="Vrijeme" tname="Ed-Dehr" />
+		<sura index="77" name="Poslani" tname="El-Murselāt" />
+		<sura index="78" name="Vijest" tname="En-Nebe'" />
+		<sura index="79" name="Oni koji čupaju" tname="En-Nāzi'āt" />
+		<sura index="80" name="Namrštio se" tname="'Abese" />
+		<sura index="81" name="Prestanak sjaja" tname="Et-Tekvīr" />
+		<sura index="82" name="Rascjepljenje" tname="El-Infitār" />
+		<sura index="83" name="Oni koji pri mjerenju zakidaju" tname="El-Mutaffifūn" />
+		<sura index="84" name="Cijepanje" tname="El-Inšikāk" />
+		<sura index="85" name="Sazviježđa" tname="El-Burūdž" />
+		<sura index="86" name="Danica" tname="Et-Tārik" />
+		<sura index="87" name="Svevišnji" tname="El-A'lā" />
+		<sura index="88" name="Teška nevolja" tname="El-Gāšije" />
+		<sura index="89" name="Zora" tname="El-Fedžr" />
+		<sura index="90" name="Grad" tname="El-Beled" />
+		<sura index="91" name="Sunce" tname="Eš-Šems" />
+		<sura index="92" name="Noć" tname="El-Lejl" />
+		<sura index="93" name="Jutro" tname="Ed-Duhā" />
+		<sura index="94" name="Širokogrudnost" tname="El-Inširāh" />
+		<sura index="95" name="Smokva" tname="Et-Tīn" />
+		<sura index="96" name="Ugrušak" tname="El-'Alek" />
+		<sura index="97" name="Noć Kadr" tname="El-Kadr" />
+		<sura index="98" name="Dokaz jasni" tname="El-Bejjine" />
+		<sura index="99" name="Zemljotres" tname="Ez-Zilzāl" />
+		<sura index="100" name="Oni koji jure" tname="El-'Ādijāt" />
+		<sura index="101" name="Smak svijeta" tname="El-Kāri'a" />
+		<sura index="102" name="Nadmetanje" tname="Et-Tekāsur" />
+		<sura index="103" name="Vrijeme" tname="El-'Asr" />
+		<sura index="104" name="Klevetnik" tname="El-Humeze" />
+		<sura index="105" name="Slon" tname="El-Fīl" />
+		<sura index="106" name="Kurejšije" tname="El-Kurejš" />
+		<sura index="107" name="Davanje u naruč" tname="El-Mā'ūn" />
+		<sura index="108" name="Mnogō dobro" tname="El-Kevser" />
+		<sura index="109" name="Nevjernici" tname="El-Kāfirūn" />
+		<sura index="110" name="Pomoć" tname="En-Nasr" />
+		<sura index="111" name="Plamen" tname="El-Leheb" />
+		<sura index="112" name="Iskrenost" tname="El-Ihlās" />
+		<sura index="113" name="Svitanje" tname="El-Felek" />
+		<sura index="114" name="Ljudi" tname="En-Nās" />
+	</sura-detail>
+</quran>

@@ -1,0 +1,31 @@
+Permission Notice:
+#
+#  Quran Roots/Stems List (version 0.9.1)
+#  Initially Produced and Copyrighted by:
+#    Computer Research Center of Islamic Sciences (noorsoft.org)
+#  Recompiled by:
+#    Tanzil Project (tanzil.info) and Zekr Project (zekr.org)
+# 
+#  TERMS OF USE:
+#
+#  - You may not alter this file, nor use it for commercial
+#    purposes.
+#
+#  - It is not allowed to use this database in another website or
+#    application, unless a WRITTEN PERMISSION is obtained from the
+#    original copyright holder, CRCIS (www.noorsoft.org); and the
+#    file sources (CRCIS: noorsoft.org, Tanzil: tanzil.info, and
+#    Zekr: zekr.org) are clearly indicated.
+#
+#  - This notice shall be included in all verbatim copies of
+#    the text, and shall be reproduced appropriately in all files
+#    derived from or containing substantial portion of this text.
+#
+#  Notes:
+#
+#  - This copy of the quran roots/stems list is not verified to
+#    be accurate. USE IT AT YOUR OWN RISK.
+#
+#  - This database is compatible with Tanzil 1.0.2 Quran texts.
+#
+#===================================================================

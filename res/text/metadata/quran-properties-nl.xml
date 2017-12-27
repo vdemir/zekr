@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="De Opening" tname="Al-Faatiha" />
+		<sura index="2" name="De Koe" tname="Al-Baqara" />
+		<sura index="3" name="Het Geslacht van Imraan" tname="Aal-i-Imraan" />
+		<sura index="4" name="De Vrouwen" tname="An-Nisaa" />
+		<sura index="5" name="De Tafel" tname="Al-Maaida" />
+		<sura index="6" name="Het Vee" tname="Al-An'aam" />
+		<sura index="7" name="De Kantelen" tname="Al-A'raaf" />
+		<sura index="8" name="De Buit" tname="Al-Anfaal" />
+		<sura index="9" name="Het Berouw" tname="At-Tawba" />
+		<sura index="10" name="Jonas" tname="Yunus" />
+		<sura index="11" name="Hud" tname="Hud" />
+		<sura index="12" name="Jozef" tname="Yusuf" />
+		<sura index="13" name="De Donder" tname="Ar-Ra'd" />
+		<sura index="14" name="Abraham" tname="Ibrahim" />
+		<sura index="15" name="Al-Hidjr" tname="Al-Hijr" />
+		<sura index="16" name="De Bijen" tname="An-Nahl" />
+		<sura index="17" name="De Nachtreis" tname="Al-Israa" />
+		<sura index="18" name="De Spelonk" tname="Al-Kahf" />
+		<sura index="19" name="Maria" tname="Maryam" />
+		<sura index="20" name="Ta Ha" tname="Taa-Haa" />
+		<sura index="21" name="De Profeten" tname="Al-Anbiyaa" />
+		<sura index="22" name="De Bedevaart" tname="Al-Hajj" />
+		<sura index="23" name="De Gelovingen" tname="Al-Muminoon" />
+		<sura index="24" name="Het Licht" tname="An-Noor" />
+		<sura index="25" name="De Onderscheiding" tname="Al-Furqaan" />
+		<sura index="26" name="De Dichters" tname="Ash-Shu'araa" />
+		<sura index="27" name="De Mieren" tname="An-Naml" />
+		<sura index="28" name="De vertelling" tname="Al-Qasas" />
+		<sura index="29" name="De Spin" tname="Al-Ankaboot" />
+		<sura index="30" name="De Byzantijnen" tname="Ar-Room" />
+		<sura index="31" name="Luqman" tname="Luqman" />
+		<sura index="32" name="De Aanbidding" tname="As-Sajda" />
+		<sura index="33" name="De Partijscharen" tname="Al-Ahzaab" />
+		<sura index="34" name="Sheba" tname="Saba" />
+		<sura index="35" name="Schepper" tname="Faatir" />
+		<sura index="36" name="Ya Sin" tname="Yaseen" />
+		<sura index="37" name="De in de Rangen Behorenden" tname="As-Saaffaat" />
+		<sura index="38" name="Saad" tname="Saad" />
+		<sura index="39" name="De Groepen" tname="Az-Zumar" />
+		<sura index="40" name="Vergever" tname="Ghaafir" />
+		<sura index="41" name="Duidelijk Uiteengezet" tname="Fussilat" />
+		<sura index="42" name="De Consultatie" tname="Ash-Shura" />
+		<sura index="43" name="Pracht en Praal" tname="Az-Zukhruf" />
+		<sura index="44" name="De Rook" tname="Ad-Dukhaan" />
+		<sura index="45" name="De Geknielden" tname="Al-Jaathiya" />
+		<sura index="46" name="De Zandduinen" tname="Al-Ahqaf" />
+		<sura index="47" name="Mohammed" tname="Muhammad" />
+		<sura index="48" name="Het Succes" tname="Al-Fath" />
+		<sura index="49" name="De Binnenvertrekken" tname="Al-Hujuraat" />
+		<sura index="50" name="Qaaf" tname="Qaaf" />
+		<sura index="51" name="De Winden die Verspreiden" tname="Adh-Dhaariyat" />
+		<sura index="52" name="De Berg" tname="At-Tur" />
+		<sura index="53" name="De Sterren" tname="An-Najm" />
+		<sura index="54" name="De Maan" tname="Al-Qamar" />
+		<sura index="55" name="De Erbarmer" tname="Ar-Rahmaan" />
+		<sura index="56" name="Het Onvermijdelijke" tname="Al-Waaqia" />
+		<sura index="57" name="Het Ijzer" tname="Al-Hadid" />
+		<sura index="58" name="De Twist" tname="Al-Mujaadila" />
+		<sura index="59" name="De Opdrijving" tname="Al-Hashr" />
+		<sura index="60" name="De op de Proef Gestelden" tname="Al-Mumtahana" />
+		<sura index="61" name="De Strijdplaats" tname="As-Saff" />
+		<sura index="62" name="De Vrijdag" tname="Al-Jumu'a" />
+		<sura index="63" name="De Huichelaars" tname="Al-Munaafiqoon" />
+		<sura index="64" name="Het Bedrog" tname="At-Taghaabun" />
+		<sura index="65" name="De Verstoting" tname="At-Talaaq" />
+		<sura index="66" name="De Verbodenverklaring" tname="At-Tahrim" />
+		<sura index="67" name="Het Koningschap" tname="Al-Mulk" />
+		<sura index="68" name="De pen" tname="Al-Qalam" />
+		<sura index="69" name="De Wezenlijke" tname="Al-Haaqqa" />
+		<sura index="70" name="De Manieren van Ascentie" tname="Al-Ma'aarij" />
+		<sura index="71" name="Noach" tname="Nooh" />
+		<sura index="72" name="De Demonen" tname="Al-Jinn" />
+		<sura index="73" name="De Ingehulde" tname="Al-Muzzammil" />
+		<sura index="74" name="De Ommantelde" tname="Al-Muddaththir" />
+		<sura index="75" name="De Wederopstanding" tname="Al-Qiyaama" />
+		<sura index="76" name="De Mens" tname="Al-Insaan" />
+		<sura index="77" name="De Uitgezondenen" tname="Al-Mursalaat" />
+		<sura index="78" name="Het Nieuws" tname="An-Naba" />
+		<sura index="79" name="De Uitrukkenden" tname="An-Naazi'aat" />
+		<sura index="80" name="Hij Fronste" tname="Abasa" />
+		<sura index="81" name="Het Opvouwen" tname="At-Takwir" />
+		<sura index="82" name="De Splijting" tname="Al-Infitaar" />
+		<sura index="83" name="De Knoeiers" tname="Al-Mutaffifin" />
+		<sura index="84" name="De Uiteenscheuring" tname="Al-Inshiqaaq" />
+		<sura index="85" name="De Sterrenbeelden" tname="Al-Burooj" />
+		<sura index="86" name="De Nachtelijke Bezoeker" tname="At-Taariq" />
+		<sura index="87" name="De Allerhoogste" tname="Al-A'laa" />
+		<sura index="88" name="Het Overweldigende Moment" tname="Al-Ghaashiya" />
+		<sura index="89" name="De Dageraad" tname="Al-Fajr" />
+		<sura index="90" name="De Stad" tname="Al-Balad" />
+		<sura index="91" name="De Zon" tname="Ash-Shams" />
+		<sura index="92" name="De Nacht" tname="Al-Lail" />
+		<sura index="93" name="De Glorieuze Ochtend" tname="Ad-Dhuhaa" />
+		<sura index="94" name="De Expansie" tname="Ash-Sharh" />
+		<sura index="95" name="De Vijgenboom" tname="At-Tin" />
+		<sura index="96" name="De Bloedklomp" tname="Al-Alaq" />
+		<sura index="97" name="De Waardevolle nacht" tname="Al-Qadr" />
+		<sura index="98" name="Het Uitsluitende Bewijs" tname="Al-Bayyina" />
+		<sura index="99" name="De Beving" tname="Az-Zalzala" />
+		<sura index="100" name="De Rennenden" tname="Al-Aadiyaat " />
+		<sura index="101" name="De Dag van Oproering" tname="Al-Qaari'a" />
+		<sura index="102" name="De Wedijver om Vermeerdering" tname="At-Takaathur" />
+		<sura index="103" name="De Namiddag" tname="Al-Asr" />
+		<sura index="104" name="De Lasteraar" tname="Al-Humaza" />
+		<sura index="105" name="De Olifant" tname="Al-Fil" />
+		<sura index="106" name="De Quraisjieten" tname="Quraish" />
+		<sura index="107" name="De Noden van Buren" tname="Al-Maa'un" />
+		<sura index="108" name="De Overvloedigheid" tname="Al-Kawthar" />
+		<sura index="109" name="De Ongelovigen" tname="Al-Kaafiroon" />
+		<sura index="110" name="De Hulp" tname="An-Nasr" />
+		<sura index="111" name="De Touwvezels" tname="Al-Masad" />
+		<sura index="112" name="De Toewijding" tname="Al-Ikhlaas" />
+		<sura index="113" name="De Doorbraak" tname="Al-Falaq" />
+		<sura index="114" name="De Mensheid" tname="An-Naas" />
+	</sura-detail>
+</quran>

@@ -1,0 +1,67 @@
+#**
+ *               In the name of Allah
+ * This file is part of The Zekr Project. Use is subject to
+ * license terms.
+ *
+ * @author Mohsen Saboorian
+ *##if($TRANSLATION == "true")
+	#set($TD_CLASS="trans")
+	#set($BODY_ID="transBody")
+	#set($DIR=${TRANS_DIRECTION})
+	#set($IS_TRANS="true")
+#else
+	#set($TD_CLASS="quran")
+	#set($BODY_ID="quranBody")
+	#set($DIR="rtl")
+	#set($IS_TRANS="false")
+#end
+#if($DIRECTION == "rtl")
+	#set($LEAD="right")
+	#set($TRAIL="left")
+#else
+	#set($LEAD="left")
+	#set($TRAIL="right")
+#end
+<html><!-- TODO: use HTML5 doctype -->
+#parse("$THEME_DIR/head.vm")
+<body id="${BODY_ID}" dir="${DIR}">
+<script>
+window.res = null;
+</script>
+<input type="hidden" id="hiddenSuraNum" value="$SURA_NUM" />
+<input type="hidden" id="hiddenAyaNum" value="$AYA_NUM" />
+<input type="hidden" id="hiddenCurrentItem" value="$AYA_NUM_IN_PAGE" />
+<div id="headerBar" class="headerBar" dir="${DIRECTION}">
+	<table width="100%" style="padding: 0px; margin: 0px" cellspacing="0" cellpadding="0">
+		<tr valign="middle"><td align="$LEAD" width="92%">
+		$DICT.getMeaning('SURA'): <input id="suraNav" dir="ltr" title="$DICT.getMeaning('SURA')" type="text" style="width: 3em" value="${SURA_NUM}" />
+		&nbsp;|&nbsp;
+		$DICT.getMeaning('AYA'): <input id="ayaNav" dir="ltr" title="$DICT.getMeaning('AYA')" type="text" style="width: 3em" value="${AYA_NUM}" />
+		&nbsp;|&nbsp;
+		$DICT.getMeaning('PAGE'): <input id="pageNav" dir="ltr" title="$DICT.getMeaning('PAGE')" type="text" style="width: 3em" value="${PAGE_NUM}" />&nbsp;
+		<button type="button" onclick="navtoSuraAya()">&nbsp;$DICT.getMeaning('GO')&nbsp;</button>
+		</td>
+		<td align="center" width="8%" nowrap="nowrap">
+			<img alt="-" tabindex="0" class="handCursor" title="$DICT.getMeaning('SMALLER')" border="0" src="res/image/icon/zoom-out16.png" onclick="zoom(-1, $IS_TRANS)">
+			|
+			<img alt="+" tabindex="0" class="handCursor" title="$DICT.getMeaning('LARGER')" border="0" src="res/image/icon/zoom-in16.png" onclick="zoom(1, $IS_TRANS)">
+		</td>
+		</tr>
+	</table>
+</div>
+
+<script>
+$("input#suraNav,input#ayaNav,input#pageNav").bind("keyup", function(e) {
+	if (e.keyCode == 13 || e.keyCode == 10)
+		navtoSuraAya();
+});
+</script>
+<div id="body" class="body">
+	<div id="quranSection" class="main">
+	#parse("$THEME_DIR/$AYA_VIEW")
+	</div>
+	<div class="bodyBottom"></div>
+</div>
+#parse("$THEME_DIR/watermark.vm")
+</body>
+</html>

@@ -1,0 +1,72 @@
+#**
+ *               In the name of Allah
+ * This file is part of The Zekr Project. Use is subject to
+ * license terms.
+ *
+ * @version 1
+ *#
+#if($TRANSLATION == "true")
+	#set($CLASS="trans")
+	#set($RCLASS="quran")
+	#set($DIR=${TRANS_DIRECTION})
+	#set($RPAREN = "(")
+	#set($LPAREN = ")")
+	#set($_RPAREN = "&#64831;")
+	#set($_LPAREN = "&#64830;")
+	#set($_DL = $I18N.Locale.Language) ## digit language
+	#set($_TL = "ar") ## translation language
+	#set($TDIR = "rtl")
+	#set($TRANSLATE = "$DICT.getMeaning('QURAN')")
+	#set($LOCALIZE=true)
+#else
+	#set($CLASS="quran")
+	#set($RCLASS="trans")
+	#set($DIR="rtl")
+	#set($RPAREN = "&#64831;")
+	#set($LPAREN = "&#64830;")
+	#set($_RPAREN = "(")
+	#set($_LPAREN = ")")
+	#set($_DL = "ar")
+	#set($_TL = $TDATA.language)
+	#set($TDIR = "${TDATA.direction}")
+	#set($TRANSLATE = "$DICT.getMeaning('TRANSLATION')")
+	#set($LOCALIZE=false)
+#end
+<div class="$CLASS" dir="$DIR">
+	<div id="searchableSection" class="searchResult">
+	    #foreach ($ITEM in $AYA_LIST)
+	    	#set($AYA_NUM = $velocityCount)
+			#if ($AYA_NUM % 2 == 0)
+				#set($ROW_CLASS = "even")
+			#else
+				#set($ROW_CLASS = "odd")
+			#end
+			<div id="result_$velocityCount" class="$ROW_CLASS">
+			<div class="item">
+
+			<span class="handCursor" title="$TRANSLATE" onclick="$('#trans_$velocityCount').toggle();s=$('#trans_$velocityCount').css('display')=='none'?'expand.png':'collapse.png';$('#transToggle_$velocityCount').attr('src','res/image/icon/'+s);">
+			<img id="transToggle_$velocityCount" class="itemChildToggler" alt="toggle" title="$TRANSLATE" border="0" src="res/image/icon/expand.png">
+			</span>
+
+				#set ($ITEM_NUM = $UTILS.intAdd($AYA_NUM, $PAGE_START_NUM))
+	    		<span title="${ITEM.Location}" class="searchItemNum" id="itemNum_$velocityCount">($I18N.localize($ITEM_NUM))</span>
+	    		$ITEM.Text
+		    	<span style="direction: $DIR" class="ayaSign">
+					<a onclick="gotoFoundItem('${ITEM.Location.Sura}', '${ITEM.Location.Aya}')" title="${ITEM.Location.Sura}:${ITEM.Location.Aya}"
+						href="javascript:void(0)">$RPAREN${ITEM.Location.getSuraName($LOCALIZE)}:
+						$I18N.localize(${ITEM.Location.Aya},"${_DL}")$LPAREN</a>
+					<span title="$TRANSLATE" class="handCursor"
+						onclick="translate('${ITEM.Location.Sura}', '${ITEM.Location.Aya}')">
+						<img src="${ICON_TRANSLATE}" /></span>
+					<span id="item_$ITEM.Location" class="searchResultPlay handCursor" onclick="searchResultRecite(this)"
+						title="$DICT.getMeaning('PLAY')" zekrtitle="$DICT.getMeaning('PAUSE')" loc="$ITEM.Location">
+						<img src="$ICON_PLAY" zekricon="$RES.getString('theme.icon.stop')" /></span>
+				</span>
+				<div id="trans_$velocityCount" class="itemChild $RCLASS" style="direction: $TDIR; padding: 4px 0 8px 0; display: none">$TDATA.get($ITEM.Location)
+				<span title="${ITEM.Location.getSuraName($LOCALIZE)}: $I18N.localize(${ITEM.Location.Aya})"><nobr>$_RPAREN$I18N.localize("${ITEM.Location.Sura}: ${ITEM.Location.Aya}","${_TL}")$_LPAREN</nobr></span>
+				</div>
+			</div>
+			</div>
+	    #end
+	</div>
+</div>

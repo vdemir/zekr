@@ -1,0 +1,83 @@
+#**
+ *               In the name of Allah
+ * This file is part of The Zekr Project. Use is subject to
+ * license terms.
+ *
+ * @version 1
+ *##if($DIRECTION == "rtl")
+	#set($TRAIL="left")
+	#set($LEAD="right")
+#else
+	#set($TRAIL="right")
+	#set($LEAD="left")
+#end
+#if($TRANSLATION == "true")
+	#set($TRANSLATE = "$DICT.getMeaning('QURAN')")
+#else
+	#set($TRANSLATE = "$DICT.getMeaning('TRANSLATION')")
+#end
+<html><!-- TODO: add html5 doctype -->
+#parse("$THEME_DIR/head.vm")
+<body id="search" dir="$DIRECTION">
+<script>
+res = new SearchResult();
+</script>
+<div id="headerBar" class="headerBar" dir="$DIRECTION">
+	<table width="100%" style="padding: 0px; margin: 0px" cellspacing="0" cellpadding="0">
+		<tr><td align="$LEAD" width="40%">
+			<button title="$DICT.getMeaning('PREV_AYA')" style="padding: 0px 10px 0px 10px;" onclick="res.prev()">
+			<img src="res/image/icon/up-arrow16.gif" style="margin: 1px" alt="$DICT.getMeaning('PREV_AYA')" />
+			</button>&nbsp;
+			<button title="$DICT.getMeaning('NEXT_AYA')" style="padding: 0px 10px 0px 10px;" onclick="res.next()">
+			<img src="res/image/icon/down-arrow16.gif" style="margin: 1px" alt="$DICT.getMeaning('NEXT_AYA')"/>
+			</button>
+		</td><td align="center">
+		<font size="-1">$PAGE_NUM_MSG</font>
+		</td><td align="$TRAIL" width="40%">
+		<input title="$DICT.getMeaning('SURA')" dir="ltr" id="suraNum" type="text" style="width: 3em" readonly="true" /> |
+		<input title="$DICT.getMeaning('AYA')" dir="ltr" id="ayaNum" type="text" style="width: 3em" readonly="true" />
+		<input type="button" value=" $DICT.getMeaning('GO') " onclick="if ($('#suraNum').val() != '' && $('#ayaNum').val() != '') redirect($('#suraNum').val(), $('#ayaNum').val())" />
+		</td></tr>
+	</table>
+</div>
+<div class="searchBody">
+<table>
+	#set ($ALIGN = "left")
+	#if ($DIRECTION == "rtl")
+		#set ($ALIGN = "right")
+	#end
+	<tr dir="$DIRECTION">
+		<td class="searchBarTop" align="$ALIGN" width="50%">
+			$TITLE
+		</td>
+		<td class="searchBarTop" align="$ALIGN" width="50%">
+			#if ($TOO_MANY_RESULT)
+			<i style="color: red">$TOO_MANY_RESULT</i><br>
+			#end
+			$COUNT
+		</td>
+	</tr>
+	<tr><td class="queryDetail">
+		<span class="handCursor" title="$DICT.getMeaning('TOGGLE')" onclick="$('#clauses').toggle();s=$('#clauses').css('display')=='none'?'plus.png':'minus.png';$('#searchDetailImg').attr('src','res/image/icon/'+s);">
+			<img id="searchDetailImg" alt="toggle" title="$DICT.getMeaning('TOGGLE')" border="0" src="res/image/icon/plus.png">
+			<a href="javascript:void(0)" onclick="return false">$DICT.getMeaning("QUERY_DETAIL")</a></span>
+		<div id="clauses" style="display: none; padding: 0px 20px">$CLAUSE</div></td>
+
+		<td class="queryDetail">
+			<span class="handCursor" title="$DICT.getMeaning('TOGGLE')" id="qtToggler" status="close"
+			onclick="$('.itemChild').each(function() {$(this).toggle($('#qtToggler').attr('status')=='close');});
+					 s=''; if ($(this).attr('status')=='open') {s = 'expand.png'; $(this).attr('status', 'close');} else {s = 'collapse.png';$(this).attr('status', 'open');} $('.itemChildToggler').attr('src','res/image/icon/'+s);">
+			<img class="itemChildToggler" src="res/image/icon/expand.png" />
+			<a href="javascript:void(0)">$TRANSLATE</a>
+			</span></td>
+	</tr>
+
+	<tr><td id="searchResultSection" colspan="2" class="searchResult">
+	#parse ("$THEME_DIR/aya-result.vm")
+	</td></tr>
+	<tr><td class="barBottom">&nbsp;</td></tr>
+</table>
+</div>
+#parse("$THEME_DIR/watermark.vm")
+</body>
+</html>

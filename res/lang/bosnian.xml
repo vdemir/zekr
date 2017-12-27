@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Nedim Hadžić i Alma Aganović i Lejla Pehlivanović" version="0.7">
+	<locale localizedName="Bosanski" name="Bosnian" id="bs_BA" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK" value="Uredu" />
+			<text id="CANCEL" value="Poništi" />
+			<text id="YES" value="Da" />
+			<text id="NO" value="Ne" />
+			<text id="APPLY" value="Primijeni" />
+			<text id="START" value="Start" />
+			<text id="RESET" value="Ponovo postavi" />
+			<text id="NEW" value="Dodaj" />
+			<text id="SAVE_AS" value="Snimi kao" />
+			<text id="HELP" value="Pomoć" />
+			<text id="EDIT" value="Uredi" />
+			<text id="SEARCH" value="Traži" />
+			<text id="GOTO" value="Idi na" />
+			<text id="VIEW" value="Izgled" />
+			<text id="CLOSE" value="Zatvori" />
+			<text id="INSERT" value="Ubaci" />
+			<text id="DETAILS" value="Detalji" />
+			<text id="MORE" value="Više na Internetu" />
+			<text id="NEXT" value="Naprijed" />
+			<text id="PREVIOUS" value="Nazad" />
+			<text id="REFRESH" value="Osvježi" />
+			<text id="UPDATE" value="Ažuriraj" />
+			<text id="SHOW" value="Prikaži" />
+			<text id="NAME" value="Naziv" />
+			<text id="VALUE" value="Vrijednost" />
+			<text id="NUMBER" value="Redni broj" />
+			<text id="OPTION" value="Opcija" />
+			<text id="FILE" value="Datoteka" />
+			<text id="RELOAD" value="Osvježi stranicu" />
+			<text id="TYPE" value="Tip" />
+			<text id="MESSAGE" value="Poruka" />
+			<text id="BLOCK" value="Linija iza linije" />
+			<text id="LINE_BY_LINE" value="Linija ispod linije" />
+			<text id="AND" value="i" />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="Sinhronizirano" />
+			<text id="ERROR" value="Greška" />
+			<text id="LANGUAGE" value="Jezik" />
+			<text id="ABOUT" value="U vezi sa" />
+			<text id="PRINT" value="Štampaj" />
+			<text id="HOMEPAGE" value="zekr na WEB-u" />
+			<text id="WHOLE_QURAN" value="Kur'an Časni" />
+			<text id="MATCH_DIACRITIC" value="Uključi akcente" />
+			<text id="MATCH_CASE" value="Uključi velika/mala slova" />
+			<text id="NEXT_AYA" value="Sljedeći ajet" />
+			<text id="NEXT_SURA" value="Sljedeća sura" />
+			<text id="PREV_AYA" value="Prethodni ajet" />
+			<text id="PREV_SURA" value="Prethodna sura" />
+			<text id="THEME" value="Tema" />
+			<text id="LAYOUT" value="Prikaz teksta" />
+			<text id="TOOLS" value="Alati" />
+			<text id="ADD" value="Dodaj" />
+			<text id="DELETE" value="Izbriši" />
+			<text id="REMOVE" value="Ukloni" />
+			<text id="TRANSLATION" value="Prijevod" />
+			<text id="TRANSLATION_VIEWTYPE" value="Prijevod" />
+			<text id="OPEN" value="Otvori" />
+			<text id="IMPORT" value="Uvezi" />
+			<text id="COPY" value="Kopiraj" />
+			<text id="SEPARATE" value="Odvojeno" />
+			<text id="MIXED" value="Pomiješano" />
+			<text id="OPTIONS" value="Opcije" />
+			<text id="QUESTION" value="Pitanje" />
+			<text id="FONT" value="Font" />
+			<text id="GENERAL" value="Općenito" />
+			<text id="EXIT" value="Izlaz" />
+			<text id="EXCLUDE" value="Izuzmi" />
+			<text id="TRUE" value="Tačno" />
+			<text id="FALSE" value="Pogrešno" />
+			<text id="SELECT" value="Odaberi" />
+			<text id="EXPORT" value="Izvezi" />
+			<text id="IMPORT" value="Uvezi" />
+			<text id="DESCRIPTION" value="Opis" />
+			<text id="BOOKMARKS" value="Bilješke" />
+			<text id="CONFIGURE" value="Podesi" />
+			<text id="EDIT_BOOKMARK_SET" value="Uredi grupu bilješki" />
+			<text id="MANAGE_BOOKMARK_SETS" value="Upravljanje grupama bilješki" />
+			<text id="DIRECTION" value="Smjer" />
+			<text id="LANG_DIRECTION" value="Smjer pisanja" />
+			<text id="RTL" value="Zdesna nalijevo" />
+			<text id="LTR" value="Slijeva nadesno" />
+			<text id="AUTHOR" value="Autor" />
+			<text id="VERSION" value="Verzija" />
+			<text id="RANDOM_AYA" value="Slučajni ajet" />
+			<text id="UNTITLED" value="Bez naslova" />
+			<text id="SET_DEFAULT" value="Postavi kao glavno" />
+			<text id="NOT_LOADED" value="Nije učitan" />
+			<text id="ID" value="ID" />
+			<text id="OVERWRITE" value="Prepiši preko" />
+			<text id="SAVE" value="Spasi" />
+			<text id="PATH" value="Putanja" />
+			<text id="SHOW_REFS" value="Prikaži bilješke za odabrani ajet"/>
+			<text id="MOVE_UP" value="Idi gore" />
+			<text id="MOVE_DOWN" value="Idi dolje" />
+			<text id="MULTI_TRANS" value="Više prijevoda" /> <!-- NOTE: This element replaced with CUSTOM_MIXED (Prilagođeno miješani prijevod) -->
+			<text id="CONFIG_CUSTOM_TRANS" value="Podesi više prijevoda" />
+			<text id="GO" value="Idi" />
+			<text id="CAUTION" value="Upozorenje" />
+			<text id="ADVANCED" value="Napredno" />
+			<text id="QUERY_DETAIL" value="Detalj upita" />
+			<text id="PAGE" value="Strana" />
+			<text id="MULTILINE" value="Višelinijski" />
+			<text id="TOGGLE" value="Preklopi" />
+			<text id="AUDIO" value="Audio" />
+			<text id="CONTINUOUS" value="Neprekidno" />
+			<text id="DISCRETE" value="Diskretno" />
+			<text id="PLAY" value="Reproduciraj" />
+			<text id="PAUSE" value="Pauziraj" />
+			<text id="STOP" value="Zaustavi" />
+			<text id="RECITATION" value="Učači" />
+			<text id="MENU_NEXT_AYA" value="Sljedeći Ajet" />
+			<text id="MENU_NEXT_SURA" value="Sljedeća Sura" />
+			<text id="MENU_PREV_AYA" value="Prethodni Ajet" />
+			<text id="MENU_PREV_SURA" value="Prethodna Sura" />
+			<text id="MENU_NEXT_JUZ" value="Sljedeći Džuz" />
+			<text id="MENU_PREV_JUZ" value="Prethodni Džuz" />
+			<text id="MENU_NEXT_HIZBQ" value="Sljedeća Hizb četvrtina" />
+			<text id="MENU_PREV_HIZBQ" value="Prethodna Hizb četvrtina" />
+			<text id="MENU_NEXT_SAJDA" value="Sljedeća sedžda" />
+			<text id="MENU_PREV_SAJDA" value="Prethodna sedžda" />
+			<text id="MENU_NEXT_PAGE" value="Sljedeća strana" />
+			<text id="MENU_PREV_PAGE" value="Prethodna strana" />
+			<text id="CHECK4UPDATE" value="Provjeri najnoviju verziju" />
+			<text id="ASCENDING" value="Rastući raspored" />
+			<text id="DESCENDING" value="Opadajući raspored" />
+			<text id="REVEL_ORDER" value="Broj prema objavi" />
+			<text id="FULL_SCREEN" value="Cijeli ekran" />
+			<text id="WARNING" value="Upozorenje" />
+			<text id="ONLINE_HELP" value="Online pomoć" />
+			<text id="PAGING_MODE" value="Način straničenja" />
+			<text id="PANEL" value="Prikaz okvira" />
+			<text id="DETAIL_PANEL" value="Prikaži detalje" />
+			<text id="REPEAT" value="Ponovi" />
+			<text id="ROOT" value="Korijen" /> <!-- word root -->
+			<text id="ADDRESS" value="Adresa" />
+			<text id="BOOKMARK_THIS_AYA" value="Sačuvaj ovaj ajet u bilješke" />
+			<text id="AUDIO_PLAYER" value="Prikaži player"   />
+			<text id="PLAYING" value="Trenutno uči"   />
+			<text id="PAUSED" value="Pauzirano"   />
+			<text id="STOPPED" value="Učenje zaustavljeno"   />
+			<text id="RECITER" value="Učač"   />
+            <text id="ONLINE" value="Online"   />
+            <text id="OFFLINE" value="Offline"   />
+            <text id="SMALLER" value="Manje"   />
+            <text id="LARGER" value="Veće"   />
+		</common>
+		<special>
+			<text id="QURAN" value="Kur'an" />
+			<text id="QURAN_VIEWTYPE" value="Kur'an" />
+			<text id="SURA" value="Sura" />
+			<text id="AYA" value="Ajet" />
+			<text id="SAJDA" value="Sedžda" />
+			<text id="JUZ" value="Džuz" />
+			<text id="HIZB" value="Hizb" />
+			<text id="QUARTER" value="Četvrtina" />
+            <text id="HIZB_QUARTER" value="Hizb četvrtina"   />
+			<text id="MAKKI" value="Mekki" />
+			<text id="MADANI" value="Medini" />
+			<text id="DESCENT" value="Objavljena u" />
+			<text id="AYA_COUNT" value="Broj ajeta" />
+			<text id="MINOR_SAJDA" value="Preporučena sedžda" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="Obavezna sedžda" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="Mjesto" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+            <text id="AUDHUBILLAH" value="E'uzubillah"   />
+            <text id="BISMILLAH" value="Bismillah"   />
+            <text id="SADAGHALLAH" value="Sadekallah"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="Rezultat pretrage za pojam: &quot;{1}&quot;" />
+			<text id="SEARCH_RESULT_COUNT" value="Traženi pojam pronađen {1} puta u {2} ajeta." />
+			<text id="SEARCH_PAGE" value="Strana {1} od {2}" />
+			<text id="TOO_MANY_RESULT" value="Rezultat pretrage je veći od {1} ajeta" />
+			<text id="FILE_ALREADY_EXISTS" value="Datoteka sa imenom &quot;{1}&quot; već postoji. Želite li je zamijeniti?" />
+			<text id="RESTART_APP" value="Molimo restartujte aplikaciju da bi promjene imale efekta." />
+			<text id="ACTION_PERFORMED" value="Naredba uspješno izvršena." />
+			<text id="TRANSLATION_ADDED" value="Sljedeći prijevod je dodan u {1} meni" />
+			<text id="RECITATION_ADDED" value="Sljedeće učenje je dodano u {1} meni"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Sigurni ste?" />
+			<text id="DEL_YES_NO" value="Nepovratno brisanje {1} stav(a)ka?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Dogodila se neočekivana greška" />
+			<text id="FNF" value="Datoteka nije pronađena" />
+			<text id="ACTION_FAILED" value="Akcija nije uspjela!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="Neispravan format prijevoda: {1}" />
+			<text id="INVALID_RECITATION_FORMAT" value="Neispravan format učenja: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="Resurs '{1}' je istekao ( ažurirati na: {2}). Novija verzija ({3}) je već instalirana." />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="Neispravan potpis prijevoda: {1}"   />
+			<text id="TRANSLATION_LOAD_FAILED" value="Učitavam prijevod &quot;{1}&quot; neuspjelo učitavanje zbog sljedeće grešker: {2}" />
+			<text id="RECITATION_LOAD_FAILED" value="Učitavam učenje &quot;{1}&quot; neuspjelo učitavanje zbog sljedeće grešker: {2}" />
+			<text id="ENTER_VALID_NUMBER" value="Molim unesite ispravan broj."   />
+			<text id="NUMBER_LIMIT" value="Molim unesite broj između '{1}' i '{2}'."   />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Zekr" />
+			<text id="APP_FULL_NAME" value="Kur'anski projekat Zekr" />
+			<text id="FORM_TITLE" value="Zekr" />
+			<text id="COPYRIGHT_DISCLAIMER" value="Ovaj program je dozvoljeno distribuirati besplatno u nadi da će biti koristan i od pomoći, ali bez ikakve garancije." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Zekr" />
+			<text id="NEW_SCOPE" value="Novi opseg" />
+			<text id="EDIT_SCOPES" value="Uredi opseg" />
+			<text id="NO_SCOPE" value="Bez opsega" />
+			<text id="CURRENT_PAGE" value="Trenutna strana" />
+			<text id="QURAN_SCOPE" value="Kur'an" />
+			<text id="TRANSLATION_SCOPE" value="Prijevod" />
+			<text id="NATURAL_ORDER" value="Prirodnom poretku" />
+			<text id="RELEVANCE" value="Značaju" />
+			<text id="AYA_LENGTH" value="Dužini ajeta" />
+			<text id="SORT_BY" value="Prikaži rezultate po" />
+			<text id="TOGGLE_FULL_SCREEN" value="Normalni prikaz" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="Tema" />
+			<text id="GENERAL_OPTIONS" value="Općenito" />
+			<text id="VIEW_OPTIONS" value="Izgled" />
+			<text id="AUDIO_OPTIONS" value="Opcije zvuka" />
+			<text id="TITLE" value="Aplikacijske opcije" />
+			<text id="SHOW_SPLASH" value="Prikaži logo pri startu" />
+			<text id="NEW_KEY" value="Unesite novi ključ" />
+			<text id="THEME_SETTING" value="Podešavanje tema" />
+			<text id="PRESS_OK_TO_APPLY" value="Kliknite na &quot;Uredu&quot; da bi izmjene bile izvršene." />
+			<text id="MAX_SEARCH_RESULT" value="Maksimalni broj rezultata pretrage" />
+			<text id="RESIZEABLE_TASK_PANE" value="Promjenljiva veličina okvira sa zadacima" />
+			<text id="SURA_NAMES" value="Prikaz imena sura" />
+			<text id="ARABIC" value="Arapski" />
+			<text id="EN_T9N" value="Engleski prijevod" />
+			<text id="EN_T13N" value="Engleska transliteracija" />
+			<text id="T9N" value="Prijevod (ako postoji)" />
+			<text id="T13N" value="Transliteracija (ako postoji)" />
+			<text id="ENABLE_AUDIO" value="Aktiviraj audio podršku" />
+			<text id="SURA_NAME_TREE" value="Prikaz imena sura u stablu" />
+			<text id="SMART" value="Po potrebi" />
+            <text id="ALWAYS" value="Uvijek" />
+            <text id="NEVER" value="Nikad" />
+            <text id="PLAY_MODE" value="Način reprodukcije" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Podešavanje Opsega Pretrage " />
+			<text id="SEARCH_SCOPE" value="Pretraži opseg" />
+			<text id="FROM_SURA" value="Od sure" />
+			<text id="FROM_AYA" value="Od ajeta" />
+			<text id="TO_SURA" value="Do sure" />
+			<text id="TO_AYA" value="Do ajeta" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Nedozvoljene stavke opsega pretrage" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Uređivanje opsega pretrage" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Uredi {1} grupu bilješki" />
+			<text id="NEW_BOOKMARK_FOLDER" value="Novi imenik bilješki" />
+			<text id="NEW_BOOKMARK_ITEM" value="Nova bilješka" />
+			<text id="UNIQUE_NAME" value="Jedinstveno ime" />
+			<text id="COMMA_SEPARATED" value="Odvoji autore zarezima" />
+			<text id="ONLY_ENGLISH" value="Koristi samo nazive na Engleskom jeziku (npr. English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Sve konvencije, citate, reference i druge stvari vezane za bilješke unesite ovdje" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Upravljanje bilješkama" />
+			<text id="DBL_CLICK" value="Dvostruki klik na stavak da biste ga učitali i/ili uredili." />
+			<text id="SET_AS_DEFAULT" value="Da li želite postaviti &quot;{1}&quot; kao glavnu grupu bilješki?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Ne možete ukloniti glavnu grupu bilješki." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Ne možete pisati preko postojeće glavne grupe bilješki. Odaberite drugu grupu bilješki kao glavnu, pa pokušajte uvoz." />
+			<text id="ENTER_ID" value="Unesite ID bilješke" />
+			<text id="NEW_BOOKMARK_SET" value="Nova grupa bilješki" />
+			<text id="EXPORT4WEB" value="Izvoz za web (HTML format)" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Uređivanje bilješke" />
+			<text id="QURAN_LOCATIONS" value="Mjesta u Kur'anu" />
+			<text id="NEW_BOOKMARK" value="Nova bilješka" />
+			<text id="NEW_FOLDER" value="Novi imenik" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Bilješke se odnose na: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Uvezi za sljedeće korisnike:" />
+			<text id="ME_ONLY" value="Samo ja" />
+			<text id="ALL_USERS" value="Svi korisnici (zahtijeva dozvolu pisanja u instalacijskom imeniku)" />
+			<text id="FOLLOWING_USERS" value="Indeks za sljedeće korisnike" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="Ukloni" />
+			<text id="ADD_CUSTOM" value="Dodaj" />
+			<text id="TITLE" value="Podesi prilagođene prijevode" />
+			<text id="AVAILABLE" value="Dostupni prijevodi" />
+			<text id="CURRENT" value="Trenutno korišteni prijevodi" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Molim sačekajte" />
+			<text id="INDEXING" value="Indeksira..." /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="Ova akcija može trajati nekoliko minuta, u zavisnosti od veličine dokumenta koji se indeksira." />
+			<text id="CHECKING" value="Provjeravam najnoviju verziju" />
+			<text id="ZEKR_IS_CHECKING" value="Zekr sada provjerava najnoviju verziju" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="O programu Zekr" />
+			<text id="VIEW_LOG" value="Prikaži Log datoteku" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="Informacije o verzijama" />
+			<text id="VERSION_INFO" value="Verzije" />
+			<text id="BUILD_NUM" value="Broj podverzije" />
+			<text id="VERSION" value="Verzija" />
+			<text id="RELEASE_NAME" value="Naziv izdanja" />
+			<text id="RELEASE_STATE" value="Status podverzije" />
+			<text id="RELEASE_DATE" value="Datum izdanja" />
+			<text id="RELEASE_NOTES" value="Bilješke o izdanju" />
+			<text id="DOWNLOAD" value="Preuzmi" />
+			<text id="MORE_INFO" value="Više informacija" />
+			<text id="NO_UPDATE" value="Već koristite najnoviju verziju." />
+			<text id="NEW_DEV_AVAILABLE" value="Nova razvojna verzija (nestabilna) je dostupna za preuzimanje" />
+			<text id="NEW_BETA_AVAILABLE" value="Nova beta verzija (nestabilna) je dostupna za preuzimanje" />
+			<text id="NEW_FINAL_AVAILABLE" value="Nova verzija je dostupna za preuzimanje" />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="Način straničenja"   />
+			<text id="SURA" value="Sura"   />
+			<text id="HIZB_QUARTER" value="Hizb četvrtina"   />
+			<text id="JUZ" value="Džuz"   />
+			<text id="CONST_AYA" value="Određen opseg ajeta"   />
+			<text id="CUSTOM" value="Posebno"   />
+			<text id="AYA_PER_SURA" value="Koliko ajeta po stranici?"   />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="Reprodukcija zvuka"   />
+			<text id="SECOND_ABBR" value="sec"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="Sekunde"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="sa razmakom od"   />
+			<text id="REPEAT" value="Ponovi"   />
+			<text id="NO_INTERVAL" value="     - "   />
+			<text id="NO_REPEAT" value="    - "   />
+            <text id="VOLUME" value="Glasnoća"   />
+            <text id="TIMES" value="{1} puta"   />
+            <text id="PLAY_SCOPE" value="Opseg učenja"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="Idi na"   />
+            <text id="GOTO" value="Idi na"   />
+            <text id="REVIEW" value="Pregled"   />
+            <text id="JUZ" value="Džuz"   />
+            <text id="SURA_ORDER" value="Redoslijed sura"   />
+            <text id="HIZB_QUARTER" value="Hizb četvrtina"   />
+            <text id="SURA_AYA" value="Sura:ajet (npr. 33:70)"   />
+            <text id="NORMAL" value="Normalno"   />
+            <text id="REVELATION" value="Objavljeno ({1})"   />
+        </form>
+	</forms>
+</language>

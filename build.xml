@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<project name="Zekr source build file" default="dist" basedir=".">
+
+	<!-- Component parameters -->
+	<property name="component" value="Zekr" />
+	<property name="package" value="net.sf.zekr" />
+	<property name="packagedir" value="net/sf/zekr" />
+	<property name="distfilename" value="zekr" />
+
+	<property name="main_class" value="${package}.ZekrMain" />
+
+	<!-- Directory setup -->
+	<property name="srcdir" value="src" />
+	<property name="libdir" value="lib" />
+	<property name="docsdir" value="docs" />
+	<property name="javadocsdir" value="${docsdir}/javadocs" />
+
+	<property name="builddir" value="build" />
+	<property name="build_classdir" value="${builddir}/classes" />
+
+	<property name="distdir" value="dist/${distfilename}.jar" />
+
+	<property name="src_dist.jar" value="dist/zekr-src.jar" />
+	<property name="src_dir" value="${builddir}/src" />
+
+	<!-- Excevution tags -->
+	<property name="debug" value="off" />
+	<property name="verbose" value="no" />
+
+	<!-- Distribution structure -->
+	<property name="dist_javadocs" value="${builddir}/${javadocsdir}" />
+
+	<!-- JAR file dependencies -->
+	<property name="swt.jar" value="${libdir}/swt.jar" />
+	<property name="velocity.jar" value="${libdir}/velocity-1.6.2.jar" />
+	<property name="log4j.jar" value="${libdir}/log4j-1.2.8.jar" />
+	<property name="lucene-core.jar" value="${libdir}/lucene-core-3.0.0.jar" />
+	<property name="lucene-highlighter.jar" value="${libdir}/lucene-highlighter-3.0.0.jar" />
+	<property name="lucene-snowball.jar" value="${libdir}/lucene-snowball-3.0.0.jar" />
+	<property name="lucene-memory.jar" value="${libdir}/lucene-memory-3.0.0.jar" />
+	<property name="lucene-misc.jar" value="${libdir}/lucene-misc-3.0.0.jar" />
+	<property name="commons-logging.jar" value="${libdir}/commons-logging-1.0.4.jar" />
+	<property name="commons-lang.jar" value="${libdir}/commons-lang-2.4.jar" />
+	<property name="commons-io.jar" value="${libdir}/commons-io-1.4.jar" />
+	<property name="commons-collections.jar" value="${libdir}/commons-collections-3.2.1.jar" />
+	<property name="commons-codec.jar" value="${libdir}/commons-codec-1.3.jar" />
+    <property name="commons-configuration.jar" value="${libdir}/commons-configuration-1.6.jar" />
+
+    <property name="jlayer.jar" value="${libdir}/jlayer-1.0.1.jar" />
+    <property name="basicplayer.jar" value="${libdir}/basicplayer-3.0.jar" />
+    <property name="tritonus-share.jar" value="${libdir}/tritonus-share-0.3.6.jar" />
+	<property name="tritonus-jorbis.jar" value="${libdir}/tritonus-jorbis-0.3.6.jar" />
+    <property name="voirbisspi.jar" value="${libdir}/vorbisspi-1.0.3.jar" />
+    <property name="mp3spi.jar" value="${libdir}/mp3spi-1.9.4.jar" />
+	<property name="jspeex.jar" value="${libdir}/jspeex-0.9.7.jar" />
+	<property name="jorbis.jar" value="${libdir}/jorbis-0.0.17.jar" />
+
+	<property name="jintellitype.jar" value="${libdir}/jintellitype-1.3.8.jar" />
+
+	<path id="buildlibs">
+		<pathelement location="${log4j.jar}" />
+		<pathelement location="${swt.jar}" />
+		<pathelement location="${lucene-core.jar}" />
+		<pathelement location="${lucene-highlighter.jar}" />
+		<pathelement location="${lucene-snowball.jar}" />
+		<pathelement location="${lucene-memory.jar}" />
+		<pathelement location="${lucene-misc.jar}" />
+		<pathelement location="${commons-logging.jar}" />
+		<pathelement location="${commons-lang.jar}" />
+		<pathelement location="${commons-io.jar}" />
+		<pathelement location="${commons-collections.jar}" />
+		<pathelement location="${commons-codec.jar}" />
+		<pathelement location="${commons-configuration.jar}" />
+        <pathelement location="${velocity.jar}" />
+
+        <pathelement location="${jlayer.jar}" />
+        <pathelement location="${basicplayer.jar}" />
+        <pathelement location="${voirbisspi.jar}" />
+        <pathelement location="${mp3spi.jar}" />
+        <pathelement location="${tritonus-share.jar}" />
+		<pathelement location="${tritonus-jorbis.jar}" />
+        <pathelement location="${jspeex.jar}" />
+        <pathelement location="${jorbis.jar}" />
+
+		<pathelement location="${jintellitype.jar}" />
+	</path>
+
+	<target name="compile">
+        <mkdir dir="${build_classdir}" />
+		<unjar src="${src_dist.jar}" dest="${src_dir}">
+		</unjar>
+		<javac srcdir="${src_dir}" encoding="UTF-8" source="1.5" target="1.5"
+			destdir="${build_classdir}" includes="${packagedir}/**" debug="true"
+			verbose="${verbose}">
+			<classpath refid="buildlibs" />
+		</javac>
+		<copy todir="${build_classdir}">
+			<fileset dir="${src_dir}">
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="dist" depends="compile">
+		<jar jarfile="${distdir}" basedir="${build_classdir}" />
+	</target>
+
+	<target name="javadoc" depends="compile">
+		<mkdir dir="${dist_javadocs}" />
+		<javadoc packagenames="${package}.*" sourcepath="${src_dir}"
+			classpath="${build_classdir}" classpathref="buildlibs" destdir="${dist_javadocs}"
+			windowtitle="Zekr - Open Quranic Platform" verbose="${verbose}">
+			<tag name="copyright" description="Copyright: http://zekr.org"
+				scope="types" />
+		</javadoc>
+	</target>
+
+	<target name="run" depends="dist">
+		<java classname="${main_class}" fork="true">
+			<jvmarg value="-Djava.library.path=${libdir}" />
+			<env key="MOZILLA_FIVE_HOME" value="/usr/lib/firefox" />
+			<classpath location="${distdir}" />
+			<classpath refid="buildlibs" />
+		</java>
+	</target>
+
+	<target name="clean">
+		<delete dir="${builddir}" />
+		<delete file="${distdir}" />
+	</target>
+
+</project>

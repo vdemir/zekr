@@ -1,0 +1,16 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<base href="$APP_PATH" />
+	<link rel="stylesheet" media="all" type="text/css" href="${CSS_DIR}common-style.css" />
+	<link rel="stylesheet" media="print" type="text/css" href="${CSS_DIR}print-style.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="${CSS_DIR}screen-style.css" />
+
+	<script src="$UI_DIR/js/jquery.min.js" language="javascript" type="text/javascript"></script>
+	<script src="$UI_DIR/js/jquery-ui.custom.min.js" language="javascript" type="text/javascript"></script>
+	<script src="$UI_DIR/js/common.js" language="javascript" type="text/javascript"></script>
+	<script src="$UI_DIR/js/search.js" language="javascript" type="text/javascript"></script>
+	<script src="$UI_DIR/js/nav.js" language="javascript" type="text/javascript"></script>
+
+	<title>$TITLE</title>
+</head>

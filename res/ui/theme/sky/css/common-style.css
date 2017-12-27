@@ -1,0 +1,173 @@
+a:active, a:focus {
+   outline:  none;
+   ie-dummy: expression(this.hideFocus=true);
+}
+
+.def {
+	font-family: Garamond, Georgia, Serif;
+}
+
+.def:lang(ar),.def:lang(fa) { /* CSS 3 Selector */
+	font-family: Nazli, Roya, Scheherazade;
+}
+
+.quran, .quran td {
+#set($qBold = "")
+#set($qItalic = "")
+#if ($quran_fontBold.equals("true"))
+	#set($qBold = "bold")
+#end
+#if ($quran_fontItalic.equals("true"))
+	#set($qItalic = "italic")
+#end
+	font: $qBold $qItalic ${quran_fontSize}pt ${quran_fontName}, Badr, Nazanin, Tahoma, Nazli, Koodak, Times, Verdana, Helvetica, Arial, Sans-serif;
+}
+
+.trans, .trans td {
+#set($tBold = "")
+#set($tItalic = "")
+#if ($trans_fontBold.equals("true"))
+	#set($tBold = "bold")
+#end
+#if ($trans_fontItalic.equals("true"))
+	#set($tItalic = "italic")
+#end
+	font: $tBold $tItalic ${trans_fontSize}pt ${trans_fontName}, Tahoma, Arial, Times, Verdana, Helvetica;
+}
+body[dir=rtl] .trans, body[dir=rtl] .trans td {
+    font-family: Tahoma, Arial, Times, Verdana, Helvetica;
+}
+
+.quran .suraAyaNum {
+#set($fontSize = $UTILS.round($UTILS.mul($UTILS.toInteger($quran_fontSize),"0.65")))
+#if(!$quran_showSuraAyaSign.equals("true"))
+	display: none;
+#end
+	font-size: ${fontSize}pt;
+}
+
+.trans .suraAyaNum {
+#if(!$trans_showSuraAyaSign.equals("true"))
+	display: none;
+#end
+#set($fontSize = $UTILS.round($UTILS.mul($UTILS.toInteger($trans_fontSize),"0.65")))
+	font-size: ${fontSize}pt;
+}
+
+div.bodyTop {
+    margin: 5px;
+}
+
+.suraName {
+	font-weight: bold;
+	/*padding-top: 6px;
+	font-size: .75em;*/
+	padding-top: 7px;
+	font-size: 12.5pt;
+	height: 40px;
+    /*font-family: serif;*/
+	background: url(${APP_PATH}res/image/sura-header1.png) no-repeat center center;
+}
+body[dir=ltr] .suraName {
+   font-family: serif;
+}
+
+.bismillah {
+	text-align: center;
+}
+
+.printWatermark {
+	display: none;
+}
+
+#quranSection div.quran { /* resolves IE6/7 bug for custom trans layout having table width=100% */
+	width: 100%;
+}
+
+span.sajda#recommended {
+	font-family: serif;
+	color: rgb(200, 40, 40);
+}
+
+span.sajda#mandatory {
+	font-family: serif;
+	color: rgb(240, 10, 10);
+}
+
+span.juzSign {
+	font-family: serif;
+	color: rgb(0, 40, 200);
+}
+
+.waqfSign {
+	font-family: ${quran_fontName}, Sans-serif, Times New Roman; 
+	color: #e97d41;
+}
+
+a.ayaSign, a.ayaSign:visited, a.ayaSign:link {
+	border-width: 0;
+    color: #0f0d70;
+    text-decoration: none;
+}
+
+.quran span.hizbSign {
+#set($fontSize = $UTILS.round($UTILS.mul($UTILS.toInteger($quran_fontSize),"0.8")))
+	font: ${fontSize}pt serif;
+	font-weight: bold;
+	font-family: serif;
+	color: rgb(60, 120, 230);
+}
+
+.trans span.hizbSign {
+#set($fontSize = $UTILS.round($UTILS.mul($UTILS.toInteger($trans_fontSize),"0.8")))
+	font: ${fontSize}pt serif;
+	font-weight: bold;
+	color: rgb(60, 120, 230);
+}
+
+#custom.trans {
+	padding: 3px 0px;
+}
+
+td .ayaSep {
+	margin: 0 5px 0 0;
+	border-top: 1px solid #bcd;
+}
+
+.commentHandle {
+    text-weight: bold;
+    background-color: #ffffd0;
+    cursor: pointer;
+}
+.commentText {
+    color: #405040;
+}
+
+/* * * * * * * * 
+      tipsy
+ * * * * * * * */
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+	.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }

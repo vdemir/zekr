@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shortcut version="1.1.0">
+<![CDATA[
+- if shortcut for right-to-left mode is different, specify rtlKey for mapping element.
+- use 'Alt', 'Ctrl', and 'Shift' modifiers only. Ctrl is treated as Cmd on Mac systems.
+- you may optionally use 'Win' modifier only on Windows operating system.
+- 'superGlobal' attribute works currently only on Windows. This attribute is a hint for the shortcut
+to be considered totally globally in the windowing system regardless of currently active form/window of
+applications other than Zekr.
+- 'global' attribute is a hint to consider shortcut execution regardless of any active Zekr form (main window, goto, etc.)
+- function keys from F1 to F20 are supported.
+- If you want to use '+' key, write either 'plus' or '\+'. For example Ctlr+Plus or Ctrl+\+.
+- You original key code should placed after the last + sign.
+- 'Up', 'Down', 'Left', 'Right', 'PageUp', 'PageDown', 'Home', 'End', 'Insert', 'Delete', 'Enter', 
+    'Space', 'BackSpace', 'Esc' and 'Tab' are recognized controlling keys. For example you can specify
+    Ctrl+Alt+Enter for an action.
+]]>
+   <!-- file -->
+   <mapping action="print" key="Ctrl+Shift+P" />
+   <mapping action="savePageAs" key="Ctrl+Shift+S" />
+   <mapping action="quit" key="Ctrl+Q" global="true" />
+
+   <!-- view -->
+   <mapping action="reload" key="Ctrl+R" global="true" />
+   <mapping action="configureMultiTrans" key="Ctrl+Shift+T" />
+   <mapping action="toggleFullScreen" key="F11" global="true" suppressOnModal="true" /> <!-- Ctrl+Shift+F -->
+
+   <!-- goto -->
+   <mapping action="gotoForm" key="Ctrl+G" global="true" suppressOnModal="true" />
+   <mapping action="gotoRandomAya" key="Ctrl+Shift+R" global="true" />
+   <mapping action="gotoNextSura" key="Ctrl+Alt+Down" global="true" />
+   <mapping action="gotoPrevSura" key="Ctrl+Alt+Up" global="true" />
+   <mapping action="gotoNextAya" key="Alt+Right" rtlKey="Alt+Left" global="true" />
+   <mapping action="gotoPrevAya" key="Alt+Left" rtlKey="Alt+Right" global="true" />
+   <mapping action="gotoNextPage" key="Alt+Down" global="true" />
+   <mapping action="gotoPrevPage" key="Alt+Up" global="true" />
+   <mapping action="gotoNextHizbQuarter" key="Ctrl+Alt+Right" rtlKey="Ctrl+Alt+Left" />
+   <mapping action="gotoPrevHizbQuarter" key="Ctrl+Alt+Left" rtlKey="Ctrl+Alt+Right" />
+   <mapping action="gotoNextJuz" key="Ctrl+." rtlKey="Ctrl+," />
+   <mapping action="gotoPrevJuz" key="Ctrl+," rtlKey="Ctrl+." />
+   <mapping action="gotoNextSajda" key="" />
+   <mapping action="gotoPrevSajda" key="" />
+
+   <!-- audio -->
+   <mapping action="playerTogglePlayPause" key="Ctrl+P" global="true" />
+   <mapping action="playerStop" key="Ctrl+S" global="true" />
+   <mapping action="toggleAudioPanel" key="F4" global="true" suppressOnModal="true" />
+   <mapping action="playerNext" key="Ctrl+Alt+=" global="true" />
+   <mapping action="playerPrev" key="Ctrl+Alt+-" global="true" />
+   <mapping action="playerVolumeUp" key="Ctrl+=" global="true" />
+   <mapping action="playerVolumeDown" key="Ctrl+-" global="true" />
+   <mapping action="playerSeekForward" key="Alt+Shift+Right" rtlKey="Alt+Shift+Left" global="true" />
+   <mapping action="playerSeekBackward" key="Alt+Shift+Left" rtlKey="Alt+Shift+Right" global="true" />
+
+   <!-- bookmark set -->
+   <mapping action="manageBookmarks" key="Ctrl+B" suppressOnModal="true" />
+   <mapping action="manageBookmarkSets" key="" suppressOnModal="true" />
+   <mapping action="bookmarkThis" key="Ctrl+D" global="true" suppressOnModal="true" />
+   <mapping action="findBookmarkReferences" key="Ctrl+Shift+F" global="true" suppressOnModal="true" />
+
+   <!-- help -->
+   <mapping action="options" key="" />
+
+   <!-- help -->
+   <mapping action="onlineHelp" key="F1" global="true" />
+
+   <!-- super global listeners -->
+   <mapping action="openHideMainWindow" key="Ctrl+Alt+Z" superGlobal="true" />
+
+</shortcut>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="يونس مومن, Akram Rey" version="0.5">
+    <locale localizedName="Français" name="French" id="fr_FR" direction="ltr" />
+    <word>
+        <common>
+            <text id="OK"   value="Accepter" />
+            <text id="CANCEL" value="Annuler" />
+            <text id="YES"  value="Oui" />
+            <text id="NO"   value="Non" />
+            <text id="APPLY"  value="Appliquer" />
+            <text id="START"  value="Début" />
+            <text id="RESET"  value="Reset" />
+            <text id="NEW"  value="Nouveau" />
+            <text id="SAVE_AS"  value="Enregistrer sous" />
+            <text id="HELP"   value="Aide" />
+            <text id="EDIT"   value="Édition" />
+            <text id="SEARCH" value="Recherche" />
+            <text id="GOTO"   value="Aller à" />
+            <text id="VIEW"   value="Affichage" />
+            <text id="CLOSE"  value="Fermer" />
+            <text id="INSERT" value="Insérer" />
+            <text id="DETAILS"  value="Détails" />
+            <text id="MORE"   value="Avancé" />
+            <text id="NEXT"   value="Suivant" />
+            <text id="PREVIOUS" value="Précédent" />
+            <text id="REFRESH"  value="Rafraîchir" />
+            <text id="UPDATE" value="Mise à jour" />
+            <text id="SHOW"   value="Afficher" />
+            <text id="NAME"   value="Nom" />
+            <text id="VALUE"  value="Valeur" />
+            <text id="NUMBER" value="Nombre" />
+            <text id="OPTION" value="Options" />
+            <text id="FILE"   value="Fichier" />
+            <text id="RELOAD" value="Recharger" />
+            <text id="TYPE"   value="Type" />
+            <text id="MESSAGE"  value="Message" />
+            <text id="BLOCK"  value="Bloc" />
+            <text id="LINE_BY_LINE" value="Ligne par ligne" />
+            <text id="AND"  value="et" />
+            <text id="COMMA"  value="," />
+            <text id="SYNCHRONOUS" value="Synchrone" />
+            <text id="ERROR"  value="Erreur" />
+            <text id="LANGUAGE" value="Langage" />
+            <text id="ABOUT"  value="A propos" />
+            <text id="PRINT"  value="Imprimer" />
+            <text id="HOMEPAGE" value="Page d'accueil" />
+            <text id="WHOLE_QURAN" value="Tout le Coran" /> 
+            <text id="MATCH_DIACRITIC" value="Correspondre diacritique" /> 
+            <text id="MATCH_CASE" value="Respecter la casse" />
+            <text id="NEXT_AYA" value="Aya Suivante" /> 
+            <text id="NEXT_SURA" value="Sura Suivante" /> 
+            <text id="PREV_AYA" value="Aya Précédente" /> 
+            <text id="PREV_SURA" value="Sura Précédente" /> 
+            <text id="THEME" value="Thème" />
+            <text id="LAYOUT" value="Couche" />
+            <text id="TOOLS"   value="Outils" />
+            <text id="ADD"   value="Ajouter" />
+            <text id="DELETE" value="Supprimer" />
+            <text id="REMOVE" value="Enlever" />
+            <text id="TRANSLATION" value="Traduction" />
+            <text id="TRANSLATION_VIEWTYPE" value="Traduction" />
+            <text id="OPEN"   value="Ouvrir" />
+            <text id="IMPORT" value="Importer" />
+            <text id="COPY"   value="Copier" />
+            <text id="SEPARATE" value="Séparée" />
+            <text id="MIXED"  value="Mélangée" />
+            <text id="OPTIONS"  value="Options" />
+            <text id="QUESTION" value="Question" />
+            <text id="FONT"     value="Police" />
+            <text id="GENERAL"  value="Général" />
+            <text id="EXIT"     value="Quitter" />
+            <text id="EXCLUDE"  value="Exclure" />
+            <text id="TRUE"     value="Vrai" />
+            <text id="FALSE"    value="Faux" />
+            <text id="SELECT"   value="Sélectionner" />
+            <text id="EXPORT"   value="Exporter" />
+            <text id="IMPORT"   value="Importer" />
+            <text id="DESCRIPTION" value="Description" />
+            <text id="BOOKMARKS" value="Repères" />
+            <text id="CONFIGURE" value="Configurer" />
+            <text id="EDIT_BOOKMARK_SET" value="Éditer les repères" />
+            <text id="MANAGE_BOOKMARK_SETS" value="Éditer les groupes de repère" />
+            <text id="DIRECTION" value="Sens" />
+            <text id="LANG_DIRECTION" value="Sens du langage" />
+            <text id="RTL"      value="De droite à gauche" />
+            <text id="LTR"      value="De gauche à droite" />
+            <text id="AUTHOR"   value="Auteur" />
+            <text id="VERSION"  value="Version" />
+            <text id="RANDOM_AYA" value="Aya aléatoire" />
+            <text id="UNTITLED" value="Non titré " />
+            <text id="SET_DEFAULT" value="Mettre par défaut" />
+            <text id="NOT_LOADED" value="Non chargé" />
+            <text id="ID"       value="ID" />
+            <text id="OVERWRITE" value="Écraser" />
+            <text id="SAVE"     value="Enregistrer" />
+            <text id="PATH"     value="Chemin" />
+            <text id="SHOW_REFS" value="Afficher références" />
+            <text id="MOVE_UP" value="Bouger en haut" />
+            <text id="MOVE_DOWN" value="Bouger en bas" />
+            <text id="MULTI_TRANS" value="Multi-traductions" /> <!-- NOTE: This element replaced with CUSTOM_MIXED -->
+            <text id="CONFIG_CUSTOM_TRANS" value="Configurer les traductions " />
+            <text id="GO" value="Go" />
+            <text id="CAUTION" value="Attention" />
+            <text id="ADVANCED" value="Avancée" />
+            <text id="QUERY_DETAIL" value="Détail du requête" />
+            <text id="PAGE" value="Page" />
+            <text id="MULTILINE" value="Multi-ligne" />
+            <text id="TOGGLE" value="Toggle" />
+            <text id="AUDIO" value="Son" />
+            <text id="CONTINUOUS" value="Continu" />
+            <text id="DISCRETE" value="Discret" />
+            <text id="PLAY" value="Lire" />
+            <text id="PAUSE" value="Pause" />
+            <text id="STOP" value="Arrêter" />
+            <text id="RECITATION" value="Récitation" />
+            <text id="MENU_NEXT_AYA" value="Aya suivante" />
+            <text id="MENU_NEXT_SURA" value="Sura suivante" />
+            <text id="MENU_PREV_AYA" value="Aya précédente" />
+            <text id="MENU_PREV_SURA" value="Sura précédente" />
+            <text id="MENU_NEXT_JUZ" value="Juz suivant" />
+            <text id="MENU_PREV_JUZ" value="Juz précédent" />
+            <text id="MENU_NEXT_HIZBQ" value="Le quart du Hizb suivant" />
+            <text id="MENU_PREV_HIZBQ" value="Le quart du Hizb précédent" />
+            <text id="MENU_NEXT_SAJDA" value="Sajda suivante" />
+            <text id="MENU_PREV_SAJDA" value="Sajda précédente" />
+            <text id="MENU_NEXT_PAGE" value="Page suivante"   />
+            <text id="MENU_PREV_PAGE" value="Page précédente "   />
+            <text id="CHECK4UPDATE" value="Vérifier les mises à jour"   />
+            <text id="ASCENDING" value="Montée"   />
+            <text id="DESCENDING" value="Descente"   />
+            <text id="REVEL_ORDER" value="Ordre de révélation"   />
+            <text id="FULL_SCREEN" value="Plein écran"   />
+            <text id="WARNING" value="Avertissement"   />
+            <text id="ONLINE_HELP" value="Aide en ligne"   />
+            <text id="PAGING_MODE" value="Mode d'affichage"   />
+            <text id="PANEL" value="Panneau"   />
+            <text id="DETAIL_PANEL" value="Détail du panneau"   />
+            <text id="REPEAT" value="Répéter"   />
+            <text id="ROOT" value="Racine"   /> <!-- word root -->
+            <text id="ADDRESS" value="Adresse"   />
+            <text id="BOOKMARK_THIS_AYA" value="Repérer cette Aya" /> 
+        </common>
+        <special>
+            <text id="QURAN"  value="Coran" />
+            <text id="QURAN_VIEWTYPE"  value="Coran" />
+            <text id="SURA"   value="Sura" />
+            <text id="AYA"  value="Aya" />
+            <text id="SAJDA"  value="Sajda" />
+            <text id="JUZ"  value="Juz" />
+            <text id="HIZB"     value="Hizb" />
+            <text id="QUARTER"  value="Quarter" />
+            <text id="MAKKI"  value="Makki" />
+            <text id="MADANI" value="Madani" />
+            <text id="DESCENT"  value="Descente" />
+            <text id="AYA_COUNT"  value="Nombre d'Aya" />
+            <text id="MINOR_SAJDA" value="Sajda Mineure" /> <!-- Mustahab Sajda -->
+            <text id="MAJOR_SAJDA" value="Sajda Majeure" /> <!-- Wajib Sajda -->
+            <text id="LOCATION" value="Emplacement" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+        </special>
+    </word>
+
+    <message>
+        <inform>
+            <text id="SEARCH_RESULT_TITLE" value="Résultat de la recherche pour: &quot;{1}&quot;" />
+            <text id="SEARCH_RESULT_COUNT" value="{1} résultats trouvés dans {2} Ayas." /> 
+            <text id="SEARCH_PAGE" value="Page {1} of {2}"   />
+            <text id="TOO_MANY_RESULT" value="Le résultat de la recherche donne plus de {1} aya" /> 
+            <text id="FILE_ALREADY_EXISTS" value="Un fichier portant le nom &quot;{1}&quot; existe déjà. Voulez-vous le remplacer?" />
+            <text id="RESTART_APP" value="Vous devez redémarrer l'application afin que les changements prennent effet." />
+            <text id="ACTION_PERFORMED" value="Action effectuée avec succès."   />
+            <text id="TRANSLATION_ADDED" value="La traduction suivante  ajoutée  sous le {1} menu"   />
+        </inform>
+        <confirm>
+            <text id="YES_NO" value="Etes-vous sûre?" />
+            <text id="DEL_YES_NO" value="Supprimer continuellement {1} item(s)?" />
+        </confirm>
+        <error>
+            <text id="GENERAL_ERROR" value="Erreur inattendue" />
+            <text id="FNF" value="Fichier non trouvé" />
+            <text id="ACTION_FAILED" value="Action échouée!" />
+            <text id="INVALID_TRANSLATION_FORMAT" value="Format de traduction invalide: {1}"   />
+            <text id="INVALID_TRANSLATION_SIGNATURE" value="Signature de traduction invalide: {1}"   />
+            <text id="TRANSLATION_LOAD_FAILED" value="Chargement de traduction &quot;{1}&quot; échoué à cause de l'erreur suivante: {2}"   />
+            <text id="ENTER_VALID_NUMBER" value="SPV entrez un nombre valide."   />
+            <text id="NUMBER_LIMIT" value="SVP entrez un nombre entre '{1}' et '{2}'."   />
+        </error>
+        <hint></hint>
+    </message>
+
+    <forms>
+        <global>
+            <text id="APP_NAME" value="Zekr" />
+            <text id="APP_FULL_NAME" value="Le projet Coranique Zekr" />
+            <text id="FORM_TITLE" value="Zekr" />
+            <text id="COPYRIGHT_DISCLAIMER" value="Ce programme est distribué gratuitement dans l'espoir qu'il vous sera utile, mais sans aucune garantie." />
+        </global>
+        <form id="QURAN_FORM">
+            <text id="TITLE" value="Zekr" />
+            <text id="NEW_SCOPE" value="Nouvelle zone de recherche" />
+            <text id="EDIT_SCOPES" value="Éditer la zone de recherche" />
+            <text id="NO_SCOPE" value="Pas de zone de recherche" />
+            <text id="CURRENT_PAGE" value="Page courante" />
+            <text id="QURAN_SCOPE"  value="Coran" />
+            <text id="TRANSLATION_SCOPE" value="Traduction" />
+            <text id="NATURAL_ORDER" value="Ordre des Suras" />
+            <text id="RELEVANCE" value="Pertinence" />
+            <text id="AYA_LENGTH" value="Longueur aya"   />
+            <text id="SORT_BY" value="Afficher par" />
+            <text id="TOGGLE_FULL_SCREEN" value="Basculer en plein écran"   />
+        </form>
+        <form id="OPTIONS_FORM">
+            <text id="THEME_OPTIONS" value="Thème" />
+            <text id="GENERAL_OPTIONS"  value="Général" />
+            <text id="VIEW_OPTIONS"   value="Affichage" />
+            <text id="TITLE" value="Options de l'application" />
+            <text id="SHOW_SPLASH" value="Afficher le logo au démarrage" />
+            <text id="NEW_KEY" value="Entrez une nouvelle touche" />
+            <text id="THEME_SETTING" value="Configuration du thème" />
+            <text id="PRESS_OK_TO_APPLY" value="Appuyez sur le bouton &quot;OK&quot; afin d'appliquer les modifications." />
+            <text id="MAX_SEARCH_RESULT" value="Nombre maximum des résultats de la recherche." />
+            <text id="RESIZEABLE_TASK_PANE" value="Menu d'outils redimensionnable" />
+            <text id="SURA_NAMES" value="Montrer les noms des suras"   /> 
+            <text id="ARABIC" value="Arabe"   />
+            <text id="EN_T9N" value="Traduction anglaise"   />
+            <text id="EN_T13N" value="Translittération anglaise"   />
+            <text id="T9N" value="Traduction (si disponible)"   />
+            <text id="T13N" value="Translittération (si disponible)"   />
+            <text id="ENABLE_AUDIO" value="Permettre le support audio"   /> 
+            <text id="SURA_NAME_TREE" value="Afficher les noms des suras dans un arbre " /> <!--Display sura names in a tree-->
+        </form>
+        <form id="SEARCH_SCOPE_FORM">
+            <text id="TITLE" value="Configurer la zone de recherche" />
+            <text id="SEARCH_SCOPE" value="Zone de recherche" />
+            <text id="FROM_SURA" value="De la  sura" />
+            <text id="FROM_AYA" value="De la aya" />
+            <text id="TO_SURA" value="A la  sura" />
+            <text id="TO_AYA" value="A la aya" />
+            <text id="ILLEGAL_SEARCH_SCOPE" value="Zone de recherche illégalle" />
+        </form>
+        <form id="MANAGE_SCOPES_FORM">
+            <text id="TITLE" value="Éditer la zone de recherche" />
+        </form>
+        <form id="BOOKMARK_SET_FORM">
+            <text id="TITLE" value="Éditer les repères: {1}" />
+            <text id="NEW_BOOKMARK_FOLDER" value="Nouveau dossier de repère " />
+            <text id="NEW_BOOKMARK_ITEM" value="Nouveau repère" />
+            <text id="UNIQUE_NAME" value="Nom unique" />
+            <text id="COMMA_SEPARATED" value=" utiliser les valeurs séparées par virgule, s'il y a plus d'un auteur " />
+            <text id="ONLY_ENGLISH" value="Utiliser seulement les noms anglais (e.g. English, Persian, Arabic, ...)" />
+            <text id="DESC_TOOLTIP" value="Conventions, citations, références, et autres thèmes associés au repère vont ici  " />
+        </form>
+        <form id="BOOKMARK_SET_MANAGE_FORM">
+            <text id="TITLE" value="Éditer les groupes de repère" />
+            <text id="DBL_CLICK" value="Double click sur les items pour charger et/ou éditer." />
+            <text id="SET_AS_DEFAULT" value="Voulez vous mettre &quot;{1}&quot; par défaut votre ensemble du repère?" />
+            <text id="CANNOT_REMOVE_DEFAULT" value="Impossible d'effacer le repère par défaut." />
+            <text id="CANNOT_OVERWRITE_DEFAULT" value="Impossible d'écraser sur l'ensemble du repère par défaut. Sélectionner un autre ensemble  d'un repère par défaut, et essayer d'importer." />
+            <text id="ENTER_ID" value="Enter l'ID du repère " />
+            <text id="NEW_BOOKMARK_SET" value="Nouveau ensemble de repère" />
+            <text id="EXPORT4WEB" value="Exporter pour le Web" />
+        </form>
+        <form id="BOOKMARK_ITEM_FORM">
+            <text id="TITLE" value="Éditer les propriétés du repère" />
+            <text id="QURAN_LOCATIONS" value="Emplacements du coran" />
+            <text id="NEW_BOOKMARK" value="Nouveau repère" />
+            <text id="NEW_FOLDER" value="Nouveau dossier" />
+        </form>
+        <form id="BOOKMARK_REF">
+            <text id="TITLE" value="Références de l'ensemble du repère à: {1}" />
+        </form>
+        <form id="IMPORT_QUESTION">
+            <text id="IMPORT_FOR" value=" Importation pour les utilisateurs suivants:" />
+            <text id="ME_ONLY" value="Seulement moi" />
+            <text id="ALL_USERS" value="Tous les utilisateurs (Besoin de l'accès en écriture au répertoire d'installation)" /> 
+            <text id="FOLLOWING_USERS" value="Index pour les utilisateurs suivants" />
+        </form>
+        <form id="CONFIG_CUSTOM_TRANS">
+            <text id="REMOVE_CUSTOM" value="Supprimer" />
+            <text id="ADD_CUSTOM"   value="Ajouter" />
+            <text id="TITLE" value="Configurer les traductions personnalisées " />
+            <text id="AVAILABLE" value="Traductions disponibles" />
+            <text id="CURRENT" value="Traductions courantes" />
+        </form>
+        <form id="PROGRESS">
+            <text id="PLEASE_WAIT" value="Patientez SVP" />
+            <text id="INDEXING" value="Indexation" /><!-- The process of indexing a document for faster search -->
+            <text id="TAKE_TIME" value="Cette action peut prendre plusieurs minutes, suivant la taille du document." />
+            <text id="CHECKING" value="Vérification des mises à jour" />
+            <text id="ZEKR_IS_CHECKING" value="Zekr est maintenant en recherche des mises à jour" />
+        </form>
+        <form id="ABOUT">
+            <text id="TITLE" value="A propos de Zekr"   />
+            <text id="VIEW_LOG" value="Afficher le fichier Log"   />
+        </form>
+        <form id="UPDATE">
+            <text id="TITLE" value="Information sur les Mises à jour "   />
+            <text id="VERSION_INFO" value="Version info"   />
+            <text id="BUILD_NUM" value="Numéro du programme"   />
+            <text id="VERSION" value="Version"   />
+            <text id="RELEASE_NAME" value="Nom de la version"   />
+            <text id="RELEASE_STATE" value="État du programme"   />
+            <text id="RELEASE_DATE" value="Date de la version"   />
+            <text id="RELEASE_NOTES" value="Notes de la version"   />
+            <text id="DOWNLOAD" value="Télécharger"   />
+            <text id="MORE_INFO" value="Plus d'informations"   />
+            <text id="NO_UPDATE" value="La nouvelle version est déjà installée."   />
+            <text id="NEW_DEV_AVAILABLE" value="Une nouvelle version (instable) est disponible pour le téléchargement"   />
+            <text id="NEW_BETA_AVAILABLE" value="Une nouvelle version bêta (instable) est disopnible pour le téléchargement"   />
+            <text id="NEW_FINAL_AVAILABLE" value="Une nouvelle version (finale) est disponible pour le téléchargement"   />
+        </form>
+        <form id="PAGING_MODE">
+            <text id="TITLE" value="Mode de la page"   />
+            <text id="SURA" value="Sura"   />
+            <text id="HIZB_QUARTER" value="quart du hizb"   />
+            <text id="JUZ" value="Juz"   />
+            <text id="CONST_AYA" value="Aya constante"   />
+            <text id="CUSTOM" value="Habituel"   />
+            <text id="AYA_PER_SURA" value="Combien de ayas doivent apparaître sur chaque page?"   />
+        </form>
+    </forms>
+</language>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran>
+	<sura-detail>
+		<sura index="1" name="Les sept répétés" tname="Al-Faatiha" />
+		<sura index="2" name="La vache" tname="Al-Baqara" />
+		<sura index="3" name="La famille de ‘Imrâne" tname="Aali Imraan" />
+		<sura index="4" name="Les femmes" tname="An-Nisaa" />
+		<sura index="5" name="La table servie" tname="Al-Maaida" />
+		<sura index="6" name="Les bestiaux" tname="Al-An'aam" />
+		<sura index="7" name="Le mur de Al-A‘râf" tname="Al-A'raaf" />
+		<sura index="8" name="Le butin" tname="Al-Anfaal" />
+		<sura index="9" name="Le repentir" tname="At-Tawba" />
+		<sura index="10" name="Jonas" tname="Yunus" />
+		<sura index="11" name="Houd" tname="Hud" />
+		<sura index="12" name="Joseph" tname="Yusuf" />
+		<sura index="13" name="Le tonnerre" tname="Ar-Ra'd" />
+		<sura index="14" name="Abraham" tname="Ibrahim" />
+		<sura index="15" name="Al-Hidjr (Hégra)" tname="Al-Hijr" />
+		<sura index="16" name="Les abeilles" tname="An-Nahl" />
+		<sura index="17" name="Le voyage nocturne" tname="Al-Israa" />
+		<sura index="18" name="La caverne" tname="Al-Kahf" />
+		<sura index="19" name="Marie" tname="Maryam" />
+		<sura index="20" name="Tâ-Hâ" tname="Taa-Haa" />
+		<sura index="21" name="Les prophètes" tname="Al-Anbiyaa" />
+		<sura index="22" name="Le pélerinage" tname="Al-Hajj" />
+		<sura index="23" name="Les croyants" tname="Al-Muminoon" />
+		<sura index="24" name="La lumière" tname="An-Noor" />
+		<sura index="25" name="Le discernement" tname="Al-Furqaan" />
+		<sura index="26" name="Les poètes" tname="Ash-Shu'araa" />
+		<sura index="27" name="Les fourmis" tname="An-Naml" />
+		<sura index="28" name="Le récit" tname="Al-Qasas" />
+		<sura index="29" name="L’araignée" tname="Al-Ankaboot" />
+		<sura index="30" name="Les Romains" tname="Ar-Room" />
+		<sura index="31" name="Louqmâne" tname="Luqman" />
+		<sura index="32" name="La prosternation" tname="As-Sajda" />
+		<sura index="33" name="Les coalisés" tname="Al-Ahzaab" />
+		<sura index="34" name="Saba" tname="Saba" />
+		<sura index="35" name="Le Créateur" tname="Faatir" />
+		<sura index="36" name="Yâ-Sîn" tname="Yaseen" />
+		<sura index="37" name="Les rangés" tname="As-Saaffaat" />
+		<sura index="38" name="Sâd" tname="Saad" />
+		<sura index="39" name="Les groupes" tname="Az-Zumar" />
+		<sura index="40" name="Le Pardonneur" tname="Ghaafir" />
+		<sura index="41" name="Les versets détaillés" tname="Fussilat" />
+		<sura index="42" name="La consultation" tname="Ash-Shura" />
+		<sura index="43" name="L’ornement" tname="Az-Zukhruf" />
+		<sura index="44" name="La fumée" tname="Ad-Dukhaan" />
+		<sura index="45" name="L’agenouillée" tname="Al-Jaathiya" />
+		<sura index="46" name="Al-Ahqâf" tname="Al-Ahqaf" />
+		<sura index="47" name="Mohammed" tname="Muhammad" />
+		<sura index="48" name="La victoire éclatante" tname="Al-Fath" />
+		<sura index="49" name="Les appartements" tname="Al-Hujuraat" />
+		<sura index="50" name="Qâf" tname="Qaaf" />
+		<sura index="51" name="Les vents qui éparpillent" tname="Adh-Dhaariyat" />
+		<sura index="52" name="Le mont" tname="At-Tur" />
+		<sura index="53" name="L’étoile" tname="An-Najm" />
+		<sura index="54" name="La lune" tname="Al-Qamar" />
+		<sura index="55" name="Le Tout-Miséricordieux" tname="Ar-Rahmaan" />
+		<sura index="56" name="L’évènement" tname="Al-Waaqia" />
+		<sura index="57" name="Le fer" tname="Al-Hadid" />
+		<sura index="58" name="La discussion" tname="Al-Mujaadila" />
+		<sura index="59" name="L’exode" tname="Al-Hashr" />
+		<sura index="60" name="L’éprouvée" tname="Al-Mumtahana" />
+		<sura index="61" name="Les rangs" tname="As-Saff" />
+		<sura index="62" name="Le Djoumou‘a (Le Vendredi)" tname="Al-Jumu'a" />
+		<sura index="63" name="Les hypocrites" tname="Al-Munaafiqoon" />
+		<sura index="64" name="La grande perte" tname="At-Taghaabun" />
+		<sura index="65" name="Le divorce" tname="At-Talaaq" />
+		<sura index="66" name="L’interdiction" tname="At-Tahrim" />
+		<sura index="67" name="La royauté" tname="Al-Mulk" />
+		<sura index="68" name="La plume" tname="Al-Qalam" />
+		<sura index="69" name="Celle qui montre la vérité" tname="Al-Haaqqa" />
+		<sura index="70" name="Les voies d’ascension" tname="Al-Ma'aarij" />
+		<sura index="71" name="Noé" tname="Nooh" />
+		<sura index="72" name="Les Djinns" tname="Al-Jinn" />
+		<sura index="73" name="L’enveloppé" tname="Al-Muzzammil" />
+		<sura index="74" name="Le revêtu d’un manteau" tname="Al-Muddaththir" />
+		<sura index="75" name="La résurrection" tname="Al-Qiyaama" />
+		<sura index="76" name="L’Homme" tname="Al-Insaan" />
+		<sura index="77" name="Les envoyés" tname="Al-Mursalaat" />
+		<sura index="78" name="La nouvelle" tname="An-Naba" />
+		<sura index="79" name="Les anges qui arrachent les âmes" tname="An-Naazi'aat" />
+		<sura index="80" name="Il s’est renfrogné" tname="Abasa" />
+		<sura index="81" name="L’obscursissement" tname="At-Takwir" />
+		<sura index="82" name="La rupture" tname="Al-Infitaar" />
+		<sura index="83" name="Les fraudeurs" tname="Al-Mutaffifin" />
+		<sura index="84" name="La déchirure" tname="Al-Inshiqaaq" />
+		<sura index="85" name="Les constellations" tname="Al-Burooj" />
+		<sura index="86" name="L’astre nocturne" tname="At-Taariq" />
+		<sura index="87" name="Le Très-Haut" tname="Al-A'laa" />
+		<sura index="88" name="L’enveloppante" tname="Al-Ghaashiya" />
+		<sura index="89" name="L’aube" tname="Al-Fajr" />
+		<sura index="90" name="La cité" tname="Al-Balad" />
+		<sura index="91" name="Le soleil" tname="Ash-Shams" />
+		<sura index="92" name="La nuit" tname="Al-Lail" />
+		<sura index="93" name="Le jour montant" tname="Ad-Dhuhaa" />
+		<sura index="94" name="L’ouverture" tname="Ash-Sharh" />
+		<sura index="95" name="Le figuier" tname="At-Tin" />
+		<sura index="96" name="L’adhérence" tname="Al-Alaq" />
+		<sura index="97" name="La destinée" tname="Al-Qadr" />
+		<sura index="98" name="La preuve" tname="Al-Bayyina" />
+		<sura index="99" name="La secousse" tname="Az-Zalzala" />
+		<sura index="100" name="Les coursiers" tname="Al-Aadiyaat " />
+		<sura index="101" name="Le fracas" tname="Al-Qaari'a" />
+		<sura index="102" name="La course aux richesses" tname="At-Takaathur" />
+		<sura index="103" name="Le temps (le déclin du jour)" tname="Al-Asr" />
+		<sura index="104" name="Les calomniateurs" tname="Al-Humaza" />
+		<sura index="105" name="L’éléphant" tname="Al-Fil" />
+		<sura index="106" name="Les Qouraïchites" tname="Quraish" />
+		<sura index="107" name="L’ustensile" tname="Al-Maa'un" />
+		<sura index="108" name="L’abondance" tname="Al-Kawthar" />
+		<sura index="109" name="Les mécréants" tname="Al-Kaafiroon" />
+		<sura index="110" name="Le secours" tname="An-Nasr" />
+		<sura index="111" name="La corde de fibres" tname="Al-Masad" />
+		<sura index="112" name="Le monothéisme pur" tname="Al-Ikhlaas" />
+		<sura index="113" name="L’aube naissante" tname="Al-Falaq" />
+		<sura index="114" name="Les Hommes" tname="An-Naas" />
+	</sura-detail>
+</quran>

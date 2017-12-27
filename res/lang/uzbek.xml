@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Нурали Абдурақмонов" version="0.6">
+	<locale localizedName="Ўзбекча" name="Uzbek" id="uz_UZ" direction="ltr"/>
+	<word>
+		<common>
+			<text id="OK" value="OK"/>
+			<text id="CANCEL" value="Бекор қилиш"/>
+			<text id="YES" value="Ҳа"/>
+			<text id="NO" value="Йўқ"/>
+			<text id="APPLY" value="Қабул қилиш"/>
+			<text id="START" value="Бошлаш"/>
+			<text id="RESET" value="Бекор қилиш"/>
+			<text id="NEW" value="Янги"/>
+			<text id="SAVE_AS" value="Бошқача сақлаш"/>
+			<text id="HELP" value="Ёрдам"/>
+			<text id="EDIT" value="Таҳрирлаш"/>
+			<text id="SEARCH" value="Қидириш"/>
+			<text id="GOTO" value="Ўтиш"/>
+			<text id="VIEW" value="Кўриниши"/>
+			<text id="CLOSE" value="Ёпиш"/>
+			<text id="INSERT" value="Қўйиш"/>
+			<text id="DETAILS" value="Тафсилотлар"/>
+			<text id="MORE" value="Кўпроқ"/>
+			<text id="NEXT" value="Кейинги"/>
+			<text id="PREVIOUS" value="Олдинги"/>
+			<text id="REFRESH" value="Янгилаш"/>
+			<text id="UPDATE" value="Янгилаш"/>
+			<text id="SHOW" value="Кўрсатиш"/>
+			<text id="NAME" value="Номи"/>
+			<text id="VALUE" value="Қиймат"/>
+			<text id="NUMBER" value="Рақам"/>
+			<text id="OPTION" value="Опция"/>
+			<text id="FILE" value="Файл"/>
+			<text id="RELOAD" value="Қайта юклаш"/>
+			<text id="TYPE" value="Тури"/>
+			<text id="MESSAGE" value="Хабар"/>
+			<text id="BLOCK" value="Блок"/>
+			<text id="LINE_BY_LINE" value="Сатрма-сатр"/>
+			<text id="AND" value="ва"/>
+			<text id="COMMA" value=","/>
+			<text id="SYNCHRONOUS" value="Синхрон"/>
+			<text id="ERROR" value="Хато"/>
+			<text id="LANGUAGE" value="Тил"/>
+			<text id="ABOUT" value="Дастур ҳақида"/>
+			<text id="PRINT" value="Чоп этиш"/>
+			<text id="HOMEPAGE" value="Уй саҳифаси"/>
+			<text id="WHOLE_QURAN" value="Бутун Қуръон бўйича"/>
+			<text id="MATCH_DIACRITIC" value="С учетом огласовок"/>
+			<text id="MATCH_CASE" value="Катта-кичик ҳарфларни фарқлаб"/>
+			<text id="NEXT_AYA" value="Кейинги оят"/>
+			<text id="NEXT_SURA" value="кейинги сура"/>
+			<text id="PREV_AYA" value="Олдинги оят"/>
+			<text id="PREV_SURA" value="Олдинги сура"/>
+			<text id="THEME" value="Мавзу"/>
+			<text id="LAYOUT" value="Макет"/>
+			<text id="TOOLS" value="Воситалар"/>
+			<text id="ADD" value="Қўшиш"/>
+			<text id="DELETE" value="Олиб ташлаш"/>
+			<text id="REMOVE" value="Олиб ташлаш"/>
+			<text id="TRANSLATION" value="Таржима"/>
+			<text id="TRANSLATION_VIEWTYPE" value="Таржима"/>
+			<text id="OPEN" value="Очиш"/>
+			<text id="IMPORT" value="Импорт"/>
+			<text id="COPY" value="Нусха олиш"/>
+			<text id="SEPARATE" value="Алоҳида"/>
+			<text id="MIXED" value="Бирга"/>
+			<text id="OPTIONS" value="Параметрлар"/>
+			<text id="QUESTION" value="Савол"/>
+			<text id="FONT" value="Шрифт"/>
+			<text id="GENERAL" value="Умумий"/>
+			<text id="EXIT" value="Чиқиш"/>
+			<text id="EXCLUDE" value="Исключить"/>
+			<text id="TRUE" value="Ҳақиқий"/>
+			<text id="FALSE" value="Нотўғри"/>
+			<text id="SELECT" value="Танлаш"/>
+			<text id="EXPORT" value="Экспорт"/>
+			<text id="IMPORT" value="Импорт"/>
+			<text id="DESCRIPTION" value="Таърифи"/>
+			<text id="BOOKMARKS" value="Хатчўплар"/>
+			<text id="CONFIGURE" value="Хатчўпни мослаш"/>
+			<text id="EDIT_BOOKMARK_SET" value="Хатчўпни ўзгартириш"/>
+			<text id="MANAGE_BOOKMARK_SETS" value="Хатчўпларни бошқариш"/>
+			<text id="DIRECTION" value="Йўналиш"/>
+			<text id="LANG_DIRECTION" value="Матн йўналиши"/>
+			<text id="RTL" value="Ўнгдан чапга"/>
+			<text id="LTR" value="Чапдан ўнгга"/>
+			<text id="AUTHOR" value="Муаллиф"/>
+			<text id="VERSION" value="Версияси"/>
+			<text id="RANDOM_AYA" value="Тасодифий оят"/>
+			<text id="UNTITLED" value="Номсиз"/>
+			<text id="SET_DEFAULT" value="Андоза бўйича"/>
+			<text id="NOT_LOADED" value="Юкланмаган"/>
+			<text id="ID" value="ID"/>
+			<text id="OVERWRITE" value="Устидан ёзиш"/>
+			<text id="SAVE" value="Сақлаш"/>
+			<text id="PATH" value="Йўл"/>
+			<text id="SHOW_REFS" value="Боғламаларни кўрсатиш"/>
+			<text id="MOVE_UP" value="Юқорига"/>
+			<text id="MOVE_DOWN" value="Пастга"/>
+			<text id="MULTI_TRANS" value="Кўп тилли"/>
+			<text id="CONFIG_CUSTOM_TRANS" value="Кўп тилли таржималарни мослаш"/>
+			<text id="GO" value="Ўтиш"/>
+			<text id="CAUTION" value="Диққат"/>
+			<text id="ADVANCED" value="Кенгайтирилган"/>
+			<text id="QUERY_DETAIL" value="Сўров тафсилотлари"/>
+			<text id="PAGE" value="Саҳифа"/>
+			<text id="MULTILINE" value="Бир неча қатор"/>
+			<text id="TOGGLE" value="Ёйиш"/>
+			<text id="AUDIO" value="Аудио"/>
+			<text id="CONTINUOUS" value="Давомини ҳам ўқиш"/>
+			<text id="DISCRETE" value="Фақат шу оятни ўқиш"/>
+			<text id="PLAY" value="Ўқиш"/>
+			<text id="PAUSE" value="Вақтинча тўхтатиш"/>
+			<text id="STOP" value="Тўхтатиш"/>
+			<text id="RECITATION" value="Қори"/>
+			<text id="MENU_NEXT_AYA" value="Next Aya"   />
+			<text id="MENU_NEXT_SURA" value="Next Sura"   />
+			<text id="MENU_PREV_AYA" value="Previous Aya"   />
+			<text id="MENU_PREV_SURA" value="Previous Sura"   />
+			<text id="MENU_NEXT_JUZ" value="Next Juz"   />
+			<text id="MENU_PREV_JUZ" value="Previous Juz"   />
+			<text id="MENU_NEXT_HIZBQ" value="Next Hizb Quarter"   />
+			<text id="MENU_PREV_HIZBQ" value="Previous Hizb Quarter"   />
+			<text id="MENU_NEXT_SAJDA" value="Next Sajda"   />
+			<text id="MENU_PREV_SAJDA" value="Previous Sajda"   />
+			<text id="BOOKMARK_THIS_AYA" value="Bookmark This Aya"   />
+		</common>
+		<special>
+			<text id="QURAN" value="Қуръони Карим"/>
+			<text id="QURAN_VIEWTYPE" value="Қуръони Карим"/>
+			<text id="SURA" value="Сура"/>
+			<text id="AYA" value="Оят"/>
+			<text id="SAJDA" value="Сажда"/>
+			<text id="JUZ" value="Жуз"/>
+			<text id="HIZB" value="Ҳизб"/>
+			<text id="QUARTER" value="Чорак"/>
+			<text id="MAKKI" value="Маккий сура"/>
+			<text id="MADANI" value="Мадинавий сура"/>
+			<text id="DESCENT" value="Нозил бўлган ери"/>
+			<text id="AYA_COUNT" value="Оятлар сони"/>
+			<text id="MINOR_SAJDA" value="Кичик сажда"/> 
+			<text id="MAJOR_SAJDA" value="Катта сажда"/> 
+			<text id="LOCATION" value="Ўрни"/> 
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="Қидириш натижаси: &quot;{1}&quot;"/>
+			<text id="SEARCH_RESULT_COUNT" value="{2} оятда {1} топилди."/>
+			<text id="SEARCH_PAGE" value="{1} дан {2} саҳифагача"/>
+			<text id="TOO_MANY_RESULT" value="Қидириш натижаси {1} оятдан кўп"/>
+			<text id="FILE_ALREADY_EXISTS" value="&quot;{1}&quot; номли файл аллақачон мавжуд. Алмаштиришни истайсизми?"/>
+			<text id="RESTART_APP" value="Ўзгаришлар кучга кириши учун дастурни қайтадан ишга тушириш керак."/>
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Ишончингиз комилми?"/>
+			<text id="DEL_YES_NO" value="{1} элемент(лар)ни тўлалигича олиб ташламоқчимисиз"/>
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Кутилмаган хатолик юз берди"/>
+			<text id="FNF" value="Файл топилмади"/>
+			<text id="ACTION_FAILED" value="Амални бажариб бўлмади!"/>
+		</error>
+		<hint/>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Зикр"/>
+			<text id="APP_FULL_NAME" value="Зикр Қуръони Карим лойиҳаси"/>
+			<text id="FORM_TITLE" value="Зикр"/>
+			<text id="COPYRIGHT_DISCLAIMER" value="Ушбу дастур ҳеч қандай кафолатсиз, бепул тарқатилади."/>
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Зикр"/>
+			<text id="NEW_SCOPE" value="Янги қоида"/>
+			<text id="EDIT_SCOPES" value="Қоидани ўзгартириш"/>
+			<text id="NO_SCOPE" value="Қоидасиз"/>
+			<text id="CURRENT_PAGE" value="Жорий саҳифа"/>
+			<text id="QURAN_SCOPE" value="Қуръони Карим"/>
+			<text id="TRANSLATION_SCOPE" value="Таржима"/>
+			<text id="NATURAL_ORDER" value="Оддий тартибда"/>
+			<text id="RELEVANCE" value="По релевантности"/>
+			<text id="SORT_BY" value="Натижаларни саралаш"/>
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="Мавзу"/>
+			<text id="GENERAL_OPTIONS" value="Умумий"/>
+			<text id="VIEW_OPTIONS" value="Кўриниши"/>
+			<text id="TITLE" value="Дастур параметрлари"/>
+			<text id="SHOW_SPLASH" value="Ишга тушаётганда логони кўрсатиш"/>
+			<text id="NEW_KEY" value="Янги калитни киритинг"/>
+			<text id="THEME_SETTING" value="Мавзу мосламалари"/>
+			<text id="PRESS_OK_TO_APPLY" value="Қўллаш учун &quot;OK&quot; тугмасини босинг."/>
+			<text id="MAX_SEARCH_RESULT" value="Қидиришда ишлатиладиган оятлар сони"/>
+			<text id="RESIZEABLE_TASK_PANE" value="Панелларни ўлчамини ўзгартиришга рухсат бериш"/>
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Қидириш қоидасини мослаш"/>
+			<text id="SEARCH_SCOPE" value="Қидириш қоидаси"/>
+			<text id="FROM_SURA" value="Сурадан"/>
+			<text id="FROM_AYA" value="Оятдан"/>
+			<text id="TO_SURA" value="Сурагача"/>
+			<text id="TO_AYA" value="Оятгача"/>
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Фидириш қоидаси параметри хато"/>
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Қидириш қоидасини ўзгартириш"/>
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Хатчўплар тўпламини таҳрирлаш: {1}"/>
+			<text id="NEW_BOOKMARK_FOLDER" value="Янги жилди"/>
+			<text id="NEW_BOOKMARK_ITEM" value="Янги рўйхат элементи"/>
+			<text id="UNIQUE_NAME" value="Бетакрор  исм"/>
+			<text id="COMMA_SEPARATED" value="Агар муаллифлар бирдан ортиқ бўлса, уларни исмини вергул билан ажратинг"/>
+			<text id="ONLY_ENGLISH" value="Тил номини инглиз тилида киритинг (масалан, English, Persian, Arabic, ...)"/>
+			<text id="DESC_TOOLTIP" value="Шартли қисқартмалар, иқтибослар, боғламалар ва бошқа хатчўпчларга алоқадор нарсаларни бу ерга киритинг"/>
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Хатчўпларни бошқариш"/>
+			<text id="DBL_CLICK" value="Таҳрирлаш ёки мослаш учун икки марта босинг."/>
+			<text id="SET_AS_DEFAULT" value="Сиз &quot;{1}&quot; андоза хатчўп бўлишини истайсизми?"/>
+			<text id="CANNOT_REMOVE_DEFAULT" value="Андоза бўйича хатчўпни олиб  ташлаб бўлмайди."/>
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Андоза бўйича хатчўплар тўплами устидан ёзиб бўлмади. Илтимос бошқа хатчўпни танлаб, бошқатдан уринб кўринг."/>
+			<text id="ENTER_ID" value="Хатчўп идентификаторини киритинг"/>
+			<text id="NEW_BOOKMARK_SET" value="Янги хатчўплар тўплами"/>
+			<text id="EXPORT4WEB" value="Web учун экспорт қилиш"/>
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Хатчўп мосламаларини таҳрирлаш"/>
+			<text id="QURAN_LOCATIONS" value="Қуръони Каримдаги ўрни"/>
+			<text id="NEW_BOOKMARK" value="Янги хатчўп"/>
+			<text id="NEW_FOLDER" value="Янги жилд"/>
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Оят учун боғлама: {1}"/>
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Кейинги фойдаланувчи импорт қилиш:"/>
+			<text id="ME_ONLY" value="Фақат мен учун"/>
+			<text id="ALL_USERS" value="Барча фойдаланувчилар (ўрнатиш директориясига рухсат талаб этилади)"/>
+			<text id="FOLLOWING_USERS" value="Кейинги фойдаланувчи учун индекслаш"/>
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="Олиб ташлаш"/>
+			<text id="ADD_CUSTOM" value="Қўшиш"/>
+			<text id="TITLE" value="Таржималарни мослаш"/>
+			<text id="AVAILABLE" value="Мавжуд таржималар"/>
+			<text id="CURRENT" value="Жорий таржима"/>
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Илтимос кутиб туринг"/>
+			<text id="INDEXING" value="Индекслаш"/><!-- Процесс индексации документа для быстрого поиска -->
+			<text id="TAKE_TIME" value="ушбу амал индексланадиган ҳужжатга қараб бир неча дақиқа вақтни олиши мумкин."/>
+		</form>
+	</forms>
+</language>

@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language author="ئىدىرىس ھەسەن" version="0.7">
+
+<locale localizedName="ئۇيغۇرچە" name="uyghur" id="ug_CN" direction="rtl" />
+
+<word>
+
+<common>
+
+<text id="OK" value="جەزملەش" />
+
+<text id="CANCEL" value="بىكار قىل" />
+
+<text id="YES" value="ھەئە" />
+
+<text id="NO" value="ياق" />
+
+<text id="APPLY" value="قوللىنىش" />
+
+<text id="START" value="باشلاش" />
+
+<text id="RESET" value="قايتا ئورۇنلاشتۇرۇش" />
+
+<text id="NEW" value="يىڭى" />
+
+<text id="SAVE_AS" value="ساقلاش" />
+
+<text id="HELP" value="ياردەم" />
+
+<text id="EDIT" value="تەھرىر" />
+
+<text id="SEARCH" value="ئىزدەش" />
+
+<text id="GOTO" value="بېرىش" />
+
+<text id="VIEW" value="كۆرۈش" />
+
+<text id="CLOSE" value="تاقاش" />
+
+<text id="INSERT" value="قىستۇرۇش" />
+
+<text id="DETAILS" value="چۈشەندۈرۈلۈشى" />
+
+<text id="MORE" value="تىخىمۇ كۆپ" />
+
+<text id="NEXT" value="كىيىنكى" />
+
+<text id="PREVIOUS" value="ئالدىنقى" />
+
+<text id="REFRESH" value="يېڭىلىماق" />
+
+<text id="UPDATE" value="يېڭىلىماق" />
+
+<text id="SHOW" value="كۆرسىتىش" />
+
+<text id="NAME" value="ئىسىم" />
+
+<text id="VALUE" value="چۈشەندۈرۈلۈشى" />
+
+<text id="NUMBER" value="نومۇرى" />
+
+<text id="OPTION" value="تاللاش" />
+
+<text id="FILE" value="ھۆججەت" />
+
+<text id="RELOAD" value="قاچىلاش" />
+
+<text id="TYPE" value="تۈر" />
+
+<text id="MESSAGE" value="ئۇچۇر" />
+
+<text id="BLOCK" value="چەكلەش" />
+
+<text id="LINE_BY_LINE" value="قۇرمۇ -قۇر" />
+
+<text id="AND" value="ۋە" />
+
+<text id="COMMA" value="،" />
+
+<text id="SYNCHRONOUS" value="ماس قەدەم" />
+
+<text id="ERROR" value="خاتا" />
+
+<text id="LANGUAGE" value="تىل" />
+
+<text id="ABOUT" value="توغرىسىدا" />
+
+<text id="PRINT" value="چىقار" />
+
+<text id="HOMEPAGE" value="باش بەت" />
+
+<text id="WHOLE_QURAN" value="پۈتۈن قۇرئان" />
+
+<text id="MATCH_DIACRITIC" value="إستعمال الحركات" />
+
+<text id="MATCH_CASE" value="چوڭ كىچىك يېزىلىشى" />
+
+<text id="NEXT_AYA" value="كىيىنكى ئايەت" />
+
+<text id="NEXT_SURA" value="كىيىنكى سۆرە" />
+
+<text id="PREV_AYA" value="ئالدىنقى ئايەت" />
+
+<text id="PREV_SURA" value="ئالدىنقى سۆرە" />
+
+<text id="THEME" value="ئۇسلۇب" />
+
+<text id="LAYOUT" value="ئورۇنلاشتۇرۇلۇشى" />
+
+<text id="TOOLS" value="قورال" />
+
+<text id="ADD" value="قوشۇش" />
+
+<text id="DELETE" value="ئۆچۈرۈش" />
+
+<text id="REMOVE" value="چىقىرىۋېتىش" />
+
+<text id="TRANSLATION" value="تەرجىمە" />
+
+<text id="TRANSLATION_VIEWTYPE" value="تەرجىمە ئورۇنلاشتۇرۇلۇشى" />
+
+<text id="OPEN" value="ئاچ" />
+
+<text id="IMPORT" value="كىرگۈز" />
+
+<text id="COPY" value="كۆچۈر" />
+
+<text id="SEPARATE" value="ئايرىش" />
+
+<text id="MIXED" value="ئارلاش" />
+
+<text id="OPTIONS" value="تاللاش" />
+
+<text id="QUESTION" value="سۇئال" />
+
+<text id="FONT" value="خەت شەكلى" />
+
+<text id="GENERAL" value="ئومۇمى" />
+
+<text id="EXIT" value="چېكىنىش" />
+
+<text id="EXCLUDE" value="چىقىرىش" />
+
+<text id="TRUE" value="راست" />
+
+<text id="FALSE" value="يالغان" />
+
+<text id="SELECT" value="تىل تاللاش" />
+
+<text id="EXPORT" value="چىقىرىش" />
+
+<text id="IMPORT" value="كىرگۈزۈش" />
+
+<text id="DESCRIPTION" value="تەسۋىر" />
+
+<text id="BOOKMARKS" value="خەتكۈچ" />
+
+<text id="CONFIGURE" value="سەپلىمە" />
+
+<text id="EDIT_BOOKMARK_SET" value="خەتكۈچ تەھرىرلەش" />
+
+<text id="MANAGE_BOOKMARK_SETS" value="خەتكۈچ باشقۇرۇش" />
+
+<text id="DIRECTION" value="يېتەكچى" />
+
+<text id="LANG_DIRECTION" value="تىل تۈرى" />
+
+<text id="RTL" value="ئوڭدىن سولغا" />
+
+<text id="LTR" value="سولدىن ئوڭغا" />
+
+<text id="AUTHOR" value="ئاپتور" />
+
+<text id="VERSION" value="نۇسخىسى" />
+
+<text id="RANDOM_AYA" value="ئىختىيارى ئايەت" />
+
+<text id="UNTITLED" value="نامسىز" />
+
+<text id="SET_DEFAULT" value="كۆڭۈلدىكى قىممەت" />
+
+<text id="NOT_LOADED" value="يۈكلەش يوق" />
+
+<text id="ID" value="كىملىك نومۇرى" />
+
+<text id="OVERWRITE" value="قاپلاش" />
+
+<text id="SAVE" value="ساقلاش" />
+
+<text id="PATH" value="يولى" />
+
+<text id="SHOW_REFS" value="پايدىلىنىش ئۇچۇرى" />
+
+<text id="MOVE_UP" value="ئۇستىگە يۆتكەش" />
+
+<text id="MOVE_DOWN" value="ئاستىغا يۆتكەش" />
+
+<text id="MULTI_TRANS" value="تەرجىمە قوشۇش" />
+
+<text id="CONFIG_CUSTOM_TRANS" value="تەرجىمە تاللاش" />
+
+<text id="GO" value="باشلاش" />
+
+<text id="CAUTION" value="ئاگاھلاندۇرۇش" />
+
+<text id="ADVANCED" value="يۇقىرى دەرىجە" />
+
+<text id="QUERY_DETAIL" value="ئىنچىكە تەكشۈرۈش" />
+
+<text id="PAGE" value="بەت" />
+
+<text id="MULTILINE" value="كۆپ قۇر" />
+
+<text id="TOGGLE" value="ئالماشتۇرۇش" />
+
+<text id="AUDIO" value="ئاۋاز" />
+
+<text id="CONTINUOUS" value="ئۈزلۈكسىز" />
+
+<text id="DISCRETE" value="ئايرىم-ئايرىم" />
+
+<text id="PLAY" value="قوي" />
+
+<text id="PAUSE" value="ۋاقىتلىق توختاش" />
+
+<text id="STOP" value="توختات" />
+
+<text id="RECITATION" value="قىرائەت" />
+
+<text id="MENU_NEXT_AYA" value="كىيىنكى ئايەت" />
+
+<text id="MENU_NEXT_SURA" value="كىيىنكى سۆرە" />
+
+<text id="MENU_PREV_AYA" value="ئالدىنقى ئايەت" />
+
+<text id="MENU_PREV_SURA" value="كىيىنكى سۆرە" />
+
+<text id="MENU_NEXT_JUZ" value="كىيىنكى پارە" />
+
+<text id="MENU_PREV_JUZ" value="ئالدىنقى پارە" />
+
+<text id="MENU_NEXT_HIZBQ" value="كىيىنكى ھىزىپ" />
+
+<text id="MENU_PREV_HIZBQ" value="ئالدىنقى ھىزىپ" />
+
+<text id="MENU_NEXT_SAJDA" value="كىيىنكى سەجدە" />
+
+<text id="MENU_PREV_SAJDA" value="ئالدىنقى سەجدە" />
+
+<text id="MENU_NEXT_PAGE" value="كىيىنكى بەت" />
+
+<text id="MENU_PREV_PAGE" value="ئالدىنقى بەت" />
+
+<text id="CHECK4UPDATE" value="يىڭىلانمىنى تەكشۈرۈش" />
+
+<text id="ASCENDING" value="چىقىرىش " />
+
+<text id="DESCENDING" value="چۈشۈرۈش" />
+
+<text id="REVEL_ORDER" value="نازىل بولۇش تەرتىپى" />
+
+<text id="FULL_SCREEN" value="پۇتۇم ئېكران" />
+
+<text id="WARNING" value="ئاگاھلاندۇرۇش" />
+
+<text id="ONLINE_HELP" value="توردا ياردەم" />
+
+<text id="PAGING_MODE" value="بەت شەكلى" />
+
+<text id="PANEL" value=" سۇپىسى" />
+
+<text id="DETAIL_PANEL" value="كونترول سۇپىسى" />
+
+<text id="REPEAT" value="تەكرار" />
+
+<text id="ROOT" value="يىلتىزى" />
+
+<text id="ADDRESS" value="ئادرېس" />
+
+<text id="BOOKMARK_THIS_AYA" value="بۇ ئايەتنى خەتكۈچكە قوشۇش" />
+
+<text id="AUDIO_PLAYER" value="تىلاۋەت قىلغۇچى"   />
+
+<text id="PLAYING" value="قىرائەتتە"   />
+
+<text id="PAUSED" value="ۋاقىتلىق توختاش"   />
+
+<text id="STOPPED" value="توختىغان"   />
+
+<text id="RECITER" value="قارى"   />
+
+          <text id="ONLINE" value="توردا"   />
+
+          <text id="OFFLINE" value="كومپىيوتىردىن"   />
+
+</common>
+
+<special>
+
+<text id="QURAN" value="قۇرئان" />
+
+<text id="QURAN_VIEWTYPE" value="كۆرۈش شەكلى" />
+
+<text id="SURA" value="سۆرە" />
+
+<text id="AYA" value="ئايەت" />
+
+<text id="SAJDA" value="سەجدە" />
+
+
+
+<text id="JUZ" value="پارە" />
+
+<text id="HIZB" value="ھىزىپ" />
+
+<text id="QUARTER" value="تۆتتەن بىرى" />
+
+<text id="MAKKI" value="مەككىدە" />
+
+<text id="MADANI" value="مەدىنىدە" />
+
+<text id="DESCENT" value="چۈشۈش" />
+
+<text id="AYA_COUNT" value="ئايەت سانى" />
+
+<text id="MINOR_SAJDA" value="مۇستەھەپ سەجدە" /> <!-- Mustahab Sajda -->
+
+<text id="MAJOR_SAJDA" value="ۋاجىپ سەجدە" /> <!-- Wajib Sajda -->
+
+<text id="LOCATION" value="ئورنى" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+
+</special>
+
+</word>
+
+
+
+<message>
+
+<inform>
+
+<text id="SEARCH_RESULT_TITLE" value="ئىزدەش نەتىجىسى: «{1}»" />
+
+<text id="SEARCH_RESULT_COUNT" value="{1} بايقالغىنى {2} ئايەت" />
+
+<text id="SEARCH_PAGE" value="بەت{1} دىن {2}" />
+
+<text id="TOO_MANY_RESULT" value="حصلت نتائج في أكثر من {1} آية" />
+
+<text id="FILE_ALREADY_EXISTS" value="ھۆججەت ئىسمى&quot;{1}&quot; ھازىر بار. سىز ئۇنى ئالماشتۇرىمىز ؟" />
+
+<text id="RESTART_APP" value="سىز چوقۇم سىستېمىنى قايتا قوزغىتىشىڭىز كېرەك." />
+
+<text id="ACTION_PERFORMED" value="ۋەزىپە ئورۇندالدى." />
+
+<text id="TRANSLATION_ADDED" value="تەرجىمە قوشۇلۇپ بولغان {1}" />
+
+<text id="RECITATION_ADDED" value="التلاوات التالية تمت اضافتها للقائمة {1}"   />
+
+</inform>
+
+<confirm>
+
+<text id="YES_NO" value="جەزىملەشتۈرەمسىز؟" />
+
+<text id="DEL_YES_NO" value="بۇلارنى {1}مەڭگۈلۈك ؟" />
+
+</confirm>
+
+<error>
+
+<text id="GENERAL_ERROR" value="ئادەتتىكى خاتالىق" />
+
+<text id="FNF" value="ھۆججەتنى تاپالمىدى" />
+
+<text id="ACTION_FAILED" value="مەغلۇپ بولدىڭىز!" />
+
+<text id="INVALID_TRANSLATION_FORMAT" value="تەرجىمە ئىناۋەتسىز: {1}" />
+
+<text id="INVALID_RECITATION_FORMAT" value="ئاۋاز ئىناۋەتسىز: {1}"   />
+
+<text id="NEWER_VERSION_INSTALLED" value="هنالك اصدار جديد من {1} (تم تحديثه في {2}) . اصدار جديد {3} تم تنصيبه بالفعل" />
+
+<text id="INVALID_TRANSLATION_SIGNATURE" value="تەرجىمە ئىناۋەتسىز: {1}" />
+
+<text id="TRANSLATION_LOAD_FAILED" value="تىل ھۆججىتى چۈشۈرۈش &quot;{1}&quot; قاچىلىغان تىل ھۆججىتى خاتاr2}" />
+
+<text id="RECITATION_LOAD_FAILED" value="Loading recitation '{1}' failed because of the following error: {2}"   />
+
+<text id="ENTER_VALID_NUMBER" value="ئىناۋەتلىك نومۇر كىرگۈزۈڭ." />
+
+<text id="NUMBER_LIMIT" value="قم بادخال رقم بين '{1}' و '{2}'." />
+
+</error>
+
+<hint></hint>
+
+</message>
+
+
+
+<forms>
+
+<global>
+
+<text id="APP_NAME" value="ذكر" />
+
+<text id="APP_FULL_NAME" value="مشروع ذكر القرآني" />
+
+<text id="FORM_TITLE" value="ذكر" />
+
+<text id="COPYRIGHT_DISCLAIMER" value="بۇ دېتال ئاللاھ يولىدا ھەقسىز تارقىتىلغان." />
+
+</global>
+
+<form id="QURAN_FORM">
+
+<text id="TITLE" value="ذكر" />
+
+<text id="NEW_SCOPE" value="يىڭى دائىرە" />
+
+<text id="EDIT_SCOPES" value="تەھرىرلەش رايونى" />
+
+<text id="NO_SCOPE" value="رايون يوق" />
+
+<text id="CURRENT_PAGE" value="ئالدىنقى بەت" />
+
+<text id="QURAN_SCOPE" value="قۇرئان" />
+
+<text id="TRANSLATION_SCOPE" value="تەرجىمە" />
+
+<text id="NATURAL_ORDER" value="تەبىئي تەرتىپ" />
+
+<text id="RELEVANCE" value="باغلىنىشلىق" />
+
+<text id="AYA_LENGTH" value="ئايەت ئۇزۇنلىقى" />
+
+<text id="SORT_BY" value="ئاساسلىنىپ تىزىش……" />
+
+<text id="TOGGLE_FULL_SCREEN" value="Toggle full screen" />
+
+</form>
+
+<form id="OPTIONS_FORM">
+
+<text id="THEME_OPTIONS" value="ئۇسلۇب" />
+
+<text id="GENERAL_OPTIONS" value="ئومۇمى تاللاش" />
+
+<text id="VIEW_OPTIONS" value="كۆزىتىش" />
+
+<text id="TITLE" value="قوللىنىشنى تاللاش" />
+
+<text id="SHOW_SPLASH" value="عرض الشاشة الترحيبية عند التشغيل" />
+
+<text id="NEW_KEY" value="ئاچقۇچلۇق سۆزنى كىرگۈزۈڭ" />
+
+<text id="THEME_SETTING" value="ئۇسلۇب تاللاش" />
+
+<text id="PRESS_OK_TO_APPLY" value="كۇنۇپكىنى بېسىپ &quot;جەزملەش&quot; ئۆزگىرىشلەرنى جەزملەش." />
+
+<text id="MAX_SEARCH_RESULT" value="ئەڭ چوڭ ئىزدەش سانى." />
+
+<text id="RESIZEABLE_TASK_PANE" value="يېڭىدىن ۋەزىپە رامكىسىنىڭ چوڭ كىچىكلىكىنى بېكىتىش" />
+
+<text id="SURA_NAMES" value="سۆرە ئىسمى" />
+
+<text id="ARABIC" value="ئەرەبچە" />
+
+<text id="EN_T9N" value="ئىنگىلىزچە تەرجىمىسى" />
+
+<text id="EN_T13N" value="ئىنگىلىزچە ئاھاڭى" />
+
+<text id="T9N" value=" ئىنگلىزچە تەرجىمىسىنىڭ ئىشلىتىلىشى" />
+
+<text id="T13N" value="ئىنگىلىزچە ئاھاڭىنىڭ ئىشلىتىلىشى" />
+
+<text id="ENABLE_AUDIO" value="ئاۋازنى ئېچىش" />
+
+<text id="SURA_NAME_TREE" value="دەرەخ شەكلىدىكى سۆرە ئىسمى" />
+
+</form>
+
+<form id="SEARCH_SCOPE_FORM">
+
+<text id="TITLE" value=" ئىزدەش رايونىنى ئورۇنلاشتۇرۇش " />
+
+<text id="SEARCH_SCOPE" value="ئىزدەش رايونى" />
+
+<text id="FROM_SURA" value="سۆرىدىن" />
+
+<text id="FROM_AYA" value="ئايەتتىن" />
+
+<text id="TO_SURA" value="سۆرىگىچە" />
+
+<text id="TO_AYA" value="ئايەتكىچە" />
+
+<text id="ILLEGAL_SEARCH_SCOPE" value=" خاتا ئىزدەش رايونى" />
+
+</form>
+
+<form id="MANAGE_SCOPES_FORM">
+
+<text id="TITLE" value="ئىزدەش رايونىنى ئورۇنلاشتۇرۇش " />
+
+</form>
+
+<form id="BOOKMARK_SET_FORM">
+
+<text id="TITLE" value="خەتكۈش تەھرىرلەش: {1}" />
+
+<text id="NEW_BOOKMARK_FOLDER" value="يىڭى خەتكۈش ھۆججەت قىسقۇچى" />
+
+<text id="NEW_BOOKMARK_ITEM" value="يىڭى خەتكۈش" />
+
+<text id="UNIQUE_NAME" value="يىڭى ئىسىم" />
+
+<text id="COMMA_SEPARATED" value="پەش ئارقىلىق كۆپ يازغۇچىلارنى ئايرىش" />
+
+<text id="ONLY_ENGLISH" value="ئىنگىلىزچە ئىسمى (مەسلەن: English, Persian, Arabic, ...)" />
+
+<text id="DESC_TOOLTIP" value="إصطلاحات، مراجع، إقتباسات، و غير ذلك" />
+
+</form>
+
+<form id="BOOKMARK_SET_MANAGE_FORM">
+
+<text id="TITLE" value="خەتكۈش تەھرىرلەش" />
+
+<text id="DBL_CLICK" value="تاللاش تۈرىنى قوش چېكىپ تەھرىرلەڭ" />
+
+<text id="SET_AS_DEFAULT" value='سىز "{1}" كۆڭۈلدىكى خەتكۈچ گۇرۇپىسى قىلامسىز؟' />
+
+<text id="CANNOT_REMOVE_DEFAULT" value="غير قادر على حذف الإشارة المرجعية الإفتراضية" />
+
+<text id="CANNOT_OVERWRITE_DEFAULT" value="غير قادر على إعادة الكتابة على مجموعة الإشارة المرجعية الإفتراضية. حدد مجموعة إشارة مرجعية أخرى كإفتراضية، ثم حاول عملية الإستيراد مرة ثانية" />
+
+<text id="ENTER_ID" value="خەتكۈش بەلگىسىنى كىرگۈزۈڭ" />
+
+<text id="NEW_BOOKMARK_SET" value="يىڭى خەتكۈش گۇرۇپىسى قۇرۇش" />
+
+<text id="EXPORT4WEB" value="توربەت شەكلىدە چىقىرىش" />
+
+</form>
+
+<form id="BOOKMARK_ITEM_FORM">
+
+<text id="TITLE" value="خەتكۈش تەھرىرلەش" />
+
+<text id="QURAN_LOCATIONS" value="قۇرئاننىڭ ئوتتۇرىدىن" />
+
+<text id="NEW_BOOKMARK" value="خەتكۈش قۇرۇش" />
+
+<text id="NEW_FOLDER" value="ھۆججەت قىسقۇچ قۇرۇش" />
+
+</form>
+
+<form id="BOOKMARK_REF">
+
+<text id="TITLE" value="پايدىلانغان خەتكۈچ ـ: {1}" />
+
+</form>
+
+<form id="IMPORT_QUESTION">
+
+<text id="IMPORT_FOR" value="مۇشۇ نامدا كىرىش:" />
+
+<text id="ME_ONLY" value="پەقەت مەن" />
+
+<text id="ALL_USERS" value="ھەممە كىشىلەر (يحتاج لسماحية الكتابة على مجلد التنصيب)" />
+
+<text id="FOLLOWING_USERS" value="ئىشلەتكۈچىگە ئەگىشىش" />
+
+</form>
+
+<form id="CONFIG_CUSTOM_TRANS">
+
+<text id="REMOVE_CUSTOM" value="چىقىرىۋېتىش" />
+
+<text id="ADD_CUSTOM" value="قوشۇش" />
+
+<text id="TITLE" value="تەرجىمىنى بېكىتىش" />
+
+<text id="AVAILABLE" value="ئىشلەتكىلى بولىدىغان تەرجىمە" />
+
+<text id="CURRENT" value="ئىشلىتىلگەن تەرجىمە" />
+
+</form>
+
+<form id="PROGRESS">
+
+<text id="PLEASE_WAIT" value="ئازراق ساقلاڭ" />
+
+<text id="INDEXING" value="فهرسة" /><!-- The process of indexing a document for faster search -->
+
+<text id="TAKE_TIME" value="هذه العملية ستأخذ بعض الوقت وذلك تبعاً لحجم المستتند المستخدم" />
+
+<text id="CHECKING" value="بحث عن تحديث" />
+
+<text id="ZEKR_IS_CHECKING" value="يقوم ذكر الآن بالبحث عن تحديثات جديدة" />
+
+</form>
+
+<form id="ABOUT">
+
+<text id="TITLE" value=" ذكر  ھەققىدە" />
+
+<text id="VIEW_LOG" value="خاتىرىنى كۆرۈش" />
+
+</form>
+
+<form id="UPDATE">
+
+<text id="TITLE" value="يېڭىلاش ئۇچۇرى" />
+
+<text id="VERSION_INFO" value="نەشىر ئۇچۇرى" />
+
+<text id="BUILD_NUM" value="نەشىر نومۇرى" />
+
+<text id="VERSION" value="الاصدار" />
+
+<text id="RELEASE_NAME" value="نەشىر ئىسمى" />
+
+<text id="RELEASE_STATE" value="تارقىتىش ھالىتى" />
+
+<text id="RELEASE_DATE" value="تارقىتىش ۋاقتى" />
+
+<text id="RELEASE_NOTES" value="ملاحظات الاصدار" />
+
+<text id="DOWNLOAD" value="تحميل" />
+
+<text id="MORE_INFO" value="تىخىمۇ كۆپ مەلۇمات" />
+
+<text id="NO_UPDATE" value="سىز ئىشلىتىۋاتقىنى ئەڭ يىڭى نۇسخىسى." />
+
+<text id="NEW_DEV_AVAILABLE" value="اصدار جديد قيد التطوير (غير مستقر) متوفر للتحميل" />
+
+<text id="NEW_BETA_AVAILABLE" value="اصدار بيتا (غير مستقر) متوفر للتحميل" />
+
+<text id="NEW_FINAL_AVAILABLE" value="اصدار جديد (نهائي) متوفر للتحميل" />
+
+</form>
+
+<form id="PAGING_MODE">
+
+<text id="TITLE" value="بەت كۆرۈنىشى" />
+
+<text id="SURA" value="سۆرە" />
+
+<text id="HIZB_QUARTER" value="ھىزىپ" />
+
+<text id="JUZ" value="پارە" />
+
+<text id="CONST_AYA" value="ئومۇمى ئايەت" />
+
+<text id="CUSTOM" value="ئۆزىڭىز بېكىتىڭ" />
+
+<text id="AYA_PER_SURA" value="How many ayas should appear in each page?"   />
+
+</form>
+
+<form id="AUDIO_PLAYER_FORM">
+
+<text id="TITLE" value="قىرائەتتە"   />
+
+<text id="SECOND_ABBR" value="ثا"   /> <!-- s stands for 'seconds', for example 1s -->
+
+<text id="SECONDS" value="سېكونت"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+
+<text id="INTERVAL" value="ئايرىم"   />
+
+<text id="REPEAT" value="تەكرار"   />
+
+<text id="NO_INTERVAL" value="ئۈزلۈكسىز"   />
+
+<text id="NO_REPEAT" value="تەكرارلىق يوق"   />
+
+</form>
+
+</forms>
+
+</language>

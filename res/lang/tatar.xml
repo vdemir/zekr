@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Fareed A. Bashirov" version="0.6">
+	<locale localizedName="Татарча" name="Tatar" id="tt_RU" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK"       value="Яхшы" />
+			<text id="CANCEL"   value="Баш тарту" />
+			<text id="YES"      value="Әйе" />
+			<text id="NO"       value="Юк" />
+			<text id="APPLY"    value="Куллан" />
+			<text id="START"    value="Башлат" />
+			<text id="RESET"    value="Яңадан" />
+			<text id="NEW"      value="Яңа" />
+			<text id="SAVE_AS"  value="Яңа исем белән саклау" />
+			<text id="HELP"     value="Ярдәм" />
+			<text id="EDIT"     value="Төзәт" />
+			<text id="SEARCH"   value="Эзләү" />
+			<text id="GOTO"     value="Күч" />
+			<text id="VIEW"     value="Күренеш" />
+			<text id="CLOSE"    value="Яп" />
+			<text id="INSERT"   value="Өстәп куй" />
+			<text id="DETAILS"  value="Тулырак" />
+			<text id="MORE"     value="Өстәмә" />
+			<text id="NEXT"     value="Киләсе" />
+			<text id="PREVIOUS" value="Үткән" />
+			<text id="REFRESH"  value="Яңарт" />
+			<text id="UPDATE"   value="Яңа версия" />
+			<text id="SHOW"     value="Күрсәт" />
+			<text id="NAME"     value="Исем" />
+			<text id="VALUE"    value="Аңлатма" />
+			<text id="NUMBER"   value="Сан" />
+			<text id="OPTION"   value="Көйләү" />
+			<text id="FILE"     value="Файл" />
+			<text id="RELOAD"   value="Яңадан йөклә" />
+			<text id="TYPE"     value="Төр" />
+			<text id="MESSAGE"  value="Хәбәр" />
+			<text id="BLOCK"    value="Блок" />
+			<text id="LINE_BY_LINE" value="Сызык-сызык" />
+			<text id="AND"      value="һәм" />
+			<text id="COMMA"    value="," />
+			<text id="SYNCHRONOUS" value="Берьюлы" />
+			<text id="ERROR"    value="Хата" />
+			<text id="LANGUAGE" value="Тел" />
+			<text id="ABOUT"    value="Программа Хакында" />
+			<text id="PRINT"    value="Бастыр" />
+			<text id="HOMEPAGE" value="Web-сәхифә" />
+			<text id="WHOLE_QURAN" value="Коръән буйлап" />
+			<text id="MATCH_DIACRITIC" value="Хәрәкәләрне исәпкә ал" />
+			<text id="MATCH_CASE" value="Хәреф зурлыгын исәпкә ал" />
+			<text id="NEXT_AYA" value="Киләсе аять" />
+			<text id="NEXT_SURA" value="Киләсе сүрә" />
+			<text id="PREV_AYA" value="Үткән аять" />
+			<text id="PREV_SURA" value="Үткән сүрә" />
+			<text id="THEME"    value="Тема" />
+			<text id="LAYOUT"   value="Урнашу" />
+			<text id="TOOLS"    value="Кораллар" />
+			<text id="ADD"      value="Өстә" />
+			<text id="DELETE"   value="Бетер" />
+			<text id="REMOVE"   value="Алып ташла" />
+			<text id="TRANSLATION" value="Тәрҗемә (тәфсир)" />
+            <text id="TRANSLATION_VIEWTYPE" value="Тәрҗемә (тәфсир) урнашуы"   />
+			<text id="OPEN"     value="Ач" />
+			<text id="IMPORT"   value="Китер" />
+			<text id="COPY"     value="Нөсхәлә" />
+			<text id="SEPARATE" value="Аерым" />
+			<text id="MIXED"    value="Катнаш" />
+			<text id="OPTIONS"  value="Көйләүләр" />
+			<text id="QUESTION" value="Сорау" />
+			<text id="FONT"     value="Фонт" />
+			<text id="GENERAL"  value="Гомуми" />
+			<text id="EXIT"     value="Чыгу" />
+			<text id="EXCLUDE"  value="Исәпләмәү" />
+			<text id="TRUE"     value="Дөрес" />
+			<text id="FALSE"    value="Ялгыш" />
+			<text id="SELECT"   value="Сайлау" />
+			<text id="EXPORT"   value="Тышка күчерү" />
+			<text id="IMPORT"   value="Эчкә күчерү" />
+			<text id="DESCRIPTION" value="Тасвирлама" />
+			<text id="BOOKMARKS" value="Кыстыргыч" />
+			<text id="CONFIGURE" value="Көйләү" />
+			<text id="EDIT_BOOKMARK_SET" value="Кыстыргыч җыелмасын төзәтү" />
+			<text id="MANAGE_BOOKMARK_SETS" value="Кыстыргыч җыелмасын идарә итү" />
+			<text id="DIRECTION" value="Юнәлеш" />
+			<text id="LANG_DIRECTION" value="Тел юнәлеше" />
+			<text id="RTL"      value="Уңнан сулга" />
+			<text id="LTR"      value="Сулдан уңга" />
+			<text id="AUTHOR"   value="Автор" />
+			<text id="VERSION"  value="Версия" />
+			<text id="RANDOM_AYA" value="Очраклы аять" />
+			<text id="UNTITLED" value="Исемсез" />
+			<text id="SET_DEFAULT" value="Гадәти ит" />
+			<text id="NOT_LOADED" value="Йөкләнмәгән" />
+			<text id="ID"       value="Билге" />
+			<text id="OVERWRITE" value="Өстенә яз" />
+			<text id="SAVE"     value="Сакла" />
+			<text id="PATH"     value="Юл" />
+			<text id="SHOW_REFS" value="Сылтамаларны күрсәт" />
+			<text id="MOVE_UP" value="Өскә күчер" />
+			<text id="MOVE_DOWN" value="Аска күчер" />
+			<text id="MULTI_TRANS" value="Күп телле" />
+			<text id="CONFIG_CUSTOM_TRANS" value="Күп телле тәрҗемәләрне көйләү" />
+			<text id="GO" value="Күч" />
+			<text id="CAUTION" value="Абай" />
+			<text id="ADVANCED" value="Төгәлрәк" />
+			<text id="QUERY_DETAIL" value="Таләпне көйләү" />
+			<text id="PAGE" value="Бит" />
+			<text id="MULTILINE" value="Күп юллы" />
+			<text id="TOGGLE" value="Җәеп җибәр(мә)ү" />
+			<text id="AUDIO" value="Тыңлау"   />
+			<text id="CONTINUOUS" value="Тоташ"   />
+			<text id="DISCRETE" value="Аерым"   />
+			<text id="PLAY" value="Уйна"   />
+			<text id="PAUSE" value="Тукталып тор"   />
+			<text id="STOP" value="Туктат"   />
+			<text id="RECITATION" value="Кычкырып укучы"   />
+			<text id="MENU_NEXT_AYA" value="Киләсе Аять"   />
+			<text id="MENU_NEXT_SURA" value="Киләсе Сүрә"   />
+			<text id="MENU_PREV_AYA" value="Үткән Аять"   />
+			<text id="MENU_PREV_SURA" value="Үткән Сүрә"   />
+			<text id="MENU_NEXT_JUZ" value="Киләсе Җөз"   />
+			<text id="MENU_PREV_JUZ" value="Үткән Җөз"   />
+			<text id="MENU_NEXT_HIZBQ" value="Киләсе Хизеб Чиреге"   />
+			<text id="MENU_PREV_HIZBQ" value="Үткән Хизеб Чиреге"   />
+			<text id="MENU_NEXT_SAJDA" value="Киләсе Сәҗдә"   />
+			<text id="MENU_PREV_SAJDA" value="Үткән Сәҗдә"   />
+			<text id="BOOKMARK_THIS_AYA" value="Bookmark This Aya"   />
+		</common>
+		<special>
+			<text id="QURAN"    value="Коръән-и Кәрим" />
+			<text id="QURAN_VIEWTYPE"    value="Коръән-и Кәрим урнашуы"   />
+			<text id="SURA"     value="Сүрә" />
+			<text id="AYA"      value="Аять" />
+			<text id="SAJDA"    value="Сәҗдә аяте" />
+			<text id="JUZ"      value="Җөз" />
+			<text id="HIZB"     value="Хизеб" />
+			<text id="QUARTER"  value="Чирек" />
+			<text id="MAKKI"    value="Мәккәдә" />
+			<text id="MADANI"   value="Мәдинәдә" />
+			<text id="DESCENT"  value="Иңдерелгән" />
+			<text id="AYA_COUNT"  value="Аять саны" />
+			<text id="MINOR_SAJDA" value="Кече сәҗдә (мөстәхәп)" />
+			<text id="MAJOR_SAJDA" value="Мөһим сәҗдә (вәҗеп)" />
+			<text id="LOCATION" value="Урнашу" />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="Эзләү нәтиҗәсе: &quot;{1}&quot;" />
+			<text id="SEARCH_RESULT_COUNT" value="{2} аятьтә {1} нәтиҗә табылды." />
+			<text id="SEARCH_PAGE" value="{2} битнең {1}нче(ы) бите" />
+			<text id="TOO_MANY_RESULT" value="Эзләү нәтиҗәсе {1} аяттән артык" />
+			<text id="FILE_ALREADY_EXISTS" value="Санакта &quot;{1}&quot; исемле файл бар инде. Алмаштырырга телисезме?" />
+			<text id="RESTART_APP" value="Ясалган үзгәрешләрне куллану өчен программаны яңадан эшләтергә кирәк." />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Сез ризамы?" />
+			<text id="DEL_YES_NO" value="{1} элементны бөтенләй бетерергә телисезме?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Көтелмәгән хата килеп чыкты!" />
+			<text id="FNF" value="Файл табылмады" />
+			<text id="ACTION_FAILED" value="Гамәл уңышсызлыкка дучар булды!" />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Зекер" />
+			<text id="APP_FULL_NAME" value="Зекер. Коръән-и Кәрим Проекты" />
+			<text id="FORM_TITLE" value="Зекер" />
+			<text id="COPYRIGHT_DISCLAIMER" value="Бу программа файда китерү максаты белән түләүсез таратыла, ләкин дөрес булуына ышаныч юк." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Зекер" />
+			<text id="NEW_SCOPE" value="Яңа кагыйдә" />
+			<text id="EDIT_SCOPES" value="Кагыйдәләрне төзәт" />
+			<text id="NO_SCOPE" value="Кагыйдәсез" />
+			<text id="QURAN_SCOPE"    value="Коръән"   />
+			<text id="TRANSLATION_SCOPE" value="Тәрҗемә (тәфсир)"   />
+			<text id="CURRENT_PAGE" value="Бу бит" />
+			<text id="NATURAL_ORDER" value="Гадәттәге тәртип" />
+			<text id="RELEVANCE" value="Мөһимлек буенча" />
+			<text id="SORT_BY" value="Нәтиҗәне аралау" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS"    value="Тема"   />
+			<text id="GENERAL_OPTIONS"  value="Гомуми"   />
+			<text id="VIEW_OPTIONS"     value="Күренеш"   />
+			<text id="TITLE" value="Программаны көйләү" />
+			<text id="SHOW_SPLASH" value="Эшләтеп җибәргәндә программа тамгасын күрсәт" />
+			<text id="NEW_KEY" value="Яңа ачкыч кертегез" />
+			<text id="THEME_SETTING" value="Тема көйләүләре" />
+			<text id="PRESS_OK_TO_APPLY" value="Ясалган үзгәрешләрне куллану өчен &quot;Яхшы&quot; төймәсенә басыгыз." />
+			<text id="MAX_SEARCH_RESULT" value="Эзләнгән аятьләрнең иң зур саны" />
+			<text id="RESIZEABLE_TASK_PANE" value="Панель зурлыгын үзгәртергә ярый" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Эзләү кагыйдәләрен көйләү" />
+			<text id="SEARCH_SCOPE" value="Эзләү кагыйдәсе" />
+			<text id="FROM_SURA" value="Бу сүрәдән башлап" />
+			<text id="FROM_AYA" value="Бу аятьтән башлап" />
+			<text id="TO_SURA" value="Бу сүрәгә кадәр" />
+			<text id="TO_AYA" value="Бу аятькә кадәр" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Эзләү кагыйдәләре дөрес түгел" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Эзләү кагыйдәләрен үзгәрт" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Кыстыргыч җыелмасын төзәтү: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="Яңа төркем" />
+			<text id="NEW_BOOKMARK_ITEM" value="Яңа кыстыргыч" />
+			<text id="UNIQUE_NAME" value="Бердәнбер исем" />
+			<text id="COMMA_SEPARATED" value="Әгәр тәрҗемәнең (тәфсирнең) берничә төзүчесе булса, һәрберсен өтер белән аерып куегыз" />
+			<text id="ONLY_ENGLISH" value="Инглиз исемнәрен генә кулланыгыз (ягъни English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Шартлы билге, өземтә, сылтама кебек тасвирламаларны монда кертегез" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Кыстыргыч җыелмаларын көйләү" />
+			<text id="DBL_CLICK" value="Берәр элементны йөкләү/төзәтү өчен аңа ике тапкыр чирттерегез." />
+			<text id="SET_AS_DEFAULT" value="&quot;{1}&quot; кыстыргыч җыелмасын гадәти итеп кулланыргамы?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Гадәти кыстыргыч җыелмасын бетерергә ярамый." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Гадәти кыстыргыч җыелмасы өстенә язарга ярамый. Башта бүтән җыелманы гадәти итеп сайлагыз, шуннан соң яңадан импортлау ясарга тырышып карагыз." />
+			<text id="ENTER_ID" value="Кыстыргыч билгесен кертегез" />
+			<text id="NEW_BOOKMARK_SET" value="Яңа кыстыргыч җыелмасы" />
+			<text id="EXPORT4WEB" value="Web өчен чыгару" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Кыстыргычны төзәтү" />
+			<text id="QURAN_LOCATIONS" value="Коръәндә урыны" />
+			<text id="NEW_BOOKMARK" value="Яңа кыстыргыч" />
+			<text id="NEW_FOLDER" value="Яңа төркем" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Кыстыргыч {1}нче(ы) аятьне билгели" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Шушы кулланучылар өчен урнаштыр:" />
+			<text id="ME_ONLY" value="Минем өчен генә" />
+			<text id="ALL_USERS" value="Бөтен кулланучылар өчен (йөкләү каталогына язарга рөхсәт булырга тиеш)" />
+			<text id="FOLLOWING_USERS" value="Шушы кулланучылар өчен исемлек яса" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM"   value="Алып ташла"   />
+			<text id="ADD_CUSTOM"      value="Өстә"   />
+			<text id="TITLE" value="Күп телле тәрҗемәләрне көйләү" />
+			<text id="AVAILABLE" value="Кулланырлык тәрҗемәләр" />
+			<text id="CURRENT" value="Агымдагы тәрҗемәләр" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Зинһар, бераз көтегез" />
+			<text id="INDEXING" value="Исемлек төзелә" />
+			<text id="TAKE_TIME" value="Бу хәрәкәт, индекслана торган документның зурлыгына карап, берничә минут дәвамында эшкәртелә ала." />
+		</form>
+	</forms>
+</language>

@@ -1,0 +1,319 @@
+<language author="Yotam Benshalom" version="0.7">
+	<locale localizedName="עברית" name="Hebrew" id="hw_IL" direction="rtl" />
+	<word>
+		<common>
+			<text id="OK" value="אישור" />
+			<text id="CANCEL" value="ביטול" />
+			<text id="YES" value="כן" />
+			<text id="NO" value="לא" />
+			<text id="APPLY" value="החל" />
+			<text id="START" value="התחל" />
+			<text id="RESET" value="אפס" />
+			<text id="NEW" value="חדש" />
+			<text id="SAVE_AS" value="שמור בשם" />
+			<text id="HELP" value="עזרה" />
+			<text id="EDIT" value="עריכה" />
+			<text id="SEARCH" value="חיפוש" />
+			<text id="GOTO" value="לך אל" />
+			<text id="VIEW" value="תצוגה" />
+			<text id="CLOSE" value="סגור" />
+			<text id="INSERT" value="הכנס" />
+			<text id="DETAILS" value="פרטים" />
+			<text id="MORE" value="ע&amp;וד" />
+			<text id="NEXT" value="הבא" />
+			<text id="PREVIOUS" value="הקודם" />
+			<text id="REFRESH" value="רענן" />
+			<text id="UPDATE" value="עדכן" />
+			<text id="SHOW" value="הצג" />
+			<text id="NAME" value="שם" />
+			<text id="VALUE" value="ערך" />
+			<text id="NUMBER" value="מספר" />
+			<text id="OPTION" value="אפשרות" />
+			<text id="FILE" value="קובץ" />
+			<text id="RELOAD" value="טען מחדש" />
+			<text id="TYPE" value="סוג" />
+			<text id="MESSAGE" value="מסר" />
+			<text id="BLOCK" value="בלוק" />
+			<text id="LINE_BY_LINE" value="שורה בשורה" />
+			<text id="AND" value="וכן" />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="סינכרוני" />
+			<text id="ERROR" value="שגיאה" />
+			<text id="LANGUAGE" value="שפה" />
+			<text id="ABOUT" value="אודות" />
+			<text id="PRINT" value="הדפס" />
+			<text id="HOMEPAGE" value="דף הבית" />
+			<text id="WHOLE_QURAN" value="כל הקוראן" />
+			<text id="MATCH_DIACRITIC" value="התאם לניקוד" />
+			<text id="MATCH_CASE" value="התאם לאותיות רישיות" />
+			<text id="NEXT_AYA" value="האיה הבאה" />
+			<text id="NEXT_SURA" value="הסורה הבאה" />
+			<text id="PREV_AYA" value="האיה הקודמת" />
+			<text id="PREV_SURA" value="הסורה הקודמת" />
+			<text id="THEME" value="ערכת נושא" />
+			<text id="LAYOUT" value="אופן תצוגה" />
+			<text id="TOOLS" value="כלים" />
+			<text id="ADD" value="הוסף" />
+			<text id="DELETE" value="מחק" />
+			<text id="REMOVE" value="הסר" />
+			<text id="TRANSLATION" value="תרגום" />
+			<text id="TRANSLATION_VIEWTYPE" value="אופן תצוגת תר&amp;גום" />
+			<text id="OPEN" value="פתח" />
+			<text id="IMPORT" value="ייבא" />
+			<text id="COPY" value="העתק" />
+			<text id="SEPARATE" value="נפרד" />
+			<text id="MIXED" value="מעורב" />
+			<text id="OPTIONS" value="אפשרויות" />
+			<text id="QUESTION" value="שאלה" />
+			<text id="FONT" value="גופן" />
+			<text id="GENERAL" value="כללי" />
+			<text id="EXIT" value="יציאה" />
+			<text id="EXCLUDE" value="לא כולל" />
+			<text id="TRUE" value="כן" />
+			<text id="FALSE" value="לא" />
+			<text id="SELECT" value="בחר" />
+			<text id="EXPORT" value="ייצא" />
+			<text id="IMPORT" value="ייבא" />
+			<text id="DESCRIPTION" value="תיאור" />
+			<text id="BOOKMARKS" value="סימניות" />
+			<text id="CONFIGURE" value="ערוך תצורה" />
+			<text id="EDIT_BOOKMARK_SET" value="ערוך ערכת סימניות" />
+			<text id="MANAGE_BOOKMARK_SETS" value="נהל ערכות סימניות" />
+			<text id="DIRECTION" value="כיוון" />
+			<text id="LANG_DIRECTION" value="כיוון השפה" />
+			<text id="RTL" value="מימין לשמאל" />
+			<text id="LTR" value="משמאל לימין" />
+			<text id="AUTHOR" value="מחבר" />
+			<text id="VERSION" value="גירסה" />
+			<text id="RANDOM_AYA" value="איה אקראית" />
+			<text id="UNTITLED" value="ללא כותרת" />
+			<text id="SET_DEFAULT" value="קבע כברירת מחדל" />
+			<text id="NOT_LOADED" value="לא טעון" />
+			<text id="ID" value="מזהה" />
+			<text id="OVERWRITE" value="כתוב מעל" />
+			<text id="SAVE" value="שמור" />
+			<text id="PATH" value="נתיב" />
+			<text id="SHOW_REFS" value="הצג מראי מקום" />
+			<text id="MOVE_UP" value="הזז מעלה" />
+			<text id="MOVE_DOWN" value="הזז מטה" />
+			<text id="MULTI_TRANS" value="תרגומים מ&amp;רובים" />
+			<text id="CONFIG_CUSTOM_TRANS" value="ערוך תצורת תרגומים מותאמים אישית" />
+			<text id="GO" value="לך" />
+			<text id="CAUTION" value="זהירות" />
+			<text id="ADVANCED" value="מתקדם" />
+			<text id="QUERY_DETAIL" value="פרטי שאילתה" />
+			<text id="PAGE" value="דף" />
+			<text id="MULTILINE" value="ריבוי שורות" />
+			<text id="TOGGLE" value="הפעל\נטרל" />
+			<text id="AUDIO" value="שמע" />
+			<text id="CONTINUOUS" value="רציף" />
+			<text id="DISCRETE" value="בדיד" />
+			<text id="PLAY" value="נגן" />
+			<text id="PAUSE" value="הפסק" />
+			<text id="STOP" value="עצור" />
+			<text id="RECITATION" value="קריאה בקול" />
+			<text id="MENU_NEXT_AYA" value="ה&amp;איה הבאה" />
+			<text id="MENU_NEXT_SURA" value="ה&amp;סורה הבאה" />
+			<text id="MENU_PREV_AYA" value="הא&amp;יה הקודמת" />
+			<text id="MENU_PREV_SURA" value="הס&amp;ורה הקודמת" />
+			<text id="MENU_NEXT_JUZ" value="ה&amp;ג'וז הבא" />
+			<text id="MENU_PREV_JUZ" value="הג'ו&amp;ז הקודם" />
+			<text id="MENU_NEXT_HIZBQ" value="רבע ה&amp;חזב הבא" />
+			<text id="MENU_PREV_HIZBQ" value="רבע החז&amp;ב הקודם" />
+			<text id="MENU_NEXT_SAJDA" value="הסג'&amp;דה הבאה" />
+			<text id="MENU_PREV_SAJDA" value="הסג'ד&amp;ה הקודמת" />
+			<text id="MENU_NEXT_PAGE" value="ה&amp;עמוד הבא" />
+			<text id="MENU_PREV_PAGE" value="הע&amp;מוד הקודם" />
+			<text id="CHECK4UPDATE" value="בדוק עדכונים" />
+			<text id="ASCENDING" value="עולה" />
+			<text id="DESCENDING" value="יורד" />
+			<text id="REVEL_ORDER" value="סדר ההתגלות" />
+			<text id="FULL_SCREEN" value="מסך מלא" />
+			<text id="WARNING" value="אזהרה" />
+			<text id="ONLINE_HELP" value="עזרה מקוונת" />
+			<text id="PAGING_MODE" value="מצב &amp;דפדוף" />
+			<text id="PANEL" value="פאנל" />
+			<text id="DETAIL_PANEL" value="פאנל מפורט" />
+			<text id="REPEAT" value="חזור" />
+			<text id="ROOT" value="שורש" />
+			<text id="ADDRESS" value="כתובת" />
+			<text id="BOOKMARK_THIS_AYA" value="הוסף איה זו לסימניות"   />
+		</common>
+		<special>
+			<text id="QURAN" value="קוראן" />
+			<text id="QURAN_VIEWTYPE" value="אופן תצוגת קור&amp;אן" />
+			<text id="SURA" value="סורה" />
+			<text id="AYA" value="איה" />
+			<text id="SAJDA" value="סג'דה" />
+			<text id="JUZ" value="ג'וז" />
+			<text id="HIZB" value="חזב" />
+			<text id="QUARTER" value="רבע" />
+			<text id="MAKKI" value="מכה" />
+			<text id="MADANI" value="מדינה" />
+			<text id="DESCENT" value="מוצא" />
+			<text id="AYA_COUNT" value="מספר האיות" />
+			<text id="MINOR_SAJDA" value="סג'דה קטנה" /> <!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="סג'דה גדולה" /> <!-- Wajib Sajda -->
+			<text id="LOCATION" value="מיקום" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+		</special>
+	</word>
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="תוצאת חיפוש עבור: {1}" />
+			<text id="SEARCH_RESULT_COUNT" value="{1} תוצאות נמצאו בתוך {2} איות." />
+			<text id="SEARCH_PAGE" value="דף {1} מתוך {2}" />
+			<text id="TOO_MANY_RESULT" value="תוצאת החיפוש משתרעת על פני יותר מ-{1} איות" />
+			<text id="FILE_ALREADY_EXISTS" value="קובץ בשם {1} כבר קיים. האם ברצונך להחליפו?" />
+			<text id="RESTART_APP" value="עליך לאתחל את היישום כדי להחיל את השינויים." />
+			<text id="ACTION_PERFORMED" value="הפעולה התבצעה בהצלחה." />
+			<text id="TRANSLATION_ADDED" value="התרגום הבא נוסף תחת תפריט {1}" />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="לבצע?" />
+			<text id="DEL_YES_NO" value="למחוק את הפריט\ים ללא אפשרות שחזור?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="חלה שגיאה בלתי צפויה" />
+			<text id="FNF" value="קובץ לא נמצא" />
+			<text id="ACTION_FAILED" value="הפעולה נכשלה!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="תסדיר תרגום לא קביל: {1}" />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="חתימת תרגום לא קבילה: {1}" />
+			<text id="TRANSLATION_LOAD_FAILED" value="טעינת תרגום {1} נכשלה בשל השגיאה הבאה: {2}" />
+			<text id="ENTER_VALID_NUMBER" value="נא להזין מספר קביל." />
+			<text id="NUMBER_LIMIT" value="נא להזין מספר בין '{1}' ובין '{2}'." />
+		</error>
+		<hint />
+	</message>
+	<forms>
+		<global>
+			<text id="APP_NAME" value="ד'כר" />
+			<text id="APP_FULL_NAME" value="פרויקט הקוראן של ד'כר" />
+			<text id="FORM_TITLE" value="ד'כר" />
+			<text id="COPYRIGHT_DISCLAIMER" value="תוכנה זו מופצת באורח חופשי בתקווה שתהיה לעזר, אך ללא כל ערבות." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="ד'כר" />
+			<text id="NEW_SCOPE" value="תחום חדש" />
+			<text id="EDIT_SCOPES" value="ערוך תחומים" />
+			<text id="NO_SCOPE" value="ללא תחום" />
+			<text id="CURRENT_PAGE" value="דף נוכחי" />
+			<text id="QURAN_SCOPE" value="קוראן" />
+			<text id="TRANSLATION_SCOPE" value="תרגום" />
+			<text id="NATURAL_ORDER" value="סדר טבעי" />
+			<text id="RELEVANCE" value="רלוונטיות" />
+			<text id="AYA_LENGTH" value="אורך האיה" />
+			<text id="SORT_BY" value="מיין על פי" />
+			<text id="TOGGLE_FULL_SCREEN" value="הפעל\סגור מסך מלא" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="ערכת נושא" />
+			<text id="GENERAL_OPTIONS" value="כללי" />
+			<text id="VIEW_OPTIONS" value="תצוגה" />
+			<text id="TITLE" value="אפשרויות יישום" />
+			<text id="SHOW_SPLASH" value="הצג לוגו בעת טעינה" />
+			<text id="NEW_KEY" value="הזנת מפתח חדש" />
+			<text id="THEME_SETTING" value="הגדרות ערכת נושא" />
+			<text id="PRESS_OK_TO_APPLY" value="נא ללחוץ על כפתור האישור להחלת השינויים." />
+			<text id="MAX_SEARCH_RESULT" value="מספר מירבי של תוצאות חיפוש" />
+			<text id="RESIZEABLE_TASK_PANE" value="אפשר שינוי גודל חלונית משימות" />
+			<text id="SURA_NAMES" value="הצג את שמות הסורות בפנים" />
+			<text id="ARABIC" value="ערבית" />
+			<text id="EN_T9N" value="תרגום אנגלי" />
+			<text id="EN_T13N" value="תעתוק אנגלי" />
+			<text id="T9N" value="תרגום (אם זמין)" />
+			<text id="T13N" value="תעתוק (אם זמין)" />
+			<text id="ENABLE_AUDIO" value="אפשר תמיכה בשמע" />
+			<text id="SURA_NAME_TREE" value="הצג את שמות הסורות בעץ" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="ערוך תצורת תחומי חיפוש" />
+			<text id="SEARCH_SCOPE" value="תחום חיפוש" />
+			<text id="FROM_SURA" value="מסורה" />
+			<text id="FROM_AYA" value="מאיה" />
+			<text id="TO_SURA" value="עד סורה" />
+			<text id="TO_AYA" value="עד איה" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="תחום חיפוש לא קביל" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="ערוך תחומי חיפוש" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="ערוך ערכת סימניות: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="תיקית סימניות חדשה" />
+			<text id="NEW_BOOKMARK_ITEM" value="פריט סימניה חדש" />
+			<text id="UNIQUE_NAME" value="שם ייחודי" />
+			<text id="COMMA_SEPARATED" value="הפרד שמות מחברים בפסיקים" />
+			<text id="ONLY_ENGLISH" value="השתמש בשמות אנגליים בלבד (למשל English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="כאן יופיעו מוסכמות, ציטטות, מראי מקום ושאר ענייני סימניות" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="נהל ערכות סימניות" />
+			<text id="DBL_CLICK" value="הקלק פעמיים על פריט כדי לטעון ו\או לערוך אותו." />
+			<text id="SET_AS_DEFAULT" value="האם ברצונך לקבוע את ערכת הסימניות {1} כברירת מחדל?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="לא ניתן להסיר סימנית ברירת מחדל." />
+			<text id="CANNOT_OVERWRITE_DEFAULT"
+				value="לא ניתן לכתוב על גבי ערכת הסימניות המוגדרת כברירת מחדל. נא לקבוע ערכת סימניות אחרת כברירת מחדל, ולנסות לייבא." />
+			<text id="ENTER_ID" value="נא להזין מזהה סימניה" />
+			<text id="NEW_BOOKMARK_SET" value="ערכת סימניות חדשה" />
+			<text id="EXPORT4WEB" value="ייצא לרשת" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="ערוך סימניה" />
+			<text id="QURAN_LOCATIONS" value="מיקומים בקוראן" />
+			<text id="NEW_BOOKMARK" value="סימניה חדשה" />
+			<text id="NEW_FOLDER" value="תיקיה חדשה" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="מראי מקום בסימניה עבור: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="ייבא עבור המשתמשים הבאים:" />
+			<text id="ME_ONLY" value="עבורי בלבד" />
+			<text id="ALL_USERS" value="כל המשתמשים (מצריך הרשאת כתיבה לתיקית ההתקנה)" />
+			<text id="FOLLOWING_USERS" value="אינדקס עבור המשתמשים הבאים:" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="אל תשתמש" />
+			<text id="ADD_CUSTOM" value="השתמש" />
+			<text id="TITLE" value="ערוך תצורת תרגומים מותאמים אישית" />
+			<text id="AVAILABLE" value="תרגומים זמינים" />
+			<text id="CURRENT" value="תרגומים פעילים" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="נא להמתין" />
+			<text id="INDEXING" value="מאנדקס" /> <!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="פעולה זו עלולה להימשך מספר דקות בהתאם לגודל המסמך המאונדקס." />
+			<text id="CHECKING" value="בודק עדכונים" />
+			<text id="ZEKR_IS_CHECKING" value="ד'כר בודק עדכונים כעת" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="אודות ד'כר" />
+			<text id="VIEW_LOG" value="הצג קבצי לוג" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="פרטי עדכונים" />
+			<text id="VERSION_INFO" value="פרטי גירסה" />
+			<text id="BUILD_NUM" value="מספר בנייה" />
+			<text id="VERSION" value="גירסה" />
+			<text id="RELEASE_NAME" value="שם גירסת שחרור" />
+			<text id="RELEASE_STATE" value="מצב בנייה" />
+			<text id="RELEASE_DATE" value="תאריך שחרור" />
+			<text id="RELEASE_NOTES" value="הודעת שחרור" />
+			<text id="DOWNLOAD" value="הורדה" />
+			<text id="MORE_INFO" value="מידע נוסף" />
+			<text id="NO_UPDATE" value="הגירסה שברשותך היא העדכנית ביותר." />
+			<text id="NEW_DEV_AVAILABLE" value="גירסת פיתוח חדשה יותר (ולא יציבה) זמינה להורדה" />
+			<text id="NEW_BETA_AVAILABLE" value="גירסת בטא חדשה יותר (ולא יציבה) זמינה להורדה" />
+			<text id="NEW_FINAL_AVAILABLE" value="גירסת שחרור חדשה יותר (ויציבה) זמינה להורדה " />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="מצב דפדוף" />
+			<text id="SURA" value="סורה" />
+			<text id="HIZB_QUARTER" value="רבע חזב" />
+			<text id="JUZ" value="ג'וז" />
+			<text id="CONST_AYA" value="מספר איות קבוע" />
+			<text id="CUSTOM" value="מותאם &amp;אישית" />
+			<text id="AYA_PER_SURA" value="כמה איות יופיעו בכל דף?" />
+		</form>
+	</forms>
+</language>

@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language author="Dangleislam, Goran Gharib (گۆران غەریب)" version="1.1.0">
+	<locale localizedName="Kurdish" name="کوردی" id="ku_IQ" direction="rtl" />
+	<word>
+		<common>
+			<text id="OK" value="باشە" />
+			<text id="CANCEL" value="پاشگەزبونەوە" />
+			<text id="YES" value="بەڵێ" />
+			<text id="NO" value="نەخێر" />
+			<text id="APPLY" value="جێبەجێکردن" />
+			<text id="START" value="دەستپێکردن" />
+			<text id="RESET" value="ڕێکخستنەوە" />
+			<text id="NEW" value="نوێ" />
+			<text id="SAVE_AS" value="پاراستن وەکو" />
+			<text id="HELP" value="یارمەتی" />
+			<text id="EDIT" value="دەستکاریکردن" />
+			<text id="SEARCH" value="گەڕان" />
+			<text id="GOTO" value="چوون بۆ" />
+			<text id="VIEW" value="بینین" />
+			<text id="CLOSE" value="داخستن" />
+			<text id="INSERT" value="دانان" />
+			<text id="DETAILS" value="زانیاریەکان" />
+			<text id="MORE" value="زیاتر" />
+			<text id="NEXT" value="دواتر" />
+			<text id="PREVIOUS" value="پێشتر" />
+			<text id="REFRESH" value="چالاککردنەوە" />
+			<text id="UPDATE" value="نوێکردنەوە" />
+			<text id="SHOW" value="پیشاندان" />
+			<text id="NAME" value="ناو" />
+			<text id="VALUE" value="بەها" />
+			<text id="NUMBER" value="ژمارە" />
+			<text id="OPTION" value="هەڵبژاردن" />
+			<text id="FILE" value="فایل" />
+			<text id="RELOAD" value="چالاککردنەوە" />
+			<text id="TYPE" value="جۆر" />
+			<text id="MESSAGE" value="پەیام" />
+			<text id="BLOCK" value="بڕگە بڕگە" />
+			<text id="LINE_BY_LINE" value="دێڕ بە دێڕ" />
+			<text id="AND" value="وە" />
+			<text id="COMMA" value="،" />
+			<text id="SYNCHRONOUS" value="هاوتاکردن" />
+			<text id="ERROR" value="هەڵە هەیە" />
+			<text id="LANGUAGE" value="ز ما ن" />
+			<text id="ABOUT" value="دەربارەی" />
+			<text id="PRINT" value="چاپکردن" />
+			<text id="HOMEPAGE" value="ماڵپەڕی سەرەکی" />
+			<text id="WHOLE_QURAN" value="تەواوی قورئان" />
+			<text id="MATCH_DIACRITIC" value="گونجاندنی سەر و ژێر" />
+			<text id="MATCH_CASE" value="گونجاندنی پیتەکان" />
+			<text id="NEXT_AYA" value="ئایەتی دواتر" />
+			<text id="NEXT_SURA" value="سورەتی دواتر" />
+			<text id="PREV_AYA" value="ئایەتی پێشتر" />
+			<text id="PREV_SURA" value="سورەتی پێشتر" />
+			<text id="THEME" value="ڕووکار" />
+			<text id="LAYOUT" value="شێوازی قورئان" />
+			<text id="TOOLS" value="ئامرازەکان" />
+			<text id="ADD" value="زیادکردن" />
+			<text id="DELETE" value="سڕینەوە" />
+			<text id="REMOVE" value="لابردن" />
+			<text id="TRANSLATION" value="وەرگێڕان" />
+			<text id="TRANSLATION_VIEWTYPE" value="شێوازی وەرگێڕان" />
+			<text id="OPEN" value="کردنەوە" />
+			<text id="IMPORT" value="هێنان" />
+			<text id="COPY" value="لەبەرگرتنەوە" />
+			<text id="SEPARATE" value="جیاکردنەوە" />
+			<text id="MIXED" value="تێکەڵاو" />
+			<text id="OPTIONS" value="هەڵبژاردنەکان" />
+			<text id="QUESTION" value="پرسیار" />
+			<text id="FONT" value="فۆنت" />
+			<text id="GENERAL" value="گشتی" />
+			<text id="EXIT" value="دەرچوون" />
+			<text id="EXCLUDE" value="دوورخستنەوە" />
+			<text id="TRUE" value="ڕاست" />
+			<text id="FALSE" value="چەوت" />
+			<text id="SELECT" value="هەڵبژاردن" />
+			<text id="EXPORT" value="ناردن" />
+			<text id="IMPORT" value="هێنان" />
+			<text id="DESCRIPTION" value="لێدوان" />
+			<text id="BOOKMARKS" value="نیشانەکراوەکان" />
+			<text id="CONFIGURE" value="ئامادەکردن" />
+			<text id="EDIT_BOOKMARK_SET" value="دەستکاریکردنی نیشانه ڕێکخراوەکان" />
+			<text id="MANAGE_BOOKMARK_SETS" value="ڕێکخستنی بەڕێوەبردنی نیشانەکراوەکان" />
+			<text id="DIRECTION" value="ئاڕاستەکان" />
+			<text id="LANG_DIRECTION" value="ئاڕاستەی زمان" />
+			<text id="RTL" value="ڕاست بۆ چەپ" />
+			<text id="LTR" value="چەپ بۆ ڕاست" />
+			<text id="AUTHOR" value="بەرهەمهێنەر" />
+			<text id="VERSION" value="ڤێرژن" />
+			<text id="RANDOM_AYA" value="ئایەتی هەڕەمەکی" />
+			<text id="UNTITLED" value="بێ ناونیشان" />
+			<text id="SET_DEFAULT" value="ڕێکخستن وەکو سەرەکی" />
+			<text id="NOT_LOADED" value="بار نە کراوە" />
+			<text id="ID" value="ID" />
+			<text id="OVERWRITE" value="گۆڕین" />
+			<text id="SAVE" value="پاراستن" />
+			<text id="PATH" value="شوێن" />
+			<text id="SHOW_REFS" value="پیشاندانی سەرچاوەکان" />
+			<text id="MOVE_UP" value="بردن بۆ سەرەوە" />
+			<text id="MOVE_DOWN" value="بردن بۆ خوارەوە" />
+			<text id="MULTI_TRANS" value="وەرگێڕانی-هەمەجۆر" />
+			<text id="CONFIG_CUSTOM_TRANS" value="ڕێکخستنی وەرگێڕانی تایبەت" />
+			<text id="GO" value="بڕۆ" />
+			<text id="CAUTION" value="ئاگادارکردنەوە" />
+			<text id="ADVANCED" value="پەرەسەندوو" />
+			<text id="QUERY_DETAIL" value="زانیاری گومان" />
+			<text id="PAGE" value="لاپەڕە" />
+			<text id="MULTILINE" value="هێڵی جیاواز" />
+			<text id="TOGGLE" value="پیشاندان" />
+			<text id="AUDIO" value="دەنگ" />
+			<text id="CONTINUOUS" value="بەردەوام" />
+			<text id="DISCRETE" value="سەلماندن" />
+			<text id="PLAY" value="لێدان" />
+			<text id="PAUSE" value="ڕاگرتن" />
+			<text id="STOP" value="وەستاندن" />
+			<text id="RECITATION" value="قورئان خوێن" />
+			<text id="MENU_NEXT_AYA" value="ئایەتی دواتر" />
+			<text id="MENU_NEXT_SURA" value="سورەتی دواتر" />
+			<text id="MENU_PREV_AYA" value="ئایەتی پێشوو" />
+			<text id="MENU_PREV_SURA" value="سورەتی پێشوو" />
+			<text id="MENU_NEXT_JUZ" value="جوزئی دواتر" />
+			<text id="MENU_PREV_JUZ" value="جوزئی پێشوو" />
+			<text id="MENU_NEXT_HIZBQ" value="چارەکی بەشی دواتر" />
+			<text id="MENU_PREV_HIZBQ" value="چارەکی بەشی پێشوو" />
+			<text id="MENU_NEXT_SAJDA" value="کڕنوشی دواتر" />
+			<text id="MENU_PREV_SAJDA" value="کڕنوشی پێشوو" />
+			<text id="MENU_NEXT_PAGE" value="پەڕەی دواتر"   />
+			<text id="MENU_PREV_PAGE" value="پەڕەی پێشوو"   />
+			<text id="CHECK4UPDATE" value="پشکنین بۆ نوێكردنەوە"   />
+			<text id="ASCENDING" value="بەرزکردنەوە"   />
+			<text id="DESCENDING" value="نزمکردنەوە"   />
+			<text id="REVEL_ORDER" value="دۆخی تایبەت"   />
+			<text id="FULL_SCREEN" value="پڕ بە شاشە"   />
+			<text id="WARNING" value="ووریاکردنەوە"   />
+			<text id="ONLINE_HELP" value="یارمەتی سەرهێڵ"   />
+			<text id="PAGING_MODE" value="شێوازی لاپەڕە"   />
+			<text id="PANEL" value="پەنجەرە"   />
+			<text id="DETAIL_PANEL" value="پەنجەرەی زانیاری"   />
+			<text id="REPEAT" value="دوبارەکردنەوە"   />
+			<text id="ROOT" value="چاووگ"   /> <!-- word root -->
+			<text id="ADDRESS" value="ناونیشان"   />
+			<text id="BOOKMARK_THIS_AYA" value="نیشانەکردنی ئەم ئایەتە"   />
+			<text id="AUDIO_PLAYER" value="لێدەری دەنگ"   />
+			<text id="PLAYING" value="لێدان"   />
+			<text id="PAUSED" value="ڕاگیرا"   />
+			<text id="STOPPED" value="وەستێندرا"   />
+			<text id="RECITER" value="قورئان خوێن"   />
+            <text id="ONLINE" value="لەسەر هێڵ"   />
+            <text id="OFFLINE" value="دەر هێڵ"   />
+            <text id="SMALLER" value="بچووکتر"   />
+            <text id="LARGER" value="گەورەتر"   />
+            <text id="SCOPED_SEARCH" value="گەڕانی مەودا"   />
+            <text id="DOCK_MODE" value="شێوازی لێدەر"   />
+            <text id="FLOAT" value="بە جیا"   />
+            <text id="TASKPANE" value="شێوازی لیست"   />
+            <text id="TOP" value="لە سەرەوە"   />
+            <text id="BOTTOM" value="لە خوارەوە"   />
+            <text id="HIDE_WHEN_MINIMIZED" value="شاردنەوە کاتێک بچووککرایەوە"   />
+		</common>
+		<special>
+			<text id="QURAN" value="قورئان" />
+			<text id="QURAN_VIEWTYPE" value="شێوازی قورئان" />
+			<text id="SURA" value="سورەت" />
+			<text id="AYA" value="ئایەت" />
+			<text id="SAJDA" value="کڕنوش" />
+			<text id="JUZ" value="جوزئـ" />
+			<text id="HIZB" value="بەش" />
+			<text id="QUARTER" value="چارەک" />
+            <text id="HIZB_QUARTER" value="چارەکی بەش"   />
+			<text id="MAKKI" value="مەککە" />
+			<text id="MADANI" value="مەدینە" />
+			<text id="DESCENT" value="شوێنی دابەزین" />
+			<text id="AYA_COUNT" value="ژمارەی ئایەتەکان" />
+			<text id="MINOR_SAJDA" value="کڕنوشی پێشنیارکراو" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="کڕنوشی ناچاری" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="شوێن" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+            <text id="AUDHUBILLAH" value="پەنا بە خوای گەورە"   />
+            <text id="BISMILLAH" value="بەناوی خوای گەورە"   />
+            <text id="SADAGHALLAH" value="خوای گەورە ڕاستی فەرمووە"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value=" ئەنجامی گەڕان بۆ : '{1}' " />
+			<text id="SEARCH_RESULT_COUNT" value="{1} ئەنجام دۆزرایەوە لە {2} ئایەتدا." />
+			<text id="SEARCH_PAGE" value="لاپەڕەی {1} لە {2}" />
+			<text id="TOO_MANY_RESULT" value="گەڕان بەدوای ئەنجامدا زیاتر لە {1} ئایەتدا" />
+			<text id="FILE_ALREADY_EXISTS" value="فایل بەو ناوە '{1}' بوونی هەیە. ئایا ئەتەوێت بیگۆڕیت؟" />
+			<text id="RESTART_APP" value="پێویستە بەرنامەکە دووبارە ئیش پێ بکەیتەوە بۆ جێبەجێکردنی گۆڕانکاریەکان." />
+			<text id="ACTION_PERFORMED" value="کارەکە بە سەرکەرکەوتوویی جێبەجێکرا."   />
+			<text id="TRANSLATION_ADDED" value="وەرگێڕان زیادکرا {1}"   />
+			<text id="RECITATION_ADDED" value="قورئان خوێن زیادکرا {1}"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="ئایا دڵنیایت؟" />
+			<text id="DEL_YES_NO" value="سڕینەوەی {1} بابەت(کان)؟" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="هە ڵەیەکی نادیار ڕووید ا." />
+			<text id="FNF" value="فایل نەدۆزرایەوە" />
+			<text id="ACTION_FAILED" value="کارەکە سەرکەوتو نەبوو!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="جۆری فایلی وەرگێڕان نا دروستە: {1}"   />
+			<text id="INVALID_RECITATION_FORMAT" value="جۆری فایلی قورئان خوێن نا دروستە: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="وەرگێرانی '{1}' کاتی بەسەرچووە (نوێکراوەتەوە لە: {2}). ڤێرژنێکی نوێتر ({3}) دابەزێنراوە." />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="مۆر(ئیمزا) ی وەرگێڕان نادروستە: {2}"   />
+			<text id="TRANSLATION_LOAD_FAILED" value="هێنانی وەرگێڕانی '{1}' سەرکەوتو نەبوو بەهۆی ئەم هەڵانەوە: {2}"   />
+			<text id="RECITATION_LOAD_FAILED" value="هێنانی قورئان خوێنی '{1}' سەرکەوتو نەبوو بەهۆی ئەم هەڵانەوە: {2}"   />
+			<text id="ENTER_VALID_NUMBER" value=".تکایە ژمارەیەکی دروست بنوسە"   />
+			<text id="NUMBER_LIMIT" value="تکایە ژمارەیەک بنوسە لە نێوان '{1}' و '{2}' دا."   />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="زیکر" />
+			<text id="APP_FULL_NAME" value="پڕۆژەی زیکری قورئان" />
+			<text id="FORM_TITLE" value="زیکر" />
+			<text id="COPYRIGHT_DISCLAIMER" value="ئەم بەرنامەیە بە خۆڕایی بڵاو ئەکرێتەوە ، هیوادرین کە زۆرترین سوودی هەبێت و باشترین یارمەتی دەرتبێت . بەڵام هیچ گرەنتیەکی لەگەڵدا نی یە." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="زیکر" />
+			<text id="NEW_SCOPE" value="مەودایەکی نوێ" />
+			<text id="EDIT_SCOPES" value="دەستکاریکردنی مەوداکان" />
+			<text id="NO_SCOPE" value="بەبێ مەودا" />
+			<text id="CURRENT_PAGE" value="لاپەڕەی ئێستا" />
+			<text id="QURAN_SCOPE" value="قورئان" />
+			<text id="TRANSLATION_SCOPE" value="وەرگێڕان" />
+			<text id="NATURAL_ORDER" value="دۆخی سروشتی" />
+			<text id="RELEVANCE" value="پەیوەستی" />
+			<text id="AYA_LENGTH" value="درێژی ئایەت"   />
+			<text id="SORT_BY" value="ڕیزکردن بە پێی"   />
+			<text id="TOGGLE_FULL_SCREEN" value="پڕ بە شاشە شێوازی سەرەکی"   />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="ڕووکار" />
+			<text id="GENERAL_OPTIONS" value="گشتی" />
+			<text id="VIEW_OPTIONS" value="بینین" />
+            <text id="AUDIO_OPTIONS" value="دەنگ" />
+			<text id="TITLE" value="هەڵبژاردنەکانی بەرنامە" />
+			<text id="SHOW_SPLASH" value="پیشاندانی لۆگۆ لە دەستپێکردندا" />
+			<text id="NEW_KEY" value="دوگمەیەکی نوێ" />
+			<text id="THEME_SETTING" value="ڕێکخستنەکانی ڕووکار" />
+			<text id="PRESS_OK_TO_APPLY" value="کلیک لەسەر دوگمەی 'باشە' بکە بۆ جێبەجێکردنی گۆڕانکاریەکان." />
+			<text id="MAX_SEARCH_RESULT" value="زۆرترین ژمارەی ئەنجامی گەڕان" />
+			<text id="RESIZEABLE_TASK_PANE" value="گۆڕینی قەبارەی شاشە" />
+			<text id="SURA_NAMES" value="پیشاندانی ناوی سورەتەکان بە"   />
+			<text id="ARABIC" value="عەرەبی"   />
+			<text id="EN_T9N" value="وەرگێڕانی ئینگلیزی ١"   />
+			<text id="EN_T13N" value="وەرگێڕانی ئینگلیزی ٢"   />
+			<text id="T9N" value="وەرگێڕان (ئەگەر هەبوو ١)"   />
+			<text id="T13N" value="وەرگێڕان (ئەگەر هەبوو ٢)"   />
+			<text id="ENABLE_AUDIO" value="چالاککردنی ئیشپێکردنی دەنگ"   />
+			<text id="SURA_NAME_TREE" value="پیشاندانی ناوی سورەتەکان بە تەنیا"   />
+            <text id="SMART" value="زیرەکانە" />
+            <text id="ALWAYS" value="هەمیشە" />
+            <text id="NEVER" value="هەرگیز" />
+            <text id="PLAY_MODE" value="شێوازی لێدان" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="ڕێکخستنی مەودای گەڕان" />
+			<text id="SEARCH_SCOPE" value="مەودای گەڕان" />
+			<text id="FROM_SURA" value="لە سورەتی" />
+			<text id="FROM_AYA" value="لە ئایەتی" />
+			<text id="TO_SURA" value="بۆ سورەتی" />
+			<text id="TO_AYA" value="بۆ ئایەتی" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="گەڕان بەدوای بابەتی قەدەغەکراودا" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="دەستکاریکردنی مەودای گەڕان" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="دەستکاریکردنی نیشانەکراوەکان: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="فۆڵدەرێکی نوێی نیشانەکردن" />
+			<text id="NEW_BOOKMARK_ITEM" value="نیشانەکردنێکی نوێ" />
+			<text id="UNIQUE_NAME" value="ناوێکی بێ هاوتا" />
+			<text id="COMMA_SEPARATED" value="جیاکردنەوەی بڵاوکاری هەمەجۆر بەهۆی دابڕ(کۆما)وە" />
+			<text id="ONLY_ENGLISH" value="(e.g. English, Persian, Arabic, ...) تەنها ناوی ئینگلیزی بەکاربهێنە" />
+			<text id="DESC_TOOLTIP" value="ڕێکەوتنامەکان، ووتەکان، سەرچاوەکان، وە بابەتە نیشانەکراوەکان وەرە ئێرە" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="ڕێکخستنی نیشانەکراوەکان" />
+			<text id="DBL_CLICK" value="دووکلیک .بکە لەسەر بابەت بۆ هێنان وە/یان دەستکاریکردنی" />
+			<text id="SET_AS_DEFAULT" value="ئایا ئەتەوێ '{1}' دابنێیت وەکو نیشانەکردنی سەرەکی؟" />
+			<text id="CANNOT_REMOVE_DEFAULT" value=".ناتوانیت نیشانەکراوی بنەڕەتی لابەریت" />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="ناتوانیت گۆڕانکاری لە نیشانەکراوە سەرەکیەکاندا بکەیت. نیشانەکردنێکی تر دابنێ وەکو سەرەکی، وە دواتر هەوڵبدە بۆ هێنان." />
+			<text id="ENTER_ID" value="ناونیشانی نیشانەکراو بنوسە" />
+			<text id="NEW_BOOKMARK_SET" value="دیاریکردنی نیشانەیەکی نوێ" />
+			<text id="EXPORT4WEB" value="ناردن بۆ ئینتەرنێت" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="دەستکاریکردنی نیشانەکراوەکان" />
+			<text id="QURAN_LOCATIONS" value="شوێنی قورئان" />
+			<text id="NEW_BOOKMARK" value="نیشانەکردنێکی نوێ" />
+			<text id="NEW_FOLDER" value="فۆڵدەرێکی نوێ" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="{1}: لادانی نیشانەکراوەکان بۆ" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="زیادکردن بۆ ئەم بەکارهێنەرانەی خوارەوە:" />
+			<text id="ME_ONLY" value="تەنها من(خۆم)" />
+			<text id="ALL_USERS" value="هەموو بەکارهێنەران (پێویستە شوێنی دابەزاندن دیاری بکەیت)" />
+			<text id="FOLLOWING_USERS" value="زیادکردن بۆ ئەم بەکارهێنەرانە" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="بەکار نە هێنان" />
+			<text id="ADD_CUSTOM" value="بەکار هێنان" />
+			<text id="TITLE" value="ڕێکخستنی وەرگێڕانی تایبەتی" />
+			<text id="AVAILABLE" value="وەرگێرانە ئامادەکان" />
+			<text id="CURRENT" value="ئەو وەرگێڕانانەی کە ئێستا بەکاردێن" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="تکایە چاوەڕوانبە" />
+			<text id="INDEXING" value="پێڕست" /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="ئەم فرمانە لەوانەیە چەند خولەکێک بخایەنێت، لەبەر زۆری قەبارەی ناوەڕۆک و پێڕستەکان." />
+			<text id="CHECKING" value="پشکنین بۆ نوێکردنەوە" />
+			<text id="ZEKR_IS_CHECKING" value="زیکر ئێستا پشکنین ئەکات بۆ نوێکردنەوە" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="دەربارەی زیکر" />
+			<text id="VIEW_LOG" value="بینینی لیستی تۆمارکراوەکان" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="زانیاری نوێکردنەوە" />
+			<text id="VERSION_INFO" value="زانیاری ڤێرژن" />
+			<text id="BUILD_NUM" value="ژمارەی بڵاوکردنەوە" />
+			<text id="VERSION" value="ڤێرژن" />
+			<text id="RELEASE_NAME" value="ناوی بڵاوکار" />
+			<text id="RELEASE_STATE" value="شوێنی بڵاوکردنەوە" />
+			<text id="RELEASE_DATE" value="بەرواری بڵاوکردنەوە" />
+			<text id="RELEASE_NOTES" value="زانیاری بڵاوکردنەوە" />
+			<text id="DOWNLOAD" value="داگرتن" />
+			<text id="MORE_INFO" value="زانیاری زیاتر" />
+			<text id="NO_UPDATE" value="تۆ .نوێترین ڤێرژنی ئەم بەرنامەیە بەکار ئەهێنیت" />
+			<text id="NEW_DEV_AVAILABLE" value="ڤێرژنی نوێتری گەشەسەندووی (نا جێگیر) ئامادەیە بۆ داگرتن" />
+			<text id="NEW_BETA_AVAILABLE" value="ڤێرژنی تاقیکردنەوە (نا جێگیر) ئامادەیە بۆ داگرتن" />
+			<text id="NEW_FINAL_AVAILABLE" value="ڤێرژنی نوێتر (دواین) ئامادەیە بۆ داگرتن" />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="شێوازی قورئان"   />
+			<text id="SURA" value="سورەت"   />
+			<text id="HIZB_QUARTER" value="چارەکی بەش"   />
+			<text id="JUZ" value="جوزئـ"   />
+			<text id="CONST_AYA" value="نەگۆری ژمارەی ئایەت"   />
+			<text id="CUSTOM" value="تایبەتی"   />
+			<text id="AYA_PER_SURA" value="چەند ئایەت لە پەڕەیەکدا جێی ئەبێتەوە؟"   />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="لێدەری دەنگ"   />
+			<text id="SECOND_ABBR" value="چ"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="چرکە"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="پشوو"   />
+			<text id="REPEAT" value="دوبارەکردنەوە"   />
+			<text id="NO_INTERVAL" value="بەبێ وەستان"   />
+			<text id="NO_REPEAT" value="بەبێ دوبارەکردنەوە"   />
+            <text id="VOLUME" value="دەنگ"   />
+            <text id="TIMES" value="{1} جار"   />
+            <text id="PLAY_SCOPE" value="مەودای لێدان"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="چوون بۆ"   />
+            <text id="GOTO" value="چوون بۆ"   />
+            <text id="REVIEW" value="بینین"   />
+            <text id="JUZ" value="جوزئـ"   />
+            <text id="SURA_ORDER" value="ڕێکخستنی سورەت"   />
+            <text id="HIZB_QUARTER" value="چارەکی بەش"   />
+            <text id="SURA_AYA" value="(e.g. 33:70) سورەت:ئایەت"   />
+            <text id="NORMAL" value="ئاسایی"   />
+            <text id="REVELATION" value="({1}) دەرکەوتن"   />
+        </form>
+	</forms>
+</language>

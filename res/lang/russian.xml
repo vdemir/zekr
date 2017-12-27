@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Michael Kalinin" version="1.1.0">
+    <locale localizedName="Русский" name="Russian" id="ru_RU" direction="ltr" />
+    <word>
+        <common>
+            <text id="OK"       value="OK" />
+            <text id="CANCEL"   value="Отменить" />
+            <text id="YES"      value="Да" />
+            <text id="NO"       value="Нет" />
+            <text id="APPLY"    value="Применить" />
+            <text id="START"    value="Запуск" />
+            <text id="RESET"    value="Сброс" />
+            <text id="NEW"      value="Новый" />
+            <text id="SAVE_AS"  value="Сохранить как" />
+            <text id="HELP"     value="Справка" />
+            <text id="EDIT"     value="Правка" />
+            <text id="SEARCH"   value="Поиск" />
+            <text id="GOTO"     value="Переход" />
+            <text id="VIEW"     value="Вид" />
+            <text id="CLOSE"    value="Закрыть" />
+            <text id="INSERT"   value="Вставить" />
+            <text id="DETAILS"  value="Детали" />
+            <text id="MORE"     value="Больше" />
+            <text id="NEXT"     value="Следующий" />
+            <text id="PREVIOUS" value="Предыдущий" />
+            <text id="REFRESH"  value="Освежить" />
+            <text id="UPDATE"   value="Обновить" />
+            <text id="SHOW"     value="Показать" />
+            <text id="NAME"     value="Название" />
+            <text id="VALUE"    value="Значение" />
+            <text id="NUMBER"   value="Номер" />
+            <text id="OPTION"   value="Опция" />
+            <text id="FILE"     value="Файл" />
+            <text id="RELOAD"   value="Обновить" />
+            <text id="TYPE"     value="Тип" />
+            <text id="MESSAGE"  value="Сообщение" />
+            <text id="BLOCK"    value="Блок" />
+            <text id="LINE_BY_LINE" value="Строки" />
+            <text id="AND"      value="и" />
+            <text id="COMMA"    value="," />
+            <text id="SYNCHRONOUS" value="Синхронно" />
+            <text id="ERROR"    value="Ошибка" />
+            <text id="LANGUAGE" value="Язык" />
+            <text id="ABOUT"    value="О программе" />
+            <text id="PRINT"    value="Печать" />
+            <text id="HOMEPAGE" value="Домашняя страница" />
+            <text id="WHOLE_QURAN" value="По всему Корану" />
+            <text id="MATCH_DIACRITIC" value="С учетом огласовок" />
+            <text id="MATCH_CASE" value="С учетом регистра" />
+            <text id="NEXT_AYA" value="Следующий аят" />
+            <text id="NEXT_SURA" value="Следующая сура" />
+            <text id="PREV_AYA" value="Предыдущий аят" />
+            <text id="PREV_SURA" value="Предыдущая сура" />
+            <text id="THEME"    value="Тема" />
+            <text id="LAYOUT"   value="Макет" />
+            <text id="TOOLS"    value="Сервис" />
+            <text id="ADD"      value="Добавить" />
+            <text id="DELETE"   value="Удалить" />
+            <text id="REMOVE"   value="Удалить" />
+            <text id="TRANSLATION" value="Перевод" />
+            <text id="TRANSLATION_VIEWTYPE" value="Перевод"   />
+            <text id="OPEN"     value="Открыть" />
+            <text id="IMPORT"   value="Импорт" />
+            <text id="COPY"     value="Копировать" />
+            <text id="SEPARATE" value="Раздельно" />
+            <text id="MIXED"    value="Вместе" />
+            <text id="OPTIONS"  value="Настройки" />
+            <text id="QUESTION" value="Вопрос" />
+            <text id="FONT"     value="Шрифт" />
+            <text id="GENERAL"  value="Общие" />
+            <text id="EXIT"     value="Выход" />
+            <text id="EXCLUDE"  value="Исключить" />
+            <text id="TRUE"     value="Да" />
+            <text id="FALSE"    value="Нет" />
+            <text id="SELECT"   value="Выбрать" />
+            <text id="EXPORT"   value="Экспорт" />
+            <text id="IMPORT"   value="Импорт" />
+            <text id="DESCRIPTION" value="Описание" />
+            <text id="BOOKMARKS" value="Закладки" />
+            <text id="CONFIGURE" value="Настройка" />
+            <text id="EDIT_BOOKMARK_SET" value="Правка библиотеки" />
+            <text id="MANAGE_BOOKMARK_SETS" value="Список библиотек" />
+            <text id="DIRECTION" value="Направление" />
+            <text id="LANG_DIRECTION" value="Направление текста" />
+            <text id="RTL"      value="Справа налево" />
+            <text id="LTR"      value="Слева направо" />
+            <text id="AUTHOR"   value="Автор" />
+            <text id="VERSION"  value="Версия" />
+            <text id="RANDOM_AYA" value="Случайный аят" />
+            <text id="UNTITLED" value="Безымянный" />
+            <text id="SET_DEFAULT" value="По умолчанию" />
+            <text id="NOT_LOADED" value="Не загружен" />
+            <text id="ID"       value="Идентификатор" />
+            <text id="OVERWRITE" value="Перезаписать" />
+            <text id="SAVE"     value="Сохранить" />
+            <text id="PATH"     value="Путь" />
+            <text id="SHOW_REFS" value="Показать ссылки" />
+            <text id="MOVE_UP" value="Переместить вверх" />
+            <text id="MOVE_DOWN" value="Переместить вниз" />
+            <text id="MULTI_TRANS" value="Многоязычный" />
+            <text id="CONFIG_CUSTOM_TRANS" value="Настройка многоязычных переводов" />
+            <text id="GO" value="Переход" />
+            <text id="CAUTION" value="Предупреждение" />
+            <text id="ADVANCED" value="Расширенный" />
+            <text id="QUERY_DETAIL" value="Детали запроса" />
+            <text id="PAGE" value="Страница" />
+            <text id="MULTILINE" value="Несколько строк" />
+            <text id="TOGGLE" value="Развернуть" />
+            <text id="AUDIO" value="Аудио"   />
+            <text id="CONTINUOUS" value="Непрерывно"   />
+            <text id="DISCRETE" value="По отдельности"   />
+            <text id="PLAY" value="Воспроизвести"   />
+            <text id="PAUSE" value="Пауза"   />
+            <text id="STOP" value="Стоп"   />
+            <text id="RECITATION" value="Чтец Корана"   />
+			<text id="ADDON_MANAGER" value="Менеджер расширений" />            
+            <text id="MENU_NEXT_AYA" value="Следующий аят"   />
+            <text id="MENU_NEXT_SURA" value="Следующая сура"   />
+            <text id="MENU_PREV_AYA" value="Предыдущий аят"   />
+            <text id="MENU_PREV_SURA" value="Предыдущая сура"   />
+            <text id="MENU_NEXT_JUZ" value="Следующий джуз"   />
+            <text id="MENU_PREV_JUZ" value="Предыдущий джуз"   />
+            <text id="MENU_NEXT_HIZBQ" value="Следующая четверть хизба"   />
+            <text id="MENU_PREV_HIZBQ" value="Предыдущая четверть хизба"   />
+            <text id="MENU_NEXT_SAJDA" value="Следующая саджда"   />
+            <text id="MENU_PREV_SAJDA" value="Предыдущая саджда"   />
+            <text id="MENU_NEXT_PAGE" value="Следующая страница"   />
+            <text id="MENU_PREV_PAGE" value="Предыдущая страница"   />
+            <text id="CHECK4UPDATE" value="Проверить обновления"   />
+            <text id="ASCENDING" value="По возрастанию"   />
+            <text id="DESCENDING" value="По убыванию"   />
+            <text id="REVEL_ORDER" value="В порядке ниспослания"   />
+            <text id="FULL_SCREEN" value="Полноэкранный режим"   />
+            <text id="WARNING" value="Предупреждение"   />
+            <text id="ONLINE_HELP" value="Справка в интернете"   />
+            <text id="PAGING_MODE" value="Разбивка страниц"   />
+            <text id="PANEL" value="Панель"   />
+            <text id="DETAIL_PANEL" value="Показать детали"   />
+            <text id="REPEAT" value="Повторить"   />
+            <text id="ROOT" value="Корень слова"   /> <!-- корень слова -->
+            <text id="ADDRESS" value="Адрес"   />
+            <text id="BOOKMARK_THIS_AYA" value="Добавить аят в закладки"   />
+			<text id="AUDIO_PLAYER" value="Аудиоплеер"   />
+			<text id="PLAYING" value="Воспроизводится"   />
+			<text id="PAUSED" value="Нажато на паузу"   />
+			<text id="STOPPED" value="Остановлено"   />
+			<text id="RECITER" value="Чтец Корана"   />
+            <text id="ONLINE" value="Интернет"   />
+            <text id="OFFLINE" value="Автономно"   />
+            <text id="SMALLER" value="Уменьшить"   />
+            <text id="LARGER" value="Увеличить"   />
+            <text id="SCOPED_SEARCH" value="Поиск по заданным правилам"   />
+            <text id="DOCK_MODE" value="Разместить плеер"   />
+            <text id="FLOAT" value="В отдельном окне" />
+            <text id="TASKPANE" value="На панели задач"   />
+            <text id="TOP" value="Сверху"   />
+            <text id="BOTTOM" value="Снизу"   />
+            <text id="HIDE_WHEN_MINIMIZED" value="Скрывать при сворачивании окна"   />            			
+        </common>
+        <special>
+            <text id="QURAN"    value="Коран" />
+            <text id="QURAN_VIEWTYPE"    value="Коран"   />
+            <text id="SURA"     value="Сура" />
+            <text id="AYA"      value="Аят" />
+            <text id="SAJDA"    value="Саджда" />
+            <text id="JUZ"      value="Джуз" />
+            <text id="HIZB"     value="Хизб" />
+            <text id="QUARTER"  value="Четверть" />
+			<text id="HIZB_QUARTER" value="Четверть хизба"   />
+            <text id="MAKKI"    value="в Мекке" />
+            <text id="MADANI"   value="в Медине" />
+            <text id="DESCENT"  value="Ниспослана" />
+            <text id="AYA_COUNT"  value="Число аятов" />
+            <text id="MINOR_SAJDA" value="Саджда мустахаб" /> <!-- Желательный земной поклон (мустахаб) -->
+            <text id="MAJOR_SAJDA" value="Саджда ваджиб" /> <!-- Обязательный земной поклон (ваджиб) -->
+            <text id="LOCATION" value="Расположение" /> <!-- означает расположение в Коране, например 2-12 означает суру "Корова", аят 12 -->
+            <text id="AUDHUBILLAH" value="Аузу-биллях"   />
+            <text id="BISMILLAH" value="Бисмиллях"   />
+            <text id="SADAGHALLAH" value="Садакаллах"   />        
+		</special>
+    </word>
+
+    <message>
+        <inform>
+            <text id="SEARCH_RESULT_TITLE" value="Результаты поиска для: &quot;{1}&quot;" />
+            <text id="SEARCH_RESULT_COUNT" value="{1} результатов найдено в {2} аятах." />
+            <text id="SEARCH_PAGE" value="Страница {1} из {2}" />
+            <text id="TOO_MANY_RESULT" value="Результат поиска в более, чем {1} аятах" />
+            <text id="FILE_ALREADY_EXISTS" value="Файл с именем &quot;{1}&quot; уже существует. Хотите заменить его?" />
+            <text id="RESTART_APP" value="Требуется перезапуск приложения, чтобы изменения вступили в силу." />
+            <text id="ACTION_PERFORMED" value="Действие успешно выполнено."   />
+            <text id="TRANSLATION_ADDED" value="Следующие переводы добавлены в меню {1}"   />
+			<text id="RECITATION_ADDED" value="Следующие чтецы Корана добавлены в {1} меню"   />
+			<text id="RESOURCE_ADDED" value="Следующий новый ресурс был добавлен"   />			
+        </inform>
+        <confirm>
+            <text id="YES_NO" value="Вы уверены?" />
+            <text id="DEL_YES_NO" value="Удалить безвозвратно {1} элемент(ов)?" />
+        </confirm>
+        <error>
+            <text id="GENERAL_ERROR" value="Произошла неожиданная ошибка" />
+            <text id="FNF" value="Файл не найден" />
+            <text id="ACTION_FAILED" value="Действие не удалось!" />
+            <text id="INVALID_TRANSLATION_FORMAT" value="Неверный формат перевода: {1}"   />
+			<text id="INVALID_RECITATION_FORMAT" value="Неверный формат чтеца Корана: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="Ресурс '{1}' устарел (обновление от: {2}). Более новая версия ({3}) уже установлена." />
+            <text id="INVALID_TRANSLATION_SIGNATURE" value="Неверная подпись перевода: {1}"   />
+            <text id="TRANSLATION_LOAD_FAILED" value="Загрузка перевода &quot;{1}&quot; не удалась из-за следующей ошибки: {2}"   />
+			<text id="RECITATION_LOAD_FAILED" value="Загрузка чтеца Корана '{1}' не удалась из-за следующей ошибки: {2}"   />            
+            <text id="ENTER_VALID_NUMBER" value="Пожалуйста, введите правильное число."   />
+            <text id="NUMBER_LIMIT" value="Пожалуйста, введите число от '{1}' до '{2}'."   />
+        </error>
+        <hint></hint>
+    </message>
+
+    <forms>
+        <global>
+            <text id="APP_NAME" value="Zekr" />
+            <text id="APP_FULL_NAME" value="Zekr. Коранический проект" />
+            <text id="FORM_TITLE" value="Zekr" />
+            <text id="COPYRIGHT_DISCLAIMER" value="Эта программа распространяется бесплатно в надежде на то, что она будет полезна, однако без каких-либо гарантий." />
+        </global>
+        <form id="QURAN_FORM">
+            <text id="TITLE" value="Zekr" />
+            <text id="NEW_SCOPE" value="Создать новое правило" />
+            <text id="EDIT_SCOPES" value="Правка правил" />
+            <text id="NO_SCOPE" value="Без правил" />
+            <text id="CURRENT_PAGE" value="Текущая страница" />
+            <text id="QURAN_SCOPE"    value="Коран"   />
+            <text id="TRANSLATION_SCOPE" value="Перевод"   />
+            <text id="NATURAL_ORDER" value="Обычный порядок" />
+            <text id="RELEVANCE" value="По релевантности" />
+            <text id="AYA_LENGTH" value="По длине аята"   />
+            <text id="SORT_BY" value="Сортировка" />
+            <text id="TOGGLE_FULL_SCREEN" value="Выход из полноэкранного режима"   />          
+        </form>
+        <form id="OPTIONS_FORM">
+            <text id="THEME_OPTIONS"    value="Тема"   />
+            <text id="GENERAL_OPTIONS"  value="Общие"   />
+            <text id="VIEW_OPTIONS"     value="Вид"   />
+			<text id="AUDIO_OPTIONS" value="Аудио" />
+            <text id="TITLE" value="Настройки программы" />
+            <text id="SHOW_SPLASH" value="Показывать логотип при запуске" />
+            <text id="NEW_KEY" value="Введите новый ключ" />
+            <text id="THEME_SETTING" value="Установки темы" />
+            <text id="PRESS_OK_TO_APPLY" value="Нажмите клавишу &quot;OK&quot;, чтобы изменения вступили в силу." />
+            <text id="MAX_SEARCH_RESULT" value="Количество результатов поиска на странице" />
+            <text id="RESIZEABLE_TASK_PANE" value="Разрешить изменение размера панелей" />
+            <text id="SURA_NAMES" value="Названия сур"   />
+            <text id="ARABIC" value="Арабские"   />
+            <text id="EN_T9N" value="Английские"   />
+            <text id="EN_T13N" value="Английская транслитерация"   />
+            <text id="T9N" value="Русские"   />
+            <text id="T13N" value="Русская транслитерация"   />
+            <text id="ENABLE_AUDIO" value="Включить поддержку аудио"   />
+            <text id="SURA_NAME_TREE" value="Показать названия сур в виде древа"   />
+			<text id="SMART" value="Разумно" />
+            <text id="ALWAYS" value="Всегда" />
+            <text id="NEVER" value="Никогда" />
+            <text id="PLAY_MODE" value="Способ воспроизведения" />
+        </form>
+        <form id="SEARCH_SCOPE_FORM">
+            <text id="TITLE" value="Настройка правил поиска" />
+            <text id="SEARCH_SCOPE" value="Правило поиска" />
+            <text id="FROM_SURA" value="От суры" />
+            <text id="FROM_AYA" value="От аята" />
+            <text id="TO_SURA" value="До суры" />
+            <text id="TO_AYA" value="До аята" />
+            <text id="ILLEGAL_SEARCH_SCOPE" value="Неправильные параметры правил поиска" />
+        </form>
+        <form id="MANAGE_SCOPES_FORM">
+            <text id="TITLE" value="Правка правил поиска" />
+        </form>
+        <form id="BOOKMARK_SET_FORM">
+            <text id="TITLE" value="Правка библиотеки: {1}" />
+            <text id="NEW_BOOKMARK_FOLDER" value="Новая папка" />
+            <text id="NEW_BOOKMARK_ITEM" value="Новая закладка" />
+            <text id="UNIQUE_NAME" value="Уникальное имя" />
+            <text id="COMMA_SEPARATED" value="Если авторов больше одного, отделите каждого из них запятой" />
+            <text id="ONLY_ENGLISH" value="Напишите название языка по-английски (например, English, Russian, Arabic, ...)" />
+            <text id="DESC_TOOLTIP" value="Впишите сюда условные обозначения, цитаты, ссылки и другие описания, связанные с закладкой" />
+        </form>
+        <form id="BOOKMARK_SET_MANAGE_FORM">
+            <text id="TITLE" value="Список библиотек" />
+            <text id="DBL_CLICK" value="Для загрузки и/или правки дважды щелкните на элементе списка." />
+            <text id="SET_AS_DEFAULT" value="Хотите установить &quot;{1}&quot; как библиотеку по умолчанию?" />
+            <text id="CANNOT_REMOVE_DEFAULT" value="Невозможно удалить библиотеку по умолчанию." />
+            <text id="CANNOT_OVERWRITE_DEFAULT" value="Невозможно перезаписать библиотеку по умолчанию. Выберите другую библиотеку по умолчанию и повторите попытку импорта." />
+            <text id="ENTER_ID" value="Введите идентификатор библиотеки" />
+            <text id="NEW_BOOKMARK_SET" value="Новая библиотека" />
+            <text id="EXPORT4WEB" value="Экспорт для Web" />
+        </form>
+        <form id="BOOKMARK_ITEM_FORM">
+            <text id="TITLE" value="Правка закладки" />
+            <text id="QURAN_LOCATIONS" value="Расположение в Коране" />
+            <text id="NEW_BOOKMARK" value="Новая закладка" />
+            <text id="NEW_FOLDER" value="Новая папка" />
+        </form>
+        <form id="BOOKMARK_REF">
+            <text id="TITLE" value="Ссылки к аяту: {1}" />
+        </form>
+        <form id="IMPORT_QUESTION">
+            <text id="IMPORT_FOR" value="Импортировать для следующих пользователей:" />
+            <text id="ME_ONLY" value="Только для меня" />
+            <text id="ALL_USERS" value="Все пользователи (требуется доступ для записи в инсталляционную директорию)" />
+            <text id="FOLLOWING_USERS" value="Индексировать для следующих пользователей" />
+        </form>
+        <form id="CONFIG_CUSTOM_TRANS">
+            <text id="REMOVE_CUSTOM"   value="Удалить"   />
+            <text id="ADD_CUSTOM"      value="Добавить"   />
+            <text id="TITLE" value="Настройка многоязычных переводов" />
+            <text id="AVAILABLE" value="Доступные переводы" />
+            <text id="CURRENT" value="Текущие переводы" />
+        </form>
+		<form id="ADDON_MANAGER">
+			<text id="REMOVE_CUSTOM" value="Удалить ресурс" />
+			<text id="ADD_CUSTOM" value="Добавить резурс" />
+			<text id="TITLE" value="Менеджер расширений" />
+			<text id="CURRENT" value="Уже установленные ресурсы" />
+		</form>        
+        <form id="PROGRESS">
+            <text id="PLEASE_WAIT" value="Пожалуйста, подождите" />
+            <text id="INDEXING" value="Индексация" /><!-- Процесс индексации документа для быстрого поиска -->
+            <text id="TAKE_TIME" value="Это действие может занять несколько минут в зависимости от размера индексируемого документа." />
+            <text id="CHECKING" value="Проверка обновлений" />
+            <text id="ZEKR_IS_CHECKING" value="Zekr сейчас проверяет обновления" />
+        </form>
+        <form id="ABOUT">
+            <text id="TITLE" value="О программе Zekr" />
+            <text id="VIEW_LOG" value="Просмотреть журнал отчетов" />
+        </form>
+        <form id="UPDATE">
+            <text id="TITLE" value="Информация об обновлении" />
+            <text id="VERSION_INFO" value="Информация о версии" />
+            <text id="BUILD_NUM" value="Номер сборки" />
+            <text id="VERSION" value="Версия" />
+            <text id="RELEASE_NAME" value="Название выпуска" />
+            <text id="RELEASE_STATE" value="Состояние выпуска" />
+            <text id="RELEASE_DATE" value="Дата выпуска" />
+            <text id="RELEASE_NOTES" value="Замечания к выпуску" />
+            <text id="DOWNLOAD" value="Загрузить" />
+            <text id="MORE_INFO" value="Дополнительная информация" />
+            <text id="NO_UPDATE" value="Вы используете самую последнюю версию." />
+            <text id="NEW_DEV_AVAILABLE" value="Новая версия для разработчиков (нестабильная) доступна для загрузки" />
+            <text id="NEW_BETA_AVAILABLE" value="Новая бета-версия (нестабильная) доступна для загрузки" />
+            <text id="NEW_FINAL_AVAILABLE" value="Новый выпуск программы (окончательный) доступен для загрузки" />          
+        </form>
+        <form id="PAGING_MODE">
+            <text id="TITLE" value="Нумерация страниц"   />
+            <text id="SURA" value="Сура"   />
+            <text id="HIZB_QUARTER" value="Четверть хизба"   />
+            <text id="JUZ" value="Джуз"   />
+            <text id="CONST_AYA" value="Постоянное число аятов"   />
+            <text id="CUSTOM" value="Другая"   />
+            <text id="AYA_PER_SURA" value="Сколько аятов следует отображать на каждой странице?"   />
+        </form>
+			<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="Аудиоплеер"   />
+			<text id="SECOND_ABBR" value="с"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="Секунды"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="Интервал"   />
+			<text id="REPEAT" value="Повторы"   />
+			<text id="NO_INTERVAL" value="Без интервала"   />
+			<text id="NO_REPEAT" value="Без повторов"   />
+			<text id="VOLUME" value="Громкость"   />
+            <text id="TIMES" value="{1} раз"   />
+            <text id="PLAY_SCOPE" value="Границы воспроизведения"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="Переход"   />
+            <text id="GOTO" value="Переход"   />
+            <text id="REVIEW" value="Просмотр"   />
+            <text id="JUZ" value="Джуз"   />
+            <text id="SURA_ORDER" value="Последовательность сур"   />
+            <text id="HIZB_QUARTER" value="Четверть хизба"   />
+            <text id="SURA_AYA" value="Сура:Аят (например, 33:70)"   />
+            <text id="NORMAL" value="Обычная"   />
+            <text id="REVELATION" value="По ниспосланию ({1})"   />
+        </form>
+	</forms>
+</language>

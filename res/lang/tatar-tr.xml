@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Färid A. Bäşirov" version="0.6">
+	<locale localizedName="Tatarça" name="Tatar Latin" id="tt_TR" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK"       value="Tämam" />
+			<text id="CANCEL"   value="Baş tartu" />
+			<text id="YES"      value="Äye" />
+			<text id="NO"       value="Yuq" />
+			<text id="APPLY"    value="Qullan" />
+			<text id="START"    value="Başlat" />
+			<text id="RESET"    value="Yañadan" />
+			<text id="NEW"      value="Yaña" />
+			<text id="SAVE_AS"  value="Yaña isem belän saqlaw" />
+			<text id="HELP"     value="Yärdäm" />
+			<text id="EDIT"     value="Tözät" />
+			<text id="SEARCH"   value="Ezläw" />
+			<text id="GOTO"     value="Küç" />
+			<text id="VIEW"     value="Küreneş" />
+			<text id="CLOSE"    value="Yap" />
+			<text id="INSERT"   value="Östäp quy" />
+			<text id="DETAILS"  value="Tulıraq" />
+			<text id="MORE"     value="Östämä" />
+			<text id="NEXT"     value="Kiläse" />
+			<text id="PREVIOUS" value="Ütkän" />
+			<text id="REFRESH"  value="Yañart" />
+			<text id="UPDATE"   value="Yaña versiä" />
+			<text id="SHOW"     value="Kürsät" />
+			<text id="NAME"     value="İsem" />
+			<text id="VALUE"    value="Añlatma" />
+			<text id="NUMBER"   value="San" />
+			<text id="OPTION"   value="Köyläw" />
+			<text id="FILE"     value="Fayıl" />
+			<text id="RELOAD"   value="Yañadan yöklä" />
+			<text id="TYPE"     value="Tör" />
+			<text id="MESSAGE"  value="Xäbär" />
+			<text id="BLOCK"    value="Blok" />
+			<text id="LINE_BY_LINE" value="Sızıq-sızıq" />
+			<text id="AND"      value="häm" />
+			<text id="COMMA"    value="," />
+			<text id="SYNCHRONOUS" value="Beryulı" />
+			<text id="ERROR"    value="Xata" />
+			<text id="LANGUAGE" value="Tel" />
+			<text id="ABOUT"    value="Programma Xaqında" />
+			<text id="PRINT"    value="Bastır" />
+			<text id="HOMEPAGE" value="Web-säxifä" />
+			<text id="WHOLE_QURAN" value="Qör'än buylap" />
+			<text id="MATCH_DIACRITIC" value="Xäräkälärne isäpkä al" />
+			<text id="MATCH_CASE" value="Xäref zurlığın isäpkä al" />
+			<text id="NEXT_AYA" value="Kiläse ayät" />
+			<text id="NEXT_SURA" value="Kiläse sürä" />
+			<text id="PREV_AYA" value="Ütkän ayät" />
+			<text id="PREV_SURA" value="Ütkän sürä" />
+			<text id="THEME"    value="Tema" />
+			<text id="LAYOUT"   value="Urnaşu" />
+			<text id="TOOLS"    value="Qorallar" />
+			<text id="ADD"      value="Östä" />
+			<text id="DELETE"   value="Beter" />
+			<text id="REMOVE"   value="Alıp taşla" />
+			<text id="TRANSLATION" value="Tärcemä (täfsir)" />
+            <text id="TRANSLATION_VIEWTYPE" value="Tärcemä (täfsir) urnaşuı"   />
+			<text id="OPEN"     value="Aç" />
+			<text id="IMPORT"   value="Kiter" />
+			<text id="COPY"     value="Nösxälä" />
+			<text id="SEPARATE" value="Ayırım" />
+			<text id="MIXED"    value="Qatnaş" />
+			<text id="OPTIONS"  value="Köyläwlär" />
+			<text id="QUESTION" value="Soraw" />
+			<text id="FONT"     value="Font" />
+			<text id="GENERAL"  value="Ğömumi" />
+			<text id="EXIT"     value="Çığu" />
+			<text id="EXCLUDE"  value="İsäplämäw" />
+			<text id="TRUE"     value="Döres" />
+			<text id="FALSE"    value="Yalğış" />
+			<text id="SELECT"   value="Saylaw" />
+			<text id="EXPORT"   value="Tışqa küçerü" />
+			<text id="IMPORT"   value="Eçkä küçerü" />
+			<text id="DESCRIPTION" value="Taswirlama" />
+			<text id="BOOKMARKS" value="Qıstırğıç" />
+			<text id="CONFIGURE" value="Köyläw" />
+			<text id="EDIT_BOOKMARK_SET" value="Qıstırğıç cıyılmasın tözätü" />
+			<text id="MANAGE_BOOKMARK_SETS" value="Qıstırğıç cıyılmasın idarä itü" />
+			<text id="DIRECTION" value="Yünäleş" />
+			<text id="LANG_DIRECTION" value="Tel yünäleşe" />
+			<text id="RTL"      value="Uñnan sulğa" />
+			<text id="LTR"      value="Suldan uñğa" />
+			<text id="AUTHOR"   value="Avtor" />
+			<text id="VERSION"  value="Versiä" />
+			<text id="RANDOM_AYA" value="Oçraqlı ayät" />
+			<text id="UNTITLED" value="İsemsez" />
+			<text id="SET_DEFAULT" value="Ğädäti it" />
+			<text id="NOT_LOADED" value="Yöklänmägän" />
+			<text id="ID"       value="Bilge" />
+			<text id="OVERWRITE" value="Östenä yaz" />
+			<text id="SAVE"     value="Saqla" />
+			<text id="PATH"     value="Yul" />
+			<text id="SHOW_REFS" value="Sıltamalarnı kürsät" />
+			<text id="MOVE_UP" value="Öskä küçer" />
+			<text id="MOVE_DOWN" value="Asqa küçer" />
+			<text id="MULTI_TRANS" value="Küp telle" />
+			<text id="CONFIG_CUSTOM_TRANS" value="Küp telle tärcemälärne köyläw" />
+			<text id="GO" value="Küç" />
+			<text id="CAUTION" value="Abay" />
+			<text id="ADVANCED" value="Tögälräk" />
+			<text id="QUERY_DETAIL" value="Taläpne köyläw" />
+			<text id="PAGE" value="Bit" />
+			<text id="MULTILINE" value="Küp yullı" />
+			<text id="TOGGLE" value="Cäyep cibärü(cibärmäw)" />
+			<text id="AUDIO" value="Tıñlaw"   />
+			<text id="CONTINUOUS" value="Totaş"   />
+			<text id="DISCRETE" value="Ayırım"   />
+			<text id="PLAY" value="Uyna"   />
+			<text id="PAUSE" value="Tuqtalıp tor"   />
+			<text id="STOP" value="Tuqtat"   />
+			<text id="RECITATION" value="Qıçqırıp uquçı"   />
+			<text id="MENU_NEXT_AYA" value="Kiläse Ayät"   />
+			<text id="MENU_NEXT_SURA" value="Kiläse Sürä"   />
+			<text id="MENU_PREV_AYA" value="Ütkän Ayät"   />
+			<text id="MENU_PREV_SURA" value="Ütkän Sürä"   />
+			<text id="MENU_NEXT_JUZ" value="Kiläse Cöz"   />
+			<text id="MENU_PREV_JUZ" value="Ütkän Cöz"   />
+			<text id="MENU_NEXT_HIZBQ" value="Kiläse Xizeb Çirege"   />
+			<text id="MENU_PREV_HIZBQ" value="Ütkän Xizeb Çirege"   />
+			<text id="MENU_NEXT_SAJDA" value="Kiläse Säcdä"   />
+			<text id="MENU_PREV_SAJDA" value="Ütkän Säcdä"   />
+			<text id="BOOKMARK_THIS_AYA" value="Bookmark This Aya"   />
+		</common>
+		<special>
+			<text id="QURAN"    value="Qör'än-i Kärim" />
+			<text id="QURAN_VIEWTYPE"    value="Qör'än-i Kärim urnaşuı"   />
+			<text id="SURA"     value="Sürä" />
+			<text id="AYA"      value="Ayät" />
+			<text id="SAJDA"    value="Säcdä ayäte" />
+			<text id="JUZ"      value="Cöz" />
+			<text id="HIZB"     value="Xizeb" />
+			<text id="QUARTER"  value="Çirek" />
+			<text id="MAKKI"    value="Mäkkädä" />
+			<text id="MADANI"   value="Mädinädä" />
+			<text id="DESCENT"  value="İñderelgän" />
+			<text id="AYA_COUNT"  value="Ayät sanı" />
+			<text id="MINOR_SAJDA" value="Keçe säcdä (möstäxäp)" /> 
+			<text id="MAJOR_SAJDA" value="Möhim säcdä (wäcep)" /> 
+			<text id="LOCATION" value="Urnaşu" /> 
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="Ezläw näticäse: &quot;{1}&quot;" />
+			<text id="SEARCH_RESULT_COUNT" value="{2} ayättä {1} näticä tabıldı." />
+			<text id="SEARCH_PAGE" value="{2} bitneñ {1}nçe(ı) bite" />
+			<text id="TOO_MANY_RESULT" value="Ezläw näticäse {1} ayättän artıq" />
+			<text id="FILE_ALREADY_EXISTS" value="Sanaqta &quot;{1}&quot; isemle fayıl bar inde. Almaştırırğa telisezme?" />
+			<text id="RESTART_APP" value="Yasalğan üzgäreşlärne qullanu öçen proğrammanı yañadan eşlätergä kiräk." />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Sez rizamı?" />
+			<text id="DEL_YES_NO" value="{1} elementnı bötenläy beterergä telisezme?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Kötelmägän xata kilep çıqtı!" />
+			<text id="FNF" value="Fayıl tabılmadı" />
+			<text id="ACTION_FAILED" value="Ğämäl uñışsızlıqqa duçar buldı!" />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Zekr" />
+			<text id="APP_FULL_NAME" value="Zekr. Qör'än-i Kärim Proyektı" />
+			<text id="FORM_TITLE" value="Zekr" />
+			<text id="COPYRIGHT_DISCLAIMER" value="Bu programma fayda kiterü maqsatı belän tüläwsez taratıla, läkin döres buluına ışanıç yuq." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Zekr" />
+			<text id="NEW_SCOPE" value="Yaña qağîdä" />
+			<text id="EDIT_SCOPES" value="Qağîdälärne tözät" />
+			<text id="NO_SCOPE" value="Qağîdäsez" />
+			<text id="QURAN_SCOPE"    value="Qör'än"   />
+			<text id="TRANSLATION_SCOPE" value="Tärcemä (täfsir)"   />
+			<text id="CURRENT_PAGE" value="Bu bit" />
+			<text id="NATURAL_ORDER" value="Ğädättäge tärtip" />
+			<text id="RELEVANCE" value="Möhimlek buyınça" />
+			<text id="SORT_BY" value="Näticäne aralaw" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS"    value="Tema"   />
+			<text id="GENERAL_OPTIONS"  value="Gömumi"   />
+			<text id="VIEW_OPTIONS"     value="Küreneş"   />
+			<text id="TITLE" value="Programmanı köyläw" />
+			<text id="SHOW_SPLASH" value="Eşlätep cibärgändä programma tamğasın kürsät" />
+			<text id="NEW_KEY" value="Yaña açqıç kertegez" />
+			<text id="THEME_SETTING" value="Tema köyläwläre" />
+			<text id="PRESS_OK_TO_APPLY" value="Yasalğan üzgäreşlärne qullanu öçen &quot;Tämam&quot; töymäsenä basığız." />
+			<text id="MAX_SEARCH_RESULT" value="Ezlängän ayätlärneñ iñ zur sanı" />
+			<text id="RESIZEABLE_TASK_PANE" value="Panel zurlığın üzgärtergä yarıy" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Ezläw qağîdälären köyläw" />
+			<text id="SEARCH_SCOPE" value="Ezläw qağîdäse" />
+			<text id="FROM_SURA" value="Bu sürädän başlap" />
+			<text id="FROM_AYA" value="Bu ayättän başlap" />
+			<text id="TO_SURA" value="Bu sürägä qädär" />
+			<text id="TO_AYA" value="Bu ayätkä qädär" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Ezläw qağîdäläre döres tügel" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Ezläw qağîdälären üzgärt" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Qıstırğıç cıyılmasın tözätü: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="Yaña törkem" />
+			<text id="NEW_BOOKMARK_ITEM" value="Yaña qıstırğıç" />
+			<text id="UNIQUE_NAME" value="Berdänber isem" />
+			<text id="COMMA_SEPARATED" value="Ägär tärcemäneñ (täfsirneñ) berniçä tözüçese bulsa, härbersen öter belän ayırıp quyığız" />
+			<text id="ONLY_ENGLISH" value="İngliz isemnären genä qullanığız (yäğni English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Şartlı bilge, özemtä, sıltama kebek taswirlamalarnı monda kertegez" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Qıstırğıç cıyılmaların köyläw" />
+			<text id="DBL_CLICK" value="Berär elementnı yökläw/tözätü öçen aña ike tapqır çirtteregez." />
+			<text id="SET_AS_DEFAULT" value="&quot;{1}&quot; qıstırğıç cıyılmasın ğädäti itep qullanırğamı?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Ğädäti qıstırğıç cıyılmasın beterergä yaramıy." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Ğädäti qıstırğıç cıyılması östenä yazarğa yaramıy. Başta bütän cıyılmanı ğädäti itep saylağız, şunnan soñ yañadan importlaw yasarğa tırışıp qarağız." />
+			<text id="ENTER_ID" value="Qıstırğıç bilgesen kertegez" />
+			<text id="NEW_BOOKMARK_SET" value="Yaña qıstırğıç cıyılması" />
+			<text id="EXPORT4WEB" value="Web öçen çığaru" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Qıstırğıçnı tözätü" />
+			<text id="QURAN_LOCATIONS" value="Qör'ändä urını" />
+			<text id="NEW_BOOKMARK" value="Yaña qıstırğıç" />
+			<text id="NEW_FOLDER" value="Yaña törkem" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Qıstırğıç {1}nçe(ı) ayätne bilgeli" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Şuşı qullanuçılar öçen urnaştır:" />
+			<text id="ME_ONLY" value="Minem öçen genä" />
+			<text id="ALL_USERS" value="Böten qullanuçılar öçen (yökläw kataloğına yazarğa röxsät bulırğa tieş)" />
+			<text id="FOLLOWING_USERS" value="Şuşı qullanuçılar öçen isemlek yasa" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM"   value="Alıp taşla"   />
+			<text id="ADD_CUSTOM"      value="Östä"   />
+			<text id="TITLE" value="Küp telle tärcemälärne köyläw" />
+			<text id="AVAILABLE" value="Qullanırlıq tärcemälär" />
+			<text id="CURRENT" value="Ağımdağı tärcemälär" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Zinhar, beraz kötegez" />
+			<text id="INDEXING" value="İsemlek tözelä" />
+			<text id="TAKE_TIME" value="Bu xäräkät, indekslana torğan dokumentnıñ zurlığına qarap, berniçä minut däwamında eşkärtelä ala." />
+		</form>
+	</forms>
+</language>

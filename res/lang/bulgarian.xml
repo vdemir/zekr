@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Hamdi Sevitin" version="0.7">
+	<locale localizedName="Български" name="Bulgarian" id="bg_BG" direction="ltr" />
+	<word>
+		<common>
+			<text id="OK" value="Добре" />
+			<text id="CANCEL" value="Отказ" />
+			<text id="YES" value="Да" />
+			<text id="NO" value="Не" />
+			<text id="APPLY" value="Приложи" />
+			<text id="START" value="Стартирай" />
+			<text id="RESET" value="Изчисти" />
+			<text id="NEW" value="Нов" />
+			<text id="SAVE_AS" value="Запамети" />
+			<text id="HELP" value="Помощ" />
+			<text id="EDIT" value="Редактирай" />
+			<text id="SEARCH" value="Търсене" />
+			<text id="GOTO" value="Навигиране" />
+			<text id="VIEW" value="Изглед" />
+			<text id="CLOSE" value="Затвори" />
+			<text id="INSERT" value="Вмъкни" />
+			<text id="DETAILS" value="Детайли" />
+			<text id="MORE" value="Още..." />
+			<text id="NEXT" value="Следваща" />
+			<text id="PREVIOUS" value="Предишна" />
+			<text id="REFRESH" value="Опресняване" />
+			<text id="UPDATE" value="Актуализация" />
+			<text id="SHOW" value="Покажи" />
+			<text id="NAME" value="Име" />
+			<text id="VALUE" value="Стойност" />
+			<text id="NUMBER" value="Номер" />
+			<text id="OPTION" value="Опция" />
+			<text id="FILE" value="Файл" />
+			<text id="RELOAD" value="Повторно зареждане" />
+			<text id="TYPE" value="Тип" />
+			<text id="MESSAGE" value="Съобщение" />
+			<text id="BLOCK" value="Блок" />
+			<text id="LINE_BY_LINE" value="Ред по ред" />
+			<text id="AND" value="и" />
+			<text id="COMMA" value="," />
+			<text id="SYNCHRONOUS" value="Синхронно" />
+			<text id="ERROR" value="Грешка" />
+			<text id="LANGUAGE" value="Език" />
+			<text id="ABOUT" value="Относно" />
+			<text id="PRINT" value="Печат" />
+			<text id="HOMEPAGE" value="Начална страница" />
+			<text id="WHOLE_QURAN" value="Целия Коран" />
+			<text id="MATCH_DIACRITIC" value="Диакритично" />
+			<text id="MATCH_CASE" value="Големина на букви" />
+			<text id="NEXT_AYA" value="Следващ айет" />
+			<text id="NEXT_SURA" value="Следваща сура" />
+			<text id="PREV_AYA" value="Предишен айет" />
+			<text id="PREV_SURA" value="Предишна сура" />
+			<text id="THEME" value="Тема" />
+			<text id="LAYOUT" value="Подредба" />
+			<text id="TOOLS" value="Инстументи" />
+			<text id="ADD" value="Добави" />
+			<text id="DELETE" value="Изтрий" />
+			<text id="REMOVE" value="Премахни" />
+			<text id="TRANSLATION" value="Превод" />
+			<text id="TRANSLATION_VIEWTYPE" value="Изглед на превода" />
+			<text id="OPEN" value="Отвори" />
+			<text id="IMPORT" value="Импортиране" />
+			<text id="COPY" value="Копирай" />
+			<text id="SEPARATE" value="Отделно" />
+			<text id="MIXED" value="Разбъркано" />
+			<text id="OPTIONS" value="Опции" />
+			<text id="QUESTION" value="Въпрос" />
+			<text id="FONT" value="Шрифт" />
+			<text id="GENERAL" value="Общ" />
+			<text id="EXIT" value="Изход" />
+			<text id="EXCLUDE" value="Изключване" />
+			<text id="TRUE" value="Истина" />
+			<text id="FALSE" value="Лъжа" />
+			<text id="SELECT" value="Избери" />
+			<text id="EXPORT" value="Експорт" />
+			<text id="IMPORT" value="Импорт" />
+			<text id="DESCRIPTION" value="Описание" />
+			<text id="BOOKMARKS" value="Маркери" />
+			<text id="CONFIGURE" value="Конфигурация" />
+			<text id="EDIT_BOOKMARK_SET" value="Редактирай маркер" />
+			<text id="MANAGE_BOOKMARK_SETS" value="Управление маркери" />
+			<text id="DIRECTION" value="Направление" />
+			<text id="LANG_DIRECTION" value="Направление на текста" />
+			<text id="RTL" value="Отдясно на ляво" />
+			<text id="LTR" value="Отляво на дясно" />
+			<text id="AUTHOR" value="Автор" />
+			<text id="VERSION" value="Версия" />
+			<text id="RANDOM_AYA" value="Произволен айет" />
+			<text id="UNTITLED" value="Без име" />
+			<text id="SET_DEFAULT" value="По подразбиране" />
+			<text id="NOT_LOADED" value="Не зареден" />
+			<text id="ID" value="Идентификатор" />
+			<text id="OVERWRITE" value="Презаписвам" />
+			<text id="SAVE" value="Записвам" />
+			<text id="PATH" value="Път" />
+			<text id="SHOW_REFS" value="Покажи предпочитания" />
+			<text id="MOVE_UP" value="Премести нагоре" />
+			<text id="MOVE_DOWN" value="Премести надолу" />
+			<text id="MULTI_TRANS" value="Многоезично" />
+			<text id="CONFIG_CUSTOM_TRANS" value="Многоезични настройки" />
+			<text id="GO" value="Покажи" />
+			<text id="CAUTION" value="Внимание" />
+			<text id="ADVANCED" value="Разширено" />
+			<text id="QUERY_DETAIL" value="Детайли на заявката" />
+			<text id="PAGE" value="Страница" />
+			<text id="MULTILINE" value="Няколко реда" />
+			<text id="TOGGLE" value="Размени" />
+			<text id="AUDIO" value="Аудио" />
+			<text id="CONTINUOUS" value="Всички" />
+			<text id="DISCRETE" value="Един айет" />
+			<text id="PLAY" value="Пускане" />
+			<text id="PAUSE" value="Пауза" />
+			<text id="STOP" value="Спиране" />
+			<text id="RECITATION" value="Четене на Корана" />
+			<text id="MENU_NEXT_AYA" value="Следващ айет" />
+			<text id="MENU_NEXT_SURA" value="Следваща сура" />
+			<text id="MENU_PREV_AYA" value="Предишен айет" />
+			<text id="MENU_PREV_SURA" value="Предишна сура" />
+			<text id="MENU_NEXT_JUZ" value="Следващ джуз" />
+			<text id="MENU_PREV_JUZ" value="Предишен джуз" />
+			<text id="MENU_NEXT_HIZBQ" value="Следваща четвърт хизба" />
+			<text id="MENU_PREV_HIZBQ" value="Предишна четвърт хизба" />
+			<text id="MENU_NEXT_SAJDA" value="Следващ пример" />
+			<text id="MENU_PREV_SAJDA" value="Предишен пример" />
+			<text id="MENU_NEXT_PAGE" value="Следваща страница"   />
+			<text id="MENU_PREV_PAGE" value="Предишна страница"   />
+			<text id="CHECK4UPDATE" value="Провери обновления"   />
+			<text id="ASCENDING" value="Възходящ"   />
+			<text id="DESCENDING" value="Низходящ"   />
+			<text id="REVEL_ORDER" value="Ред на низпославане"   />
+			<text id="FULL_SCREEN" value="Цял екран"   />
+			<text id="WARNING" value="Предупреждение"   />
+			<text id="ONLINE_HELP" value="Справка онлайн"   />
+			<text id="PAGING_MODE" value="Номерация страници"   />
+			<text id="PANEL" value="Панел"   />
+			<text id="DETAIL_PANEL" value="Панел детайли"   />
+			<text id="REPEAT" value="Повторение"   />
+			<text id="ROOT" value="Корен на дума"   /> <!-- word root -->
+			<text id="ADDRESS" value="Адрес"   />
+			<text id="BOOKMARK_THIS_AYA" value="Маркирай този айет"   />
+		</common>
+		<special>
+			<text id="QURAN" value="Коран" />
+			<text id="QURAN_VIEWTYPE" value="Коран" />
+			<text id="SURA" value="Сура" />
+			<text id="AYA" value="Айет" />
+			<text id="SAJDA" value="Сежде" />
+			<text id="JUZ" value="Джуз" />
+			<text id="HIZB" value="Хизба" />
+			<text id="QUARTER" value="Четвърт" />
+			<text id="MAKKI" value="в Мекке" />
+			<text id="MADANI" value="в Медина" />
+			<text id="DESCENT" value="Низпослaн" />
+			<text id="AYA_COUNT" value="Брой aйети" />
+			<text id="MINOR_SAJDA" value="Седжде мустахаб" /><!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="Седжде ваджиб" /><!-- Wajib Sajda -->
+			<text id="LOCATION" value="Разположение" /><!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="Резултати за: &quot;{1}&quot;" />
+			<text id="SEARCH_RESULT_COUNT" value="{1} намерени резултати в {2} айет." />
+			<text id="SEARCH_PAGE" value="Страница {1} от {2}" />
+			<text id="TOO_MANY_RESULT" value="Резултати намерени в повече от {1} айета" />
+			<text id="FILE_ALREADY_EXISTS" value="Файл с дадено име &quot;{1}&quot; вече съществува. Искате ли да го замените?" />
+			<text id="RESTART_APP" value="Трявба да рестартирате приложението за да бъдат актуализирни промените." />
+			<text id="ACTION_PERFORMED" value="Действието е успешно изпълнено."   />
+			<text id="TRANSLATION_ADDED" value="Следващия превод добавен в меню {1}"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="Сигурни ли сте?" />
+			<text id="DEL_YES_NO" value="Безвъзвратно изтриване на {1} елемента?" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="Необичайна грешка" />
+			<text id="FNF" value="Файлът не е открит" />
+			<text id="ACTION_FAILED" value="Действието не можа да се изпълни!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="Невалиден формат на превода: {1}"   />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="Невалиден подпис на превода: {1}"   />
+			<text id="TRANSLATION_LOAD_FAILED" value="Зареждането на превода &quot;{1}&quot; се провали поради следната причина: {2}"   />
+			<text id="ENTER_VALID_NUMBER" value="Моля въведете валидно число."   />
+			<text id="NUMBER_LIMIT" value="Моля въведете число между '{1}' и '{2}'."   />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="Зикр" />
+			<text id="APP_FULL_NAME" value="Зикр Кораничен Проект" />
+			<text id="FORM_TITLE" value="Зирк" />
+			<text id="COPYRIGHT_DISCLAIMER" value="Тази програма се разпространява свободно с надеждата, че ще ви е от полза, но без каквато и да е било гаранция." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="Зикр" />
+			<text id="NEW_SCOPE" value="Ново правило" />
+			<text id="EDIT_SCOPES" value="Въведи правила" />
+			<text id="NO_SCOPE" value="Без правила" />
+			<text id="CURRENT_PAGE" value="Текуща страница" />
+			<text id="QURAN_SCOPE" value="Коран" />
+			<text id="TRANSLATION_SCOPE" value="Превод" />
+			<text id="NATURAL_ORDER" value="Обичайна подредба" />
+			<text id="RELEVANCE" value="По честота на срещане" />
+			<text id="AYA_LENGTH" value="Дължина на айета"   />
+			<text id="SORT_BY" value="Сортиране по"   />
+			<text id="TOGGLE_FULL_SCREEN" value="Превключване цял екран"   />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="Теми" />
+			<text id="GENERAL_OPTIONS" value="Общи" />
+			<text id="VIEW_OPTIONS" value="Вид" />
+			<text id="TITLE" value="Опции на приложението" />
+			<text id="SHOW_SPLASH" value="Покажи лого при стартиране" />
+			<text id="NEW_KEY" value="Въведете нов ключ" />
+			<text id="THEME_SETTING" value="Настройки на теми" />
+			<text id="PRESS_OK_TO_APPLY" value="Натиснете бутона &quot;Добре&quot; за да настъпят измененията." />
+			<text id="MAX_SEARCH_RESULT" value="Максимален брой резулатат при търсене" />
+			<text id="RESIZEABLE_TASK_PANE" value="Разширяем панел" />
+			<text id="SURA_NAMES" value="Покажи имената на сурите"   />
+			<text id="ARABIC" value="Арабски"   />
+			<text id="EN_T9N" value="Английск превод"   />
+			<text id="EN_T13N" value="Английска транслитерация"   />
+			<text id="T9N" value="Превод (ако е достъпен)"   />
+			<text id="T13N" value="Транслитерация (ако е достъпна)"   />
+			<text id="ENABLE_AUDIO" value="Подръжка аудио"   />
+			<text id="SURA_NAME_TREE" value="Покажи имената на сурите дървовидно"   />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="Промяна настройки търсене" />
+			<text id="SEARCH_SCOPE" value="Настройки търсене" />
+			<text id="FROM_SURA" value="От аура" />
+			<text id="FROM_AYA" value="От айет" />
+			<text id="TO_SURA" value="До сура" />
+			<text id="TO_AYA" value="До айет" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="Неправилни параметри за търсене" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="Промяна обхват търсене" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="Редактирай показатели: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="Нова папка показатели" />
+			<text id="NEW_BOOKMARK_ITEM" value="Нов показател" />
+			<text id="UNIQUE_NAME" value="Уникалнно име" />
+			<text id="COMMA_SEPARATED" value="Отдели авторите със запетая" />
+			<text id="ONLY_ENGLISH" value="Използвай английски имена (e.g. English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="Конвенции, цитати, препратки, и други " />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="Управление набор от показатели" />
+			<text id="DBL_CLICK" value="Кликнете двукратно отгоре за да заредите и редактирате." />
+			<text id="SET_AS_DEFAULT" value="Искате ли показателя &quot;{1}&quot; да е подразбиращ?" />
+			<text id="CANNOT_REMOVE_DEFAULT" value="Не можа да се премахме подразбиращия се показател." />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="Не може да се презапише подразбиращия набор от показатели. Изберете друг показател и опитайте отново." />
+			<text id="ENTER_ID" value="Въведете идентификатор на показатела" />
+			<text id="NEW_BOOKMARK_SET" value="Нов набор от показатели" />
+			<text id="EXPORT4WEB" value="Експорт към Web" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="Редактиране показател" />
+			<text id="QURAN_LOCATIONS" value="Разположение в корана" />
+			<text id="NEW_BOOKMARK" value="Нов показател" />
+			<text id="NEW_FOLDER" value="Нова папка" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="Показателя сочи към: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="Импортни следващите показатели:" />
+			<text id="ME_ONLY" value="Само за мен" />
+			<text id="ALL_USERS" value="За всички (нужни са необходимите права за писане)" />
+			<text id="FOLLOWING_USERS" value="Индексиране на следните потребители" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="Премахни" />
+			<text id="ADD_CUSTOM" value="Използвай" />
+			<text id="TITLE" value="Конфигурирай преводи" />
+			<text id="AVAILABLE" value="Налични преводи" />
+			<text id="CURRENT" value="Текущо използвани преводи" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="Моля изчакайте" />
+			<text id="INDEXING" value="Индексиране" /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="Това действие може да отнеме няколко минути в зависимост от големината на документа, който се индексира." />
+			<text id="CHECKING" value="Проверяване на обновления" />
+			<text id="ZEKR_IS_CHECKING" value="Зикр в момента проверява за обновления" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="За Зикр" />
+			<text id="VIEW_LOG" value="Виж лог файла" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="Информация обновления" />
+			<text id="VERSION_INFO" value="Информация за версията" />
+			<text id="BUILD_NUM" value="Номер на изграждане" />
+			<text id="VERSION" value="Версия" />
+			<text id="RELEASE_NAME" value="Име на пуск" />
+			<text id="RELEASE_STATE" value="Състояние пуск" />
+			<text id="RELEASE_DATE" value="Дата на пуск" />
+			<text id="RELEASE_NOTES" value="Забележки относно пуска" />
+			<text id="DOWNLOAD" value="Изтегляне" />
+			<text id="MORE_INFO" value="Повече информация" />
+			<text id="NO_UPDATE" value="В момента използвате последната версия." />
+			<text id="NEW_DEV_AVAILABLE" value="Нова разработчикова (нестабилна) версия е достъпна" />
+			<text id="NEW_BETA_AVAILABLE" value="Нова бета (нестабилна) версия е достъпна" />
+			<text id="NEW_FINAL_AVAILABLE" value="По-нова (последна) версия е достъпна за сваляне" />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="Номерация страници"   />
+			<text id="SURA" value="Сура"   />
+			<text id="HIZB_QUARTER" value="Четвърт хизб"   />
+			<text id="JUZ" value="Джуз"   />
+			<text id="CONST_AYA" value="Избран брой айети"   />
+			<text id="CUSTOM" value="Други"   />
+			<text id="AYA_PER_SURA" value="Колко Айета се показват на една страница?"   />
+		</form>
+	</forms>
+</language>

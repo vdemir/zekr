@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quran author="Yahya Saturday (Яхия Съботинов)" version="0.7.6-1.2">
+	<sura-detail>
+		<sura index="1" name="Откриване" tname="Ал-Фӓтих̣ах̃" />
+		<sura index="2" name="Кравата" tname="Ал-Бак͡ьарах̃" />
+		<sura index="3" name="Родът на Имран" tname="'Ӓли ˁИмрӓн" />
+		<sura index="4" name="Жените" tname="Ан-Нисӓ'" />
+		<sura index="5" name="Трапезата" tname="Ал-Мӓ'идах̃" />
+		<sura index="6" name="Добитъкът" tname="Ал-'Анˁӓм" />
+		<sura index="7" name="Стената" tname="Ал-'Аˁрӓф" />
+		<sura index="8" name="Придобитото във война" tname="Ал-'Анфӓл" />
+		<sura index="9" name="Покаянието" tname="Ат-Таўбах̃" />
+		<sura index="10" name="Юнус" tname="Йӱнус" />
+		<sura index="11" name="Худ" tname="Хӱд" />
+		<sura index="12" name="Юсуф" tname="Йӱсуф" />
+		<sura index="13" name="Гърмът" tname="Ар-Раˁд" />
+		<sura index="14" name="Ибрахим" tname="'Ибрӓхӥм" />
+		<sura index="15" name="Ал-Хиджр" tname="Ал-Х̣ид͡жр" />
+		<sura index="16" name="Пчелите" tname="Ан-Нах̣л" />
+		<sura index="17" name="Нощното пътешествие" tname="Ал-'Исрӓ'" />
+		<sura index="18" name="Пещерата" tname="Ал-Кахф" />
+		<sura index="19" name="Мариам" tname="Марйам" />
+		<sura index="20" name="Та-Ха" tname="Т̣ӓ-Хӓ" />
+		<sura index="21" name="Пророците" tname="Ал-'Ам̃бийӓ'" />
+		<sura index="22" name="Поклонението Хадж" tname="Ал-Х̣ад͡ж͡ж" />
+		<sura index="23" name="Вярващите" tname="Ал-Му'минӱн" />
+		<sura index="24" name="Светлината" tname="Ан-Нӱр" />
+		<sura index="25" name="Разграничаването" tname="Ал-Фурк͡ьӓн" />
+		<sura index="26" name="Поетите" tname="Аш-Шуˁарӓ'" />
+		<sura index="27" name="Мравките" tname="Ан-Намл" />
+		<sura index="28" name="Разказът" tname="Ал-К͡ьас̣ас̣" />
+		<sura index="29" name="Паякът" tname="Ал-ˁАнкабӱт" />
+		<sura index="30" name="Ромеите" tname="Ар-Рӱм" />
+		<sura index="31" name="Лукман" tname="Лук͡ьмӓн" />
+		<sura index="32" name="Поклонът" tname="Ас-Сад͡ждах̃" />
+		<sura index="33" name="Съюзените племена" tname="Ал-'Ах̣зӓб" />
+		<sura index="34" name="Саба" tname="Саба'" />
+		<sura index="35" name="Твореца" tname="Фӓт̣ир" />
+		<sura index="36" name="Йа-Син" tname="Йӓ-Сӥн" />
+		<sura index="37" name="Строените в редици" tname="Ас̣-С̣ӓффӓт" />
+		<sura index="38" name="Сад" tname="С̣ӓд" />
+		<sura index="39" name="Тълпите" tname="Аз-Зумар" />
+		<sura index="40" name="Опрощаващия" tname="Г͡хӓфир" />
+		<sura index="41" name="Разяснените" tname="Фус̣с̣илат" />
+		<sura index="42" name="Съвещаването" tname="Аш-Шӱраа́" />
+		<sura index="43" name="Украсата" tname="Аз-Зук͡хруф" />
+		<sura index="44" name="Димът" tname="Ад-Дук͡хӓн" />
+		<sura index="45" name="Коленопреклонната" tname="Ал-Д͡жӓс̱ийах̃" />
+		<sura index="46" name="Пясъчните хълмове" tname="Ал-'Ах̣к͡ьӓф" />
+		<sura index="47" name="Мухаммад" tname="Мух̣аммад" />
+		<sura index="48" name="Победата" tname="Ал-Фатх̣" />
+		<sura index="49" name="Стаите" tname="Ал-Х̣уд͡журӓт" />
+		<sura index="50" name="Каф" tname="К͡ьӓф" />
+		<sura index="51" name="Отвяващите" tname="Аз̱-З̱ӓрийӓт" />
+		<sura index="52" name="Планината" tname="Ат̣-Т̣ӱр" />
+		<sura index="53" name="Звездата" tname="Ан-Над͡жм" />
+		<sura index="54" name="Луната" tname="Ал-К͡ьамар" />
+		<sura index="55" name="Всемилостивия" tname="Ар-Рах̣мӓн" />
+		<sura index="56" name="Събитието" tname="Ал-Ўӓк͡ьиˁах̃" />
+		<sura index="57" name="Желязото" tname="Ал-Х̣адӥд" />
+		<sura index="58" name="Спорът" tname="Ал-Муд͡жӓдалах̃" />
+		<sura index="59" name="Изселването" tname="Ал-Х̣ашр" />
+		<sura index="60" name="Изпитваната" tname="Ал-Мумтах̣анах̃" />
+		<sura index="61" name="Редицата" tname="Ас̣-С̣афф" />
+		<sura index="62" name="Петъкът" tname="Ал-Д͡жумуˁах̃" />
+		<sura index="63" name="Лицемерите" tname="Ал-Мунӓфик͡ьӱн" />
+		<sura index="64" name="Разкриването на заблудата" tname="Ат-Таг͡хӓбун" />
+		<sura index="65" name="Разводът" tname="Ат̣-Т̣алӓк͡ь" />
+		<sura index="66" name="Възбраната" tname="Ат-Тах̣рӥм" />
+		<sura index="67" name="Владението" tname="Ал-Мулк" />
+		<sura index="68" name="Калемът" tname="Ал-К͡ьалам" />
+		<sura index="69" name="Неизбежното" tname="Ал-Х̣ӓк͡к͡ьах̃" />
+		<sura index="70" name="Небесните стъпала" tname="Ал-Маˁӓрид͡ж" />
+		<sura index="71" name="Нух" tname="Нӱх̣" />
+		<sura index="72" name="Джиновете" tname="Ал-Д͡жинн" />
+		<sura index="73" name="Загръщащият се" tname="Ал-Муззаммил" />
+		<sura index="74" name="Обвиващият се" tname="Ал-Муддас̱с̱ир" />
+		<sura index="75" name="Възкресението" tname="Ал-К͡ьийӓмах̃" />
+		<sura index="76" name="Човекът" tname="Ал-'Инсӓн" />
+		<sura index="77" name="Изпращаните" tname="Ал-Мурсалӓт" />
+		<sura index="78" name="Вестта" tname="Ан-Наба'" />
+		<sura index="79" name="Изтръгващите" tname="Ан-Нӓзиˁӓт" />
+		<sura index="80" name="Той се намръщи" tname="ˁАбаса" />
+		<sura index="81" name="Обвиването" tname="Ат-Такўӥр" />
+		<sura index="82" name="Разкъсването" tname="Ал-'Инфит̣ӓр" />
+		<sura index="83" name="Ощетяващите" tname="Ал-Мут̣аффифӥн" />
+		<sura index="84" name="Разцепването" tname="Ал-'Иншик͡ьӓк͡ь" />
+		<sura index="85" name="Съзвездията" tname="Ал-Бурӱд͡ж" />
+		<sura index="86" name="Вечерницата" tname="Ат̣-Т̣ӓрик͡ь" />
+		<sura index="87" name="Всевишния" tname="Ал-'Аˁлаа́" />
+		<sura index="88" name="Всепокриващият ден" tname="Ал-Г͡хӓшийах̃" />
+		<sura index="89" name="Зората" tname="Ал-Фад͡жр" />
+		<sura index="90" name="Градът" tname="Ал-Балад" />
+		<sura index="91" name="Слънцето" tname="Аш-Шамс" />
+		<sura index="92" name="Нощта" tname="Ал-Лайл" />
+		<sura index="93" name="Утрото" tname="Ад̣-Д̣ух̣аа́" />
+		<sura index="94" name="Разтварянето" tname="Ал-'Инширӓх̣" /><!-- الْإِنْشِرَاح по Цв. Теофанов (Аш-Шарх̣ по Zekr) -->
+		<sura index="95" name="Смоковницата" tname="Ат-Тӥн" />
+		<sura index="96" name="Съсирекът" tname="Ал-ˁАлак͡ь" />
+		<sura index="97" name="Могъществото" tname="Ал-К͡ьадр" />
+		<sura index="98" name="Ясният знак" tname="Ал-Баййинах̃" />
+		<sura index="99" name="Земетръсът" tname="Аз-Залзалах̃" />
+		<sura index="100" name="Препускащите" tname="Ал-ˁӒдийӓт" />
+		<sura index="101" name="Бедствието" tname="Ал-К͡ьӓриˁах̃" />
+		<sura index="102" name="Преумножаването" tname="Ат-Такӓс̱ур" />
+		<sura index="103" name="Следобедът" tname="Ал-ˁАс̣р" />
+		<sura index="104" name="Клеветникът" tname="Ал-Хумазах̃" />
+		<sura index="105" name="Слонът" tname="Ал-Фӥл" />
+		<sura index="106" name="Курайш" tname="К͡ьурайш" />
+		<sura index="107" name="Услугите" tname="Ал-Мӓˁӱн" />
+		<sura index="108" name="Ал-Каусар" tname="Ал-Каўс̱ар" />
+		<sura index="109" name="Неверниците" tname="Ал-Кӓфирӱн" />
+		<sura index="110" name="Подкрепата" tname="Ан-Нас̣р" />
+		<sura index="111" name="Сплетените влакна" tname="Ал-Масад" />
+		<sura index="112" name="Пречистването" tname="Ал-'Ик͡хлӓс̣" />
+		<sura index="113" name="Разсъмването" tname="Ал-Фалак͡ь" />
+		<sura index="114" name="Хората" tname="Ан-Нӓс" />
+	</sura-detail>
+</quran>

@@ -1,0 +1,28 @@
+#set ($NUM = $UTILS.arraySize($TRANS_DATA))
+<table class="customTrans" cellpadding="0" cellspacing="0">
+#if($trans_showMultipleSideBySide == "true")
+	<tr>
+	#foreach ($TD in $TRANS_DATA)
+		#if ($trans_showTransId == "true") #set ($TRANS_ID = "<span style='font-size: xx-small'>[${TD.localizedName}]</span>") #else
+			#set ($TRANS_ID = "")
+		#end
+		<td valign="top" width="$UTILS.div1(100, $NUM)%"><div id="custom" dir="${TD.direction}" class="trans" lang="${TD.locale.language}">
+		${UTILS.processAya($TD.get(${SURA_NUM}, ${AYA_NUM}))}
+		<span title="$TD.toText()">$TRANS_ID</span>
+		#if ($trans_showSuraAyaSign == "true") &#8204;<span class="suraAyaNum">[$I18N.localize("${SURA_NUM}:${AYA_NUM}")]</span> #end
+		</div></td>
+	#end
+	</tr>
+#else
+	#foreach ($TD in $TRANS_DATA)<tr>
+		#if ($trans_showTransId == "true") #set ($TRANS_ID = "<span style='font-size: xx-small'>[${TD.localizedName}]</span>") #else
+			#set ($TRANS_ID = "")
+		#end
+		<td><div dir="${TD.direction}" id="custom" class="trans" lang="${TD.locale.language}">
+		${UTILS.processAya($TD.get(${SURA_NUM}, ${AYA_NUM}))}
+		<span title="$TD.toText()">$TRANS_ID</span>
+		#if ($trans_showSuraAyaSign == "true") &#8204;<span class="suraAyaNum">[$I18N.localize("${SURA_NUM}:${AYA_NUM}")]</span> #end
+		</div></td></tr>
+	#end
+#end
+</table>

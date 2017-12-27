@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quran author="Yahya Saturday (Яхия Съботинов)" version="0.7.6-2.2">
+	<sura-detail>
+		<sura index="1" ayaCount="7" name="الْفَاتِحَة" en="The Opening" tname="Al-Fātiḥaħ" descent="makki" />
+		<sura index="2" ayaCount="286" name="الْبَقَرَة" en="The Cow" tname="Al-Baqaraħ" descent="madani" />
+		<sura index="3" ayaCount="200" name="آلِ عِمْرَان" en="The Family of Imraan" tname="'Āli `Imrān" descent="madani" />
+		<sura index="4" ayaCount="176" name="النِّسَآء" en="The Women" tname="An-Nisā'" descent="madani" />
+		<sura index="5" ayaCount="120" name="الْمَآئِدَة" en="The Table" tname="Al-Mā'idaħ" descent="madani" />
+		<sura index="6" ayaCount="165" name="الْأَنْعَام" en="The Cattle" tname="Al-'An`ām" descent="makki" />
+		<sura index="7" ayaCount="206" name="الْأَعْرَاف" en="The Heights" tname="Al-'A`rāf" descent="makki" />
+		<sura index="8" ayaCount="75" name="الْأَنْفَال" en="The Spoils of War" tname="Al-'Anfāl" descent="madani" />
+		<sura index="9" ayaCount="129" name="التَّوْبَة" en="The Repentance" tname="At-Tawbaħ" descent="madani" />
+		<sura index="10" ayaCount="109" name="يُونُس" en="Jonas" tname="Yūnus" descent="makki" />
+		<sura index="11" ayaCount="123" name="هُود" en="Hud" tname="Hūd" descent="makki" />
+		<sura index="12" ayaCount="111" name="يُوسُف" en="Joseph" tname="Yūsuf" descent="makki" />
+		<sura index="13" ayaCount="43" name="الرَّعْد" en="The Thunder" tname="Ar-Ra`d" descent="madani" />
+		<sura index="14" ayaCount="52" name="إِبْرَاهِيم" en="Abraham" tname="'Ibrāhīm" descent="makki" />
+		<sura index="15" ayaCount="99" name="الْحِجْر" en="The Rock" tname="Al-Ḥijr" descent="makki" />
+		<sura index="16" ayaCount="128" name="النَّحْل" en="The Bee" tname="An-Naḥl" descent="makki" />
+		<sura index="17" ayaCount="111" name="الْإِسْرَآء" en="The Night Journey" tname="Al-'Isrā'" descent="makki" />
+		<sura index="18" ayaCount="110" name="الْكَهْف" en="The Cave" tname="Al-Kahf" descent="makki" />
+		<sura index="19" ayaCount="98" name="مَرْيَم" en="Mary" tname="Maryam" descent="makki" />
+		<sura index="20" ayaCount="135" name="طٰهٰ" en="Taa-Haa" tname="Ṭā-Hā" descent="makki" />
+		<sura index="21" ayaCount="112" name="الْأَنْبِيَآء" en="The Prophets" tname="Al-'Aɱbiyā'" descent="makki" />
+		<sura index="22" ayaCount="78" name="الْحَجّ" en="The Pilgrimage" tname="Al-Ḥajj" descent="madani" />
+		<sura index="23" ayaCount="118" name="الْمُؤْمِنُون" en="The Believers" tname="Al-Mu'minūn" descent="makki" />
+		<sura index="24" ayaCount="64" name="النُّور" en="The Light" tname="An-Nūr" descent="madani" />
+		<sura index="25" ayaCount="77" name="الْفُرْقَان" en="The Criterion" tname="Al-Furqān" descent="makki" />
+		<sura index="26" ayaCount="227" name="الشُّعَرَآء" en="The Poets" tname="Ash-Shu`arā'" descent="makki" />
+		<sura index="27" ayaCount="93" name="النَّمْل" en="The Ant" tname="An-Naml" descent="makki" />
+		<sura index="28" ayaCount="88" name="الْقَصَص" en="The Stories" tname="Al-Qaṣaṣ" descent="makki" />
+		<sura index="29" ayaCount="69" name="الْعَنْكَبُوت" en="The Spider" tname="Al-`Ankabūt" descent="makki" />
+		<sura index="30" ayaCount="60" name="الرُّوم" en="The Romans" tname="Ar-Rūm" descent="makki" />
+		<sura index="31" ayaCount="34" name="لُقْمَان" en="Luqman" tname="Luqmān" descent="makki" />
+		<sura index="32" ayaCount="30" name="السَّجْدَة" en="The Prostration" tname="As-Sajdaħ" descent="makki" />
+		<sura index="33" ayaCount="73" name="الْأَحْزَاب" en="The Clans" tname="Al-'Aḥzāb" descent="madani" />
+		<sura index="34" ayaCount="54" name="سَبَأ" en="Sheba" tname="Saba'" descent="makki" />
+		<sura index="35" ayaCount="45" name="فَاطِر" en="The Originator" tname="Fāṭir" descent="makki" />
+		<sura index="36" ayaCount="83" name="يٰسٓ" en="Yaa-Seen" tname="Yā-Sīn" descent="makki" />
+		<sura index="37" ayaCount="182" name="الصَّافَّات" en="Those Drawn Up in Ranks" tname="Aṣ-Ṣāffāt" descent="makki" />
+		<sura index="38" ayaCount="88" name="صٓ" en="The Letter Saad" tname="Ṣād" descent="makki" />
+		<sura index="39" ayaCount="75" name="الزُّمَر" en="The Groups" tname="Az-Zumar" descent="makki" />
+		<sura index="40" ayaCount="85" name="غَافِر" en="The Forgiver" tname="Ghāfir" descent="makki" />
+		<sura index="41" ayaCount="54" name="فُصِّلَت" en="Explained in Detail" tname="Fuṣṣilat" descent="makki" />
+		<sura index="42" ayaCount="53" name="الشُّورَىٰ" en="Consultation" tname="Ash-Shūraá" descent="makki" />
+		<sura index="43" ayaCount="89" name="الزُّخْرُف" en="Ornaments of Gold" tname="Az-Zukhruf" descent="makki" />
+		<sura index="44" ayaCount="59" name="الدُّخَان" en="The Smoke" tname="Ad-Dukhān" descent="makki" />
+		<sura index="45" ayaCount="37" name="الْجَاثِيَة" en="Crouching" tname="Al-Jāthiyaħ" descent="makki" />
+		<sura index="46" ayaCount="35" name="الْأَحْقَاف" en="The Dunes" tname="Al-'Aḥqāf" descent="makki" />
+		<sura index="47" ayaCount="38" name="مُحَمَّد" en="Muhammad" tname="Muḥammad" descent="madani" />
+		<sura index="48" ayaCount="29" name="الْفَتْح" en="The Victory" tname="Al-Fatḥ" descent="madani" />
+		<sura index="49" ayaCount="18" name="الْحُجُرَات" en="The Inner Apartments" tname="Al-Ḥujurāt" descent="madani" />
+		<sura index="50" ayaCount="45" name="قٓ" en="The Letter Qaaf" tname="Qāf" descent="makki" />
+		<sura index="51" ayaCount="60" name="الذَّارِيَات" en="The Winnowing Winds" tname="Adh-Dhāriyāt" descent="makki" />
+		<sura index="52" ayaCount="49" name="الطُّور" en="The Mount" tname="Aṭ-Ṭūr" descent="makki" />
+		<sura index="53" ayaCount="62" name="النَّجْم" en="The Star" tname="An-Najm" descent="makki" />
+		<sura index="54" ayaCount="55" name="الْقَمَر" en="The Moon" tname="Al-Qamar" descent="makki" />
+		<sura index="55" ayaCount="78" name="الرَّحْمَٰن" en="The Beneficent" tname="Ar-Raḥmān" descent="madani" />
+		<sura index="56" ayaCount="96" name="الْوَاقِعَة" en="The Inevitable" tname="Al-Wāqi`aħ" descent="makki" />
+		<sura index="57" ayaCount="29" name="الْحَدِيد" en="The Iron" tname="Al-Ḥadīd" descent="madani" />
+		<sura index="58" ayaCount="22" name="الْمُجَادَلَة" en="The Pleading Woman" tname="Al-Mujādalaħ" descent="madani" />
+		<sura index="59" ayaCount="24" name="الْحَشْر" en="The Exile" tname="Al-Ḥashr" descent="madani" />
+		<sura index="60" ayaCount="13" name="الْمُمْتَحِنَة" en="She That Is to Be Examined" tname="Al-Mumtaḥanaħ" descent="madani" />
+		<sura index="61" ayaCount="14" name="الصَّفّ" en="The Ranks" tname="Aṣ-Ṣaff" descent="madani" />
+		<sura index="62" ayaCount="11" name="الْجُمُعَة" en="Friday" tname="Al-Jumu`aħ" descent="madani" />
+		<sura index="63" ayaCount="11" name="الْمُنَافِقُون" en="The Hypocrites" tname="Al-Munāfiqūn" descent="madani" />
+		<sura index="64" ayaCount="18" name="التَّغَابُن" en="Mutual Disillusion" tname="At-Taghābun" descent="madani" />
+		<sura index="65" ayaCount="12" name="الطَّلَاق" en="Divorce" tname="Aṭ-Ṭalāq" descent="madani" />
+		<sura index="66" ayaCount="12" name="التَّحْرِيم" en="The Prohibition" tname="At-Taḥrīm" descent="madani" />
+		<sura index="67" ayaCount="30" name="الْمُلْك" en="The Sovereignty" tname="Al-Mulk" descent="makki" />
+		<sura index="68" ayaCount="52" name="الْقَلَم" en="The Pen" tname="Al-Qalam" descent="makki" />
+		<sura index="69" ayaCount="52" name="الْحَاقَّة" en="The Reality" tname="Al-Ḥāqqaħ" descent="makki" />
+		<sura index="70" ayaCount="44" name="الْمَعَارِج" en="The Ascending Stairways" tname="Al-Ma`ārij" descent="makki" />
+		<sura index="71" ayaCount="28" name="نُوح" en="Noah" tname="Nūḥ" descent="makki" />
+		<sura index="72" ayaCount="28" name="الْجِنّ" en="The Jinn" tname="Al-Jinn" descent="makki" />
+		<sura index="73" ayaCount="20" name="الْمُزَّمِّل" en="The Enshrouded One" tname="Al-Muzzammil" descent="makki" />
+		<sura index="74" ayaCount="56" name="الْمُدَّثِّر" en="The Cloaked One" tname="Al-Muddaththir" descent="makki" />
+		<sura index="75" ayaCount="40" name="الْقِيَامَة" en="The Resurrection" tname="Al-Qiyāmaħ" descent="makki" />
+		<sura index="76" ayaCount="31" name="الْإِنْسَان" en="Man" tname="Al-'Insān" descent="madani" />
+		<sura index="77" ayaCount="50" name="الْمُرْسَلَات" en="The Emissaries" tname="Al-Mursalāt" descent="makki" />
+		<sura index="78" ayaCount="40" name="النَّبَأ" en="The Announcement" tname="An-Naba'" descent="makki" />
+		<sura index="79" ayaCount="46" name="النَّازِعَات" en="Those Who Drag Forth" tname="An-Nāzi`āt" descent="makki" />
+		<sura index="80" ayaCount="42" name="عَبَسَ" en="He Frowned" tname="`Abasa" descent="makki" />
+		<sura index="81" ayaCount="29" name="التَّکْوِير" en="The Overthrowing" tname="At-Takwīr" descent="makki" />
+		<sura index="82" ayaCount="19" name="الْإِنْفِطَار" en="The Cleaving" tname="Al-'Infiṭār" descent="makki" />
+		<sura index="83" ayaCount="36" name="الْمُطَفِّفِين" en="Defrauding" tname="Al-Muṭaffifīn" descent="makki" />
+		<sura index="84" ayaCount="25" name="الْإِنْشِقَاق" en="The Splitting Open" tname="Al-'Inshiqāq" descent="makki" />
+		<sura index="85" ayaCount="22" name="الْبُرُوج" en="The Constellations" tname="Al-Burūj" descent="makki" />
+		<sura index="86" ayaCount="17" name="الطَّارِق" en="The Morning Star" tname="Aṭ-Ṭāriq" descent="makki" />
+		<sura index="87" ayaCount="19" name="الْأَعْلَیٰ" en="The Most High" tname="Al-'A`laá" descent="makki" />
+		<sura index="88" ayaCount="26" name="الْغَاشِيَة" en="The Overwhelming" tname="Al-Ghāshiyaħ" descent="makki" />
+		<sura index="89" ayaCount="30" name="الْفَجْر" en="The Dawn" tname="Al-Fajr" descent="makki" />
+		<sura index="90" ayaCount="20" name="الْبَلَد" en="The City" tname="Al-Balad" descent="makki" />
+		<sura index="91" ayaCount="15" name="الشَّمْس" en="The Sun" tname="Ash-Shams" descent="makki" />
+		<sura index="92" ayaCount="21" name="اللَّيْل" en="The Night" tname="Al-Layl" descent="makki" />
+		<sura index="93" ayaCount="11" name="الضُّحَیٰ" en="The Morning Hours" tname="Aḍ-Ḍuḥaá" descent="makki" />
+		<sura index="94" ayaCount="8" name="الشَّرْح" en="The Consolation" tname="Ash-Sharḥ" descent="makki" />
+		<sura index="95" ayaCount="8" name="التِّين" en="The Fig" tname="At-Tīn" descent="makki" />
+		<sura index="96" ayaCount="19" name="الْعَلَق" en="The Clot" tname="Al-`Alaq" descent="makki" />
+		<sura index="97" ayaCount="5" name="الْقَدْر" en="The Power, Fate" tname="Al-Qadr" descent="makki" />
+		<sura index="98" ayaCount="8" name="الْبَيِّنَة" en="The Evidence" tname="Al-Bayyinaħ" descent="madani" />
+		<sura index="99" ayaCount="8" name="الزَّلْزَلَة" en="The Earthquake" tname="Az-Zalzalaħ" descent="madani" />
+		<sura index="100" ayaCount="11" name="الْعَادِيَات" en="The Chargers" tname="Al-`Ādiyāt" descent="makki" />
+		<sura index="101" ayaCount="11" name="الْقَارِعَة" en="The Calamity" tname="Al-Qāri`aħ" descent="makki" />
+		<sura index="102" ayaCount="8" name="التَّكَاثُر" en="Competition" tname="At-Takāthur" descent="makki" />
+		<sura index="103" ayaCount="3" name="الْعَصْر" en="The Declining Day, Epoch" tname="Al-`Aṣr" descent="makki" />
+		<sura index="104" ayaCount="9" name="الْهُمَزَة" en="The Traducer" tname="Al-Humazaħ" descent="makki" />
+		<sura index="105" ayaCount="5" name="الْفِيل" en="The Elephant" tname="Al-Fīl" descent="makki" />
+		<sura index="106" ayaCount="4" name="قُرَيْش" en="Quraysh" tname="Quraysh" descent="makki" />
+		<sura index="107" ayaCount="7" name="الْمَاعُون" en="Almsgiving" tname="Al-Mā`ūn" descent="makki" />
+		<sura index="108" ayaCount="3" name="الْكَوْثَر" en="Abundance" tname="Al-Kawthar" descent="makki" />
+		<sura index="109" ayaCount="6" name="الْكَافِرُون" en="The Disbelievers" tname="Al-Kāfirūn" descent="makki" />
+		<sura index="110" ayaCount="3" name="النَّصْر" en="Divine Support" tname="An-Naṣr" descent="madani" />
+		<sura index="111" ayaCount="5" name="الْمَسَد" en="The Palm Fibre" tname="Al-Masad" descent="makki" />
+		<sura index="112" ayaCount="4" name="الْإِخْلَاص" en="Sincerity" tname="Al-'Ikhlāṣ" descent="makki" />
+		<sura index="113" ayaCount="5" name="الْفَلَق" en="The Dawn" tname="Al-Falaq" descent="makki" />
+		<sura index="114" ayaCount="6" name="النَّاس" en="Mankind" tname="An-Nās" descent="makki" />
+	</sura-detail>
+	<juz-detail>
+		<juz index="1" sura="1" aya="1" />
+		<juz index="2" sura="2" aya="142" />
+		<juz index="3" sura="2" aya="253" />
+		<juz index="4" sura="3" aya="93" />
+		<juz index="5" sura="4" aya="24" />
+		<juz index="6" sura="4" aya="148" />
+		<juz index="7" sura="5" aya="82" />
+		<juz index="8" sura="6" aya="111" />
+		<juz index="9" sura="7" aya="88" />
+		<juz index="10" sura="8" aya="41" />
+		<juz index="11" sura="9" aya="93" />
+		<juz index="12" sura="11" aya="6" />
+		<juz index="13" sura="12" aya="53" />
+		<juz index="14" sura="15" aya="1" />
+		<juz index="15" sura="17" aya="1" />
+		<juz index="16" sura="18" aya="75" />
+		<juz index="17" sura="21" aya="1" />
+		<juz index="18" sura="23" aya="1" />
+		<juz index="19" sura="25" aya="21" />
+		<juz index="20" sura="27" aya="56" />
+		<juz index="21" sura="29" aya="46" />
+		<juz index="22" sura="33" aya="31" />
+		<juz index="23" sura="36" aya="28" />
+		<juz index="24" sura="39" aya="32" />
+		<juz index="25" sura="41" aya="47" />
+		<juz index="26" sura="46" aya="1" />
+		<juz index="27" sura="51" aya="31" />
+		<juz index="28" sura="58" aya="1" />
+		<juz index="29" sura="67" aya="1" />
+		<juz index="30" sura="78" aya="1" />
+	</juz-detail>
+	<sajda-detail>
+		<!-- Mustahab Sajda -->
+		<sajda index="1" sura="7" aya="206" type="recommended" />
+		<sajda index="2" sura="13" aya="15" type="recommended" />
+		<sajda index="3" sura="16" aya="50" type="recommended" />
+		<sajda index="4" sura="17" aya="109" type="recommended" />
+		<sajda index="5" sura="19" aya="58" type="recommended" />
+		<sajda index="6" sura="22" aya="18" type="recommended" />
+		<sajda index="7" sura="22" aya="77" type="recommended" />
+		<sajda index="8" sura="25" aya="60" type="recommended" />
+		<sajda index="9" sura="27" aya="26" type="recommended" />
+		<sajda index="11" sura="38" aya="24" type="recommended" />
+		<sajda index="14" sura="84" aya="21" type="recommended" />
+		<!-- Wajib Sajda -->
+		<sajda index="10" sura="32" aya="15" type="mandatory" /><!-- سجدة -->
+		<sajda index="12" sura="41" aya="38" type="mandatory" /><!-- فصلت -->
+		<sajda index="13" sura="53" aya="62" type="mandatory" /><!-- نجم -->
+		<sajda index="15" sura="96" aya="19" type="mandatory" /><!-- علق -->
+	</sajda-detail>
+</quran>

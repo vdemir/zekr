@@ -1,0 +1,122 @@
+#**
+ *               In the name of Allah
+ * This file is part of The Zekr Project. Use is subject to
+ * license terms.
+ *
+ * @author Mohsen Saboorian
+ *#
+#macro (putHizbSignIfPossible)
+	#if ($AYA0.HizbQuarter > -1)
+		#set ($hizbQuarter = $AYA0.HizbQuarter)
+		#set ($hizbNum = $hizbQuarter / 4 + 1)
+		#set ($hizbNum = ($AYA0.Juz.Index - 1) * 2 + $hizbNum)
+		#set ($hizbQuarter = $hizbQuarter % 4)
+		#if ($hizbQuarter != 0) #set ($Q = " - $DICT.getMeaning('QUARTER'): $hizbQuarter")
+	 	#else #set ($Q = "") #end
+		#if ($AYA0.hasJuz())
+			<nobr><span class="juzSign" title="$AYA0.Juz">($I18N.localize($AYA0.Juz.Index))</span></nobr>
+		#end
+		<nobr><span class="hizbSign" title="$I18N.localize("${AYA0.Juz} - ${DICT.getMeaning('HIZB')}: ${hizbNum}${Q}")">&#1758;</span></nobr>
+	#end
+#end
+#macro (putSajdaSignIfAny)
+	#if ($AYA0.hasSajda())
+		#if ($AYA0.Sajda.Type == 0)
+			<span id="recommended" class="sajda" title="${AYA0.Sajda}">&#1769;</span>
+		#elseif ($AYA0.Sajda.Type == 1)
+			<span id="mandatory" class="sajda" title="${AYA0.Sajda}">&#1769;</span>
+		#end
+	#end
+#end
+#set ($RECOMMENDED = 0)
+#set ($MANDATORY = 1)
+#if($TRANSLATION == "true")
+	#set ($OPEN_PAREN = "(")
+	#set ($CLOSE_PAREN = ")")
+	#set ($AYA_CLASS = "trans")
+	#set ($DIR = ${TRANS_DIRECTION})
+	#set ($_DL = $I18N.Locale.Language) ## digit language
+#else
+	#set ($OPEN_PAREN = "&#64831;")
+	#set ($CLOSE_PAREN = "&#64830;")
+	#set ($AYA_CLASS = "quran")
+	#set ($DIR = "rtl")
+	#set ($_DL = "ar")
+#end
+#if($MIXED == "true")
+	#set ($A_CLASS = "")
+#else
+	#set ($A_CLASS = " ayaSep")
+#end
+<div id="searchableSection" class="$AYA_CLASS">
+#foreach ($AYA in $AYA_LIST)
+	#set ($ITEM_INDEX = $velocityCount)
+	#if ($MIXED == "true")
+		#set ($AYA0 = $UTILS.getItem($AYA, 0))
+	#else
+		#set ($AYA0 = $AYA)
+	#end
+	#set ($SURA_NUM = $AYA0.Location.Sura)
+	#set ($SURA_NAME = $AYA0.Location.SuraName)
+	#set ($AYA_NUM = $AYA0.Location.Aya)
+
+	#if ($AYA_NUM == 1)
+		<div class="bodyTop" align="center">
+			<div dir="${DIRECTION}" class="suraName">
+			$DICT.getMeaning("SURA"):
+			$SURA_NAME
+			</div>
+			#if ($SURA_NUM != 9 && $SURA_NUM != 1)
+				<div class="${A_CLASS} bismillah">#if($TRANSLATION)${UTILS.processAya($AYA0.Bismillah)}#else$AYA0.Bismillah#end</div>
+			#end
+		</div>
+	#end
+
+	#if ($TEXT_LAYOUT == "line-by-line")
+		<div class="aya${A_CLASS}" id="${SURA_NUM}_${AYA_NUM}">
+	#elseif ($TEXT_LAYOUT == "block")
+		<span class="aya" id="${SURA_NUM}_${AYA_NUM}">
+	#end
+	#if ($CUSTOM != "true" && $MIXED == "true") #foreach ($A in $AYA)
+		#if ($velocityCount != 1)
+		<div dir="${TRANS_DIRECTION}" class="trans" lang="${TRANS_LANG}">
+		#set ($_LANG=$TRANS_LANG)
+		#else
+		<div class="quran" lang="ar">#putHizbSignIfPossible()
+		#set ($_LANG="ar")
+		#end
+		#if($velocityCount != 1)${UTILS.processAya($A.Text)}#else$A.Text#end
+		#if(($velocityCount == 1 && $quran_showSuraAyaSign == "true") || ($velocityCount == 2 && $trans_showSuraAyaSign == "true"))
+		<span class="suraAyaNum">[$I18N.localize("${SURA_NUM}:${AYA_NUM}","${_LANG}")]</span> #end
+		</div>
+	#end #elseif ($CUSTOM == "true" && $MIXED == "true")
+		<div class="quran" lang="ar">#putHizbSignIfPossible()
+		$AYA0.Text
+		#if($quran_showSuraAyaSign == "true")
+		<span class="suraAyaNum">[$I18N.localize("${SURA_NUM}:${AYA_NUM}","ar")]</span>
+		#end
+		#parse("$THEME_DIR/multi-trans.vm")
+		</div>
+	#else
+		#putHizbSignIfPossible() #if($TRANSLATION != 1)${UTILS.processAya($AYA.Text)}#else$A.Text#end
+	#end
+	#if ($MIXED == "true")
+	<table cellpadding="0" cellspacing="0"><tr><td valign="middle">
+	#end
+	<nobr>
+		#putSajdaSignIfAny()
+		<a id="sign_${SURA_NUM}_${AYA_NUM}" onclick="gotoSuraAya('${SURA_NUM}', '${AYA_NUM}', '0')" href="javascript:void(0)"
+		   title="${SURA_NAME} - $I18N.localize(${AYA_NUM})" class="ayaSign">$OPEN_PAREN$I18N.localize($AYA_NUM,"${_DL}")$CLOSE_PAREN</a>
+	</nobr>
+	#if ($MIXED == "true")
+	</td><td width="100%" valign="middle">
+		<p class="ayaSep" />
+	<td></tr></table>
+	#end
+	#if ($TEXT_LAYOUT == "line-by-line")
+		</div>
+	#elseif ($TEXT_LAYOUT == "block")
+		</span>
+	#end
+#end
+</div>

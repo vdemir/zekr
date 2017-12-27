@@ -1,0 +1,276 @@
+/*
+ *               In the name of Allah
+ * This file is part of The Zekr Project. Use is subject to
+ * license terms.
+ *
+ * Author:         Mohsen Saboorian
+ * @version 1
+ */
+
+/* {
+	line-height: 1.1em;
+}*/
+html,body {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font: 13pt Tahoma, Sans-serif, Arial, Verdana, Helvetica, Arial Unicode MS;
+	color: rgb(30, 40, 70);
+	background-color: #fefeea;
+}
+body#search {
+	background: $quran_bgColor url('${APP_PATH}res/image/zekr-bg.png') no-repeat fixed center;
+}
+body#quranBody {
+#if($quran_hasBG.equals("true"))
+	background: $quran_bgColor url('${APP_PATH}res/image/zekr-bg.png') no-repeat fixed center;
+#else
+	background-color: $quran_bgColor;
+#end
+}
+
+body#transBody {
+#if($trans_hasBG.equals("true"))
+	background: $trans_bgColor url('${APP_PATH}res/image/zekr-bg.png') no-repeat fixed center;
+#else
+	background-color: $trans_bgColor;
+#end
+}
+
+div.body {
+	padding-top: 40px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+td.searchBarTop {
+	height: 50px;
+	font-size: 0.9em;
+	font-family: Tahoma, Arial, Sans-serif;
+	border: 1px dashed silver;
+	padding: 2px;
+}
+
+div.bodyBottom {
+	height: 40px;
+}
+
+div.headerBar, div.footerBar { /* IE 5.0+ */
+	filter: alpha(opacity=75);
+	border: 1px solid gray;
+
+	position: absolute;
+
+	left: 3px;
+	right: 3px;
+	width: expression(eval(document.body.clientWidth - 6) + 'px');
+	padding: 2px;
+	background-color: threedhighlight;
+	font: 0.82em Tahoma, Sans-serif, Arial;
+}
+
+div.headerBar { /* IE 5.0+ */
+	top: expression(eval(document.body.scrollTop) + 2 + 'px');
+}
+
+div.footerBar { /* IE 5.0+ */
+	filter: alpha(opacity=75);
+	top: expression(eval(document.body.scrollTop + document.body.clientHeight - 35) + 'px');
+	padding: 0px;
+}
+
+html>body div.headerBar, html>body div.footerBar { /* Override some properties for IE 7, Mozilla and Safari */
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	width: auto;
+	position: fixed;
+	left: 2px;
+	right: 2px;
+}
+
+html>body div.headerBar {
+	top: 2px;
+}
+
+html>body div.footerBar {
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	bottom: 2px;
+}
+
+div.headerBar input, div.headerBar button, div.footerBar input  {
+	font: 0.82em Tahoma, Sans-serif, Arial;
+}
+
+div.reciterBar {
+	padding: 1px 10px;
+}
+
+.headerBar .focusedWord {
+	color: blue;
+	font-size: 0.80em;
+}
+
+div.main {
+	vertical-align: top;
+	border: 4px solid #c6d0f0;
+	padding: 7 8;
+	line-height: 150%;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+div.searchBody {
+	padding: 0px 10px 0px 10px;
+	/*text-align: center;*/
+	_width: 100%;
+	padding-top: 40px;
+}
+
+.searchBody table {
+	width: 100%;
+}
+
+#quranSection div.selectedAya { /* selected aya for the Quran/translation view */
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 3px 0px 3px 0;
+    text-decoration: none;
+}
+
+#searchResultSection div.selectedAya { /* selected aya for the search result item */
+	border-bottom: 1px solid rgb(100, 100, 100);
+	border-top: 1px solid rgb(100, 100, 100);
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+span.selectedSearchItemNum {
+	font-weight: bold;
+}
+
+span.selectedAya {
+	/*color: rgb(0, 50, 250);*/
+    background-color: rgb(226, 240, 229);
+}
+
+div.aya {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 3px 0 3px 0;
+}
+
+div.ayaSep {
+	border-bottom: 1px dashed #78b;
+}
+
+div.selectedAya {
+	border-right: 4px solid #78b;
+	border-left: 4px solid #78b;
+}
+
+div.selectedAya p.ayaSep {
+	border-bottom: 2px solid #78b;
+}
+
+.selectedAyaSign, a.selectedAyaSign:visited, a.selectedAyaSign:link {
+	/*font-weight: bold;*/
+    color: #1f90f0;
+    -moz-text-shadow: -1px 1px 2px #ddd;
+    -webkit-text-shadow: -1px 1px 2px #ddd;
+    text-shadow: -1px 1px 2px #ddd;
+}
+
+#quranSection, #searchableSection {
+}
+
+table.customTrans {
+	width: 100%;
+}
+table.customTrans {
+#if($trans_showBorder.equals("true"))
+	border: 1px solid $trans_borderColor;
+	border-collapse: collapse;
+#end
+}
+
+table.customTrans td {
+#if($trans_showBorder.equals("true"))
+	border: 1px solid $trans_borderColor;
+#end
+}
+
+.quran .searchResult { /* IE6 bug with me_quran */
+	font: 17pt Scheherazade, me_quran, mry_KacstQurn, Mitra, Nazli, Sans-serif, Helvetica;
+	_font-family: Traditional Arabic, Sans-serif, Serif, Tahoma, Arial Unicode MS, Scheherazade, Nazli, Helvetica;
+	_font-size: 15pt;
+}
+td.searchResult {
+	vertical-align: top;
+}
+div.searchResult {
+	border: 4px solid rgb(200, 210, 240);
+}
+
+.searchResult div.item {
+	padding: 1px 7px 1px 7px;
+}
+
+.searchResult div.odd {
+}
+
+.searchResult div.even {
+	background-color: #E5EAF7;
+}
+
+.searchResult span.highlight {
+	color: blue;
+	font-weight: bold;
+	background-color: white;
+}
+
+.jsHighlight {
+	color: red;
+	font-weight: bold;
+	background-color: white;
+}
+.jsHighlightFocused {
+	color: blue;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid blue;
+}
+
+.searchResult a:link { 
+	color: rgb(10, 100, 240);
+	text-decoration: none;;
+}
+
+.searchResult a:visited { 
+	color: rgb(10, 100, 240);
+	text-decoration: none;
+}
+
+.searchResult a:hover { 
+	color: red;
+}
+
+.queryDetail {
+	font: 0.82em Tahoma, Arial, Sans-serif;
+	border: 1px dashed silver;
+	padding: 2px;
+}
+.queryDetail a:link, a:visited { 
+	color: rgb(40, 90, 230);
+	text-decoration: none;
+}
+
+.queryDetail a:hover { 
+	color: rgb(200, 50, 10);
+}
+
+.handCursor {
+	cursor: pointer;
+	cursor: hand;
+}

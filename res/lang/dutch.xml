@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="Johan Laenen" version="0.7.1">
+    <locale localizedName="Nederlands" name="Dutch" id="nl_NL" direction="ltr" />
+    <word>
+        <common>
+            <text id="OK" value="OK" />
+            <text id="CANCEL" value="Afbreken" />
+            <text id="YES" value="Ja" />
+            <text id="NO" value="Nee" />
+            <text id="APPLY" value="Uitvoeren" />
+            <text id="START" value="Start" />
+            <text id="RESET" value="Terugzetten" />
+            <text id="NEW" value="Nieuw" />
+            <text id="SAVE_AS" value="Opslaan als" />
+            <text id="HELP" value="Help" />
+            <text id="EDIT" value="Aanpassen" />
+            <text id="SEARCH" value="Zoeken" />
+            <text id="GOTO" value="Ga naar" />
+            <text id="VIEW" value="Bee&amp;ld" />
+            <text id="CLOSE" value="Sluiten" />
+            <text id="INSERT" value="Invoegen" />
+            <text id="DETAILS" value="Details" />
+            <text id="MORE" value="Meer" />
+            <text id="NEXT" value="Volgende" />
+            <text id="PREVIOUS" value="Vorige" />
+            <text id="REFRESH" value="Ververs" />
+            <text id="UPDATE" value="Vernieuwen" />
+            <text id="SHOW" value="Toon" />
+            <text id="NAME" value="Naam" />
+            <text id="VALUE" value="Waarde" />
+            <text id="NUMBER" value="Nummer" />
+            <text id="OPTION" value="Opties" />
+            <text id="FILE" value="Bestand" />
+            <text id="RELOAD" value="Herladen" />
+            <text id="TYPE" value="Type" />
+            <text id="MESSAGE" value="Bericht" />
+            <text id="BLOCK" value="Doorlopend" />
+            <text id="LINE_BY_LINE" value="Aya per aya" />
+            <text id="AND" value="En" />
+            <text id="COMMA" value="," />
+            <text id="SYNCHRONOUS" value="Synchroon" />
+            <text id="ERROR" value="Fout" />
+            <text id="LANGUAGE" value="Taal" />
+            <text id="ABOUT" value="Info" />
+            <text id="PRINT" value="Af&amp;drukken" />
+            <text id="HOMEPAGE" value="Homepage" />
+            <text id="WHOLE_QURAN" value="De volledige Koran" />
+            <text id="MATCH_DIACRITIC" value="Zoek inclusief diakritische tekens" />
+            <text id="MATCH_CASE" value="Hoofd- en kleine letter gevoelig" />
+            <text id="NEXT_AYA" value="Volgende aya" />
+            <text id="NEXT_SURA" value="Volgende soera" />
+            <text id="PREV_AYA" value="Vorige aya" />
+            <text id="PREV_SURA" value="Vorige soera" />
+            <text id="THEME" value="T&amp;hema" />
+            <text id="LAYOUT" value="Opmaak" />
+            <text id="TOOLS" value="Ge&amp;reedschap" />
+            <text id="ADD" value="Toevoegen" />
+            <text id="DELETE" value="Wissen" />
+            <text id="REMOVE" value="Verwijder" />
+            <text id="TRANSLATION" value="Vertaling" />
+            <text id="TRANSLATION_VIEWTYPE" value="V&amp;ertalingsopmaak" />
+            <text id="OPEN" value="Openen" />
+            <text id="IMPORT" value="Importeren" />
+            <text id="COPY" value="Kopiëren" />
+            <text id="SEPARATE" value="Gesplitst" />
+            <text id="MIXED" value="Samen" />
+            <text id="OPTIONS" value="Opties" />
+            <text id="QUESTION" value="Vraag" />
+            <text id="FONT" value="Font" />
+            <text id="GENERAL" value="Algemeen" />
+            <text id="EXIT" value="Afsluiten" />
+            <text id="EXCLUDE" value="Uitsluiten" />
+            <text id="TRUE" value="Waar" />
+            <text id="FALSE" value="Onwaar" />
+            <text id="SELECT" value="Selecteer" />
+            <text id="EXPORT" value="Exporteer" />
+            <text id="IMPORT" value="Importeer" />
+            <text id="DESCRIPTION" value="Beschrijving" />
+            <text id="BOOKMARKS" value="Blad&amp;wijzers" />
+            <text id="CONFIGURE" value="Configureer" />
+            <text id="EDIT_BOOKMARK_SET" value="Bewerk bladwijzerset" />
+            <text id="MANAGE_BOOKMARK_SETS" value="Be&amp;heer bladwijzersets" />
+            <text id="DIRECTION" value="Richting" />
+            <text id="LANG_DIRECTION" value="Richting van de taal" />
+            <text id="RTL" value="Rechts naar links" />
+            <text id="LTR" value="Links naar rechts" />
+            <text id="AUTHOR" value="Auteur" />
+            <text id="VERSION" value="Versie" />
+            <text id="RANDOM_AYA" value="Willekeurige aya" />
+            <text id="UNTITLED" value="Zonder titel" />
+            <text id="SET_DEFAULT" value="Zet als beginwaarde" />
+            <text id="NOT_LOADED" value="Niet geladen" />
+            <text id="ID" value="ID" />
+            <text id="OVERWRITE" value="Overschrijf" />
+            <text id="SAVE" value="Opslaan als" />
+            <text id="PATH" value="Pad" />
+            <text id="SHOW_REFS" value="Toon referenties" />
+            <text id="MOVE_UP" value="Naar boven" />
+            <text id="MOVE_DOWN" value="Naar beneden" />
+            <text id="MULTI_TRANS" value="Meerdere vertalingen" /> <!-- NOTE: This element replaced with CUSTOM_MIXED -->
+            <text id="CONFIG_CUSTOM_TRANS" value="Configureer meerdere vertalingen" />
+            <text id="GO" value="Ga naar" />
+            <text id="CAUTION" value="Pas op" />
+            <text id="ADVANCED" value="Uitgebreid zoeken" />
+            <text id="QUERY_DETAIL" value="Bevraag detail" />
+            <text id="PAGE" value="Pagina" />
+            <text id="MULTILINE" value="Over meerdere lijnen" />
+            <text id="TOGGLE" value="Aan/Uit" />
+            <text id="AUDIO" value="Geluid" />
+            <text id="CONTINUOUS" value="Herhaal" />
+            <text id="DISCRETE" value="Eenmalig" />
+            <text id="PLAY" value="Speel af" />
+            <text id="PAUSE" value="Pauze" />
+            <text id="STOP" value="Stop" />
+            <text id="RECITATION" value="Recitatie" />
+            <text id="MENU_NEXT_AYA" value="Volgende Aya" />
+            <text id="MENU_NEXT_SURA" value="Volgende Sura" />
+            <text id="MENU_PREV_AYA" value="Vorige Aya" />
+            <text id="MENU_PREV_SURA" value="Vorige Sura" />
+            <text id="MENU_NEXT_JUZ" value="Volgende Juz" />
+            <text id="MENU_PREV_JUZ" value="Vorige Juz" />
+            <text id="MENU_NEXT_HIZBQ" value="Volgende Hizb Kwart" />
+            <text id="MENU_PREV_HIZBQ" value="Vorige Hizb Kwart" />
+            <text id="MENU_NEXT_SAJDA" value="Volgende Sajda" />
+            <text id="MENU_PREV_SAJDA" value="Vorige Sajda" />
+            <text id="MENU_NEXT_PAGE" value="Volgende Pagina" />
+            <text id="MENU_PREV_PAGE" value="Vorige Pagina" />
+            <text id="CHECK4UPDATE" value="Kijk of er updates zijn" />
+            <text id="ASCENDING" value="Opklimmende volgorde" />
+            <text id="DESCENDING" value="Dalende volgorde" />
+            <text id="REVEL_ORDER" value="Volgorde van openbaring" />
+            <text id="FULL_SCREEN" value="Volledige &amp;scherm" />
+            <text id="WARNING" value="Waarschuwing" />
+            <text id="ONLINE_HELP" value="Online Help" />
+            <text id="PAGING_MODE" value="Wijze van bladsprong" />
+            <text id="PANEL" value="Paneel" />
+            <text id="DETAIL_PANEL" value="Detailpaneel" />
+            <text id="REPEAT" value="Herhaal" />
+            <text id="ROOT" value="Stam" /> <!-- word root -->
+            <text id="ADDRESS" value="Adres" />
+            <text id="BOOKMARK_THIS_AYA" value="Zet een bladwijzer op deze aya" />
+        </common>
+        <special>
+            <text id="QURAN" value="Koran" />
+            <text id="QURAN_VIEWTYPE" value="K&amp;oranopmaak" />
+            <text id="SURA" value="Soera" />
+            <text id="AYA" value="Aya" />
+            <text id="SAJDA" value="Sajda" />
+            <text id="JUZ" value="Juz" />
+            <text id="HIZB" value="Hizb" />
+            <text id="QUARTER" value="Kwart" />
+            <text id="MAKKI" value="Makki" />
+            <text id="MADANI" value="Madani" />
+            <text id="DESCENT" value="Geopenbaard te" />
+            <text id="AYA_COUNT" value="Aantal ayat" />
+            <text id="MINOR_SAJDA" value="Kleine sajda" /> <!-- Mustahab Sajda -->
+            <text id="MAJOR_SAJDA" value="Grote sajda" /> <!-- Wajib Sajda -->
+            <text id="LOCATION" value="Locatie" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+        </special>
+    </word>
+
+    <message>
+        <inform>
+            <text id="SEARCH_RESULT_TITLE" value="Zoeken naar: &quot;{1}&quot;" />
+            <text id="SEARCH_RESULT_COUNT" value="Zoekresultaat {1} overeenkomsten in {2} ayat gevonden." />
+            <text id="SEARCH_PAGE" value="Pagina {1} uit {2}" />
+            <text id="TOO_MANY_RESULT" value="Zoekresultaat levert meer dan {1} ayat op." />
+            <text id="FILE_ALREADY_EXISTS" value="Een bestand met de naam &quot;{1}&quot; bestaat reeds. Overschrijven?" />
+            <text id="RESTART_APP" value="Herstart de applicatie, daar reeds een versie werkzaam is." />
+            <text id="ACTION_PERFORMED" value="De actie werd goed uitgevoerd." />
+            <text id="TRANSLATION_ADDED" value="De volgende vertaling werd onder {1} menu toegevoegd" />
+        </inform>
+        <confirm>
+            <text id="YES_NO" value="Weet U het zeker?" />
+            <text id="DEL_YES_NO" value="Permanent verwijderen {1} onderde(e)l(en)?" />
+        </confirm>
+        <error>
+            <text id="GENERAL_ERROR" value="Onbekende fout opgetreden" />
+            <text id="FNF" value="Bestand niet gevonden" />
+            <text id="ACTION_FAILED" value="De actie is mislukt!" />
+            <text id="INVALID_TRANSLATION_FORMAT" value="Verkeerd vertalingsformaat: {1}" />
+            <text id="INVALID_TRANSLATION_SIGNATURE" value="Verkeerde vertalingshandtekening: {1}" />
+            <text id="TRANSLATION_LOAD_FAILED" value="Het inladen van vertaling &quot;{1}&quot; is mislukt omwille van volgende fout: {2}" />
+            <text id="ENTER_VALID_NUMBER" value="Vul een correct getal in." />
+            <text id="NUMBER_LIMIT" value="Vul een getal tussen '{1}' en '{2}' in." />
+        </error>
+        <hint></hint>
+    </message>
+
+    <forms>
+        <global>
+            <text id="APP_NAME" value="Zekr" />
+            <text id="APP_FULL_NAME" value="Het Zekr-Koran project" />
+            <text id="FORM_TITLE" value="Zekr" />
+            <text id="COPYRIGHT_DISCLAIMER" value="Dit programma is uitgegeven onder de GNU licentie ." />
+        </global>
+        <form id="QURAN_FORM">
+            <text id="TITLE" value="Zekr" />
+            <text id="NEW_SCOPE" value="Nieuw bereik" />
+            <text id="EDIT_SCOPES" value="Pas bereik aan" />
+            <text id="NO_SCOPE" value="Geen bereik" />
+            <text id="CURRENT_PAGE" value="Huidige pagina" />
+            <text id="QURAN_SCOPE" value="Koran" />
+            <text id="TRANSLATION_SCOPE" value="Vertaling" />
+            <text id="NATURAL_ORDER" value="Voorkomen" />
+            <text id="RELEVANCE" value="Relevantie" />
+            <text id="AYA_LENGTH" value="Lengte van de ayat" />
+            <text id="SORT_BY" value="Sorteer resultaten op" />
+            <text id="TOGGLE_FULL_SCREEN" value="Flip het volledige scherm aan of uit" />
+        </form>
+        <form id="OPTIONS_FORM">
+            <text id="THEME_OPTIONS" value="Thema" />
+            <text id="GENERAL_OPTIONS" value="Algemeen" />
+            <text id="VIEW_OPTIONS" value="Thema" />
+            <text id="TITLE" value="Applicatie-opties" />
+            <text id="SHOW_SPLASH" value="Start splash scherm" />
+            <text id="NEW_KEY" value="Nieuwe bijdrage" />
+            <text id="THEME_SETTING" value="Thema-instellingen" />
+            <text id="PRESS_OK_TO_APPLY" value="Klik op de &quot;OK&quot; knop om de verandering door te voeren!" />
+            <text id="MAX_SEARCH_RESULT" value="Maximale aantal zoekresultaten" />
+            <text id="RESIZEABLE_TASK_PANE" value="Maak de grootte van het zijpaneel aanpasbaar" />
+            <text id="SURA_NAMES" value="Toon de soera namen in " />
+            <text id="ARABIC" value="het arabisch" />
+            <text id="EN_T9N" value="de engelse vertaling" />
+            <text id="EN_T13N" value="de engelse transliteratie" />
+            <text id="T9N" value="de gekozen vertaling" />
+            <text id="T13N" value="de gekozen transliteratie" />
+            <text id="ENABLE_AUDIO" value="Zet het geluid aan" />
+            <text id="SURA_NAME_TREE" value="Toon de soera namen in een boomstructuur" />
+        </form>
+        <form id="SEARCH_SCOPE_FORM">
+            <text id="TITLE" value="Configureer zoekbereik" />
+            <text id="SEARCH_SCOPE" value="Zoekbereik" />
+            <text id="FROM_SURA" value="Vanaf soera" />
+            <text id="FROM_AYA" value="Vanaf aya" />
+            <text id="TO_SURA" value="Tot soera" />
+            <text id="TO_AYA" value="Tot aya" />
+            <text id="ILLEGAL_SEARCH_SCOPE" value="Onmogelijk zoekbereik" />
+        </form>
+        <form id="MANAGE_SCOPES_FORM">
+            <text id="TITLE" value="Beheer zoekbereiken" />
+        </form>
+        <form id="BOOKMARK_SET_FORM">
+            <text id="TITLE" value="Bewerk bladwijzerset: {1}" />
+            <text id="NEW_BOOKMARK_FOLDER" value="Nieuwe bladwijzermap" />
+            <text id="NEW_BOOKMARK_ITEM" value="Nieuwe bladwijzer" />
+            <text id="UNIQUE_NAME" value="Een unieke naam" />
+            <text id="COMMA_SEPARATED" value="Gebruik door komma's gescheiden waarden wanneer er meer dan een auteur is" />
+            <text id="ONLY_ENGLISH" value="Gebruik enkel engelse namen (v.b. English, Persian, Arabic, ...)" />
+            <text id="DESC_TOOLTIP" value="Afspraken, aanhalingen, referenties, en andere bladwijzergerelateerde onderwerpen komen hier" />
+        </form>
+        <form id="BOOKMARK_SET_MANAGE_FORM">
+            <text id="TITLE" value="Beheer bladwijzersets" />
+            <text id="DBL_CLICK" value="Dubbelklik op de onderdelen om ze in te laden en/of aan te passen." />
+            <text id="SET_AS_DEFAULT" value="Wilt U &quot;{1}&quot; als uw basisbladwijzerset?" />
+            <text id="CANNOT_REMOVE_DEFAULT" value="Ik kan de basisbladwijzer niet verwijderen." />
+            <text id="CANNOT_OVERWRITE_DEFAULT"
+                value="Ik kan de basisbladwijzerset niet overschrijven. Selecteer een andere bladwijzerset als basis, and probeer te importeren." />
+            <text id="ENTER_ID" value="Geef het bladwijzerset-ID" />
+            <text id="NEW_BOOKMARK_SET" value="Nieuwe bladwijzerset" />
+            <text id="EXPORT4WEB" value="Exporteer voor het Web" />
+        </form>
+        <form id="BOOKMARK_ITEM_FORM">
+            <text id="TITLE" value="Pas bladwijzereigenschappen aan" />
+            <text id="QURAN_LOCATIONS" value="Locatie in de Koran" />
+            <text id="NEW_BOOKMARK" value="Nieuwe bladwijzer" />
+            <text id="NEW_FOLDER" value="Nieuwe map" />
+        </form>
+        <form id="BOOKMARK_REF">
+            <text id="TITLE" value="Bladwijzersetreferenties naar: {1}" />
+        </form>
+        <form id="IMPORT_QUESTION">
+            <text id="IMPORT_FOR" value="Importeer voor de volgende gebruikers:" />
+            <text id="ME_ONLY" value="Enkel voor mezelf" />
+            <text id="ALL_USERS" value="Voor alle gebruikers (schrijfrechten in installatiemap zijn hiervoor nodig)" />
+            <text id="FOLLOWING_USERS" value="Indexeer voor de volgende gebruikers" />
+        </form>
+        <form id="CONFIG_CUSTOM_TRANS">
+            <text id="REMOVE_CUSTOM" value="Terug" />
+            <text id="ADD_CUSTOM" value="Toon" />
+            <text id="TITLE" value="Configureer meerdere vertalingen" />
+            <text id="AVAILABLE" value="Beschikbare vertalingen" />
+            <text id="CURRENT" value="Zichtbare vertalingen" />
+        </form>
+        <form id="PROGRESS">
+            <text id="PLEASE_WAIT" value="Even geduld" />
+            <text id="INDEXING" value="Indexering" /><!-- The process of indexing a document for faster search -->
+            <text id="TAKE_TIME"
+                value="Deze actie kan enige tijd in beslag nemen. De wachttijd is afhankelijk van de grootte van het document." />
+            <text id="CHECKING" value="Kijk of er updates beschikbaar staan" />
+            <text id="ZEKR_IS_CHECKING" value="Zekr is nu aan het kijken of er updates beschikbaar staan" />
+        </form>
+        <form id="ABOUT">
+            <text id="TITLE" value="Over Zekr" />
+            <text id="VIEW_LOG" value="Bekijk de log file" />
+        </form>
+        <form id="UPDATE">
+            <text id="TITLE" value="Update Informatie" />
+            <text id="VERSION_INFO" value="Versie infie" />
+            <text id="BUILD_NUM" value="Build nummer" />
+            <text id="VERSION" value="Versie" />
+            <text id="RELEASE_NAME" value="Release naam" />
+            <text id="RELEASE_STATE" value="Build status" />
+            <text id="RELEASE_DATE" value="Release datum" />
+            <text id="RELEASE_NOTES" value="Release notes" />
+            <text id="DOWNLOAD" value="Download" />
+            <text id="MORE_INFO" value="Meer informatie" />
+            <text id="NO_UPDATE" value="U gebruikt al de allernieuwste versie." />
+            <text id="NEW_DEV_AVAILABLE" value="Een nieuwere ontwikkelingsversie (onstabiel) is beschikbaar" />
+            <text id="NEW_BETA_AVAILABLE" value="Een nieuwere beta versie (onstalie) is beschikbaar" />
+            <text id="NEW_FINAL_AVAILABLE" value="Een nieuwere release (finale versie) is beschikbaar" />
+        </form>
+        <form id="PAGING_MODE">
+            <text id="TITLE" value="Pagineer Modus" />
+            <text id="SURA" value="Sura" />
+            <text id="HIZB_QUARTER" value="Hizb Kwart" />
+            <text id="JUZ" value="Juz" />
+            <text id="CONST_AYA" value="Constante Aya Telling" />
+            <text id="CUSTOM" value="Eigen wensen" />
+            <text id="AYA_PER_SURA" value="Hoeveel ayas moeten er per blad verschijnen?" />
+        </form>
+    </forms>
+</language>

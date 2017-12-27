@@ -1,0 +1,778 @@
+Version 0.1.0 beta 1 - [25-3-05]
+Version 0.1.0 beta 2 - [29-3-05]
+
+Version 0.1.0 release - [13-9-05] (First stable release)
+Features/Enhancements:
+	Nullsoft Installer (multilingual) support
+	Basic navigation over suras and ayas
+	.exe launcher for windows systems
+	Sura ayas view layout: line-by-line, block
+	Display sura info (descent type, aya count, sura number, etc.)
+	Cache visited suras in a local directory for faster retrieval
+Bug fixes:
+	Problem with run.bat (JAVA_HOME) was fixed.
+	Enter (Return) will work in Quran Form. (sura/aya selection)
+	Localized hint for juz numbers
+	Splash screen has title as well as icons.
+
+Version 0.2.0 b1 - [9-12-05]
+Features/Enhancements:
+	Print a Quran view
+	Search the whole Quran and also current view (a search result or a sura) with matching and non-matching diacritics
+	Simple search statistics.
+	Help menu: Zekr homepage, About.
+	Language switch menu item for changing UI language while application is running through view menu.
+	Configuration (layout, language, ...) is now saved in the xml file
+Bug fixed:
+	All misspelling for the wrong term sujda was changed to sajda.
+
+Version 0.2.0 b2 - [24-12-05]
+Features/Enhancements:
+	Simple Save as menu for exporting a single sura or a search result
+	Five language packs: Farsi (by Zekr team), Arabic (by Younes Moumen), English, French (by Younes Moumen), Indonesian (by Ari R. Fikri).
+	Aya navigation enhancement: choosing to show an aya will also displays some previous ayas.
+	Country flag icon for each language
+
+Version 0.2.0 release - [20-1-06]
+Features/Enhancements:
+	Added German language pack (translated by Riyad Preukschas)
+	Hyperlink for direct navigating to search result location (sura, aya) in the Quran
+	More smoother Bismillah image.
+	Enhanced presentation for sajda sign (character \u6E9)
+	Text box replace with an editable combo box (can hold up to 40 search history).
+	A Linux port is available (Mozilla 1.4+ GTK2 must be installed)
+	A Mac port is available. (25-2-06)
+Bug fixes:
+	Unicode ALEF_MADDA (0x622) is now acted like alef when searching with non-matching diacritics
+	All the following misspelling was changed from column one to column two:
+	soora		sura
+	joz			juz
+	Search problem. ==> (أأنذرتهم was found but أنذرتهم could not be found)
+
+Version 0.3.0 b1 - [14-3-06]
+Features/Enhancements:
+	Log enhancements. More info about system (OS, JRE, locale, ...) are stored.
+	About menu enhancement.
+	Menu items: Translation and Theme under View menu.
+	Translation support:
+		Basic support for translation packs.
+		2 Different views for translation: 2 frames and inline.
+		Ayatollah Makarem Shirazi's translation is added under a non-commercial use license
+		A number of enhancements for BIDI support for translations view
+	Theme support:
+		A basic default theme (sky) is available.
+		All themes are read at startup from [zekr]/res/theme, so every folder there is a potential theme!
+		All themes should have a "theme.properties" file inside their folder (theme folder name is equal to theme ID).
+		Does not have a GUI for setting options.
+	InitRuntime changed to ApplicationRuntime, and is loaded once and can be accessed from ApplicationConfig.
+	Translation layout (block/line-by-line) can be set as well as Quran layout.
+	Tools>Add>Translation and Tools>Add>Themes. two menu items for importing translation and theme pack.
+	M.H.Shakir's English translation will be available in the standard Zekr release under a non-commercial license.
+	Apache Jakarta commons are stored in a single jar file, inside [zekr]/lib. Extra unused classes are removed from the jar file.
+	Last seen Quran location is stored in zekr-config.xml, so that the next time Zekr starts, go to that location.
+Bug fixes:
+	JDK 1.4.2's JAXP SAX does not support BOM, so all language pack BOMs were removed.
+
+Version 0.3.0 b2 - [25-3-06]
+Features/Enhancements:
+	Show popup translation for search result.
+	4 different layouts:
+		1. Quran only layout. show Quran only. Full Quran search is allowed in this view.
+		2. Translation only layout. Full Quran search is not allowed, but one can search the current view.
+		3. Separate; Quran at the top, translation at the bottom in 2 separate frames. Search is fully supported.
+		4. Mixed; Quran and translation are mixed aya by aya. Each aya will be followed by its translation. Search is fully supported.
+	Consequently, 4 new menu items under view>layout.
+	Simple Options form under tools>options, with 2 different tabs:
+		1. General tab: currently one option for enable/disable splash screen.
+		2. View tab: a grid of key-value pairs for current theme. CRUD (Create, Read, Update and Delete) is fully supported on the grid.
+Bug fixes:
+	ALEF_MAKSURA will be treated as ARABIC_YEH when diacritic match is not set. In fact all YEH styled characters 
+			(ARABIC_YEH, FARSI_YEH and ALEF_MAKSURA) both in Quran and search box are converted to ARABIC_YEH.
+	A fine typo in Shakir translation was fixed.
+
+Version 0.3.0 release - [25-5-06]
+Features/Enhancements:
+	All paths are now passed as URIs (instead of File.getAbsolutioPath()) to Velocity.
+	Flag icons updated to more nice looking ones.
+	Added Russian language pack (translated by Michael Kalinin).
+	3 Russian translations (Porokhova, Osmanov, and Kuliev) provided by Michael Kalinin (under a non-commercial license). Will be as translation pack in the website (not present in the default distribution).
+	The Quran text file completely changed from the old one to a more accurate one (after finding two typos in the old text file)
+	View>Language moved to Tools>Options form, and now has a more nice look.
+	View>Theme moved to Tools>Options form.
+	Fooladvand (Farsi) translation will be available under a non-commercial license.
+	A new sample theme (id: sample) is available.
+	Max search result (default: 200) can be set on Options form.
+	Updated to SWT build 3232.
+	Permission to use Kuliev's translation in Zekr (done by Michael Kalinin).
+Bug fixes:
+	A typo in Makarem translation of sura Noor, aya 26 has been fixed.
+	Fooladvand translation fix (last aya of sura 104)
+	LayoutData instances were used several times in QuranForm, which made some problems.
+	A typo in sura Al-Hijr, aya 96 was fixed. (Ya'malun => Ya'lamun)
+	TableEditor problem of the OptionsForm with all platforms.
+
+Version 0.4.0 b1 - [15-9-06]
+Features/Enhancements:
+	Added 2 new language packs: Turkish (smacker) and Malay (H N Jafa).
+	Quran/Translation quick navigation bar: aya selector
+	Search page quick navigation bar
+	Search for translation (as well as Quran) now available.
+	The Quran text file completely changed back to the old one (which had more diacritics).
+	Added jQuery+Interface(scroll) JavaScript libraries.
+	zekr.log is moved to [user.home]/.zekr/ (so that each user have its own log file)
+	Splash screen changed to a non-rectangular (transparency-supported) one.
+	Small optional sura-aya sign added to view (after each aya)
+Bug fixes:
+	Using java.net.URI for making "file://" paths causes problems with IE 7.0, will make URIs manually (UriUtils class).
+	zekr.exe JVM checking changed as follows: 1. JAVA_HOME 2. JDK in registry 3. JRE in registry.
+	Theme's cached style.css will not be deleted every time Zekr starts.
+	style.css: "text-align: justify" will be ignored for Mozilla (due to its rendering problem). It now works only for IE now.
+
+Version 0.4.0 b2 - [3-10-06]
+Features/Enhancements:
+	Search in a range:
+		fully manageable search scopes
+		inclusive/exclusive scope items
+		a new button: search scope control (a drop down menu appears when clicked)
+	New language pack: Dutch (Erik van Luxzenburg).
+	SWT updated to build 3309.
+Bug fixes:
+	CSS bug fix for Safari. Safari does not fully support system colors in CSS.
+	A problem left from beta 1: general options (search result count and display logo at startup) now works.
+	A small bug with JavaScript when there was no search result.
+	Invalid content of textboxes (sura and aya) when there is no search result.
+
+Version 0.4.0 release - [24-10-06]
+Features/Enhancements:
+	Search scope button (near search button) changed to SWT.TOGGLE (so that it will be pushed while user not clicked any menu item).
+	In nav bar (on the top of Quran view) one can change sura number as well as aya.
+	Translations list (in menu) is sorted on locale.
+	Backspace in non-IE browsers acts as back button.
+	Platform-specific button size for search scope button.
+	Enhancement (icons, and short keys) for navigation buttons for non-Windows platforms when using SWT.RIGHT_TO_LEFT.
+	Refocus on aya when browser is resized (browser-JavaScript level).
+	All language packs updated (except Dutch).
+	mac-run.sh updated (for making an application bundle).
+Bug fixes:
+	Button size: all ok/cancel/apply buttons are 80 point.
+	Filter on arrow keys (nav keys) is now removed and reinstalled (it was doubled as user changed the language).
+	Problem with searching Farsi translation with Arabic letter ALEF MAKSURA.
+	Links of about form and home page menu item now works on Mac/Linux.
+	Typo in Quran text (9-123): وَلِيَجِدُواْ which should be وَلْيَجِدُواْ.
+	Typo in Quran text (12-10): مَّنْهُمْ which should be مِّنْهُمْ.
+	Typo in Quran text (12-24): وَاسُتَبَقَا which should be وَاسْتَبَقَا.
+	Typo in Quran text (12-111): كُلَّ which should be كُلِّ.
+	Typo in Quran text (13-20): يِنقُضُونَ which should be يَنقُضُونَ.
+	Typo in Quran text (18-39): تُرَنِ which should be تَرَنِ.
+	Typo in Quran text (23-113): فَاسْأَلْ which should be فَاسْأَلِ.
+	Type in Quran text (33-10): زَاغَتْ which should be زَاغَتِ.
+	Typo in Quran text (33-71): يُطِعْ which should be يُطِعِ.
+	Typo in makarem.txt (33-32): آنان which should be زنان.
+	Typo in makarem.txt (33-50): رن which should be زن.
+
+Version 0.5.0 b1 - [23-12-06]
+Features/Enhancements:
+	Add>Translation and Add>Theme can import multiple files now.
+	linux-run.sh updated.
+	lang="fa/en/ar/.." in HTML generated, for Quran and translation text.
+	Next/Previous buttons for current page searches + showing current search result in the sura-nav bar
+	Bookmark management (Bookmark menu):
+		Add/Delete/Update bookmarks
+		Folder and Bookmark items (tree-like structure for easier classification)
+		Bookmarks may hold multiple Quran locations (and act as a label/tag): in this case will show a list of locations on item selection.
+		User can navigate to each bookmark item's Quran location.
+		Bookmarks are directly accessible through Bookmark menu.
+		Menu items change from open to close folder (and reversely) if menu groups or tree group toggles.
+		Full drag and drop support for folders and items.
+	StringUtils.abbreviate(GlobalConfig.MAX_MENU_STRING_LENGTH) is used to shorten large menu item names (which are usually user defined: bookmarks, translation names, ...).
+	Enhanced printing support:
+		3 CSS defined: common-style.css for common rules, print-style.css for printing stylesheet, and
+		               screen-style.css for normal application on a monitor.
+		CSS rules customized for Search view and Sura view (for better printing).
+		A watermark added to printing view (at the bottom of the page); can be removed through a style property.
+	run.bat, linux-run.sh, and mac-run.sh updated (for possibly insufficient memory problem).
+	Logger.log(), updated and now can be used instead of implicitLog(), even when ApplicationConfig is not initialized.
+	Zekr version added to about form.
+	Debian-compliant package created by Mohammad Derakhshani.
+	Goto random aya menu item added. 
+Bug fixes:
+	display.getActiveShell() which caused problem on Linux, changed to display.getShells()[0]
+	XmlReader c'tor changed to parse a java.io.File instead of path to that file (sometimes path is not in URI format, which causes errors in JDK 6.0)
+	Remove button for search scope table items made disabled when no item is selected.
+	On layout change, all visible browsers are reloaded.
+	Copy each theme.properties to a ~/.zekr/theme
+	Styles should be copied into  ~/.zekr/theme, not ~/.zekr/cache
+
+Version 0.5.0 b2 - [1-2-07]
+Features/Enhancements:
+	There is now an Ant build file for building sources on Linux, Windows and Mac.
+	About form made cleaner: layout and arrangement + Zekr small image
+	Import theme/translation asks for who to import: 1. all users, 2. me only.
+	       If me only is selected, imports selected resources to ~/.zekr/somewhere, 
+	       otherwise the resource will be copied into the mail installation directory.
+	One can have translations in [zekr]/res/text/trans as well as ~/.zekr/trans. List of the latter translations is added to the first one, and hence overriding duplicates.
+	One can have themes in [zekr]/res/ui/theme as well as ~/.zekr/theme. List of the latter themes is added to the first one, and hence overriding duplicates.
+	A menu item for sura properties table to copy its content.
+	Hizb signs: hizb sign is shown at the end of each hizb quarter.
+	Some numbers in aya.vm are now localized (based on the default language pack). 
+	Random aya algorithm enhanced to be more fair (random juz -> random sura inside that juz -> random aya inside sura).
+	aya.vm changed, not to render sura-aya signs if quran/trans_showSuraAyaSign is not set.
+	"More..." menu item under translations, to go to the Zekr resources page.
+	Zekr application and installation icon updated to a more realistic one (a black open book). The new icon is Vista-compaliant, i.e a 256x256 image is embedded into the icon file.
+	"Find references" menu item added under bookmarks menu to find references to the aya (Quran location).
+	In "Separate Layout", sash weights are stored in the config file.
+	A transliteration added to built-in translations.
+	Manage bookmark set groups menu item:
+		import/export of bookmark sets;
+		remove/edit bookmark sets;
+		rename bookmark set id.
+	Bookmark set form may now copy a bookmark item/folder: DND.DROP_COPY is supported (Ctrl key should be pressed in Windows).
+	Custom Mixed Layout (multiple translations):
+		a new layout for seeing more that one translation at a time in a mixed layout.
+		configure custom traslation list: View>Layout>Configure custom translations...
+Bug fixes:
+	Yes/No dialog on removing view props does nothing if user closes it.
+	Bug in loading translation data, method loadTranslation() fixed.
+	Integer.valueOf(int) changed to new Integer(int), since the method was introduced in 1.5.
+	StatusListener replaced with TitleListener, so that Firefox on Linux works.
+	Search treats "ؤ" and "و" the same, when match diacritics is not set.
+	Bug in ZipUtils.extract fixed. ZipEntry.getSize() seems not to correctly return unzipped entry size.
+	JavaScript bug with backspace key (which was fired on goto input textboxes) fixed.
+	Menu items text Capitalized in English language pack.
+	Typo in Quran text (4-90): يقاتلونكم which should be يقاتلوكم.
+
+Version 0.5.0 release - [12-3-07]
+Features/Enhancements:
+	quran-text.txt changed to UTF-8 encoding (so that there would be no UnsupportedEncodingException for Arabic-incompatible JREs).
+	New language pack: Urdu (Mohsin Shafeeque Hijazee).
+Bug fixes:
+	Parent of a bookmark folder may not more drag-copy to its child (which caused stack overflow previously).
+	View>Translations>More is a SWT.PUSH button, not SWT.RADIO!
+	Ctrl+S works as Save as...
+	HTML saving and Bookmark exporting now checks to see if the exported/saved file has .html/.xml extension or not. If not a proper extension will be added accordingly.
+	Typo in Quran text (10-36): fixed diacritic for إنّ.
+	SuraAyaSign numebers made localized based on the selected language.
+	Add/Remove buttons on CustomTranslationListForm are always LEFT_TO_RIGHT for non-Windows platforms.
+	Bug with importing (and overwriting) a newly imported bookmark set fixed. Thanks to Ali Rastegar for the report.
+
+Version 0.6.0 beta 1 - [1-5-07]
+Features/Enhancements:
+	JQuery library updated to 1.1.2 version.
+	Advanced search (with use of Apache's Lucene search library):
+		Indexing is done by the first time, user encounters an advanced search, if not done before 
+				(proper index directory was found neither in ~/.zekr, nor in installation directory).
+		Boolean queries (AND/&&, OR/||, NOT/!, -, + operators)
+		Wildcard queries (*, ?)
+		Fuzzy queris ("keyword"~x.y)
+		Grouped query clauses (using parentheses)
+		Sort results in: 1. Natural order, 2. Relevance
+		Show all matched terms at the top of search result page
+		Multiline search box (switchable with normal search box)
+		Pagination: it is possible to navigate through result pages (pagination buttons are shown iff search result count is enough for more than 1 page).
+	Ctrl+A performs "select all" when pressed on multiline search field.
+	Ctrl+Enter performs "advanced search" when pressed on multiline search field.
+	All search configuration properties are now saved in when application is closed, and loaded and initialized on GUI at load time.
+	Left and right arrow icons changed to up and down arrow for search result navigation.
+	Latest SVN trunk version of Lucene is used to fix "*Foo*" (leading and trailing star wildcard together) query bug.
+	sky-vertical theme was removed and side-by-side translation view is now supported via "trans_showMultipleSideBySide" theme property of sky.
+	A flag "quran_detailedTextFile" can be set to true in theme.properties to force Zekr to use a detailed Quran text if available. Detailed Quran text is very similar to Uthman Taha Quran calligraphy.
+	An experimental "Uthman Taha" theme added.
+		It uses "me_quran" as the default font for rendering Quran text.
+		quran_detailedTextFile is true by default in this theme.
+		Several CSS hacks and enhancements are done to this theme in order to bypass IE6 bugs for rendering in screen and printed document.
+		This theme may have unexpected rendering errors with IE6, because of inherent IE6 bugs :). FF 2.0 and IE7 are OK.
+		Special thanks to Meor Ridzuan for providing such a nice font.
+	Some icons made better: bookmark icons (manage, edit), search scope icons (manage, edit)
+	Import/Export file dialogs try to set ~/Desktop as default folder. If there is no such folder, user.home (~/) is used.
+	Quran aya sign and Sura-Aya sign are now shown in Arabic (not the selected user's language) for all themes.
+Bug fixes:
+	JavaScript aya focus now works better when focusing on ayas whose height is larger than the screen.
+	A bug with sky-vertical theme, which caused translation table width not to be 100% is now fixed. It has still problems when resizing the screen. 
+	A bug with search keyword combo box which caused to store all entered search keywords (even blank or illegal strings) fixed.
+	Bookmark item editing form now resizes Description field as well as table of references when the form is resized.
+	An HTML tag incompletion fixed in search-result.vm of all themes.
+	Typo in simple Quran text (8-29):  إَن تَتَّقُواْ which should be  إِن تَتَّقُواْ.
+	A bug with DnD in bookmark set form fixed, which caused edit and remove button not to be disabled after a drop action even when no item/folder is selected.
+
+Version 0.6.0 beta 2 - [22-7-07]
+Features/Enhancements:
+	Cancel button for indexing progress form. Cancellation, causes indexing thread to stop and rollback its task (cleaning up index files).
+	"Custom Mixed" layout name changed to "Multi-translation" layout.
+	HTML export for bookmark sets (XML to HTML transformation is done using export.xslt):
+		- a new export button added to bookmark sets management form
+		- output html supports nested folders and user can fold/unfold them
+		- export format is a "single" HTML file (no dependency to any .css or .js file)
+	Basic search now uses two additional matching rules (for non-matching diacritic case):
+		- ARABIC_TEH and ARABIC_TEH_MARBUTA are regarded the same.
+		- An asymmetric character matching, for special cases of Hamza matching is implemented:
+			- If user's search term contains any of Hamza characters (&#1569;, &#1573;, &#1574;, &#1650;, or &#1572;), it will be matched with all other forms of Hamza characters (those Hamza characters are regarded the same). For example ARABIC_LETTER_HAMZA (or ARABIC_LETTER_WAW_WITH_HAMZA_ABOVE) will be matched with itself as well as ARABIC_LETTER_ALEF_WITH_HAMZA_ABOVE, ARABIC_LETTER_ALEF_WITH_HAMZA_BELOW, ARABIC_LETTER_WAW_WITH_HAMZA_ABOVE, and ARABIC_LETTER_YEH_WITH_HAMZA_ABOVE.
+			- If user's search term contains Hamza base (AKA Kursi) characters (which are ARABIC_LETTER_ALEF (&#1575;), ARABIC_LETTER_YEH (&#1610;) and ARABIC_LETTER_WAW (&#1608;)) they will only match with themselves as well as their corresponding Hamza character (or characters for the case of Alef). For example if user entered ARABIC_LETTER_ALEF (&#1575;), it will be matched with ARABIC_LETTER_ALEF_WITH_HAMZA_ABOVE (&#1650;), ARABIC_LETTER_ALEF_WITH_HAMZA_BELOW (&#1573;), and also <tt>ARABIC_LETTER_ALEF</tt> (&#1575;) itself.
+	Advanced search ArabicFilter changed in order to act ARABIC_TEH and ARABIC_TEH_MARBUTA the same.
+	Zekr may now be launched without any translation. It disables layout changing as well as search in translations if no translation found.
+	Indexing speed increased by almost 3 times faster than before. This is done by setting default value of IndexWriter.maxBufferedDocs to 80 (previously was 10).
+	Command line options:
+		- "-h"/"--help": displays help on command line options.
+		- "-clean": provides options for cleaning some application folders, for example indices, or configurations.
+		- "-index": provides options for making Quran text indices in a given path or predefined address.
+		- "-workspace" : start Zekr using the given path as application workspace.
+	BookmarkItemForm now has a sash in order to set proportion of of top and bottom parts. More, it's last time location is stored.
+	Application task pane can be set to be resizeable. If options.general.resizeableTaskPane is set to true (can be set through Options > General), this pane is resizeable.
+	BrowserShop and FileResourceLoader classes licensing problem resolved by removing them and writing new classes BrowserUtils and ZekrFileResourceLoader respectively from scratch.
+	Speparate layout shash color for Quran form changed to SWT.COLOR_WIDGET_LIGHT_SHADOW.
+	linux-run renamed to zekr.sh.
+	New language pack: Pashto (Zabeehullah Khan).
+Bug fixes:
+	Simple Quran text is fully replaced with an automatically generetad text file. This new text file is generated by means of some simplifying rules, from the detailed Quran text (known as Uthman Taha text). Special thanks to Hamid Zarrabi-Zadeh for his script and Mohammad Derakhshani for verifying text.
+	Hizb signs removed from detailed-quran-text.txt.
+	"Edit bookmark sets" accelerator key is Ctrl+B, not Ctrl+M!
+	Bookmark items (on menu) are now displayed RTL or LTR (only on Windows) based on current language pack.
+	\n, \r, and \r\n characters are removed from the text when toggling view from single-line to multi line.
+	Bug in setting Import/Export file dialog to ~/Desktop fixed.
+	Bug in saving/loading language for bookmark sets fixed. As as result 'langElem' element changed to 'langauge' element in the bookmark set XML.
+	A bug which caused progress bar to continue endlessly, if an exception occurred during indexing process fixed.
+	farsi.xml => persian.xml.
+	A bug which prevents user from using Fuzzy queries is now fixed. This bug produced because of incorrectly setting maxClauseCount for BooleanQueries Integer.MAX_VALUE. It is now set to MAX_CLAUSE_COUNT (equals to 10000).
+	Uthman Taha theme line-height value fixed (IE decreased, Mozilla/Safari increased). Changes are applied to common-style.css.
+	Shakir typo fixed: deliver what *bas* been revealed to => deliver what *has* been revealed to 
+	Tooltip text for translation icon changed to "Quran" when displaying search result on translation.
+	Typo in Quran text fixed (7-156): "فَاسَأَكْتُبُهَا" should be "فَسَأَكْتُبُهَا" (there is an extra Alef after Feh).
+	A bug which caused advanced search multiline and single-line search box heights be the same, fixed.
+	Bug with sizing of the search (basic and advanced) arrow button fixed and now its size is fixed.
+
+Version 0.6.0 - [5-8-07]
+Features/Enhancements:
+	Windows: run.bat => zekr.bat. Also javaw.exe changed to java.exe so that user can see commandline options in the console.
+	New language pack: Bosnian (Nedim Hadžić).
+	Country flag icons changed to famfamfam PNG icons.
+	All needed licenses placed under [zekr]/doc directory.
+	A new readme.txt under [zekr] directory.
+Bug fixes:
+	Help comman line message correction: -clean: ... above options separated with comma (not space!).
+	A critical bug with asymmetric basic search character matching fixed.
+	Linux font name problem in search results with Uthman Taha fixed.
+	Mac run script fixed to accept command lines.
+	Uthman Taha search font fixed on Mozilla/Safari. (changes applied to CSS files to affect only IE)
+
+Version 0.6.5 (Zekr Ramadan Edition) - [12-9-07]
+Features/Enhancements:
+	ID 1775169 - set the columns in the Details section of the task pane now depends on the length of the translation. The size of the add and remove button in the ConfigureCustomTranslations form also depend on the length of their translations.
+	ID 1777467 - keyboard shortcuts activated in the menu. <language>.xml can now use &amp; to indicate which key to use.
+    ID 1777467 - english.xml, dutch.xml, french.xml, and german.xml uses the new &amp; keyboard shortcuts
+    ID 1784250 - Configur Custom Translation has two seperate translations
+    ID 1784254 - OptionForm has a proper VIEW and THEME translations
+    ID 1784287 - QURAN and TRANSLATION seperate translations in SEARCH, MENU and LAYOUT-MENU (Block/Line-by-line) and in the search result (as hoovering text)
+    A new embedded HTTP server (net.sf.zekr.server.*) is available (based of NanoHTTPD).
+    	HTTP server can be enabled by setting "server.http.enable" property in config.properties to true.
+    	Default port is 8920, however it can be changed using "server.http.port" property in config.properties.
+    	When enabled, all HTML pages, images, .css, and .js files are accessed through this embedded local HTTP server.
+    	This is specially helpful for using full Flash - Javascript interaction support (which requires .swf to be on a remote server like localhost, not file:///).
+    	HTTP server can deny requests from machines other that local machine on which server is running by setting "server.http.denyRemoteAccess" to true.
+    Auto-focus on sura number text box in nav bar (if any) on every page load.
+    When upgrading Zekr to a newer version, user's configurations (config.properties) are migrated to new one, keeping old properties and adding new properties (previously config file was replaced with new one, and all user old properties was lost)
+    -clean option change: 'cache' -> 'view-cache'. Another cache removal option added: 'playlist-cache', to remove cached recitation playlists.
+    Sura detail column widths are updated on table update (based on the size of its content).
+    utils.js splitted into nav.js and common.js.
+    Basic recitation support
+    	Recitation files are files of type *.properties. In this files playlist URL provider, playlist file name, audio file names and some reciter-related meta data exists. User can add more recitation files through Tools>Add>Recitation menu item.
+    	User can choose to play/pause current selected aya through Audio menu or player bar.
+    	User can choose to play ayas continuously, playing an aya after another (in a single sura).
+    	Audio support may be fully disabled by setting audio.enabled properties in config file. When audio support is disabled, Audio menu items is also disabled and no player bar is shown.
+    	OfflinePlaylistProvider creates offline playlists in audio cache dir (by default: ~/.zekr/audio/cache), which then can be used to play local or remote files.
+    	OnlinePlaylistProvider provides a URL to a remote playlist.
+    Lucene updated to 2.2.0 release.
+    Splash screen updated for Ramadan Edition.
+Bug fixes:
+    ID 1783882 - All OK, CANCEL, and APPLY buttons now depend on the length of the translation
+    ID 1783886 - The hint in ManageBookMarkSets now fully shows
+    TemplateEngine made non-singleton because of thread-safety issues.
+
+Version 0.6.6 - [6-10-07]
+Features/Enhancements:
+	A new property added to config.properties for default local machine address. It's 127.0.0.1 by default.
+	New language pack: Uzbek (Nurali Abdurahmonov).
+	New language packs: Tatar, both Russian (tatar.xml) and Turkish (tatar-tr.xml) transliterations, by Fareed A. Bashirov.
+	.exe file creation method enhanced. Launch4J is now used (instead of NSIS) to create launcher win32 executable file. Its size is less than the previous method (~80KB) and it has also a custom process name, zekr.exe instead of javaw.exe.
+	zekrc.exe added as a console version of zekr.exe. For using command lines, this file can be used instead of zekr.exe.
+	Upgrade to SWT 3.4M2 (version: 3.410). This version has full support for BIDI rendering and mirroring on GTK - Linux.
+	Main SWT shell (Quran Form) made BIDI, so "close", "maximize" and "minimize" buttons on Windows will place at the upper-left side of the form. Having this, menu bar is mirrored on Linux for RTL language packs.
+	"More..." menu item under recitation menu group, to go to Zekr resource page.
+	Sura-aya synchronization button state is now saved and loaded on startup (part of #1793836).
+	JW MP3 Player updated to 3.12.
+	"Force GC" button is not shown in production-mode releases (detects if debug mode is true, based on GlobalConfig.DEBUG_MODE)
+	A new splash screen donated by Bandar Raffa.
+	Alpha channel is supported in AdvancedSplashScreen. It captures central area of the current background in order to emulate opacity for the splash screen.
+	Search result font enhancement for Uthman Taha theme.
+	Mozilla XULRunner can be used instead of system default browser on all platforms. If XULRunner is installed, one can use it as default browser by setting options.browser.useMozilla property to true (false by default).
+	Splash screen made double buffered (SWT.DOUBLE_BUFFER) so no blinking when refreshed anymore.
+	Unicode LRM, RLM, and RLE is added to the following in order to make them more readable when an RTL language packs is selected (Arabic, Persian, ...):
+		1. theme selection combo box in options form
+		2. language selection combo box in optons form
+		3. translation names under View > Translation menu
+		4. recitation names under Audio > Recitation menu
+	Advanced navigation (View > Go to)
+       - Next/Previous sura
+       - Next/Previous aya
+       - Next/Previous juz
+       - Next/Previous hizb quarter
+Bug fixes:
+	Bookmark sets are now saved by default as UTF-8, fixing the bug which caused bookmarks to save in file.encoding encoding.
+	Bug with QuranFormMenuFactory.createOrUpdateBookmarkMenu(), which caused new bookmarks menu to be created fixed.
+	Fixing flash loading problem on large suras in Linux, by adding a 100-millisecond timeout to SWF object initialization.
+	If flash object is not loaded (either because object loading of the browser is slow, or HTTP server is disabled), no JavaScript error is shown to the user.
+	Bug fix for Print CSS for all themes: hiding footerBar for printing.
+	Bug fix for suraAyaSign font size in all themes.
+	Hizb quarter tooltip text fixed (hizb number was counted incorrectly).
+	Hizb quarter is shown for hizb start points (2 locations per juz), with a modified tooltip text (quarter part is now shown).
+	One of the most important bugs with Mozilla on Linux (and also Widows XULRuner) fixed. This bug prevented using aya box in nav-bar to change aya within a sura. It also caused aya syncing (automatically focusing on the next aya when one aya is finished) not to work when playing a recitataion in continuous mode. 
+
+Version 0.7.0 beta 1 - [20-3-08]
+Features/Enhancements:
+	Quran translation verification added in order to verify whether the text is authentic (downloaded from the official website) or not.
+		- Each translation (and other signable packs) should have a signature meta data.
+		- If the signature is not valid, user will be prompted by a warning message.
+		- Translation signature verification is done on demand (when translation is loaded).
+    Two new properties introduced for translation descriptors: "version" (translation descriptor file version), and "signature" (digital signature of the translation text).
+	Check for update menu item added under Help menu.
+	    - It looks up in the update site (update.address property) for any new update available.
+	    - QuranForm checks for update on Shell activation if this is time for update (update.checkInterval is passed from update.lastCheck)
+	   	- Update info is downloaded in form of an XML file from server. It contains version, build number, release status, download URL, etc.
+	    - Check for update action or its menu item can be fully disabled by setting update.enable property to false. This can be helpful when user is always offline or Zekr is used as a Debian package (which should has it's own method of updating).
+	A "View log" link added to the about page, which tries to open log. It can be used for technical support.
+	Sky theme enhancements:
+		- Rounded corner on Mozilla or CSS3-compliant browsers.
+		- Sura name on the top of each sura
+		- Text-based Bismillah on the top of each Sura (except suras 1 and 9)
+	/res/text/metadata directory created. quran-properties.xml and each quran-properties-[lang_iso_id].xml should be under this folder. Quran root list with its addresses is under this folder as well.
+	VM info in the log file updated to be more accurate.
+	Localization of all numbers in search result messages. 
+	Changing sura-aya location to the form: sura#:aya# (e.g. 3:130). It used to be like this: sura#-aya#, which was not correctly rendered for RTL environments.
+	Error tolerance for unavailable recitation packs. Will disable audio support, if no other one is available, or use the first recitation as default.
+	English translation and transliteration of sura names added to quran-properties.xml.
+	Different options for showing sura names: Arabic, English translation, English transliteration, Local translation, or Local transliteration. The last two are available only if quran-properties-xy.xml file was available for selected language (where xy is the language code). view.sura.name property added to config.properties to store user's sura name mode.
+	No need to restart application anymore if a new translation is added. Restarting is still needed when application launched with no default translation (hence translation support is disabled until it is restarted).
+	Switching to quran-simple Quran text file obtained from tanzil.info. This is an accurate Quran text, which is best for reading Quran. As a result all kinds of Waqf signs are available even in non-Uthmai theme.
+	When selecting multi-trans layout, Zekr brings up multi-translations customization form if custom translation list size is zero.
+	"Configure Custom translations" menu item, moved under View > Translation menu.
+	A new basic (although not so basic) search based on Tanzil.info search algorithm introduced (as a result two view.search.sortOrder, view.search.sortBy and view.search.multiline added to config.properties):
+		- The GUI of basic and advanced search is now identical (although there are still two tabs).
+		- Sort results by: 1. Natural order, 2. Similarity, 3. Revelation order, and 4. Aya length.
+		- Sort order: ascending and descending
+		- Wildcards (?, ., *) support.
+		- Partial diacritic matching and partial/exact phrase matching.
+		- Logical operators (default operator between two phrases is AND) 
+	"Revelation order" and "Aya length" sort criteria, as well as the feature to sort results ascending or descending added to Advanced search.
+	Quran Revelation order metadata added:
+		- revel.default property in config.properties.
+		- Revelation data packages are zip files with suffix .revel.zip, containing an ordering data (.revel.txt) file and a revelation descriptor (revelation.properties).
+		- Revelation packages may have two modes: sura and aya. If a revel-pack is in sura mode, it should have exactly 114 numbers representing revelation order of 114 Quran suras. In aya mode, it has 6236 numbers representing revelation order of all ayas. Note that non of these are accurate, and revelation order is a debatable topic.
+		- Revelation packs are signed so that Zekr can verify authenticity of the package.
+	Two new sort order added to Lucene search. Users can sort search results by: 1. Aya length 2. Revelation order (based on the current selected revelation data pack) as well as the previous options(Similarity and Natural order)
+	Sorted search results can be ordered ascending or descending both for base search and Lucene search. Two new properties added to config.properties accordingly: view.search.sortOrder and view.search.advanced.sortOrder which accept "asc" and "des" values.
+	A new checkbox: "Enable audio support" added to OptionsForm, general tab, to enable or disable audio support. When disabling, it also disables local HTTP server. This item is enable when both audio.enable and server.http.enable are enabled. Otherwise it's disabled.
+	lineDelimiter changed to delimiter in translation descriptors. Translation packs should have both lineDelimiter and delimiter in order to be backward compatible.
+	Translation packages' suffix changed to .trans.zip (formely .zip).
+	Full screen support: a new menu item added under View menu which switches GUI to the full screen mode. It requires SWT 3.4M2. When switching to full screen mode, a floated button is shown which switchs back to the normal mode if pressed.
+	Scrollable task pane. Task pane is scrolled when needed.
+	"Online Help" menu item added under Help menu to open Zekr online wiki in a browser.
+	A Help menu item added under search scope menu (near search button).
+	Synchronize button removed in order to free more space in nav bar. This old button (from 0.1.0b1 :)) was rarely used.
+	A new option added to General tab to show sura names in a tree-like structure. When selecting this mode,
+	New language pack: Spanish (Mahdi Reyes).
+Bug fixes:
+	Disabled "Save as..." button when HTML is served through HTTP server. Exporting pages without having HTTP server on, is not a good idea, because no image/JS/CSS resources can be accessed then.
+	Audio > Play/Pause menu item text is now correctly updated upon play/pause status change.
+	Player bar buttons' size fixed.
+	Audio menu is now correctly disabled when setting audio.enable = false in config.properties
+	Separator is shown in "Recitation" and "Translation" menu groups when there is at least one recitation/translation available.
+	All "Control" keys in menu item's accelerator (and text) changed to Command button.
+	A bug with multi-translation layout fixed. This bug affected IE and caused horizontal scrolling when resizing window.
+	Incorrect start point for Juz 10 fixed. The correct location is 8:41.
+	When focusing on the first aya in each sura, there would be no extra space on the top of the focusing area, so that sura name and Bismillah are shown correctly.
+	audio.enabled changed to audio.enable for more consistency in property naming.
+	quran_detailedTextFile changed to quran_uthmaniTextFile in theme.properties.
+	theme.properties in user workspace is overwritten with the base one if the base theme.properties is newer that user's. This resets all theme-related configurations when installing a newer version of Zekr.
+
+Version 0.7.0 beta 2 - [24-8-08]
+Features/Enhancements:
+	Show the meaning of bismillah in be beginning of each sura in translation.
+	Upgrade:
+		- Lunuce x.y.z
+		- Tanzil Quran text file 1.0.2
+		- SWT 3.4.0
+		- commons-logging, commons-configurations, commons-io, commons-lang, commons-codec
+	Support paging:
+		- Four built-in paging data introduced: Sura, Juz, Hizb quarter, Constant aya. As a result a new menu item (paging mode) introduced.
+		- New add-on: paging data pack. *.page.xml files in res/text/metadata are used to introduce new paging data. An Uthmani paging is by default supported (uthmani.page.xml).
+		- User may choose View > Paging Mode > Custom... in order to utilize a custom paging data available in (res/text/metadata/*.page.xml).
+		- Navigation bar now accepts page as well as sura-aya pair. If page differs from the current page, it just navigates to the beginning of that page, otherwise it navigates to the entered sura-aya location.
+		- Navigation buttons in work pane navigate through pages and ayas instead of suras and ayas. For example the button previously was for Next Sura, now navigates to the next page (if default paging mode is sura, it goes to the next sura).
+	New config properties introduced: index.quran.path, index.quran.version, index.trans.path.<translation id>, and index.trans.version.<translation id>. properties. index.[quran|trans].path.[<translation id>] holds quran or a translation index location (identified with <translation id>), and index.[quran|trans].version.[<translation id>] is for Zekr build number which creates that index. Indexes created with different versions of Zekr may not be generally compatible, so it should reindex on each version (build number) update.
+	New menu group added: View > Panel, in order to show and hide different panels. For now sura detail panel can be toggled. The state of a panel visibility is persisted under view.panel.<panel id> in config.properties.
+	A few more progress point added for startup splash screen. A progress now increases startup progress bar value by 7%.
+	Search metadata support:
+		- Search metadata contains language-specific replace patterns for non-searchable or equivalent characters. It also has a list of stopwords, which is used to ignore those words for indexing.
+		- A new class SearchInfo (metadata) introduced
+		- A new config file res/config/search-info.properties added. This config file is included in main config.properties.
+	Translation search:
+		- Basic search support. It uses pattern replacements provided in search-info.properties.
+		- Advanced search support. It uses pattern replacements provided in search-info.properties, or built-in Lucene analyzers if available for that language. 
+	All 'View > Go To' menu items moved to a new global Menu: Go To. Random Aya also moved to this new menu.
+	Two backups for zekr.log are kept: log4j.appender.RUNTIME.MaxBackupIndex=2.
+	Update site URL moved from config.properties to version.properties. It's a security risk to have the URL inside user config.
+	Root database:
+		- A new configuration property: "root.enabled". One can disabled root database, because it's somewhat memory consuming.
+		- All the Quran roots (indexed by root itself), and reverse index for roots of a single aya are loaded from res/text/metadata/quran-root.txt.
+		- Search through Quran roots.
+		- Sort results by: 1. Natural order, 2. Similarity, 3. Revelation order, and 4. Aya length.
+		- Sort order: ascending and descending.
+		- Set search scope for limiting root search results.
+	Add support to index transltion data through command line (-index option).
+	Goto Next/prev hizb quarter shortcut changed to Ctrl+Alt+Right/Left.
+	Indicative icons added near each translation item in the menu, to showing if a translation is signed, unknown (not loaded), or unsigned.
+	New language pack: hebrew.xml (Yotam Benshalom).
+Bug fixes:
+	A bug with basic search fixed, which happened when a whole clause was found at the end of an aya.
+	Menu icons are not shown anymore in Mac.
+	Major and minor sajda replaced with "mandatory" and "recommended" sajda.
+	An incompatibility issue resolved which caused sura.vm not work with Velocity 1.5. Thanks for Serkan Kaba's patch.
+	When an SWT Tree is set as SWT.SINGLE, it's selection listener is once called upon its first selection (which is selected by system). It caused aya not to be selected correctly in aya selection combo. A small but of checking (if (e.time > 0)) added to tree selection adapter in order to ignore its first systemy selection.
+	A bug with unloading (TranslationData.unload()) currently in use translations, when multi-translation layout was selected is fixed. Since it mistakenly unload a translation which was in use, Zekr gave NPE errors for accessing translation of ayas.
+	Just one thread is started for HTTP server. It used to start two separate thread, one of them was redundant.
+	Manually focusing on an aya in the page during playing a recitation causes to recite that aya after current one (previously ignored the focusing aya).
+	Fixed a bug with basic (tanzil) search highlighter. Search result was not highlighted correctly two or more phrases entered in the query, and at least one phrase (other than the first one) was exclusive (leaded with '-').
+	Use StringUtils.isBlank() instead of isEmpty(). isBlank() also trims the input string.
+	Change quran.text.delim to \\r\\n (Tanzil text files are in Windows line delimiter model).
+	Remove extra whitespaces for search result ayas. Extra whitespaces caused non-elegant highlighted results.
+
+Version 0.7.0 (Zekr Ramadan Edition 2) - [1-9-08]
+Features/Enhancements:
+	Ctrl+F focuses on the visible search box.
+	A new stand-alone bookmarking feature: Bookmark This Aya. This feature is available through Ctrl+D, or Bookmarks > Bookmark This Aya menu item. It adds a default title to the bookmark item (based on the current aya) as well as the current Quran location to it.
+Bug fixes:
+	Changed the way quran-root is loaded. It was incompatible with GCJ.
+	An error message box is now shown when indexing error occurs. User indexing cancellation is not assumed as an error.
+	Show the correct bookmark references to an aya. It was looking for an incorrect Quran location since last beta release.
+	A bug with toggling full screen fixed. It caused application to remain in full screen mode, even after pressing again Toggle full menu item.
+
+Version 0.7.1 - [6-9-08]
+Features/Enhancements:
+	A new buffering (pre-fetching) scheme is used to avoid lags between reciting two ayas. This is done using a hidden flash player, which pre-fetches and loads the next aya.
+	Added or updated some language packs and localized sura names (quran-properties-he.xml, russian.xml, spanish.xml, german.xml, arabic.xml, persian.xml
+	Windows installer script changed to support smart deletion when uninstalling the software. It now logs installed files, and so does not delete files which are changed or added after installation.
+Bug fixes:
+	A blocker bug which prevents Zekr starting fixed. It happened when the user disabled audio support through Tools > Options menu.
+	A bug fixed with sending flash JavaScript events to a browser without any flash player. This happened when separate layout is selected (in which flash player is loaded in the translation browser).
+	A bug fixed which caused menu icons being shown in Mac when toggling play-pause state of the player. Icons are not shown intentionally in Mac.
+
+Version 0.7.5 beta 1 - [31-10-09]
+Features/Enhancements:
+	A cache manager added for audio files. In future releases this cache is used to store up to x megabytes of downloaded online audios.
+	Adding new recitation file (.properties) will not need a restart anymore.
+	New audio player scheme introduced:
+		- JavaZoom's jlayer and basicplayer are used. As a result adding support for different file types is a matter of adding a new jar file.
+		- Added a new audio player form with several options: play, pause, stop, next, prev, etc.
+		- Added repeating support for a single aya. One may set to hear each aya twice or more.
+		- Added interval (wait) support. One may wait up to x seconds after playing each aya. This is helpful for studying purposes.
+		- There is no need anymore to an embedde HTTP server. It's removed with the new player scheme.
+		- Playlists are removed. There is no need to such pains with the new player scheme.
+		- Recitation files (.properties files) are totally changed. It's not backward compatible, so users have to download and install newer versions of recitation files (just .properties file, not the whole offline package of mp3s).
+		- Supports playing special items (audhubillah, bismillah, sadaghallah) if recitation pack has anything.
+	Added support for proxy (as a result, Zekr requires Java 1.5.0+ from this version). All network accesses are now done through NetworkController class.
+	Added update.enableMenu property. This makes update menu disabled/enabled. Old update.enable is kept only for enabling or disabling auto check for update.
+	Supporting new audio formats is a matter of adding required service provider interface (SPI) to the classpath. In Zekr base package the following types are supported by default (plus types with built-in supported by user's JRE):
+		- MP3 (MPEG1 and MPEG2, Layer I-III): using these libraries: tritonus-share, jlayer and mp3spi.
+		- OGG: using these libraries: tritonus-share, jorbis and vorbisspi.
+		- SPEEX: using this library: jspeex.
+	Shows localized recitater name (if available in recitation properties file).
+	Search info properties are not stored in main config file. There is a search-info.config near main config file which stores search info properties.
+	Added quality field to audios. In audio menu, quality as well as type (online or offline) is shown to distinguish between same-name recitations.
+	Recitations are sorted based on ID.
+	Added Bulgarian language pack (submitted by Hamdi Sevitin).
+	Added indonesian quran-properties-id.xml (submitted by abu0hasan).
+	Updated to Velocity 1.6.2.
+	A new font UthmanTN1_Ver07.otf (KFGQPC Uthman Taha Naskh) added to Zekr default package.
+	New images and icons designed for Windows installer.
+Bug fixes:
+	language pack ID and Quran metadata for Hebrew updated to have hw ISO code instead of deprecated he ISO code.
+	quran-properties-ba => quran-properties-bs
+	Added translation and themes are filtered with *.zip in Mac OSX, since it's open file dialog doesn't support double extension filtering (*.trans.zip).
+	Bookmark is saved to the disk as soon as it's quick bookmarked (Ctrl+D).
+	Auto-check for update is now disabled by default.
+	A blocker bug with Velocity 1.6.x+ fixed.
+	Bug 2631242: Uthmani text could not be enabled by setting quran_uthmaniTextFile to true.
+	A bug fixed with uthmani.page.xml, which caused last sura (114) to have 5 ayas instead of 6 ayas.
+
+Version 0.7.5 beta 2 - [07-11-09]
+Features/Enhancements:
+	A file is added to <zekr installation>/res/config/install.properties which holds installer path. This can be accessed through GlobalConfig.ZEKR_INSTALL_DIR, which is used to replace <installdir> variable in recitation files.
+	Added recitation converter. Old recitations are converted to new format on startup. Old files are then moved to old-recitation-files folder.
+	QuranWriterFilter now put some special characters in filtered Uthmani text for better rendering. A tatweel or a zwnj is put before small superscript alef according to the context.
+	Added a new property text.filter.noSpaceBeforeWaqf to specify whether or not insert a space before waqf marks or not.
+	Custom shortcuts are supported for certain menu items.
+		- Class QuranFormController added with a method registerAction(methodName) to ease this process.
+		- If the menu selection action is registered (registeration is done by default for all menu items to which key accelerators were bound),
+			it is possible to bind accelerator through file res/config/shortcut.xml. This file contains a set of keyboard shortcuts for menu actions
+			which can be customized based on UI direction (RTL or LTR). Almost all key combinations can be used.
+		- File shortcut.xml is copied to user workspace if not available there. If Zekr version of shortcut.xml doesn't match with user's shortcut.xml, Zekr loads users file and adds new entries added to main shortcut.xml.
+	Added two menu items under Audio menu: next aya, previous aya. These commands reserve playing state.
+	Updated to SWT 3.6.0M3.
+Bug fixes:
+
+Version 0.7.5 beta 3 - [12-01-10]
+Features/Enhancements:
+	Changed startup text. Zekr doesn't show version on startup splash screen anymore.
+	Show tooptip on audio player panel (useful when text exceeds the normal panel size).
+	Added F1 accelerator to Help > Online Help.
+	Added a play/stop button next to each search result aya so that user can play/stop search results easily. Playing model should be unified in future so that one should only use one player controller to play corrently visible item.
+	A number of changes made to Zekr Lucene search code to make it compatible with Lucene 2.9.x and 3.0.0. As a result, a new contrib dependency library lucene-memory added.
+	Highlighter format can be customized through these properties: view.search.highlightFormat (advanced search and root search) or view.search.regexHighlightFormat (simple search).
+	Added property search.maxResult as a higher limit for search result items.
+	Added name localization support to revelation packs.
+	audio.name property is no longer used in recitation packs. This was a duplication of audio.reciter.
+	Added and advanced Goto form:
+		- Supports addressing of these formats sura:aya, juz, and huzb quarter number
+		- Supports localized sura name filtering (e.g. Al-F:3 to go to Al-Faatiha:3).
+		- Supports indexed sura name in both normal order and selected revelation order.
+		- goto.focus property to save last focused box of Goto form.
+Bug fixes:
+	A bug with opening multi translation customization form fixed.
+
+Version 0.7.5 beta 4 - [19-02-10]
+Features/Enhancements:
+	Kasra+Shadda order is reversed in order to handle classic font rendering issue of kasra over a word and under shadda. This is done only when simple quran text (non-uthmani) is selected.
+	Added Tamil language pack, thanks to Ahamed Saifudeen.
+	A number of audio player enhancements:
+		- Added a new pre-fetching mechanism for audio files. Based on the value of property: audio.cache.prefetcher, a few of the next Quran locations are just open()ed. This will boost playing speed for online recitations.
+		- Added progress bar to audio player form to show playing progress. This only shows progress for offline recitations because of the limitation of the underlying audio engine.
+		- Added seek support to audio player. If this is an offline recitation and seek is supported for the current playing engine, clicking on a part of the player progress bar will seek to there.
+		- Added two new shortcuts to increase/decrease player volume by 10% (Increase: Ctrl+=, Decrease: Ctrl+-).
+		- Added two new shortcuts to seek forward or backward by 15%.
+		- Added a popup menu to change current recitation pack by clicking on recitation link at the top of audio player form.
+		- Added play scope popup menu to audio player form. These options are available: aya, sura, page, hizb quarter, juz and continuous. For example if aya is selected, only plays a single aya, and if page is selected, will play until last aya of this page is reached.
+		- Added three modes for playing special items (audhubillah, bismillah and sadaghallah): always, smart, never.
+			Audhubillah:
+				1) smart: will be played only once the system is up as the first playing item.
+				2) always: will be always played if current aya is 1 of any sura, or before playing the first item when system is up. If this item is selected, bismillah will act as 'always', and will be played after audhubillah in the first aya of a suras but sura 1 and 9.
+				3) never: never plays this item.
+			Bismillah:
+				1) smart: will be played only when player automatically goes from the last aya of the previous sura to the first aya of this sura.
+				2) always: will be always played if current aya is 1 of any sura but suras 1 and 9. Bismillah will be played after audhubillah (if any). Setting audhubillah to 'always' will force 'always' mode for bismillah.
+				3) never: never plays this item.
+			Sadaghallah:
+				1) smart: will be only played after 114:6 is played and it's in a multi-aya playing mode (any playing mode other than 'aya').
+				2) always: will always play sadaghallah after reaching end of this playing mode (only in multi aya playing modes).
+				3) never: never plays this item.
+	Added page selection to Goto form.
+	Zekr now supports Application Menu for Cocoa Mac (under which About, Preferences and Quit are rendered).
+	Added a new import for recitation packs. These are offline .recit.zip packages containing a recitation descriptor (recitation.properties) and all mp3s.
+	In Goto form, when "Review" button is pressed, other inputs are synchronized with last focused input.
+	A fully enhanced key-binding system:
+		- Added three new attributes to shortcut.xml: window, suppressOnModal, and global. If suppressOnModal is true and
+			the active form is modal, the key pressed is ignored. If current form ID exists in form IDs specified in
+			comma-separated values of window attribute, action is performed. If not, it checks if this action command
+			is global (global=true). If it is global, shortcut command takes place regardless of the active shell ID.
+			If not, action may take place if current shell is QuranForm (form id is "QURAN_FORM_ID").
+		- Actions may now take place globally regardless of the current active shell. For example one may bring up "bookmarkThis"
+			command even if the current focus is on Audio Player form (because of the global="true" specified in bookmarkThis command).
+		- Command button is treated same as Control button if property key.commandAndControlAreSame is true.
+	Some icons grouped in separate folder under img/icon folder.
+	Added version to search-info.properties file. This file will be overriden if updating Zekr to a newer version.
+	Updated search-info.properties to escape Al-, El- or related prefixes in searches. This is specially helpful in GoTo form sura name lookup.
+	Updated to commons-config-1.6.0. It's still compatible with 1.5.0 thought.
+	Added an option tab for audio in order to set playing mode for special items (audhubillah, ...).
+	A few icons of options form updated.
+	Added Macedonian language pack, thanks to Bojan Jankuloski.
+Bug fixes:
+	Command is used instead of Ctrl in Mac.
+	Removed menu icons for Cocoa (Mac). This was already removed for Carbon.
+	Bug fix in logger. It now show the full stack trace (including cause) when some unexpected exception occurs.
+	Removed Tools > Options, File > Exit and Help > About menu items for Mac Cocoa for which they are rendered under Application Menu.
+	Accelerator text is not added to menus anymore in Mac.
+	Failure of adding a new recitation pack is shown as error not warning. Warning should be only displayed for translation signature issues.
+
+Version 0.7.5 - [01-04-10]
+Features/Enhancements:
+	Show toString() error detail of QuranFormController.execute() failure. Will show cause if available.
+	Added zoom/unzoom buttons to Zekr Quran form. These buttons will increase or decrease Quran and translation font size by 1 pt.
+	Default font size of Quran increased to 19pt in both Uthman Taha and Sky themes. Default translation size increased to 11pt.
+	Added a new property text.filter.supress. Will bypass QuranWriterFilter before outputting Quran text if this property is true.
+Bug fixes:
+	Will ignore a translation pack if no translation file found in the zip archive.
+	A bug fix for the new property key.commandAndControlAreSame in Mac. Its value was wrongly set as 'same' instead of 'true'.
+	Bug fix to stop playing in continuous play scope when last aya and last aya (114:6) is reached.
+	Bug fix regarding encoding of .properties file in .recit.zip packages.
+	An icon error which prevent opening "Manage Bookmark Sets" fixed.
+	Fixed a bug in Windows XP which caused exception when audio player was running and a modal Save or Open dialog was opened. See this report: https://bugs.eclipse.org/bugs/show_bug.cgi?id=302833
+	Added <absolute> to PathUtils in order to support absolute paths in audio properties files.
+	A bug with updating sura detail table resolved.
+	Bug fix for goto form when it's open and Ctrl+G is pressed.
+
+Version 0.7.6 - [17-06-10]
+Features/Enhancements:
+	Updated quran-simple from tanzil "Simple" to "Simple Enhanced" version to ease reading.
+	Added the following new patterns to search-info.properties:
+		- Diacritics (search.pattern.diacr): a single regular expression to match all diacritics of a language. Diacritics are inserted after a language's letter range (with * regex operator) so that it matches possible texts with diacritics in the target search text.
+		- Letter range (search.pattern.letter): a single regular expression to match all letters of a language. Letters are basic alphabet of a language, different from digits, marks and diacritics. Diacritics may be applied after each letter in order to search for possible strings with diacritics in the text.
+		- Punctuation marks (search.pattern.punct): a single regular expression to match all punctuation marks of a language. \p{Punct} will match almost all European punctuations, and we should add more to this for non-European languages. This regex is used to insert before and after search keywords in order to work as a tokenizer (for example so that "salaam" search query matches text parts like: "salaam.").
+	Added QueryParserFactory and a new property to config.properties: view.search.advanced.queryParser. We use QueryParser by default as AnalyzingQueryParser doesn't recognize leading wildcards. User may change it himself. As a result of introducing new query parsers, we have now a new dependency: Added a new dependency: lucene-misc contrib project. This dependency is only used when parsers other than QueryParser are used.
+	Now supports punctuation removal in sura name filtering (in Goto dialog).
+	We now set default audio player volume for search result player audio player.
+	Search results are now filtered. As a result, KASRA+SHADDA order is reversed in the final output to help Arabic newbie readers.
+	AudioCacheManagerTimerTask made inactive for now. It had no effect, as there was no offline caching for audio files.
+Bug fixes:
+	Search result showed: "Page 1 of 0" when no result found. It not shows Page 1 of 1.
+	Fixed exception of Goto Form when invalid sura:aya combination entered in sura:aya box.
+	In recitation .properties files: audio.offlineBismillam should be changed to audio.offlineBismillah. Both these values are not recognized by Zekr for backward compatibility.
+	A bug in search caused Kasra+Shadda reverse ordering not to be recognized correctly.
+	Do not accept sura numbers below 1 in nav bar.
+
+Version 1.0.0 - [12-08-10]
+Features/Enhancements:
+	All 13px icons change to 16px size.
+	A number of icons changed to have a more harmonic icon set in Zekr.
+	Zoom/Unzoom will only work on Quran OR translation if applied in separate layout. Otherwise both Quran and translation text size is increased/decreased.
+	Zoom/Unzoom will not change sura name font size.
+	Prevent AudioPlayerForm to get out of view (some limitations are applied to its location).
+	Show only language in translation list menu. Show the same info at multi-translation configuration form.
+	Added a new property: trans.name.mode = english | localized. It then shows either translation English name or its localized name wherever a translation data is referenced (e.g. in multi-translation config form or in translation menu). 
+	A new exe launcher added: http://winrun4j.sourceforge.net. zekr.exe and zekrc.exe parameters can be configured through related .ini files.
+Bug fixes:
+	Save As button will now save search result if current view shows a search result.
+	Changing between Block/Line-by-Line mode in Translation-only layout will now work.
+	Save AudioPlayerForm new location as it closes. It now saves the new location before Zekr is closed (previously it wasn't saved when Zekr was closed and AudioPlayerForm was in open state).
+	A few changes and bug fixes in quran-properties-en.xml, thanks to Yahya Saturday.
+
+Version 1.1.0m1 - [05-07-2012]
+Features/Enhancements:
+	Added Malayalam language pack, thanks to brother Irfan Naseef.
+	Added Uyghur language pack, thanks to brother Ediris.
+	Added Bengali language pack, thanks to brother Muhammad Fayzul Alam Munir.
+	Added Brazilian Portuguese language pack.
+	Added Sri Lanka Tamil language pack thanks to brother Abdul Haleem.
+	Added French sura properties (translation and transliteration) thanks to brother Abu Usamah.
+	Added TaskBarItem progress/status for Zekr startup, and check for update.
+	Used NumberFormat to support current locale numbers in Go to form (example: ۱۲:۱۳).
+	Audio player has now 4 different dock modes: float, top, bottom, task pane.
+	Multiple recitation is now supported: one may choose two or more recitations to be played one after the other. This is helpful for listening to translation after Qur'an recitataion.
+	Multi-translation view change: show translator's localized name at the end of each aya.
+	Added tipsy jquery tooltip library to pages.
+	Show translations under quran search results (and also Quran under translation search result). Also added a translation/quran expand/collapse all link to show or hide them under search results.
+	Support added for parenthetical commentaries/footnote: if commentary is added between double braces (i.e. text [[commentary part]] text), it's not shown in the text. On mouse hover commentary is shown.
+	Added native global keyboard handler to Windows version of Zekr (using JIntellitype library):
+		- shortcut.xml now supports Win modifier for winkey.
+		- Media keys which is widely present on keyboards are now supported: play/pause/stop and goto prev/next.
+		- Ctrl+Alt+Z is by default hides or reveals Zekr main window.
+	Added Zekr tray icon with 3 menu actions: play/pause, stop and quit.
+	Added a menu item under view: Hide When Minimized. When checked, Zekr is minimized to tray (main form hides).
+	Change aya signs in each Quran page to link, upon click, current location is changed to that aya, and if player is currently playing some aya, it stops it and starts playing the clicked aya.
+Bug fixes:
+	Do not create <userhome>/.zekr if a -workspace parameter is specified. It previously created .zekr with zekr.log inside it even if a new workspace was specified.
+	Automatically create zekr.log in the new workspace of -workspace parameter is specified._____________________________________________________
+
+Version 1.1.0 release - [19-07-2012]
+Features/Enhancements:
+	Click on mute button toggles mute state and sets volume to 15% if already muted.
+	Added state to update manager to prevent multiple auto-update checking. Also set update.enable = true by default. Will automatically check for an update every 4 weeks
+Bug fixes:
+	Bug fix for search result count in search.js.
+	Fixed sajda list order issue, as reported here: https://groups.google.com/d/msg/zekr/-/bCqUIqnww7sJ.

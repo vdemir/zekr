@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language author="أحمد المحمودي,محمد بشير النعيمي" version="1.1.0">
+	<locale localizedName="عربي" name="Arabic" id="ar_SY" direction="rtl" />
+	<word>
+		<common>
+			<text id="OK" value="موافق" />
+			<text id="CANCEL" value="إلغاء الأمر" />
+			<text id="YES" value="نعم" />
+			<text id="NO" value="لا" />
+			<text id="APPLY" value="تطبيق" />
+			<text id="START" value="ابدأ" />
+			<text id="RESET" value="إستعادة" />
+			<text id="NEW" value="جديد" />
+			<text id="SAVE_AS" value="حفظ باسم" />
+			<text id="HELP" value="مساعدة" />
+			<text id="EDIT" value="تحرير" />
+			<text id="SEARCH" value="بحث" />
+			<text id="GOTO" value="الإنتقال إلى" />
+			<text id="VIEW" value="عرض" />
+			<text id="CLOSE" value="اغلاق" />
+			<text id="INSERT" value="إدراج" />
+			<text id="DETAILS" value="تفاصيل" />
+			<text id="MORE" value="أكثر" />
+			<text id="NEXT" value="التالي" />
+			<text id="PREVIOUS" value="السابق" />
+			<text id="REFRESH" value="تحديث" />
+			<text id="UPDATE" value="تحديث" />
+			<text id="SHOW" value="عرض" />
+			<text id="NAME" value="إسم" />
+			<text id="VALUE" value="قيمة" />
+			<text id="NUMBER" value="عدد" />
+			<text id="OPTION" value="خصائص" />
+			<text id="FILE" value="ملف" />
+			<text id="RELOAD" value="إعادة التحميل" />
+			<text id="TYPE" value="نوع" />
+			<text id="MESSAGE" value="رسالة" />
+			<text id="BLOCK" value="فقرة" />
+			<text id="LINE_BY_LINE" value="سطر بعد سطر" />
+			<text id="AND" value="و" />
+			<text id="COMMA" value="،" />
+			<text id="SYNCHRONOUS" value="تزامن" />
+			<text id="ERROR" value="خطأ" />
+			<text id="LANGUAGE" value="لغة" />
+			<text id="ABOUT" value="حول" />
+			<text id="PRINT" value="طباعة" />
+			<text id="HOMEPAGE" value="الصفحة الرئيسية" />
+			<text id="WHOLE_QURAN" value="كل القرآن" />
+			<text id="MATCH_DIACRITIC" value="إستعمال الحركات" />
+			<text id="MATCH_CASE" value="التدقيق بحالة الأحرف" />
+			<text id="NEXT_AYA" value="الآية التالية" />
+			<text id="NEXT_SURA" value="السورة التالية" />
+			<text id="PREV_AYA" value="الآية السابقة" />
+			<text id="PREV_SURA" value="السورة السابقة" />
+			<text id="THEME" value="سمة" />
+			<text id="LAYOUT" value="تخطيط العرض" />
+			<text id="TOOLS" value="أدوات" />
+			<text id="ADD" value="إضافة" />
+			<text id="DELETE" value="حذف" />
+			<text id="REMOVE" value="إزالة" />
+			<text id="TRANSLATION" value="ترجمة" />
+			<text id="TRANSLATION_VIEWTYPE" value="ترجمة" />
+			<text id="OPEN" value="فتح" />
+			<text id="IMPORT" value="استيراد" />
+			<text id="COPY" value="نسخ" />
+			<text id="SEPARATE" value="منفصل" />
+			<text id="MIXED" value="مختلط" />
+			<text id="OPTIONS" value="خيارات" />
+			<text id="QUESTION" value="سؤال" />
+			<text id="FONT" value="خط" />
+			<text id="GENERAL" value="عام" />
+			<text id="EXIT" value="خروج" />
+			<text id="EXCLUDE" value="إستثناء" />
+			<text id="TRUE" value="محقق" />
+			<text id="FALSE" value="غير محقق" />
+			<text id="SELECT" value="تحديد" />
+			<text id="EXPORT" value="تصدير" />
+			<text id="IMPORT" value="إستيراد" />
+			<text id="DESCRIPTION" value="الوصف" />
+			<text id="BOOKMARKS" value="إشارات مرجعية" />
+			<text id="CONFIGURE" value="إعدادات" />
+			<text id="EDIT_BOOKMARK_SET" value="تحرير مجموعات الإشارات المرجعية" />
+			<text id="MANAGE_BOOKMARK_SETS" value="إدارة الإشارات المرجعية" />
+			<text id="DIRECTION" value="الإتجاه" />
+			<text id="LANG_DIRECTION" value="إتجاه اللغة" />
+			<text id="RTL" value="يمين لليسار" />
+			<text id="LTR" value="يسار لليمين" />
+			<text id="AUTHOR" value="المؤلف" />
+			<text id="VERSION" value="الإصدار" />
+			<text id="RANDOM_AYA" value="آية عشوائية" />
+			<text id="UNTITLED" value="بدون تسمية" />
+			<text id="SET_DEFAULT" value="تخصيص كإفتراضي" />
+			<text id="NOT_LOADED" value="لم يتم تحميله" />
+			<text id="ID" value="الرقم المعرّف" />
+			<text id="OVERWRITE" value="إعادة الكتابة" />
+			<text id="SAVE" value="حفظ" />
+			<text id="PATH" value="المسار" />
+			<text id="SHOW_REFS" value="بحث عن المراجع" />
+			<text id="MOVE_UP" value="تحريك للأعلى" />
+			<text id="MOVE_DOWN" value="تحريك للأسفل" />
+			<text id="MULTI_TRANS" value="ترجمة متعدّدة" />
+			<text id="CONFIG_CUSTOM_TRANS" value="إعداد ترجمات مخصّصة" />
+			<text id="GO" value="إذهب" />
+			<text id="CAUTION" value="تحذير" />
+			<text id="ADVANCED" value="متقدّم" />
+			<text id="QUERY_DETAIL" value="تفاصيل الإستعلام" />
+			<text id="PAGE" value="صفحة" />
+			<text id="MULTILINE" value="أسطر متعدّدة" />
+			<text id="TOGGLE" value="عكس الحالة" />
+			<text id="AUDIO" value="صوت" />
+			<text id="CONTINUOUS" value="مستمر" />
+			<text id="DISCRETE" value="مقطّع" />
+			<text id="PLAY" value="قراءة" />
+			<text id="PAUSE" value="توقّف مؤقت" />
+			<text id="STOP" value="توقّف" />
+			<text id="RECITATION" value="تلاوة" />
+			<text id="ADDON_MANAGER" value="مدير الإضافات" />
+			<text id="MENU_NEXT_AYA" value="الآية التالية" />
+			<text id="MENU_NEXT_SURA" value="السورية التالية" />
+			<text id="MENU_PREV_AYA" value="الآية السابقة" />
+			<text id="MENU_PREV_SURA" value="السورة السابقة" />
+			<text id="MENU_NEXT_JUZ" value="الجزء التالي" />
+			<text id="MENU_PREV_JUZ" value="الجزء السابق" />
+			<text id="MENU_NEXT_HIZBQ" value="ربع الحزب التالي" />
+			<text id="MENU_PREV_HIZBQ" value="ربع الحزب السابق" />
+			<text id="MENU_NEXT_SAJDA" value="السجدة التالية" />
+			<text id="MENU_PREV_SAJDA" value="السجدة السابقة" />
+			<text id="MENU_NEXT_PAGE" value="الصفحة التالية" />
+			<text id="MENU_PREV_PAGE" value="الصفحة السابقة" />
+			<text id="CHECK4UPDATE" value="تحديث" />
+			<text id="ASCENDING" value="تصاعديا" />
+			<text id="DESCENDING" value="تنازليا" />
+			<text id="REVEL_ORDER" value="ترتيب النزول" />
+			<text id="FULL_SCREEN" value="شاشة كاملة" />
+			<text id="WARNING" value="تحذير" />
+			<text id="ONLINE_HELP" value="مساعدة" />
+			<text id="PAGING_MODE" value="نظام الصفحة" />
+			<text id="PANEL" value="لوحة" />
+			<text id="DETAIL_PANEL" value="لوحة التفاصيل" />
+			<text id="REPEAT" value="تكرار" />
+			<text id="ROOT" value="جذر" />
+			<text id="ADDRESS" value="عنوان" />
+			<text id="BOOKMARK_THIS_AYA" value="أضف الآية للإشارات المرجعية" />
+			<text id="AUDIO_PLAYER" value="قارئ التلاوة"   />
+			<text id="PLAYING" value="قراءة"   />
+			<text id="PAUSED" value="توقف مؤقت"   />
+			<text id="STOPPED" value="ايقاف"   />
+			<text id="RECITER" value="القارئ"   />
+            <text id="ONLINE" value="متصل"   />
+            <text id="OFFLINE" value="غير متصل"   />
+            <text id="SMALLER" value="أصغر"   />
+            <text id="LARGER" value="أكبر"   />
+            <text id="SCOPED_SEARCH" value="بحث محدود"   />
+            <text id="DOCK_MODE" value="وضع المشغل"   />
+            <text id="FLOAT" value="طفر"   />
+            <text id="TASKPANE" value="الشريط الجانبي"   />
+            <text id="TOP" value="أعلى"   />
+            <text id="BOTTOM" value="أسفل"   />
+            <text id="HIDE_WHEN_MINIMIZED" value="Hide When Minimized"   />
+		</common>
+		<special>
+			<text id="QURAN" value="قرآن" />
+			<text id="QURAN_VIEWTYPE" value="قرآن" />
+			<text id="SURA" value="سورة" />
+			<text id="AYA" value="آية" />
+			<text id="SAJDA" value="سجدة" />
+			<text id="JUZ" value="جزء" />
+			<text id="HIZB" value="حزب" />
+			<text id="QUARTER" value="ربع" />
+            <text id="HIZB_QUARTER" value="ربع حزب"   />
+			<text id="MAKKI" value="مكي" />
+			<text id="MADANI" value="مدني" />
+			<text id="DESCENT" value="نزول" />
+			<text id="AYA_COUNT" value="عدد الآيات" />
+			<text id="MINOR_SAJDA" value="سجدة مستحبة" /> <!-- Mustahab Sajda -->
+			<text id="MAJOR_SAJDA" value="سجدة واجبة" /> <!-- Wajib Sajda -->
+			<text id="LOCATION" value="مسار" /> <!-- means a Quran location, e.g. 2-12 for sura Al-Baghara, aya 12 -->
+            <text id="AUDHUBILLAH" value="استعاذة"   />
+            <text id="BISMILLAH" value="بسمله"   />
+            <text id="SADAGHALLAH" value="صدق الله"   />
+		</special>
+	</word>
+
+	<message>
+		<inform>
+			<text id="SEARCH_RESULT_TITLE" value="نتيجة البحث لـ: «{1}»" />
+			<text id="SEARCH_RESULT_COUNT" value="{1} وجدت نتائج في {2} آية" />
+			<text id="SEARCH_PAGE" value="صفحة {1} من {2}" />
+			<text id="TOO_MANY_RESULT" value="حصلت نتائج في أكثر من {1} آية" />
+			<text id="FILE_ALREADY_EXISTS" value="ملف يحمل الإسم &quot;{1}&quot; يوجد حاليا. هل تريد استبداله ؟" />
+			<text id="RESTART_APP" value="يجب إعادة تشغيل البرنامج لكي يتم تطبيق التغييرات." />
+			<text id="ACTION_PERFORMED" value="تم انجاز المهمة بنجاح." />
+			<text id="TRANSLATION_ADDED" value="الترجمة التالية تم اضافتها للقائمة {1}" />
+			<text id="RECITATION_ADDED" value="التلاوات التالية تمت اضافتها للقائمة {1}"   />
+			<text id="RESOURCE_ADDED" value="المورد التالي تم اضافته"   />
+		</inform>
+		<confirm>
+			<text id="YES_NO" value="هل أنت متأكد؟" />
+			<text id="DEL_YES_NO" value="هل تريد حذف العناصر {1} بشكل دائم؟" />
+		</confirm>
+		<error>
+			<text id="GENERAL_ERROR" value="خطأ غير متوقع" />
+			<text id="FNF" value="الملف غير موجود" />
+			<text id="ACTION_FAILED" value="لم تنجح العملية!" />
+			<text id="INVALID_TRANSLATION_FORMAT" value="صيغة ترجمة غير صالحة: {1}" />
+			<text id="INVALID_RECITATION_FORMAT" value="صيغة تلاوة غير صالحة: {1}"   />
+			<text id="NEWER_VERSION_INSTALLED" value="هنالك اصدار جديد من {1} (تم تحديثه في {2}) . اصدار جديد {3} تم تنصيبه بالفعل" />
+			<text id="INVALID_TRANSLATION_SIGNATURE" value="توقيع ترجمة غير صالح: {1}" />
+			<text id="TRANSLATION_LOAD_FAILED" value="تحميل الترجمة '{1}' فشل بسبب الخطأ التالي: {2}" />
+			<text id="RECITATION_LOAD_FAILED" value="تحميل التلاوة '{1}' فشل بسبب الخطأ التالي: {2}"   />
+			<text id="ENTER_VALID_NUMBER" value="قم بادخال رقم صالح." />
+			<text id="NUMBER_LIMIT" value="قم بادخال رقم بين '{1}' و '{2}'." />
+		</error>
+		<hint></hint>
+	</message>
+
+	<forms>
+		<global>
+			<text id="APP_NAME" value="ذكر" />
+			<text id="APP_FULL_NAME" value="مشروع ذكر القرآني" />
+			<text id="FORM_TITLE" value="ذكر" />
+			<text id="COPYRIGHT_DISCLAIMER" value="هذا البرنامج يوزع مجانا في أمل أن يكون نافعا بإذن الله، لكنه غير مصحوب بأية ضمانة." />
+		</global>
+		<form id="QURAN_FORM">
+			<text id="TITLE" value="ذكر" />
+			<text id="NEW_SCOPE" value="مجال جديد" />
+			<text id="EDIT_SCOPES" value="تحرير المجالات" />
+			<text id="NO_SCOPE" value="بدون مجال" />
+			<text id="CURRENT_PAGE" value="الصفحة الحالية" />
+			<text id="QURAN_SCOPE" value="قرآن" />
+			<text id="TRANSLATION_SCOPE" value="ترجمة" />
+			<text id="NATURAL_ORDER" value="ترتيب عادي" />
+			<text id="RELEVANCE" value="صلة" />
+			<text id="AYA_LENGTH" value="طول الآية" />
+			<text id="SORT_BY" value="ترتيب حسب" />
+			<text id="TOGGLE_FULL_SCREEN" value="شاشة كاملة/عادية" />
+		</form>
+		<form id="OPTIONS_FORM">
+			<text id="THEME_OPTIONS" value="سمة" />
+			<text id="GENERAL_OPTIONS" value="عام" />
+			<text id="VIEW_OPTIONS" value="عرض" />
+            <text id="AUDIO_OPTIONS" value="صوتي" />
+			<text id="TITLE" value="خيارات البرنامج" />
+			<text id="SHOW_SPLASH" value="عرض الشاشة الترحيبية عند التشغيل" />
+			<text id="NEW_KEY" value="أدخل مفتاحا جديدا" />
+			<text id="THEME_SETTING" value="خصائص السمة" />
+			<text id="PRESS_OK_TO_APPLY" value="اضغط على الزر &quot;موافق&quot; لتطبيق التغييرات." />
+			<text id="MAX_SEARCH_RESULT" value="أكبر قيمة لنتائج البحث." />
+			<text id="RESIZEABLE_TASK_PANE" value="الشريط الجانبي قابل للتمديد" />
+			<text id="SURA_NAMES" value="أسماء السور" />
+			<text id="ARABIC" value="عربي" />
+			<text id="EN_T9N" value="ترجمة انكليزية" />
+			<text id="EN_T13N" value="بأحرف انكليزية" />
+			<text id="T9N" value="ترجمة انكليزية في حال التوفر" />
+			<text id="T13N" value="بأحرف انكليزية في حال التوفر" />
+			<text id="ENABLE_AUDIO" value="تشغيل الصوت" />
+			<text id="SURA_NAME_TREE" value="شجرة أسماء السور" />
+            <text id="SMART" value="ذكي" />
+            <text id="ALWAYS" value="دائماً" />
+            <text id="NEVER" value="مطلقاً" />
+            <text id="PLAY_MODE" value="وضع تلاوة" />
+		</form>
+		<form id="SEARCH_SCOPE_FORM">
+			<text id="TITLE" value="إعداد مجال البحث" />
+			<text id="SEARCH_SCOPE" value="مجال البحث" />
+			<text id="FROM_SURA" value="من السورة" />
+			<text id="FROM_AYA" value="من الآية" />
+			<text id="TO_SURA" value="الى السورة" />
+			<text id="TO_AYA" value="الى الآية" />
+			<text id="ILLEGAL_SEARCH_SCOPE" value="عناصر خاطئة في مجال البحث" />
+		</form>
+		<form id="MANAGE_SCOPES_FORM">
+			<text id="TITLE" value="تحرير مجالات البحث" />
+		</form>
+		<form id="BOOKMARK_SET_FORM">
+			<text id="TITLE" value="تحرير مجموعة الإشارة المرجعية: {1}" />
+			<text id="NEW_BOOKMARK_FOLDER" value="مجلد جديد للإشارة المرجعية" />
+			<text id="NEW_BOOKMARK_ITEM" value="عنصر إشارة مرجعية جديد" />
+			<text id="UNIQUE_NAME" value="تسمية مميّزة" />
+			<text id="COMMA_SEPARATED" value="إستعمل قيماً مفصولة بفواصل، في حالة وجود أكثر من مؤلف" />
+			<text id="ONLY_ENGLISH" value="إستعمل أسماءً إنكليزية فقط (مثل: English, Persian, Arabic, ...)" />
+			<text id="DESC_TOOLTIP" value="إصطلاحات، مراجع، إقتباسات، و غير ذلك" />
+		</form>
+		<form id="BOOKMARK_SET_MANAGE_FORM">
+			<text id="TITLE" value="إدارة الإشارات المرجعية" />
+			<text id="DBL_CLICK" value="نقر مزدوج على العنصر للفتح أو التحرير" />
+			<text id="SET_AS_DEFAULT" value='هل تريد تخصيص "{1}" كإشارة مرجعية إفتراضية؟' />
+			<text id="CANNOT_REMOVE_DEFAULT" value="غير قادر على حذف الإشارة المرجعية الإفتراضية" />
+			<text id="CANNOT_OVERWRITE_DEFAULT" value="غير قادر على إعادة الكتابة على مجموعة الإشارة المرجعية الإفتراضية. حدد مجموعة إشارة مرجعية أخرى كإفتراضية، ثم حاول عملية الإستيراد مرة ثانية" />
+			<text id="ENTER_ID" value="أدخل الرقم المعرّف للإشارة المرجعية" />
+			<text id="NEW_BOOKMARK_SET" value="مجموعة إشارة مرجعية جديدة" />
+			<text id="EXPORT4WEB" value="تصدير للويب" />
+		</form>
+		<form id="BOOKMARK_ITEM_FORM">
+			<text id="TITLE" value="تحرير خصائص الإشارة المرجعية" />
+			<text id="QURAN_LOCATIONS" value="مسارات القرآن" />
+			<text id="NEW_BOOKMARK" value="إشارة مرجعية جديدة" />
+			<text id="NEW_FOLDER" value="مجلد جديد" />
+		</form>
+		<form id="BOOKMARK_REF">
+			<text id="TITLE" value="مجموعة إشارة مرجعية تشير لـ: {1}" />
+		</form>
+		<form id="IMPORT_QUESTION">
+			<text id="IMPORT_FOR" value="إستيراد من أجل المستخدمين:" />
+			<text id="ME_ONLY" value="لي فقط" />
+			<text id="ALL_USERS" value="جميع المستخدمين  (يحتاج لسماحية الكتابة على مجلد التنصيب)" />
+			<text id="FOLLOWING_USERS" value="فهرس للمستخدمين التاليين" />
+		</form>
+		<form id="CONFIG_CUSTOM_TRANS">
+			<text id="REMOVE_CUSTOM" value="إزالة" />
+			<text id="ADD_CUSTOM" value="إضافة" />
+			<text id="TITLE" value="إعداد ترجمات مخصّصة" />
+			<text id="AVAILABLE" value="الترجمات متاحة" />
+			<text id="CURRENT" value="الترجمات حالية" />
+		</form>
+		<form id="ADDON_MANAGER">
+			<text id="REMOVE_CUSTOM" value="حذف مورد" />
+			<text id="ADD_CUSTOM" value="إضافة مورد" />
+			<text id="TITLE" value="مدير الإضافات" />
+			<text id="CURRENT" value="الموارد المثبتة حالياً" />
+		</form>
+		<form id="PROGRESS">
+			<text id="PLEASE_WAIT" value="إنتظر من فضلك" />
+			<text id="INDEXING" value="فهرسة" /><!-- The process of indexing a document for faster search -->
+			<text id="TAKE_TIME" value="هذه العملية ستأخذ بعض الوقت وذلك تبعاً لحجم المستتند المستخدم" />
+			<text id="CHECKING" value="بحث عن تحديث" />
+			<text id="ZEKR_IS_CHECKING" value="يقوم ذكر الآن بالبحث عن تحديثات جديدة" />
+		</form>
+		<form id="ABOUT">
+			<text id="TITLE" value="حول ذكر" />
+			<text id="VIEW_LOG" value="عرض السجل" />
+		</form>
+		<form id="UPDATE">
+			<text id="TITLE" value="معلومات التحديث" />
+			<text id="VERSION_INFO" value="معلومات الاصدار" />
+			<text id="BUILD_NUM" value="رقم البناء" />
+			<text id="VERSION" value="الاصدار" />
+			<text id="RELEASE_NAME" value="اسم الاصدار" />
+			<text id="RELEASE_STATE" value="حالة البناء" />
+			<text id="RELEASE_DATE" value="تاريخ الاصدار" />
+			<text id="RELEASE_NOTES" value="ملاحظات الاصدار" />
+			<text id="DOWNLOAD" value="تحميل" />
+			<text id="MORE_INFO" value="معلومات أكثر" />
+			<text id="NO_UPDATE" value="أنت تستعمل آخر اصدار." />
+			<text id="NEW_DEV_AVAILABLE" value="اصدار جديد قيد التطوير (غير مستقر) متوفر للتحميل" />
+			<text id="NEW_BETA_AVAILABLE" value="اصدار بيتا (غير مستقر) متوفر للتحميل" />
+			<text id="NEW_FINAL_AVAILABLE" value="اصدار جديد (نهائي) متوفر للتحميل" />
+		</form>
+		<form id="PAGING_MODE">
+			<text id="TITLE" value="نظام الصفحة" />
+			<text id="SURA" value="سورة" />
+			<text id="HIZB_QUARTER" value="ربع حزب" />
+			<text id="JUZ" value="جزء" />
+			<text id="CONST_AYA" value="عدد آيات" />
+			<text id="CUSTOM" value="تفصيل" />
+			<text id="AYA_PER_SURA" value="عدد الآيات التي تظهر في الصفحة؟"   />
+		</form>
+		<form id="AUDIO_PLAYER_FORM">
+			<text id="TITLE" value="قارئ التلاوة"   />
+			<text id="SECOND_ABBR" value="ثا"   /> <!-- s stands for 'seconds', for example 1s -->
+			<text id="SECONDS" value="ثانية"   /> <!--  tooltip for 's' (SECOND_ABBR) -->
+			<text id="INTERVAL" value="فاصل زمني"   />
+			<text id="REPEAT" value="تكرار"   />
+			<text id="NO_INTERVAL" value="بدون فاصل زمني"   />
+			<text id="NO_REPEAT" value="بدون تكرار"   />
+            <text id="VOLUME" value="جهارة"   />
+            <text id="TIMES" value="{1} مرات"   />
+            <text id="PLAY_SCOPE" value="نطاق التشغيل"   />
+		</form>
+        <form id="GOTO_FORM">
+            <text id="TITLE" value="ذهاب إلى"   />
+            <text id="GOTO" value="ذهاب إلى"   />
+            <text id="REVIEW" value="استعراض"   />
+            <text id="JUZ" value="جزء"   />
+            <text id="SURA_ORDER" value="ترتيب السورة"   />
+            <text id="HIZB_QUARTER" value="ربع حزب"   />
+            <text id="SURA_AYA" value="سورة:آية (مثال 33:70)"   />
+            <text id="NORMAL" value="عادي"   />
+            <text id="REVELATION" value="نزول ({1})"   />
+        </form>
+	</forms>
+</language>
